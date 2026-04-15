@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "control-theory-basics",
+    "title": "Control Theory Basics for Engineers",
+    "subtitle": "An introduction to feedback loops and stability",
+    "post_date": "2024-03-15T10:00:00Z",
+    "publishedAt": "2024-03-15T10:00:00Z",
+    "updated_at": "2024-03-16T08:00:00Z",
+    "audience": "everyone",
+    "canonical_url": "https://www.avikde.me/p/control-theory-basics",
+    "cover_image": "https://cdn.example.com/cover1.jpg",
+    "body_html": "<h2>Introduction</h2><p>Control theory is a branch of engineering that deals with the behavior of dynamical systems. A <b>feedback loop</b> is the fundamental building block. For more on stability analysis, see <a href=\"https://arxiv.org/abs/2301.00001\">recent work by Smith 2023</a> and <a href=\"https://en.wikipedia.org/wiki/Lyapunov_stability\">Lyapunov stability</a>.</p><p>This connects to ideas in systems thinking and network science. We will explore how proportional-integral-derivative controllers can be tuned for robustness.</p><p>The mathematics behind Lyapunov functions provides a rigorous framework for analyzing stability in nonlinear systems. Engineers use these tools daily in robotics and aerospace applications.</p>",
+    "postTags": [
+      {"name": "Engineering", "slug": "engineering"},
+      {"name": "Control Theory", "slug": "control-theory"}
+    ]
+  },
+  {
+    "slug": "token-engineering",
+    "title": "Token Engineering and Mechanism Design",
+    "subtitle": "Designing incentive structures for decentralized systems",
+    "post_date": "2024-04-20T12:00:00Z",
+    "publishedAt": "2024-04-20T12:00:00Z",
+    "updated_at": "2024-04-21T09:00:00Z",
+    "audience": "everyone",
+    "canonical_url": "https://www.avikde.me/p/token-engineering",
+    "body_html": "<h2>What is Token Engineering?</h2><p>Token engineering applies <em>systems engineering</em> principles to the design of cryptoeconomic protocols. It draws on Control Theory Basics for Engineers to establish feedback mechanisms in token economies.</p><p>Key references include work by <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1234567\">Vitalik Buterin on mechanism design</a> and <a href=\"https://arxiv.org/abs/2301.00001\">recent work by Smith 2023</a>.</p><p>The field combines game theory, optimization, and distributed systems to create robust decentralized protocols.</p>",
+    "postTags": [
+      {"name": "Token Engineering", "slug": "token-engineering"},
+      {"name": "Systems Thinking", "slug": "systems-thinking"}
+    ]
+  },
+  {
+    "slug": "network-science-intro",
+    "title": "Networks",
+    "subtitle": "Understanding complex systems through graph theory",
+    "post_date": "2024-05-10T09:00:00Z",
+    "publishedAt": "2024-05-10T09:00:00Z",
+    "updated_at": "2024-05-10T09:00:00Z",
+    "audience": "everyone",
+    "canonical_url": "https://www.avikde.me/p/network-science-intro",
+    "body_html": "<p>Short post.</p>",
+    "tags": ["Networks", "Graph Theory"]
+  },
+  {
+    "slug": "premium-insights",
+    "title": "Premium Research Insights",
+    "subtitle": "Deep dive for subscribers only",
+    "post_date": "2024-06-01T10:00:00Z",
+    "publishedAt": "2024-06-01T10:00:00Z",
+    "updated_at": "2024-06-01T10:00:00Z",
+    "audience": "only_paid",
+    "canonical_url": "https://www.avikde.me/p/premium-insights",
+    "body_html": "<p>This is premium content.</p>",
+    "postTags": []
+  },
+  {
+    "slug": "systems-dynamics",
+    "title": "Systems Dynamics and Feedback",
+    "subtitle": "Modeling complex adaptive systems",
+    "post_date": "2024-07-05T14:00:00Z",
+    "publishedAt": "2024-07-05T14:00:00Z",
+    "updated_at": "2024-07-06T08:00:00Z",
+    "audience": "everyone",
+    "canonical_url": "https://www.avikde.me/p/systems-dynamics",
+    "body_html": "<h2>Systems Dynamics</h2><p>Building on Control Theory Basics for Engineers, we explore how feedback loops operate at the system level. Stock and flow diagrams help us model accumulation and depletion in complex systems.</p><p>See also <a href=\"https://mitpress.mit.edu/books/system-dynamics\">Sterman's classic textbook</a> for a comprehensive treatment. The field has applications in ecology, economics, and urban planning.</p><p>Agent-based models complement the differential equation approach by capturing heterogeneity and emergent behavior in sociotechnical systems.</p>",
+    "postTags": [
+      {"name": "Systems Thinking", "slug": "systems-thinking"},
+      {"name": "Engineering", "slug": "engineering"}
+    ]
+  }
+]
