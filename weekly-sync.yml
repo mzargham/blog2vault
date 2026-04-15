@@ -1,0 +1,102 @@
+name: Weekly Vault Sync
+
+on:
+  schedule:
+    # Every Sunday at 06:00 UTC
+    - cron: "0 6 * * 0"
+  workflow_dispatch:
+    inputs:
+      force_rebuild:
+        description: "Rebuild all notes even if no new posts"
+        required: false
+        default: "false"
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    name: Sync avikde.me → Obsidian Vault
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # -----------------------------------------------------------------------
+      # 1. Checkout
+      # -----------------------------------------------------------------------
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Full history for clean diffs
+
+      # -----------------------------------------------------------------------
+      # 2. Python setup
+      # -----------------------------------------------------------------------
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # -----------------------------------------------------------------------
+      # 3. Run sync pipeline
+      # -----------------------------------------------------------------------
+      - name: Run sync
+        id: sync
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLOG_CUSTOM_DOMAIN: "https://www.avikde.me"
+          USE_AI_EXTRACTION: "true"
+        run: |
+          cd scripts
+          FORCE_FLAG=""
+          if [ "${{ github.event.inputs.force_rebuild }}" = "true" ]; then
+            FORCE_FLAG="--force"
+          fi
+          # Exit code 2 = new posts found (success); 0 = no change (success)
+          python sync.py $FORCE_FLAG || EXIT=$?
+          # Map exit code 2 to success for the step, expose as output
+          if [ "${EXIT:-0}" -eq 2 ]; then
+            echo "new_posts_found=true" >> $GITHUB_OUTPUT
+          elif [ "${EXIT:-0}" -eq 0 ]; then
+            echo "new_posts_found=false" >> $GITHUB_OUTPUT
+          else
+            exit ${EXIT:-1}
+          fi
+
+      # -----------------------------------------------------------------------
+      # 4. Commit and push if vault changed
+      # -----------------------------------------------------------------------
+      - name: Configure git
+        if: steps.sync.outputs.new_posts_found == 'true'
+        run: |
+          git config user.name "avikde-vault-bot"
+          git config user.email "vault-bot@users.noreply.github.com"
+
+      - name: Commit vault changes
+        if: steps.sync.outputs.new_posts_found == 'true'
+        run: |
+          git add vault/ data/
+          # Only commit if there are actual changes
+          if git diff --staged --quiet; then
+            echo "No file changes detected; skipping commit."
+          else
+            NEW_TITLES="${{ steps.sync.outputs.new_post_titles }}"
+            git commit -m "vault: sync new posts
+
+New: ${NEW_TITLES}
+
+[automated by weekly-sync workflow]"
+            git push
+          fi
+
+      # -----------------------------------------------------------------------
+      # 5. Summary
+      # -----------------------------------------------------------------------
+      - name: No-op summary
+        if: steps.sync.outputs.new_posts_found == 'false'
+        run: echo "### ✅ Vault is up to date — no new posts found." >> $GITHUB_STEP_SUMMARY
