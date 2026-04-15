@@ -75,7 +75,7 @@ AUTHORS_FILENAME: str = f"{META_FOLDER}/Authors.md"
 # Physical layer: filesystem paths
 # ---------------------------------------------------------------------------
 
-REPO_ROOT: Path = Path(__file__).resolve().parent.parent
+REPO_ROOT: Path = Path(__file__).resolve().parent
 VAULT_DIR: Path = REPO_ROOT / "vault"
 DATA_DIR: Path = REPO_ROOT / "data"
 
