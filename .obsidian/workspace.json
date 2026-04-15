@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOC.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOC"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOC.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MOC"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOC.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MOC"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOC.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MOC"
+              "title": "Outline of README"
             }
           }
         ]
@@ -183,10 +183,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "ccf36ab28ddb68e5",
+  "active": "ffe6f57a5e9c88f1",
   "lastOpenFiles": [
-    "README.md",
-    "2024-03-15--debugging-as-architecture-insight.md",
-    "MOC.md"
+    "data/vault_state.json",
+    "_meta/Timeline.md",
+    "_meta/Authors.md",
+    "_meta",
+    "MOC.md",
+    "citations/youtube-com.md",
+    "citations/youtu-be.md",
+    "citations/wyss-harvard-edu.md",
+    "citations/www1-villanova-edu.md",
+    "citations/wsj-com.md",
+    "citations/worldscientific-com.md",
+    "citations/worldlabs-ai.md",
+    "citations/wccftech-com.md",
+    "citations/waymo-com.md",
+    "citations/universal-robots-com.md",
+    "citations/unity-com.md",
+    "citations/underactuated-mit-edu.md",
+    "citations/umi-ft-github-io.md",
+    "citations/tyndall-af-mil.md",
+    "citations/towardsdatascience-com.md",
+    "citations/tomshardware-com.md",
+    "citations/thu-air-dream-github-io.md",
+    "citations/theverge-com.md",
+    "citations/thenextweb-com.md",
+    "citations/technologyreview-com.md",
+    "citations/techcrunch-com.md",
+    "citations/swh-princeton-edu.md",
+    "citations",
+    "concepts",
+    "topics",
+    "posts",
+    "data/concepts_cache.json"
   ]
 }

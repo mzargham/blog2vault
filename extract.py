@@ -160,34 +160,51 @@ def extract_concepts_tfidf(posts: list[dict]) -> tuple[dict[str, list[str]], dic
     vec = TfidfVectorizer(
         ngram_range=(1, 3),
         min_df=CONCEPT_MIN_DF,
-        max_df=0.85,
+        max_df=0.70,
         stop_words="english",
-        token_pattern=r"(?u)\b[a-zA-Z][a-zA-Z\-]{2,}\b",  # ≥3 chars, letters only
+        token_pattern=r"(?u)\b[a-zA-Z][a-zA-Z\-]{3,}\b",  # ≥4 chars, letters only
         max_features=500,
     )
 
     tfidf_matrix = vec.fit_transform(corpus)
     feature_names = vec.get_feature_names_out()
-    idf_scores = vec.idf_
 
-    # Rank features by IDF (higher IDF = more discriminative)
-    ranked_idx = np.argsort(idf_scores)[::-1]
-    top_features = [feature_names[i] for i in ranked_idx[:CONCEPT_MAX_TOTAL * 3]]
+    # Rank features by aggregate TF-IDF score across all documents.
+    # This favors terms that are both frequent AND discriminative,
+    # filtering out rare one-off terms that IDF alone would surface.
+    agg_scores = np.asarray(tfidf_matrix.sum(axis=0)).flatten()
+    ranked_idx = np.argsort(agg_scores)[::-1]
+    candidates = [feature_names[i] for i in ranked_idx[:CONCEPT_MAX_TOTAL * 3]]
 
-    # For each top feature, find which posts score it above threshold
+    # Generic / noisy terms to suppress
+    _STOPLIST = {
+        "post", "blog", "article", "part", "like", "just", "also", "one",
+        "new", "use", "using", "used", "way", "make", "see", "get",
+        "first", "two", "even", "much", "well", "many", "need", "want",
+        "know", "think", "take", "come", "look", "find", "give", "tell",
+        "work", "good", "time", "year", "thing", "point", "case", "example",
+        "question", "problem", "idea", "approach", "really", "something",
+    }
+
     concept_to_posts: dict[str, list[str]] = {}
     concept_display: dict[str, str] = {}
 
     count = 0
-    for feat in top_features:
+    for feat in candidates:
         if count >= CONCEPT_MAX_TOTAL:
             break
+        # Skip single-word generic terms
+        if feat.lower() in _STOPLIST:
+            continue
         feat_idx = list(feature_names).index(feat)
         col = tfidf_matrix[:, feat_idx].toarray().flatten()
         referencing_posts = [slugs[i] for i, score in enumerate(col) if score > 0]
 
         if len(referencing_posts) >= CONCEPT_MIN_DF:
             cslug = slugify(feat)
+            # Avoid duplicate slugs (e.g. "robot" and "robots" → same slug)
+            if cslug in concept_to_posts:
+                continue
             concept_to_posts[cslug] = referencing_posts
             concept_display[cslug] = feat.title()
             count += 1

@@ -2,40 +2,76 @@
 
 An Obsidian knowledge vault of [Avik De's blog](https://www.avikde.me), auto-synced weekly from Substack.
 
-Built by [mzargham](https://github.com/mzargham) for the author — your grad school roommate gets a searchable, wikilinked, local-first archive of everything he's written.
+Built by [mzargham](https://github.com/mzargham) for the author -- your grad school roommate gets a searchable, wikilinked, local-first archive of everything he's written.
+
+---
+
+## Using this vault in Obsidian
+
+### Quick start
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/mzargham/avikde-vault.git
+   ```
+2. Open Obsidian and select **Open folder as vault**.
+3. Point it at the cloned `avikde-vault` directory (the repo root).
+4. The **Map of Content** (`MOC.md`) opens as the landing page.
+
+The `.obsidian/` config is committed to the repo, so file filters are pre-configured -- you'll only see vault content (posts, topics, concepts, citations, meta notes) in the file explorer, not Python scripts or config files.
+
+### Navigating the vault
+
+- **MOC.md** -- the home page. All posts by year, topics, and concepts with counts.
+- **posts/** -- one note per blog post, with YAML frontmatter, wikilinks, and full Markdown body.
+- **topics/** -- tag-based groupings (e.g. `robotics`, `computing`).
+- **concepts/** -- AI-extracted or TF-IDF-derived concepts cross-linked to posts.
+- **citations/** -- external references grouped by source domain.
+- **_meta/** -- Timeline (chronological) and Authors (bio) notes.
+
+Every note is wikilinked: click `[[concepts/feedback-loops]]` from a post to see all other posts referencing that concept, or explore the **graph view** to see the full knowledge network.
+
+### Staying up to date
+
+```bash
+cd avikde-vault
+git pull
+```
+
+The vault is updated weekly by GitHub Actions. Just pull to get the latest posts.
 
 ---
 
 ## What's in the vault
 
 ```
-vault/
-├── MOC.md                      # Master Map of Content — start here
-├── posts/
-│   └── YYYY-MM-DD--{slug}.md  # One note per blog post
-├── topics/
-│   └── {tag-slug}.md          # Aggregated by Substack tag
-├── concepts/
-│   └── {concept-slug}.md      # AI-extracted key concepts, cross-linked
-├── citations/
-│   └── {domain-slug}.md       # External references grouped by source domain
-└── _meta/
-    ├── Timeline.md             # All posts in chronological order
-    └── Authors.md              # About Avik De
+MOC.md                          # Map of Content -- start here
+posts/
+    YYYY-MM-DD--{slug}.md       # One note per blog post
+topics/
+    {tag-slug}.md               # Aggregated by Substack tag
+concepts/
+    {concept-slug}.md           # Extracted key concepts, cross-linked
+citations/
+    {domain-slug}.md            # External references grouped by source domain
+_meta/
+    Timeline.md                 # All posts in chronological order
+    Authors.md                  # About Avik De
 ```
 
 Each post note contains:
-- **YAML frontmatter** — title, date, tags, concepts, canonical URL
-- **Wikilink block** — `[[topics/...]]`, `[[concepts/...]]`, `[[posts/...]]` (See Also), `[[citations/...]]`
-- **Full body** — HTML converted to Obsidian-compatible Markdown
+- **YAML frontmatter** -- title, date, tags, concepts, canonical URL
+- **Wikilink block** -- `[[topics/...]]`, `[[concepts/...]]`, `[[posts/...]]` (See Also), `[[citations/...]]`
+- **Full body** -- HTML converted to Obsidian-compatible Markdown
 
 ---
 
-## Setup
+## Setup (for developers / maintainers)
 
 ### Prerequisites
 
-- Python ≥ 3.12
+- Python >= 3.12
+- [uv](https://docs.astral.sh/uv/) (Python package manager)
 - An [Anthropic API key](https://console.anthropic.com/) (for AI concept extraction; falls back to TF-IDF without one)
 
 ### Install
@@ -43,14 +79,24 @@ Each post note contains:
 ```bash
 git clone https://github.com/mzargham/avikde-vault.git
 cd avikde-vault
-pip install -r requirements.txt
+uv venv --python 3.12
+uv sync --all-extras
 ```
+
+### Environment
+
+Create a `.env` file at the repo root (gitignored):
+
+```
+ANTHROPIC_API_KEY=sk-ant-...
+```
+
+This is loaded automatically by the sync pipeline via `python-dotenv`.
 
 ### First run (full build)
 
 ```bash
-cd scripts
-python sync.py --force
+source .env && uv run python sync.py --force
 ```
 
 This fetches all public posts, runs concept extraction, and writes the complete vault.
@@ -58,8 +104,7 @@ This fetches all public posts, runs concept extraction, and writes the complete 
 ### Subsequent runs (incremental)
 
 ```bash
-cd scripts
-python sync.py
+source .env && uv run python sync.py
 ```
 
 Only processes new or updated posts. Nothing is written if the vault is already up to date.
@@ -90,15 +135,15 @@ A GitHub Actions workflow (`.github/workflows/weekly-sync.yml`) runs every Sunda
 
 ### Setup (one-time)
 
-1. Fork or create this repo on GitHub under your account.
+1. Fork or create this repo on GitHub.
 2. Add your Anthropic API key as a repository secret:
-   `Settings → Secrets and variables → Actions → New secret`
+   `Settings > Secrets and variables > Actions > New secret`
    Name: `ANTHROPIC_API_KEY`
 3. That's it. The workflow commits new vault notes and pushes automatically.
 
 ### Manual trigger
 
-In the Actions tab, select **Weekly Vault Sync** → **Run workflow**.
+In the Actions tab, select **Weekly Vault Sync** > **Run workflow**.
 Enable **Rebuild all notes** to force a full refresh.
 
 ---
@@ -108,44 +153,32 @@ Enable **Rebuild all notes** to force a full refresh.
 ### Run tests
 
 ```bash
-pip install -r requirements.txt
-pytest tests/ -v
+uv run pytest tests/ -v
 ```
 
-Tests use mock data (`tests/fixtures/mock_posts.json`) — no network required.
+Tests use mock data (`tests/fixtures/mock_posts.json`) -- no network required.
 
 ### Architecture
 
 ```
-scripts/
-├── config.py    # All tunables (thresholds, paths, flags)
-├── scrape.py    # Substack API client + cache management
-├── extract.py   # Concept/tag/citation extraction (TF-IDF + AI)
-├── vault.py     # Obsidian note generation + wikilink verification
-└── sync.py      # Pipeline orchestrator + CLI
+config.py    # All tunables (thresholds, paths, flags)
+scrape.py    # Substack API client + cache management
+extract.py   # Concept/tag/citation extraction (TF-IDF + AI)
+vault.py     # Obsidian note generation + wikilink verification
+sync.py      # Pipeline orchestrator + CLI
 ```
-
-**Layered design** (conceptual → physical):
-
-| Layer | Concern | Files |
-|-------|---------|-------|
-| Conceptual | What blog, what vault | `config.py` top section |
-| Functional | API pagination, extraction thresholds | `scrape.py`, `extract.py`, `config.py` mid |
-| Logical | Note structure, wikilink graph | `vault.py` |
-| Physical | File paths, cache filenames, HTTP timeouts | `config.py` bottom |
 
 **Enforced constraints:**
 
 | Constraint | Where enforced |
 |------------|---------------|
-| `PUBLIC_ONLY` — only `audience=="everyone"` posts | `scrape.fetch_post_list` |
-| `RATE_LIMIT` — ≥ 0.5s between API requests | `scrape._get` |
-| `CACHE_STABLE` — cache entries not overwritten unless `updated_at` is newer | `scrape.save_cache` |
-| `FILENAME_STABLE` — filenames are deterministic | `vault._post_filename` |
-| `NO_BROKEN_LINKS` — all `[[wikilinks]]` resolve to a file | `vault._verify_wikilinks` |
-| `SELF_CONSISTENT` — every link target is written in the same pass | `vault.write_vault` |
-| `GRACEFUL_DEGRADE` — AI extraction failure falls back to TF-IDF | `extract.run_extraction` |
-| `URL_NORM` — URLs stripped of query params before citation grouping | `extract._normalize_url` |
+| `PUBLIC_ONLY` -- only `audience=="everyone"` posts | `scrape.fetch_post_list` |
+| `RATE_LIMIT` -- >= 0.5s between API requests | `scrape._get` |
+| `CACHE_STABLE` -- cache entries not overwritten unless `updated_at` is newer | `scrape.save_cache` |
+| `FILENAME_STABLE` -- filenames are deterministic | `vault._post_filename` |
+| `NO_BROKEN_LINKS` -- all `[[wikilinks]]` resolve to a file | `vault._verify_wikilinks` |
+| `SELF_CONSISTENT` -- every link target is written in the same pass | `vault.write_vault` |
+| `GRACEFUL_DEGRADE` -- AI extraction failure falls back to TF-IDF | `extract.run_extraction` |
 
 ---
 
@@ -156,7 +189,7 @@ scripts/
 | File | Purpose |
 |------|---------|
 | `data/posts_cache.json` | Raw Substack API payloads, keyed by slug |
-| `data/vault_state.json` | Maps slug → filename for built notes |
+| `data/vault_state.json` | Maps slug -> filename for built notes |
 | `data/concepts_cache.json` | AI extraction results, keyed by (slug, updated_at) |
 
 ---

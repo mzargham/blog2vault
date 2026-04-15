@@ -76,7 +76,7 @@ AUTHORS_FILENAME: str = f"{META_FOLDER}/Authors.md"
 # ---------------------------------------------------------------------------
 
 REPO_ROOT: Path = Path(__file__).resolve().parent
-VAULT_DIR: Path = REPO_ROOT / "vault"
+VAULT_DIR: Path = REPO_ROOT  # Vault content lives at the repo root (Obsidian opens here)
 DATA_DIR: Path = REPO_ROOT / "data"
 
 # Raw API cache: keyed by post slug, preserves original API payloads

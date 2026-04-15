@@ -1,0 +1,11 @@
+---
+type: concept
+concept_slug: distribution-shift
+post_count: 1
+---
+
+# Concept: Distribution Shift
+
+Posts referencing **Distribution Shift**:
+
+- [[posts/2026-03-20--lessons-from-avs-on-safety-in-end|Lessons from AVs on safety in end-to-end pipelines]] (2026-03-20)

@@ -39,7 +39,10 @@ from pathlib import Path
 # Allow running from repo root or scripts/ directory
 sys.path.insert(0, str(Path(__file__).parent))
 
-import config  # noqa: E402 — must come after sys.path
+from dotenv import load_dotenv  # noqa: E402
+load_dotenv()  # Load .env before config reads os.getenv()
+
+import config  # noqa: E402 — must come after sys.path and dotenv
 from scrape import (  # noqa: E402
     discover_substack_base_url,
     fetch_all_posts,

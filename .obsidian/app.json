@@ -1,1 +1,19 @@
-{}
+{
+  "defaultOpenMode": "preview",
+  "userIgnoreFilters": [
+    ".venv/",
+    ".git/",
+    ".github/",
+    ".obsidian/",
+    "__pycache__/",
+    "tests/",
+    "data/",
+    ".pytest_cache/",
+    "*.py",
+    "*.toml",
+    "*.lock",
+    "*.json",
+    ".env",
+    ".gitignore"
+  ]
+}

@@ -78,7 +78,7 @@ jobs:
       - name: Commit vault changes
         if: steps.sync.outputs.new_posts_found == 'true'
         run: |
-          git add vault/ data/
+          git add posts/ topics/ concepts/ citations/ _meta/ MOC.md data/
           # Only commit if there are actual changes
           if git diff --staged --quiet; then
             echo "No file changes detected; skipping commit."
