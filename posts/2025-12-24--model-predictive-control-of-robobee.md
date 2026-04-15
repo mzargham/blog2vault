@@ -22,7 +22,7 @@ author: Avik De
 
 **Topic:** [[topics/model-predictive-control-of-robobee-flapping-flight|Model Predictive Control Of Robobee Flapping Flight]]
 **Concepts:** [[concepts/systolic-networks|Systolic Networks]] · [[concepts/model-predictive-control|Model Predictive Control]]
-**Citations:** [[citations/youtube-com|youtube.com]] · [[citations/wyss-harvard-edu|wyss.harvard.edu]] · [[citations/researchgate-net|researchgate.net]] · [[citations/seas-harvard-edu|seas.harvard.edu]] · [[citations/www1-villanova-edu|www1.villanova.edu]] · [[citations/harvardmagazine-com|harvardmagazine.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/commons-wikimedia-org|commons.wikimedia.org]] · [[citations/creativecommons-org|creativecommons.org]] · [[citations/underactuated-mit-edu|underactuated.mit.edu]] · [[citations/science-org|science.org]] · [[citations/mathworks-com|mathworks.com]] · [[citations/osqp-org|osqp.org]] · [[citations/github-com|github.com]] · [[citations/journals-sagepub-com|journals.sagepub.com]]
+**Citations:** [[citations/youtube-com|youtube.com]] · [[citations/harvard-edu|harvard.edu]] · [[citations/researchgate-net|researchgate.net]] · [[citations/www1-villanova-edu|www1.villanova.edu]] · [[citations/harvardmagazine-com|harvardmagazine.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/commons-wikimedia-org|commons.wikimedia.org]] · [[citations/creativecommons-org|creativecommons.org]] · [[citations/mit-edu|mit.edu]] · [[citations/science-org|science.org]] · [[citations/mathworks-com|mathworks.com]] · [[citations/osqp-org|osqp.org]] · [[citations/github-com|github.com]] · [[citations/journals-sagepub-com|journals.sagepub.com]]
 
 ---
 

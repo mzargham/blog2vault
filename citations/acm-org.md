@@ -1,13 +1,13 @@
 ---
 type: citation
-domain: dl.acm.org
-domain_slug: dl-acm-org
+domain: acm.org
+domain_slug: acm-org
 citation_count: 2
 ---
 
-# Citations: dl.acm.org
+# Citations: acm.org
 
-External references from [dl.acm.org](https://dl.acm.org) appearing across posts.
+External references from [acm.org](https://acm.org) appearing across posts.
 
 ## References
 

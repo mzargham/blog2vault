@@ -22,7 +22,7 @@ author: Avik De
 
 **Topic:** [[topics/systolic-arrays|Systolic Arrays]]
 **Concepts:** [[concepts/systolic-networks|Systolic Networks]] · [[concepts/hardware-acceleration|Hardware Acceleration]]
-**Citations:** [[citations/seas-harvard-edu|seas.harvard.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/github-com|github.com]] · [[citations/kwokanthony-medium-com|kwokanthony.medium.com]] · [[citations/eecs-harvard-edu|eecs.harvard.edu]] · [[citations/swh-princeton-edu|swh.princeton.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/chipinsights-net|chipinsights.net]]
+**Citations:** [[citations/harvard-edu|harvard.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ieee-org|ieee.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/github-com|github.com]] · [[citations/kwokanthony-medium-com|kwokanthony.medium.com]] · [[citations/swh-princeton-edu|swh.princeton.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/chipinsights-net|chipinsights.net]]
 
 ---
 

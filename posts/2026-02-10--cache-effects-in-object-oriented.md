@@ -24,7 +24,7 @@ author: Avik De
 
 **Topic:** [[topics/cache-effects-in-object-oriented-programming|Cache Effects In Object Oriented Programming]]
 **Concepts:** [[concepts/control-systems|Control Systems]] · [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/object-oriented-design|Object-Oriented Design]] · [[concepts/design-optimization|Design Optimization]]
-**Citations:** [[citations/youtube-com|youtube.com]] · [[citations/wccftech-com|wccftech.com]] · [[citations/pointclouds-org|pointclouds.org]] · [[citations/docs-unity3d-com|docs.unity3d.com]] · [[citations/cowboyprogramming-com|cowboyprogramming.com]] · [[citations/github-com|github.com]] · [[citations/godbolt-org|godbolt.org]] · [[citations/mlsysbook-ai|mlsysbook.ai]] · [[citations/unity-com|unity.com]] · [[citations/dev-epicgames-com|dev.epicgames.com]] · [[citations/youtu-be|youtu.be]] · [[citations/abseil-io|abseil.io]] · [[citations/en-wikipedia-org|en.wikipedia.org]]
+**Citations:** [[citations/youtube-com|youtube.com]] · [[citations/wccftech-com|wccftech.com]] · [[citations/pointclouds-org|pointclouds.org]] · [[citations/docs-unity3d-com|docs.unity3d.com]] · [[citations/cowboyprogramming-com|cowboyprogramming.com]] · [[citations/github-com|github.com]] · [[citations/godbolt-org|godbolt.org]] · [[citations/mlsysbook-ai|mlsysbook.ai]] · [[citations/unity-com|unity.com]] · [[citations/dev-epicgames-com|dev.epicgames.com]] · [[citations/abseil-io|abseil.io]] · [[citations/en-wikipedia-org|en.wikipedia.org]]
 
 ---
 

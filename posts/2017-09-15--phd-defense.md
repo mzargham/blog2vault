@@ -25,7 +25,7 @@ author: Avik De
 
 **Topic:** [[topics/modular-robotics-control-architecture|Modular Robotics Control Architecture]]
 **Concepts:** [[concepts/motion-controllers|Motion Controllers]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/actuator-allocation|Actuator Allocation]]
-**Citations:** [[citations/ai-mit-edu|ai.mit.edu]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]] · [[citations/repository-upenn-edu|repository.upenn.edu]] · [[citations/cogneurosociety-org|cogneurosociety.org]]
+**Citations:** [[citations/mit-edu|mit.edu]] · [[citations/upenn-edu|upenn.edu]] · [[citations/cogneurosociety-org|cogneurosociety.org]]
 
 ---
 

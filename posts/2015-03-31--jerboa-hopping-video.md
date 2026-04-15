@@ -25,7 +25,7 @@ author: Avik De
 
 **Topic:** [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]]
 **Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/control-templates|Control Templates]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
-**Citations:** [[citations/youtube-com|youtube.com]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]] · [[citations/youtu-be|youtu.be]] · [[citations/academia-edu|academia.edu]] · [[citations/dl-acm-org|dl.acm.org]]
+**Citations:** [[citations/youtube-com|youtube.com]] · [[citations/upenn-edu|upenn.edu]] · [[citations/academia-edu|academia.edu]] · [[citations/acm-org|acm.org]]
 
 ---
 

@@ -1,18 +1,21 @@
 ---
 type: citation
-domain: kodlab.seas.upenn.edu
-domain_slug: kodlab-seas-upenn-edu
-citation_count: 5
+domain: upenn.edu
+domain_slug: upenn-edu
+citation_count: 8
 ---
 
-# Citations: kodlab.seas.upenn.edu
+# Citations: upenn.edu
 
-External references from [kodlab.seas.upenn.edu](https://kodlab.seas.upenn.edu) appearing across posts.
+External references from [upenn.edu](https://upenn.edu) appearing across posts.
 
 ## References
 
 ### [[posts/2016-03-02--ghost-robotics-minitaur|Ghost Robotics and Minitaur]]
 - [https://kodlab.seas.upenn.edu](https://kodlab.seas.upenn.edu) "Kod*lab"
+
+### [[posts/2015-04-11--jerboa-demo-swe-gears-day|Jerboa demo for SWE gears day]]
+- [https://fling.seas.upenn.edu/~swe/cgi-bin/gearsday.php](https://fling.seas.upenn.edu/~swe/cgi-bin/gearsday.php) "SWE GEARS Day"
 
 ### [[posts/2015-03-31--jerboa-hopping-video|Jerboa the hopping robot]]
 - [http://kodlab.seas.upenn.edu/XRHex/XRHex](http://kodlab.seas.upenn.edu/XRHex/XRHex) "RHex robots"
@@ -23,4 +26,8 @@ External references from [kodlab.seas.upenn.edu](https://kodlab.seas.upenn.edu) 
 
 ### [[posts/2017-09-15--phd-defense|Ph.D. thesis on modularity in robotics]]
 - [https://kodlab.seas.upenn.edu/research/programmingwork](https://kodlab.seas.upenn.edu/research/programmingwork) "programming work"
+- [https://repository.upenn.edu/entities/publication/10b266fd-41d2-49b6-ac90-0ee614bca00a](https://repository.upenn.edu/entities/publication/10b266fd-41d2-49b6-ac90-0ee614bca00a) "Modular Hopping and Running via Parallel Composition"
+
+### [[posts/2024-12-23--power-efficient-safe-robots|Power-efficient and safe mobile robots]]
+- [https://directory.seas.upenn.edu/daniel-e-koditschek](https://directory.seas.upenn.edu/daniel-e-koditschek) "Koditschek"
 

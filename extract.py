@@ -385,6 +385,50 @@ def _normalize_url(url: str) -> Optional[str]:
         return None
 
 
+# Parent domains to collapse subdomains under.
+# "mit.edu" means ai.mit.edu, math.mit.edu, etc. all become "mit.edu".
+_DOMAIN_PARENTS = {
+    "mit.edu": "mit.edu",
+    "harvard.edu": "harvard.edu",
+    "upenn.edu": "upenn.edu",
+    "stanford.edu": "stanford.edu",
+    "berkeley.edu": "berkeley.edu",
+    "cmu.edu": "cmu.edu",
+    "ieee.org": "ieee.org",
+    "acm.org": "acm.org",
+    "nih.gov": "nih.gov",
+    "nvidia.com": "nvidia.com",
+    "google.com": "google.com",
+    "google.dev": "google.com",   # ai.google.dev
+    "google": "google.com",       # deepmind.google
+    "github.io": "github.io",
+    "youtube.com": "youtube.com",
+}
+
+
+def _collapse_domain(domain: str) -> str:
+    """
+    Collapse subdomains to their parent organization.
+
+    Examples:
+        ai.mit.edu → mit.edu
+        kodlab.seas.upenn.edu → upenn.edu
+        blogs.nvidia.com → nvidia.com
+        octo-models.github.io → github.io
+        youtu.be → youtube.com
+        arxiv.org → arxiv.org (no parent rule, kept as-is)
+    """
+    # Special case: youtu.be is YouTube
+    if domain == "youtu.be":
+        return "youtube.com"
+
+    for parent, canonical in _DOMAIN_PARENTS.items():
+        if domain == parent or domain.endswith(f".{parent}"):
+            return canonical
+
+    return domain
+
+
 def extract_citations(posts: list[dict]) -> dict[str, dict]:
     """
     Extract external URLs from post bodies as citation records.
@@ -415,7 +459,8 @@ def extract_citations(posts: list[dict]) -> dict[str, dict]:
 
             anchor = a_tag.get_text(strip=True)
             parsed = urlparse(norm)
-            domain = parsed.netloc.lower().removeprefix("www.")
+            raw_domain = parsed.netloc.lower().removeprefix("www.")
+            domain = _collapse_domain(raw_domain)
 
             if norm not in citations:
                 citations[norm] = {

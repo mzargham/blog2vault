@@ -23,7 +23,7 @@ author: Avik De
 
 **Topic:** [[topics/robotics-public-outreach-and-demonstration|Robotics Public Outreach And Demonstration]]
 **Concepts:** [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]] · [[concepts/phase-control|Phase Control]] · [[concepts/jerboa-robot|Jerboa Robot]]
-**Citations:** [[citations/fling-seas-upenn-edu|fling.seas.upenn.edu]]
+**Citations:** [[citations/upenn-edu|upenn.edu]]
 
 ---
 

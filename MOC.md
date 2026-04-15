@@ -6,7 +6,7 @@ post_count: 29
 
 # Map of Content — Avik De's Blog
 
-> Obsidian vault for [avikde.me](https://www.avikde.me) · **29 posts** · **18 topics** · **46 concepts** · **122 cited domains**  
+> Obsidian vault for [avikde.me](https://www.avikde.me) · **29 posts** · **18 topics** · **46 concepts** · **99 cited domains**  
 > Last synced: 2026-04-15
 
 ---
@@ -19,7 +19,7 @@ post_count: 29
 | [[_meta/Authors\|👤 Authors]] | About Avik De |
 | topics/ | 18 topic pages |
 | concepts/ | 46 concept pages |
-| citations/ | 122 cited domains |
+| citations/ | 99 cited domains |
 
 ---
 

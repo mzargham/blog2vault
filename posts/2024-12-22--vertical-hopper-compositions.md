@@ -21,7 +21,7 @@ author: Avik De
 
 **Topic:** [[topics/quadrupedal-robots|Quadrupedal Robots]]
 **Concepts:** [[concepts/vertical-hopper-compositions|Vertical Hopper Compositions]]
-**Citations:** [[citations/mitpress-mit-edu|mitpress.mit.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/sciencedirect-com|sciencedirect.com]]
+**Citations:** [[citations/mit-edu|mit.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/sciencedirect-com|sciencedirect.com]]
 
 ---
 

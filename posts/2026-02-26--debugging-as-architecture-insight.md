@@ -27,7 +27,7 @@ author: Avik De
 **Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
 **Concepts:** [[concepts/world-models|World Models]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/classical-control-methods|Classical Control Methods]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]] · [[concepts/generalist-policies|Generalist Policies]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
-**Citations:** [[citations/github-com|github.com]] · [[citations/octo-models-github-io|octo.models.github.io]] · [[citations/thu-air-dream-github-io|thu.air.dream.github.io]] · [[citations/huggingface-co|huggingface.co]] · [[citations/deepmind-google|deepmind.google]] · [[citations/robot-learning-collective-github-io|robot.learning.collective.github.io]] · [[citations/emergentmind-com|emergentmind.com]] · [[citations/rail-berkeley-github-io|rail.berkeley.github.io]]
+**Citations:** [[citations/github-com|github.com]] · [[citations/github-io|github.io]] · [[citations/huggingface-co|huggingface.co]] · [[citations/google-com|google.com]] · [[citations/emergentmind-com|emergentmind.com]]
 
 ---
 

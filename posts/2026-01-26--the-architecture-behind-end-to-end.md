@@ -24,7 +24,7 @@ author: Avik De
 
 **Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
 **Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/generalist-policies|Generalist Policies]] · [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]]
-**Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/groups-csail-mit-edu|groups.csail.mit.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/figure-ai|figure.ai]] · [[citations/pi-website|pi.website]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/1x-tech|1x.tech]] · [[citations/courses-lumenlearning-com|courses.lumenlearning.com]] · [[citations/rodneybrooks-com|rodneybrooks.com]] · [[citations/umi-ft-github-io|umi.ft.github.io]]
+**Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ieee-org|ieee.org]] · [[citations/mit-edu|mit.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/figure-ai|figure.ai]] · [[citations/pi-website|pi.website]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/1x-tech|1x.tech]] · [[citations/courses-lumenlearning-com|courses.lumenlearning.com]] · [[citations/rodneybrooks-com|rodneybrooks.com]] · [[citations/github-io|github.io]]
 
 ---
 

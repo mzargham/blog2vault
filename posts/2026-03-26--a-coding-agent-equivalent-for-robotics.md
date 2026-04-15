@@ -28,7 +28,7 @@ author: Avik De
 **Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
 **Concepts:** [[concepts/world-models|World Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/spatial-vlm-agents|Spatial VLM Agents]] · [[concepts/mujoco-simulation|MuJoCo Simulation]] · [[concepts/robotic-manipulation|Robotic Manipulation]] · [[concepts/action-loop-closure|Action Loop Closure]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
-**Citations:** [[citations/github-com|github.com]] · [[citations/ai-google-dev|ai.google.dev]] · [[citations/quantamagazine-org|quantamagazine.org]] · [[citations/huggingface-co|huggingface.co]] · [[citations/arxiv-org|arxiv.org]] · [[citations/youtu-be|youtu.be]] · [[citations/sunday-ai|sunday.ai]]
+**Citations:** [[citations/github-com|github.com]] · [[citations/google-com|google.com]] · [[citations/quantamagazine-org|quantamagazine.org]] · [[citations/huggingface-co|huggingface.co]] · [[citations/arxiv-org|arxiv.org]] · [[citations/youtube-com|youtube.com]] · [[citations/sunday-ai|sunday.ai]]
 
 ---
 

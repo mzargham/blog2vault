@@ -23,7 +23,7 @@ author: Avik De
 
 **Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
 **Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/direct-drive-motors|Direct-Drive Motors]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
-**Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ai-mit-edu|ai.mit.edu]]
+**Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/mit-edu|mit.edu]]
 
 ---
 

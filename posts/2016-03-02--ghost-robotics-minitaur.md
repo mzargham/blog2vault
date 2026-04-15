@@ -26,7 +26,7 @@ author: Avik De
 
 **Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
 **Concepts:** [[concepts/feedback-loops|Feedback Loops]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/direct-drive-motors|Direct-Drive Motors]] · [[concepts/interdisciplinary-research|Interdisciplinary Research]]
-**Citations:** [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/ieeexplore-ieee-org|ieeexplore.ieee.org]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]]
+**Citations:** [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/ieee-org|ieee.org]] · [[citations/upenn-edu|upenn.edu]]
 
 ---
 

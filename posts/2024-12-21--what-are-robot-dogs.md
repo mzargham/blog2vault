@@ -20,7 +20,7 @@ author: Avik De
 
 **Topic:** [[topics/quadrupedal-robots|Quadrupedal Robots]]
 **Concepts:** [[concepts/biomimetics|Biomimetics]] · [[concepts/form-versus-function|Form Versus Function]]
-**Citations:** [[citations/nature-com|nature.com]] · [[citations/tyndall-af-mil|tyndall.af.mil]] · [[citations/youtu-be|youtu.be]] · [[citations/overtdefense-com|overtdefense.com]] · [[citations/cincinnati-com|cincinnati.com]]
+**Citations:** [[citations/nature-com|nature.com]] · [[citations/tyndall-af-mil|tyndall.af.mil]] · [[citations/youtube-com|youtube.com]] · [[citations/overtdefense-com|overtdefense.com]] · [[citations/cincinnati-com|cincinnati.com]]
 
 ---
 

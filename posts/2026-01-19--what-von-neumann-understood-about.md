@@ -22,7 +22,7 @@ author: Avik De
 
 **Topic:** [[topics/von-neumann-s-theory-of-computational-intelligence|Von Neumann S Theory Of Computational Intelligence]]
 **Concepts:** [[concepts/systolic-networks|Systolic Networks]] · [[concepts/artificial-intelligence|Artificial Intelligence]]
-**Citations:** [[citations/mathshistory-st-andrews-ac-uk|mathshistory.st.andrews.ac.uk]] · [[citations/ieeexplore-ieee-org|ieeexplore.ieee.org]] · [[citations/developer-nvidia-com|developer.nvidia.com]] · [[citations/towardsdatascience-com|towardsdatascience.com]] · [[citations/groq-com|groq.com]] · [[citations/tomshardware-com|tomshardware.com]]
+**Citations:** [[citations/mathshistory-st-andrews-ac-uk|mathshistory.st.andrews.ac.uk]] · [[citations/ieee-org|ieee.org]] · [[citations/nvidia-com|nvidia.com]] · [[citations/towardsdatascience-com|towardsdatascience.com]] · [[citations/groq-com|groq.com]] · [[citations/tomshardware-com|tomshardware.com]]
 
 ---
 

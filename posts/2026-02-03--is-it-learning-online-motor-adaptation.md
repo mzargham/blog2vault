@@ -25,7 +25,7 @@ author: Avik De
 
 **Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
 **Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/model-predictive-control|Model Predictive Control]] · [[concepts/high-level-low-level-controller-cascade|High-Level Low-Level Controller Cascade]] · [[concepts/foundation-models|Foundation Models]] · [[concepts/3d-locomotion|3D Locomotion]]
-**Citations:** [[citations/figure-ai|figure.ai]] · [[citations/arxiv-org|arxiv.org]] · [[citations/pubmed-ncbi-nlm-nih-gov|pubmed.ncbi.nlm.nih.gov]] · [[citations/pmc-ncbi-nlm-nih-gov|pmc.ncbi.nlm.nih.gov]] · [[citations/dwarkesh-com|dwarkesh.com]] · [[citations/universal-robots-com|universal.robots.com]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/ashish-kmr-github-io|ashish.kmr.github.io]] · [[citations/skild-ai|skild.ai]] · [[citations/science-org|science.org]] · [[citations/covariant-ai|covariant.ai]]
+**Citations:** [[citations/figure-ai|figure.ai]] · [[citations/arxiv-org|arxiv.org]] · [[citations/nih-gov|nih.gov]] · [[citations/dwarkesh-com|dwarkesh.com]] · [[citations/universal-robots-com|universal.robots.com]] · [[citations/ieee-org|ieee.org]] · [[citations/github-io|github.io]] · [[citations/skild-ai|skild.ai]] · [[citations/science-org|science.org]] · [[citations/covariant-ai|covariant.ai]]
 
 ---
 

@@ -26,7 +26,7 @@ author: Avik De
 
 **Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
 **Concepts:** [[concepts/world-models|World Models]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/classical-control-methods|Classical Control Methods]]
-**Citations:** [[citations/github-com|github.com]] · [[citations/avikde-github-io|avikde.github.io]] · [[citations/ai-google-dev|ai.google.dev]] · [[citations/arxiv-org|arxiv.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/incompleteideas-net|incompleteideas.net]]
+**Citations:** [[citations/github-com|github.com]] · [[citations/github-io|github.io]] · [[citations/google-com|google.com]] · [[citations/arxiv-org|arxiv.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/incompleteideas-net|incompleteideas.net]]
 
 ---
 
