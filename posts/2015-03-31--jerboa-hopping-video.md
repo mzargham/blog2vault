@@ -6,12 +6,11 @@ slug: jerboa-hopping-video
 canonical_url: "https://www.avikde.me/p/jerboa-hopping-video"
 topic: "Bioinspired Hopping Robotics"
 concepts:
-  - "Legged Locomotion"
-  - "Parallel Composition"
-  - "Inertial Reorientation"
-  - "RHex Platform"
+  - "Design Optimization"
   - "3D Locomotion"
-  - "Biomimetic Control"
+  - "Bottom-Up Composition"
+  - "Control Templates"
+  - "Tailed Reorientation"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +24,7 @@ author: Avik De
 > Originally published: [2015-03-31](https://www.avikde.me/p/jerboa-hopping-video)
 
 **Topic:** [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]]
-**Concepts:** [[concepts/legged-locomotion|Legged Locomotion]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/inertial-reorientation|Inertial Reorientation]] · [[concepts/rhex-platform|RHex Platform]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/biomimetic-control|Biomimetic Control]]
+**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/control-templates|Control Templates]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
 **Citations:** [[citations/youtube-com|youtube.com]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]] · [[citations/youtu-be|youtu.be]] · [[citations/academia-edu|academia.edu]] · [[citations/dl-acm-org|dl.acm.org]]
 
 ---

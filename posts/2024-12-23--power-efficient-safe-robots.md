@@ -6,8 +6,9 @@ slug: power-efficient-safe-robots
 canonical_url: "https://www.avikde.me/p/power-efficient-safe-robots"
 topic: "Power Efficient Mobile Robotics"
 concepts:
-  - "Dynamic Legged Locomotion"
-  - "Control Decomposition"
+  - "3D Locomotion"
+  - "Bottom-Up Composition"
+  - "Raibert Three-Part Control"
 source: Substack
 author: Avik De
 ---
@@ -21,7 +22,7 @@ author: Avik De
 > Originally published: [2024-12-23](https://www.avikde.me/p/power-efficient-safe-robots)
 
 **Topic:** [[topics/power-efficient-mobile-robotics|Power Efficient Mobile Robotics]]
-**Concepts:** [[concepts/dynamic-legged-locomotion|Dynamic Legged Locomotion]] · [[concepts/control-decomposition|Control Decomposition]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]]
 **Citations:** [[citations/engineering-oregonstate-edu|engineering.oregonstate.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/mitpress-mit-edu|mitpress.mit.edu]] · [[citations/directory-seas-upenn-edu|directory.seas.upenn.edu]] · [[citations/deepblue-lib-umich-edu|deepblue.lib.umich.edu]] · [[citations/pmc-ncbi-nlm-nih-gov|pmc.ncbi.nlm.nih.gov]] · [[citations/sciencedirect-com|sciencedirect.com]] · [[citations/science-org|science.org]] · [[citations/waymo-com|waymo.com]] · [[citations/ieeexplore-ieee-org|ieeexplore.ieee.org]] · [[citations/worldscientific-com|worldscientific.com]] · [[citations/nature-com|nature.com]] · [[citations/technologyreview-com|technologyreview.com]] · [[citations/dl-acm-org|dl.acm.org]] · [[citations/thenextweb-com|thenextweb.com]] · [[citations/direct-mit-edu|direct.mit.edu]] · [[citations/compositionalintelligence-github-io|compositionalintelligence.github.io]]
 
 ---

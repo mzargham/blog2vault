@@ -6,12 +6,12 @@ slug: hybrid-averaging
 canonical_url: "https://www.avikde.me/p/hybrid-averaging"
 topic: "Hybrid Dynamical Averaging For Cyclic Systems"
 concepts:
-  - "Energy Transfer"
-  - "Decoupled Control"
+  - "Control Systems"
+  - "3D Locomotion"
+  - "Transfer Learning"
+  - "Bottom-Up Composition"
+  - "Raibert Three-Part Control"
   - "Reduced-Order Models"
-  - "Parallel Composition"
-  - "Articulated Mechanical Systems"
-  - "Symmetries in Locomotion"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2024-12-22](https://www.avikde.me/p/hybrid-averaging)
 
 **Topic:** [[topics/hybrid-dynamical-averaging-for-cyclic-systems|Hybrid Dynamical Averaging For Cyclic Systems]]
-**Concepts:** [[concepts/energy-transfer|Energy Transfer]] · [[concepts/decoupled-control|Decoupled Control]] · [[concepts/reduced-order-models|Reduced-Order Models]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/articulated-mechanical-systems|Articulated Mechanical Systems]] · [[concepts/symmetries-in-locomotion|Symmetries in Locomotion]]
+**Concepts:** [[concepts/control-systems|Control Systems]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/transfer-learning|Transfer Learning]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/reduced-order-models|Reduced-Order Models]]
 **Citations:** [[citations/mitpress-mit-edu|mitpress.mit.edu]] · [[citations/math-mit-edu|math.mit.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/journals-sagepub-com|journals.sagepub.com]] · [[citations/link-springer-com|link.springer.com]] · [[citations/mathworld-wolfram-com|mathworld.wolfram.com]] · [[citations/arxiv-org|arxiv.org]]
 
 ---

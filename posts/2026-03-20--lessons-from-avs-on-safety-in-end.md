@@ -4,14 +4,11 @@ subtitle: "Recent developments in autonomous vehicles on recognizing and handlin
 date: 2026-03-20
 slug: lessons-from-avs-on-safety-in-end
 canonical_url: "https://www.avikde.me/p/lessons-from-avs-on-safety-in-end"
-topic: "Safety In End To End Robotics Pipelines"
+topic: "End-to-End Robotics Pipelines"
 concepts:
-  - "Vision-Language-Action Models"
-  - "End-to-End Learning"
-  - "Distribution Shift"
-  - "Performance Deterioration Detection"
-  - "Autonomous Vehicles"
-  - "Self-Monitoring Systems"
+  - "World Models"
+  - "End-to-End Robotics Pipelines"
+  - "Control Systems"
 source: Substack
 author: Avik De
 ---
@@ -24,8 +21,8 @@ author: Avik De
 
 > Originally published: [2026-03-20](https://www.avikde.me/p/lessons-from-avs-on-safety-in-end)
 
-**Topic:** [[topics/safety-in-end-to-end-robotics-pipelines|Safety In End To End Robotics Pipelines]]
-**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/distribution-shift|Distribution Shift]] · [[concepts/performance-deterioration-detection|Performance Deterioration Detection]] · [[concepts/autonomous-vehicles|Autonomous Vehicles]] · [[concepts/self-monitoring-systems|Self-Monitoring Systems]]
+**Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
+**Concepts:** [[concepts/world-models|World Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/control-systems|Control Systems]]
 **Citations:** [[citations/theverge-com|theverge.com]] · [[citations/electrek-co|electrek.co]] · [[citations/ruixu-us|ruixu.us]] · [[citations/arxiv-org|arxiv.org]] · [[citations/counterpointresearch-com|counterpointresearch.com]]
 
 ---

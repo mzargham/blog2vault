@@ -4,13 +4,12 @@ subtitle: "Part 1: Where the learning stack ends and the control stack begins"
 date: 2026-01-26
 slug: the-architecture-behind-end-to-end
 canonical_url: "https://www.avikde.me/p/the-architecture-behind-end-to-end"
-topic: "End To End Robotics Pipelines"
+topic: "End-to-End Robotics Pipelines"
 concepts:
-  - "End-to-End Learning"
-  - "Generalist Capabilities"
-  - "Pixels to Actions"
+  - "End-to-End Robotics Pipelines"
+  - "Hardware Acceleration"
+  - "Generalist Policies"
   - "Perception-Planning-Control Modules"
-  - "Hardware-Algorithm Mapping"
 source: Substack
 author: Avik De
 ---
@@ -23,8 +22,8 @@ author: Avik De
 
 > Originally published: [2026-01-26](https://www.avikde.me/p/the-architecture-behind-end-to-end)
 
-**Topic:** [[topics/end-to-end-robotics-pipelines|End To End Robotics Pipelines]]
-**Concepts:** [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/generalist-capabilities|Generalist Capabilities]] · [[concepts/pixels-to-actions|Pixels to Actions]] · [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]] · [[concepts/hardware-algorithm-mapping|Hardware-Algorithm Mapping]]
+**Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
+**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/generalist-policies|Generalist Policies]] · [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/groups-csail-mit-edu|groups.csail.mit.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/figure-ai|figure.ai]] · [[citations/pi-website|pi.website]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/1x-tech|1x.tech]] · [[citations/courses-lumenlearning-com|courses.lumenlearning.com]] · [[citations/rodneybrooks-com|rodneybrooks.com]] · [[citations/umi-ft-github-io|umi.ft.github.io]]
 
 ---

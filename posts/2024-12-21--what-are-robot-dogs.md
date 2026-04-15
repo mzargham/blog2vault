@@ -6,10 +6,7 @@ slug: what-are-robot-dogs
 canonical_url: "https://www.avikde.me/p/what-are-robot-dogs"
 topic: "Quadrupedal Robots"
 concepts:
-  - "Bio-Inspired Robotics"
   - "Biomimetics"
-  - "Bioinspiration"
-  - "Biomechanics"
   - "Form Versus Function"
 source: Substack
 author: Avik De
@@ -22,7 +19,7 @@ author: Avik De
 > Originally published: [2024-12-21](https://www.avikde.me/p/what-are-robot-dogs)
 
 **Topic:** [[topics/quadrupedal-robots|Quadrupedal Robots]]
-**Concepts:** [[concepts/bio-inspired-robotics|Bio-Inspired Robotics]] · [[concepts/biomimetics|Biomimetics]] · [[concepts/bioinspiration|Bioinspiration]] · [[concepts/biomechanics|Biomechanics]] · [[concepts/form-versus-function|Form Versus Function]]
+**Concepts:** [[concepts/biomimetics|Biomimetics]] · [[concepts/form-versus-function|Form Versus Function]]
 **Citations:** [[citations/nature-com|nature.com]] · [[citations/tyndall-af-mil|tyndall.af.mil]] · [[citations/youtu-be|youtu.be]] · [[citations/overtdefense-com|overtdefense.com]] · [[citations/cincinnati-com|cincinnati.com]]
 
 ---

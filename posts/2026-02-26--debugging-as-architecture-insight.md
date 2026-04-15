@@ -4,14 +4,14 @@ subtitle: "Part 3: Hands-on debugging of a vision-language-action model as a len
 date: 2026-02-26
 slug: debugging-as-architecture-insight
 canonical_url: "https://www.avikde.me/p/debugging-as-architecture-insight"
-topic: "Vision Language Action Model Debugging"
+topic: "Hybrid Vision Language Action Robotics Pipeline"
 concepts:
-  - "Vision-Language-Action Models"
-  - "End-to-End Learning"
-  - "Generalist Capabilities"
-  - "Model-Based Methods"
-  - "Reinforcement Learning Controllers"
-  - "Architecture Analysis"
+  - "World Models"
+  - "Motion Controllers"
+  - "End-to-End Robotics Pipelines"
+  - "Classical Control Methods"
+  - "Failure Mode Analysis"
+  - "Generalist Policies"
 source: Substack
 author: Avik De
 ---
@@ -24,8 +24,8 @@ author: Avik De
 
 > Originally published: [2026-02-26](https://www.avikde.me/p/debugging-as-architecture-insight)
 
-**Topic:** [[topics/vision-language-action-model-debugging|Vision Language Action Model Debugging]]
-**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/generalist-capabilities|Generalist Capabilities]] · [[concepts/model-based-methods|Model-Based Methods]] · [[concepts/reinforcement-learning-controllers|Reinforcement Learning Controllers]] · [[concepts/architecture-analysis|Architecture Analysis]]
+**Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
+**Concepts:** [[concepts/world-models|World Models]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/classical-control-methods|Classical Control Methods]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]] · [[concepts/generalist-policies|Generalist Policies]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/octo-models-github-io|octo.models.github.io]] · [[citations/thu-air-dream-github-io|thu.air.dream.github.io]] · [[citations/huggingface-co|huggingface.co]] · [[citations/deepmind-google|deepmind.google]] · [[citations/robot-learning-collective-github-io|robot.learning.collective.github.io]] · [[citations/emergentmind-com|emergentmind.com]] · [[citations/rail-berkeley-github-io|rail.berkeley.github.io]]
 

@@ -6,10 +6,9 @@ slug: jerboa-robot-reorienting-planar-hopping
 canonical_url: "https://www.avikde.me/p/jerboa-robot-reorienting-planar-hopping"
 topic: "Jerboa Robot Development"
 concepts:
-  - "Legged Locomotion"
-  - "Direct Drive Design"
-  - "Inertial Reorientation"
-  - "Falling Cat Problem"
+  - "3D Locomotion"
+  - "Direct-Drive Motors"
+  - "Tailed Reorientation"
 source: Substack
 author: Avik De
 ---
@@ -23,7 +22,7 @@ author: Avik De
 > Originally published: [2018-09-30](https://www.avikde.me/p/jerboa-robot-reorienting-planar-hopping)
 
 **Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
-**Concepts:** [[concepts/legged-locomotion|Legged Locomotion]] · [[concepts/direct-drive-design|Direct Drive Design]] · [[concepts/inertial-reorientation|Inertial Reorientation]] · [[concepts/falling-cat-problem|Falling Cat Problem]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/direct-drive-motors|Direct-Drive Motors]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ai-mit-edu|ai.mit.edu]]
 
 ---

@@ -6,12 +6,9 @@ slug: jerboa-demo-swe-gears-day
 canonical_url: "https://www.avikde.me/p/jerboa-demo-swe-gears-day"
 topic: "Robotics Public Outreach And Demonstration"
 concepts:
-  - "Leg Phase Coordination"
-  - "Buehler Clock"
-  - "Feedforward Control"
-  - "Sagittal Plane Motion"
-  - "Trajectory Planning"
-  - "Boom Testing"
+  - "Perception-Planning-Control Modules"
+  - "Phase Control"
+  - "Jerboa Robot"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +22,7 @@ author: Avik De
 > Originally published: [2015-04-11](https://www.avikde.me/p/jerboa-demo-swe-gears-day)
 
 **Topic:** [[topics/robotics-public-outreach-and-demonstration|Robotics Public Outreach And Demonstration]]
-**Concepts:** [[concepts/leg-phase-coordination|Leg Phase Coordination]] · [[concepts/buehler-clock|Buehler Clock]] · [[concepts/feedforward-control|Feedforward Control]] · [[concepts/sagittal-plane-motion|Sagittal Plane Motion]] · [[concepts/trajectory-planning|Trajectory Planning]] · [[concepts/boom-testing|Boom Testing]]
+**Concepts:** [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]] · [[concepts/phase-control|Phase Control]] · [[concepts/jerboa-robot|Jerboa Robot]]
 **Citations:** [[citations/fling-seas-upenn-edu|fling.seas.upenn.edu]]
 
 ---

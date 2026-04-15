@@ -6,10 +6,8 @@ slug: model-predictive-control-of-robobee
 canonical_url: "https://www.avikde.me/p/model-predictive-control-of-robobee"
 topic: "Model Predictive Control Of Robobee Flapping Flight"
 concepts:
-  - "Hierarchical Control"
-  - "Flapping Wing Aerodynamics"
-  - "Path Following"
-  - "Robustness to Manufacturing Variability"
+  - "Systolic Networks"
+  - "Model Predictive Control"
 source: Substack
 author: Avik De
 ---
@@ -23,7 +21,7 @@ author: Avik De
 > Originally published: [2025-12-24](https://www.avikde.me/p/model-predictive-control-of-robobee)
 
 **Topic:** [[topics/model-predictive-control-of-robobee-flapping-flight|Model Predictive Control Of Robobee Flapping Flight]]
-**Concepts:** [[concepts/hierarchical-control|Hierarchical Control]] · [[concepts/flapping-wing-aerodynamics|Flapping Wing Aerodynamics]] · [[concepts/path-following|Path Following]] · [[concepts/robustness-to-manufacturing-variability|Robustness to Manufacturing Variability]]
+**Concepts:** [[concepts/systolic-networks|Systolic Networks]] · [[concepts/model-predictive-control|Model Predictive Control]]
 **Citations:** [[citations/youtube-com|youtube.com]] · [[citations/wyss-harvard-edu|wyss.harvard.edu]] · [[citations/researchgate-net|researchgate.net]] · [[citations/seas-harvard-edu|seas.harvard.edu]] · [[citations/www1-villanova-edu|www1.villanova.edu]] · [[citations/harvardmagazine-com|harvardmagazine.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/commons-wikimedia-org|commons.wikimedia.org]] · [[citations/creativecommons-org|creativecommons.org]] · [[citations/underactuated-mit-edu|underactuated.mit.edu]] · [[citations/science-org|science.org]] · [[citations/mathworks-com|mathworks.com]] · [[citations/osqp-org|osqp.org]] · [[citations/github-com|github.com]] · [[citations/journals-sagepub-com|journals.sagepub.com]]
 
 ---

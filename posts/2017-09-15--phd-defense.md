@@ -6,12 +6,11 @@ slug: phd-defense
 canonical_url: "https://www.avikde.me/p/phd-defense"
 topic: "Modular Robotics Control Architecture"
 concepts:
-  - "Legged Locomotion"
-  - "Control Decomposition"
-  - "Parallel Composition"
+  - "Motion Controllers"
+  - "3D Locomotion"
+  - "Bottom-Up Composition"
+  - "Raibert Three-Part Control"
   - "Actuator Allocation"
-  - "Low-Dimensional Controllers"
-  - "Optimal Control"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +24,7 @@ author: Avik De
 > Originally published: [2017-09-15](https://www.avikde.me/p/phd-defense)
 
 **Topic:** [[topics/modular-robotics-control-architecture|Modular Robotics Control Architecture]]
-**Concepts:** [[concepts/legged-locomotion|Legged Locomotion]] · [[concepts/control-decomposition|Control Decomposition]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/actuator-allocation|Actuator Allocation]] · [[concepts/low-dimensional-controllers|Low-Dimensional Controllers]] · [[concepts/optimal-control|Optimal Control]]
+**Concepts:** [[concepts/motion-controllers|Motion Controllers]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/actuator-allocation|Actuator Allocation]]
 **Citations:** [[citations/ai-mit-edu|ai.mit.edu]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]] · [[citations/repository-upenn-edu|repository.upenn.edu]] · [[citations/cogneurosociety-org|cogneurosociety.org]]
 
 ---

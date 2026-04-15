@@ -4,14 +4,14 @@ subtitle: "Research to startup"
 date: 2016-03-02
 slug: ghost-robotics-minitaur
 canonical_url: "https://www.avikde.me/p/ghost-robotics-minitaur"
-topic: "Quadrupedal Robot Development"
+topic: "Jerboa Robot Development"
 concepts:
   - "Feedback Loops"
+  - "3D Locomotion"
+  - "Raibert Three-Part Control"
   - "BLDC Actuators"
-  - "Direct Drive Design"
-  - "Impedance Control"
-  - "Quadrupedal Locomotion"
-  - "Research Commercialization"
+  - "Direct-Drive Motors"
+  - "Interdisciplinary Research"
 source: Substack
 author: Avik De
 ---
@@ -24,8 +24,8 @@ author: Avik De
 
 > Originally published: [2016-03-02](https://www.avikde.me/p/ghost-robotics-minitaur)
 
-**Topic:** [[topics/quadrupedal-robot-development|Quadrupedal Robot Development]]
-**Concepts:** [[concepts/feedback-loops|Feedback Loops]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/direct-drive-design|Direct Drive Design]] · [[concepts/impedance-control|Impedance Control]] · [[concepts/quadrupedal-locomotion|Quadrupedal Locomotion]] · [[concepts/research-commercialization|Research Commercialization]]
+**Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
+**Concepts:** [[concepts/feedback-loops|Feedback Loops]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/direct-drive-motors|Direct-Drive Motors]] · [[concepts/interdisciplinary-research|Interdisciplinary Research]]
 **Citations:** [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/ieeexplore-ieee-org|ieeexplore.ieee.org]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]]
 
 ---

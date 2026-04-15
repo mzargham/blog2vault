@@ -4,13 +4,12 @@ subtitle: "Paper in IROS 2015 using combinatorial generative control"
 date: 2015-10-27
 slug: jerboa-leaping-video
 canonical_url: "https://www.avikde.me/p/jerboa-leaping-video"
-topic: "Jerboa Robot Leaping Locomotion"
+topic: "Jerboa Robot Development"
 concepts:
-  - "Combinatorial Generative Control"
-  - "Transitional Behaviors"
-  - "RHex Platform"
+  - "Design Optimization"
   - "3D Locomotion"
-  - "Acrobatic Maneuvering"
+  - "Raibert Three-Part Control"
+  - "Transitional Behaviors"
 source: Substack
 author: Avik De
 ---
@@ -23,8 +22,8 @@ author: Avik De
 
 > Originally published: [2015-10-27](https://www.avikde.me/p/jerboa-leaping-video)
 
-**Topic:** [[topics/jerboa-robot-leaping-locomotion|Jerboa Robot Leaping Locomotion]]
-**Concepts:** [[concepts/combinatorial-generative-control|Combinatorial Generative Control]] · [[concepts/transitional-behaviors|Transitional Behaviors]] · [[concepts/rhex-platform|RHex Platform]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/acrobatic-maneuvering|Acrobatic Maneuvering]]
+**Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
+**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/transitional-behaviors|Transitional Behaviors]]
 **Citations:** [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]]
 
 ---

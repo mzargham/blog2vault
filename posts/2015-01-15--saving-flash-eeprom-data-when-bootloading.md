@@ -6,10 +6,9 @@ slug: saving-flash-eeprom-data-when-bootloading
 canonical_url: "https://www.avikde.me/p/saving-flash-eeprom-data-when-bootloading"
 topic: "Eeprom Data Preservation During Stm32 Bootloading"
 concepts:
-  - "EEPROM Emulation"
-  - "Flash Memory Management"
-  - "Non-Volatile Storage"
-  - "Parameter Persistence"
+  - "Microcontroller Programming"
+  - "Object-Oriented Design"
+  - "Non-Dimensionalization"
 source: Substack
 author: Avik De
 ---
@@ -21,7 +20,7 @@ author: Avik De
 > Originally published: [2015-01-15](https://www.avikde.me/p/saving-flash-eeprom-data-when-bootloading)
 
 **Topic:** [[topics/eeprom-data-preservation-during-stm32-bootloading|Eeprom Data Preservation During Stm32 Bootloading]]
-**Concepts:** [[concepts/eeprom-emulation|EEPROM Emulation]] · [[concepts/flash-memory-management|Flash Memory Management]] · [[concepts/non-volatile-storage|Non-Volatile Storage]] · [[concepts/parameter-persistence|Parameter Persistence]]
+**Concepts:** [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/object-oriented-design|Object-Oriented Design]] · [[concepts/non-dimensionalization|Non-Dimensionalization]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/st-com|st.com]] · [[citations/arduino-cc|arduino.cc]] · [[citations/asciitable-com|asciitable.com]]
 
 ---

@@ -6,10 +6,8 @@ slug: the-ai-world-models-debate-and-its
 canonical_url: "https://www.avikde.me/p/the-ai-world-models-debate-and-its"
 topic: "Ai World Models Scaling Versus Structure Debate"
 concepts:
-  - "Vision-Language-Action Models"
-  - "Scaling Laws"
-  - "General Intelligence"
-  - "Energy Transfer"
+  - "World Models"
+  - "Transfer Learning"
 source: Substack
 author: Avik De
 ---
@@ -23,7 +21,7 @@ author: Avik De
 > Originally published: [2026-01-14](https://www.avikde.me/p/the-ai-world-models-debate-and-its)
 
 **Topic:** [[topics/ai-world-models-scaling-versus-structure-debate|Ai World Models Scaling Versus Structure Debate]]
-**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/scaling-laws|Scaling Laws]] · [[concepts/general-intelligence|General Intelligence]] · [[concepts/energy-transfer|Energy Transfer]]
+**Concepts:** [[concepts/world-models|World Models]] · [[concepts/transfer-learning|Transfer Learning]]
 **Citations:** [[citations/mlsysbook-ai|mlsysbook.ai]] · [[citations/dwarkesh-com|dwarkesh.com]] · [[citations/figure-ai|figure.ai]] · [[citations/1x-tech|1x.tech]] · [[citations/rodneybrooks-com|rodneybrooks.com]] · [[citations/groq-com|groq.com]] · [[citations/blogs-nvidia-com|blogs.nvidia.com]] · [[citations/blog-samaltman-com|blog.samaltman.com]] · [[citations/mckinsey-com|mckinsey.com]] · [[citations/osf-io|osf.io]] · [[citations/chipinsights-net|chipinsights.net]] · [[citations/nature-com|nature.com]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/techcrunch-com|techcrunch.com]] · [[citations/worldlabs-ai|worldlabs.ai]] · [[citations/arxiv-org|arxiv.org]] · [[citations/openlibrary-org|openlibrary.org]] · [[citations/plough-com|plough.com]] · [[citations/fox13now-com|fox13now.com]] · [[citations/cnbc-com|cnbc.com]] · [[citations/nvidia-com|nvidia.com]] · [[citations/businessinsider-com|businessinsider.com]] · [[citations/cbsnews-com|cbsnews.com]] · [[citations/wsj-com|wsj.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/inria-hal-science|inria.hal.science]]
 
 ---

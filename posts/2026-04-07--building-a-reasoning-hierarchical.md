@@ -6,12 +6,11 @@ slug: building-a-reasoning-hierarchical
 canonical_url: "https://www.avikde.me/p/building-a-reasoning-hierarchical"
 topic: "Hybrid Vision Language Action Robotics Pipeline"
 concepts:
-  - "Vision-Language-Action Models"
+  - "World Models"
   - "Modular System Architecture"
-  - "Camera Calibration"
-  - "Inverse Kinematics"
   - "Motion Controllers"
-  - "End-to-End Learning"
+  - "Microcontroller Programming"
+  - "End-to-End Robotics Pipelines"
   - "Classical Control Methods"
 source: Substack
 author: Avik De
@@ -26,7 +25,7 @@ author: Avik De
 > Originally published: [2026-04-07](https://www.avikde.me/p/building-a-reasoning-hierarchical)
 
 **Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
-**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/camera-calibration|Camera Calibration]] · [[concepts/inverse-kinematics|Inverse Kinematics]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/classical-control-methods|Classical Control Methods]]
+**Concepts:** [[concepts/world-models|World Models]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/classical-control-methods|Classical Control Methods]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/avikde-github-io|avikde.github.io]] · [[citations/ai-google-dev|ai.google.dev]] · [[citations/arxiv-org|arxiv.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/incompleteideas-net|incompleteideas.net]]
 
 ---

@@ -4,15 +4,12 @@ subtitle: "Some unpublished results from the Harvard Microrobotics postdoc on a 
 date: 2020-11-01
 slug: variable-ema-legs
 canonical_url: "https://www.avikde.me/p/variable-ema-legs"
-topic: "Nanotaur Microrobot Hopping Leg"
+topic: "Bioinspired Hopping Robotics"
 concepts:
+  - "Design Optimization"
   - "Variable Effective Mechanical Advantage"
-  - "Five-Bar Linkage"
-  - "Piezoelectric Actuation"
-  - "Laminate Architecture"
+  - "Phase Control"
   - "Symmetric Joint Configuration"
-  - "Transmission Design"
-  - "Leg Phase Coordination"
 source: Substack
 author: Avik De
 ---
@@ -25,8 +22,8 @@ author: Avik De
 
 > Originally published: [2020-11-01](https://www.avikde.me/p/variable-ema-legs)
 
-**Topic:** [[topics/nanotaur-microrobot-hopping-leg|Nanotaur Microrobot Hopping Leg]]
-**Concepts:** [[concepts/variable-effective-mechanical-advantage|Variable Effective Mechanical Advantage]] · [[concepts/five-bar-linkage|Five-Bar Linkage]] · [[concepts/piezoelectric-actuation|Piezoelectric Actuation]] · [[concepts/laminate-architecture|Laminate Architecture]] · [[concepts/symmetric-joint-configuration|Symmetric Joint Configuration]] · [[concepts/transmission-design|Transmission Design]] · [[concepts/leg-phase-coordination|Leg Phase Coordination]]
+**Topic:** [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]]
+**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/variable-effective-mechanical-advantage|Variable Effective Mechanical Advantage]] · [[concepts/phase-control|Phase Control]] · [[concepts/symmetric-joint-configuration|Symmetric Joint Configuration]]
 
 ---
 

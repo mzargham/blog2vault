@@ -471,40 +471,30 @@ def infer_post_crosslinks(posts: list[dict]) -> dict[str, list[str]]:
 # Concept clustering (reduce semantic near-duplicates)
 # ---------------------------------------------------------------------------
 
-def cluster_concepts(
+def _cluster_at_threshold(
     concepts: dict[str, list[str]],
     concept_names: dict[str, str],
     posts: list[dict],
-    distance_threshold: float = 0.75,
+    distance_threshold: float,
 ) -> tuple[dict[str, list[str]], dict[str, str]]:
     """
-    Cluster semantically similar concepts using TF-IDF on concept names
-    plus the titles of posts they appear in.
+    Single-pass agglomerative clustering of concepts at a given threshold.
 
-    Agglomerative clustering merges concepts whose textual descriptions
-    are within `distance_threshold` cosine distance of each other.
+    Uses TF-IDF on concept names (triple-weighted) plus associated post titles
+    to build a semantic representation, then clusters by cosine distance.
 
     For each cluster, the concept closest to the cluster centroid is chosen
-    as the canonical label — this is the most semantically central member.
-    All post lists are merged under the canonical concept.
+    as the canonical label — the most semantically central member.
 
     Returns:
         merged_concepts: concept_slug → [post_slug, ...]
         merged_names:    concept_slug → display_name
     """
-    if len(concepts) < 2:
-        return concepts, concept_names
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.cluster import AgglomerativeClustering
+    from sklearn.metrics.pairwise import cosine_distances
+    import numpy as np
 
-    try:
-        from sklearn.feature_extraction.text import TfidfVectorizer
-        from sklearn.cluster import AgglomerativeClustering
-        from sklearn.metrics.pairwise import cosine_distances
-        import numpy as np
-    except ImportError:
-        log.warning("scikit-learn not available; skipping concept clustering")
-        return concepts, concept_names
-
-    # Build a text document per concept: display name (triple-weighted) + post titles
     post_titles = {p.get("slug", ""): p.get("title", "") for p in posts}
     concept_slugs = list(concepts.keys())
     documents = []
@@ -524,9 +514,7 @@ def cluster_concepts(
         linkage="average",
     )
     labels = clustering.fit_predict(dist_matrix)
-    n_clusters = len(set(labels))
 
-    # Group concepts by cluster label
     cluster_groups: dict[int, list[str]] = defaultdict(list)
     for slug, label in zip(concept_slugs, labels):
         cluster_groups[label].append(slug)
@@ -535,15 +523,13 @@ def cluster_concepts(
     merged_names: dict[str, str] = {}
 
     for cluster_id, members in cluster_groups.items():
-        # Find the member closest to the cluster centroid (most semantically central)
         member_indices = [concept_slugs.index(m) for m in members]
         member_vectors = tfidf_matrix[member_indices]
-        centroid = member_vectors.mean(axis=0)
+        centroid = np.asarray(member_vectors.mean(axis=0))
         centroid_dists = cosine_distances(centroid, member_vectors).flatten()
         canonical_idx = member_indices[int(np.argmin(centroid_dists))]
         canonical = concept_slugs[canonical_idx]
 
-        # Merge all post lists, deduplicated
         all_posts = []
         seen = set()
         for m in members:
@@ -563,11 +549,81 @@ def cluster_concepts(
                 ", ".join(absorbed),
             )
 
-    log.info(
-        "Concept clustering: %d → %d (merged %d duplicates, threshold=%.2f)",
-        len(concepts), n_clusters, len(concepts) - n_clusters, distance_threshold,
-    )
     return merged_concepts, merged_names
+
+
+def cluster_concepts(
+    concepts: dict[str, list[str]],
+    concept_names: dict[str, str],
+    posts: list[dict],
+    max_sparse_ratio: float = 0.10,
+    min_posts_for_strict: int = 100,
+) -> tuple[dict[str, list[str]], dict[str, str]]:
+    """
+    Iteratively cluster concepts, relaxing the distance threshold until at most
+    `max_sparse_ratio` of concepts appear in fewer than CONCEPT_MIN_DF posts.
+
+    For small corpora (< `min_posts_for_strict` posts), the target ratio is
+    relaxed proportionally — a 29-post blog can't achieve 10% sparsity without
+    destroying semantic coherence.
+
+    Starts at threshold=0.65 (conservative) and increments by 0.05 each round,
+    capping at 0.95 to avoid collapsing everything into one cluster.
+
+    Returns:
+        merged_concepts: concept_slug → [post_slug, ...]
+        merged_names:    concept_slug → display_name
+    """
+    if len(concepts) < 2:
+        return concepts, concept_names
+
+    try:
+        from sklearn.feature_extraction.text import TfidfVectorizer  # noqa: F401
+    except ImportError:
+        log.warning("scikit-learn not available; skipping concept clustering")
+        return concepts, concept_names
+
+    # Scale the target: small corpora get a looser target, converging to
+    # max_sparse_ratio as the blog grows past min_posts_for_strict posts.
+    n_posts = len(posts)
+    scale = min(1.0, n_posts / min_posts_for_strict)
+    effective_target = 1.0 - scale * (1.0 - max_sparse_ratio)  # 1.0 → max_sparse_ratio
+    log.info(
+        "Clustering target: %.0f%% sparse (corpus=%d posts, strict target=%.0f%%)",
+        effective_target * 100, n_posts, max_sparse_ratio * 100,
+    )
+
+    threshold = 0.65
+    max_threshold = 0.95
+    step = 0.05
+    best_concepts = concepts
+    best_names = concept_names
+
+    while threshold <= max_threshold:
+        merged, names = _cluster_at_threshold(concepts, concept_names, posts, threshold)
+        sparse = sum(1 for v in merged.values() if len(v) < CONCEPT_MIN_DF)
+        ratio = sparse / len(merged) if merged else 0
+
+        log.info(
+            "Concept clustering pass: threshold=%.2f → %d concepts "
+            "(%d sparse, %.0f%% < min_df=%d)",
+            threshold, len(merged), sparse, ratio * 100, CONCEPT_MIN_DF,
+        )
+
+        best_concepts = merged
+        best_names = names
+
+        if ratio <= effective_target:
+            break
+
+        threshold += step
+
+    log.info(
+        "Concept clustering final: %d → %d (merged %d, threshold=%.2f)",
+        len(concepts), len(best_concepts),
+        len(concepts) - len(best_concepts), threshold,
+    )
+    return best_concepts, best_names
 
 
 # ---------------------------------------------------------------------------
@@ -612,10 +668,28 @@ def run_extraction(posts: list[dict]) -> dict:
     concepts, concept_names = cluster_concepts(concepts, concept_names, posts)
 
     # Build topic → [post_slugs] from post_topic reverse lookup
-    topics: dict[str, list[str]] = defaultdict(list)
+    topics_raw: dict[str, list[str]] = defaultdict(list)
     for post_slug, topic_slug in post_topic.items():
-        topics[topic_slug].append(post_slug)
-    topics = dict(topics)
+        topics_raw[topic_slug].append(post_slug)
+
+    # Cluster topics the same way (they're often too granular from AI extraction)
+    if len(topics_raw) >= 2:
+        topics, topic_names = _cluster_at_threshold(
+            dict(topics_raw), concept_names, posts, distance_threshold=0.85,
+        )
+        # Update concept_names with any new canonical topic names
+        concept_names.update(topic_names)
+        # Rebuild post_topic to point at merged topic slugs
+        post_topic = {}
+        for topic_slug, topic_posts in topics.items():
+            for ps in topic_posts:
+                post_topic[ps] = topic_slug
+        log.info(
+            "Topic clustering: %d → %d (merged %d)",
+            len(topics_raw), len(topics), len(topics_raw) - len(topics),
+        )
+    else:
+        topics = dict(topics_raw)
 
     # Log concepts below min_df as warnings (they may be new or niche)
     low_df = {c: slugs for c, slugs in concepts.items() if len(slugs) < CONCEPT_MIN_DF}

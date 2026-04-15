@@ -6,10 +6,8 @@ slug: systolic-arrays-for-general-robotics
 canonical_url: "https://www.avikde.me/p/systolic-arrays-for-general-robotics"
 topic: "Systolic Arrays"
 concepts:
-  - "Matrix Multiplication"
+  - "Systolic Networks"
   - "Hardware Acceleration"
-  - "Signal Processing"
-  - "Neural Network Accelerators"
 source: Substack
 author: Avik De
 ---
@@ -23,7 +21,7 @@ author: Avik De
 > Originally published: [2026-03-12](https://www.avikde.me/p/systolic-arrays-for-general-robotics)
 
 **Topic:** [[topics/systolic-arrays|Systolic Arrays]]
-**Concepts:** [[concepts/matrix-multiplication|Matrix Multiplication]] · [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/signal-processing|Signal Processing]] · [[concepts/neural-network-accelerators|Neural Network Accelerators]]
+**Concepts:** [[concepts/systolic-networks|Systolic Networks]] · [[concepts/hardware-acceleration|Hardware Acceleration]]
 **Citations:** [[citations/seas-harvard-edu|seas.harvard.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/github-com|github.com]] · [[citations/kwokanthony-medium-com|kwokanthony.medium.com]] · [[citations/eecs-harvard-edu|eecs.harvard.edu]] · [[citations/swh-princeton-edu|swh.princeton.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/chipinsights-net|chipinsights.net]]
 
 ---
