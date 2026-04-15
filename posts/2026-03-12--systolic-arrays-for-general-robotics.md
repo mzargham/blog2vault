@@ -4,21 +4,12 @@ subtitle: "MatMuls dominate today's accelerators, but the original vision was mu
 date: 2026-03-12
 slug: systolic-arrays-for-general-robotics
 canonical_url: "https://www.avikde.me/p/systolic-arrays-for-general-robotics"
-tags:
-  - computing
-  - hardware-architecture
-  - parallel-computing
-  - historical-computing
+topic: "Systolic Arrays"
 concepts:
-  - "Machine Learning"
-  - "Systolic Arrays"
-  - "Matrix Multiplication Units"
-  - "Tensor Processing Unit"
+  - "Matrix Multiplication"
   - "Hardware Acceleration"
-  - "Systolic Networks"
-  - "Processing Nodes"
-  - "Computer Architecture"
   - "Signal Processing"
+  - "Neural Network Accelerators"
 source: Substack
 author: Avik De
 ---
@@ -31,8 +22,8 @@ author: Avik De
 
 > Originally published: [2026-03-12](https://www.avikde.me/p/systolic-arrays-for-general-robotics)
 
-**Topics:** [[topics/computing|Computing]] · [[topics/hardware-architecture|Hardware Architecture]] · [[topics/parallel-computing|Parallel Computing]] · [[topics/historical-computing|Historical Computing]]
-**Concepts:** [[concepts/machine-learning|Machine Learning]] · [[concepts/systolic-arrays|Systolic Arrays]] · [[concepts/matrix-multiplication-units|Matrix Multiplication Units]] · [[concepts/tensor-processing-unit|Tensor Processing Unit]] · [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/systolic-networks|Systolic Networks]] · [[concepts/processing-nodes|Processing Nodes]] · [[concepts/computer-architecture|Computer Architecture]] · [[concepts/signal-processing|Signal Processing]]
+**Topic:** [[topics/systolic-arrays|Systolic Arrays]]
+**Concepts:** [[concepts/matrix-multiplication|Matrix Multiplication]] · [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/signal-processing|Signal Processing]] · [[concepts/neural-network-accelerators|Neural Network Accelerators]]
 **Citations:** [[citations/seas-harvard-edu|seas.harvard.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/github-com|github.com]] · [[citations/kwokanthony-medium-com|kwokanthony.medium.com]] · [[citations/eecs-harvard-edu|eecs.harvard.edu]] · [[citations/swh-princeton-edu|swh.princeton.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/chipinsights-net|chipinsights.net]]
 
 ---

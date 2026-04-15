@@ -4,21 +4,14 @@ subtitle: "Part 3: Hands-on debugging of a vision-language-action model as a len
 date: 2026-02-26
 slug: debugging-as-architecture-insight
 canonical_url: "https://www.avikde.me/p/debugging-as-architecture-insight"
-tags:
-  - robotics
-  - end-to-end-learning
-  - robotics-architecture
-  - model-debugging
-  - system-verifiability
+topic: "Vision Language Action Model Debugging"
 concepts:
   - "Vision-Language-Action Models"
-  - "Robotics"
-  - "Computer Vision"
-  - "End-to-End Robotics Pipelines"
-  - "Generalist Policies"
+  - "End-to-End Learning"
+  - "Generalist Capabilities"
   - "Model-Based Methods"
-  - "RL Controllers"
-  - "Natural Language Processing"
+  - "Reinforcement Learning Controllers"
+  - "Architecture Analysis"
 source: Substack
 author: Avik De
 ---
@@ -31,8 +24,8 @@ author: Avik De
 
 > Originally published: [2026-02-26](https://www.avikde.me/p/debugging-as-architecture-insight)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/end-to-end-learning|End To End Learning]] · [[topics/robotics-architecture|Robotics Architecture]] · [[topics/model-debugging|Model Debugging]] · [[topics/system-verifiability|System Verifiability]]
-**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/robotics|Robotics]] · [[concepts/computer-vision|Computer Vision]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/generalist-policies|Generalist Policies]] · [[concepts/model-based-methods|Model-Based Methods]] · [[concepts/rl-controllers|RL Controllers]] · [[concepts/natural-language-processing|Natural Language Processing]]
+**Topic:** [[topics/vision-language-action-model-debugging|Vision Language Action Model Debugging]]
+**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/generalist-capabilities|Generalist Capabilities]] · [[concepts/model-based-methods|Model-Based Methods]] · [[concepts/reinforcement-learning-controllers|Reinforcement Learning Controllers]] · [[concepts/architecture-analysis|Architecture Analysis]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/octo-models-github-io|octo.models.github.io]] · [[citations/thu-air-dream-github-io|thu.air.dream.github.io]] · [[citations/huggingface-co|huggingface.co]] · [[citations/deepmind-google|deepmind.google]] · [[citations/robot-learning-collective-github-io|robot.learning.collective.github.io]] · [[citations/emergentmind-com|emergentmind.com]] · [[citations/rail-berkeley-github-io|rail.berkeley.github.io]]
 

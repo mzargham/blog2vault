@@ -4,21 +4,13 @@ subtitle: "Cybernetics anticipated feedback, structure, and the human stakes of 
 date: 2026-02-21
 slug: what-wiener-knew-about-artificial
 canonical_url: "https://www.avikde.me/p/what-wiener-knew-about-artificial"
-tags:
-  - computing
-  - systems-theory
-  - information-theory
-  - cross-disciplinary-integration
-  - historical-context-of-ai
+topic: "Cybernetics"
 concepts:
-  - "Cybernetics"
-  - "Feedback Control"
-  - "Information Flow"
-  - "Message-Passing Systems"
-  - "Control And Communication"
-  - "Animal-Machine Analogies"
-  - "Information Theory"
-  - "Mathematics"
+  - "Feedback Loops"
+  - "Communication Theory"
+  - "Control Systems"
+  - "Biological-Machine Analogies"
+  - "Message Passing"
 source: Substack
 author: Avik De
 ---
@@ -31,8 +23,8 @@ author: Avik De
 
 > Originally published: [2026-02-21](https://www.avikde.me/p/what-wiener-knew-about-artificial)
 
-**Topics:** [[topics/computing|Computing]] · [[topics/systems-theory|Systems Theory]] · [[topics/information-theory|Information Theory]] · [[topics/cross-disciplinary-integration|Cross Disciplinary Integration]] · [[topics/historical-context-of-ai|Historical Context Of Ai]]
-**Concepts:** [[concepts/cybernetics|Cybernetics]] · [[concepts/feedback-control|Feedback Control]] · [[concepts/information-flow|Information Flow]] · [[concepts/message-passing-systems|Message-Passing Systems]] · [[concepts/control-and-communication|Control And Communication]] · [[concepts/animal-machine-analogies|Animal-Machine Analogies]] · [[concepts/information-theory|Information Theory]] · [[concepts/mathematics|Mathematics]]
+**Topic:** [[topics/cybernetics|Cybernetics]]
+**Concepts:** [[concepts/feedback-loops|Feedback Loops]] · [[concepts/communication-theory|Communication Theory]] · [[concepts/control-systems|Control Systems]] · [[concepts/biological-machine-analogies|Biological-Machine Analogies]] · [[concepts/message-passing|Message Passing]]
 **Citations:** [[citations/loff-it|loff.it]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/jstor-org|jstor.org]] · [[citations/msys-mv-blogspot-com|msys.mv.blogspot.com]] · [[citations/englishverse-com|englishverse.com]] · [[citations/reddit-com|reddit.com]] · [[citations/brooklinebooksmith-com|brooklinebooksmith.com]]
 
 ---

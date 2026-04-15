@@ -4,20 +4,12 @@ subtitle: "Follow-on projects with the Penn Jerboa robot from 2016-2018"
 date: 2018-09-30
 slug: jerboa-robot-reorienting-planar-hopping
 canonical_url: "https://www.avikde.me/p/jerboa-robot-reorienting-planar-hopping"
-tags:
-  - research
-  - robotics-architecture
-  - locomotion-control
-  - bio-inspired-design
+topic: "Jerboa Robot Development"
 concepts:
-  - "Robotics"
-  - "Control Systems"
-  - "Biomechanics"
-  - "Direct-Drive Robots"
-  - "Jerboa Robot"
-  - "Minitaur"
-  - "Tailed Reorientation"
-  - "Morphological Design"
+  - "Legged Locomotion"
+  - "Direct Drive Design"
+  - "Inertial Reorientation"
+  - "Falling Cat Problem"
 source: Substack
 author: Avik De
 ---
@@ -30,8 +22,8 @@ author: Avik De
 
 > Originally published: [2018-09-30](https://www.avikde.me/p/jerboa-robot-reorienting-planar-hopping)
 
-**Topics:** [[topics/research|Research]] · [[topics/robotics-architecture|Robotics Architecture]] · [[topics/locomotion-control|Locomotion Control]] · [[topics/bio-inspired-design|Bio Inspired Design]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems|Control Systems]] · [[concepts/biomechanics|Biomechanics]] · [[concepts/direct-drive-robots|Direct-Drive Robots]] · [[concepts/jerboa-robot|Jerboa Robot]] · [[concepts/minitaur|Minitaur]] · [[concepts/tailed-reorientation|Tailed Reorientation]] · [[concepts/morphological-design|Morphological Design]]
+**Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
+**Concepts:** [[concepts/legged-locomotion|Legged Locomotion]] · [[concepts/direct-drive-design|Direct Drive Design]] · [[concepts/inertial-reorientation|Inertial Reorientation]] · [[concepts/falling-cat-problem|Falling Cat Problem]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ai-mit-edu|ai.mit.edu]]
 
 ---

@@ -4,18 +4,10 @@ subtitle: "A potentially helpful application material reference for interdiscipl
 date: 2018-07-01
 slug: postdoc-fellowship
 canonical_url: "https://www.avikde.me/p/postdoc-fellowship"
-tags:
-  - research
-  - interdisciplinary-research
-  - academic-career-development
-  - fellowship-applications
+topic: "Postdoctoral Fellowship Applications"
 concepts:
-  - "JSMF Postdoc Fellowship"
-  - "Santa Fe Institute Fellowship"
-  - "Interdisciplinary Research Applications"
-  - "Academic Fellowship Materials"
-  - "Complex Systems"
-  - "Interdisciplinary Studies"
+  - "James S. McDonnell Foundation"
+  - "Academic Application Materials"
 source: Substack
 author: Avik De
 ---
@@ -26,8 +18,8 @@ author: Avik De
 
 > Originally published: [2018-07-01](https://www.avikde.me/p/postdoc-fellowship)
 
-**Topics:** [[topics/research|Research]] · [[topics/interdisciplinary-research|Interdisciplinary Research]] · [[topics/academic-career-development|Academic Career Development]] · [[topics/fellowship-applications|Fellowship Applications]]
-**Concepts:** [[concepts/jsmf-postdoc-fellowship|JSMF Postdoc Fellowship]] · [[concepts/santa-fe-institute-fellowship|Santa Fe Institute Fellowship]] · [[concepts/interdisciplinary-research-applications|Interdisciplinary Research Applications]] · [[concepts/academic-fellowship-materials|Academic Fellowship Materials]] · [[concepts/complex-systems|Complex Systems]] · [[concepts/interdisciplinary-studies|Interdisciplinary Studies]]
+**Topic:** [[topics/postdoctoral-fellowship-applications|Postdoctoral Fellowship Applications]]
+**Concepts:** [[concepts/james-s-mcdonnell-foundation|James S. McDonnell Foundation]] · [[concepts/academic-application-materials|Academic Application Materials]]
 **Citations:** [[citations/santafe-edu|santafe.edu]]
 
 ---

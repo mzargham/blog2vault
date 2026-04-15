@@ -4,22 +4,15 @@ subtitle: "Some unpublished results from the Harvard Microrobotics postdoc on a 
 date: 2020-11-01
 slug: variable-ema-legs
 canonical_url: "https://www.avikde.me/p/variable-ema-legs"
-tags:
-  - research
-  - microrobotics
-  - bio-inspired-locomotion
-  - mechanical-transmission-design
-  - multi-modal-locomotion
+topic: "Nanotaur Microrobot Hopping Leg"
 concepts:
-  - "Robotics"
-  - "Biomechanics"
-  - "Mechanical Engineering"
   - "Variable Effective Mechanical Advantage"
   - "Five-Bar Linkage"
   - "Piezoelectric Actuation"
-  - "Hopping Locomotion"
-  - "RoboBee Architecture"
-  - "Symmetric Joint Actuation"
+  - "Laminate Architecture"
+  - "Symmetric Joint Configuration"
+  - "Transmission Design"
+  - "Leg Phase Coordination"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +25,8 @@ author: Avik De
 
 > Originally published: [2020-11-01](https://www.avikde.me/p/variable-ema-legs)
 
-**Topics:** [[topics/research|Research]] · [[topics/microrobotics|Microrobotics]] · [[topics/bio-inspired-locomotion|Bio Inspired Locomotion]] · [[topics/mechanical-transmission-design|Mechanical Transmission Design]] · [[topics/multi-modal-locomotion|Multi Modal Locomotion]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/biomechanics|Biomechanics]] · [[concepts/mechanical-engineering|Mechanical Engineering]] · [[concepts/variable-effective-mechanical-advantage|Variable Effective Mechanical Advantage]] · [[concepts/five-bar-linkage|Five-Bar Linkage]] · [[concepts/piezoelectric-actuation|Piezoelectric Actuation]] · [[concepts/hopping-locomotion|Hopping Locomotion]] · [[concepts/robobee-architecture|RoboBee Architecture]] · [[concepts/symmetric-joint-actuation|Symmetric Joint Actuation]]
+**Topic:** [[topics/nanotaur-microrobot-hopping-leg|Nanotaur Microrobot Hopping Leg]]
+**Concepts:** [[concepts/variable-effective-mechanical-advantage|Variable Effective Mechanical Advantage]] · [[concepts/five-bar-linkage|Five-Bar Linkage]] · [[concepts/piezoelectric-actuation|Piezoelectric Actuation]] · [[concepts/laminate-architecture|Laminate Architecture]] · [[concepts/symmetric-joint-configuration|Symmetric Joint Configuration]] · [[concepts/transmission-design|Transmission Design]] · [[concepts/leg-phase-coordination|Leg Phase Coordination]]
 
 ---
 

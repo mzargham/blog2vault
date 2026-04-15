@@ -4,20 +4,13 @@ subtitle: ""
 date: 2016-05-10
 slug: educational-robotics
 canonical_url: "https://www.avikde.me/p/educational-robotics"
-tags:
-  - robotics
-  - educational-technology
-  - robotics-pedagogy
-  - interactive-learning
+topic: "Educational Robotics"
 concepts:
-  - "Robotics"
-  - "Educational Robotics"
+  - "MuJoCo Simulation"
   - "Segway Robot"
   - "Gait Transitions"
-  - "Simulation Animation"
   - "Course Materials"
-  - "Education Technology"
-  - "Engineering Education"
+  - "Educational Kits"
 source: Substack
 author: Avik De
 ---
@@ -28,8 +21,8 @@ author: Avik De
 
 > Originally published: [2016-05-10](https://www.avikde.me/p/educational-robotics)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/educational-technology|Educational Technology]] · [[topics/robotics-pedagogy|Robotics Pedagogy]] · [[topics/interactive-learning|Interactive Learning]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/educational-robotics|Educational Robotics]] · [[concepts/segway-robot|Segway Robot]] · [[concepts/gait-transitions|Gait Transitions]] · [[concepts/simulation-animation|Simulation Animation]] · [[concepts/course-materials|Course Materials]] · [[concepts/education-technology|Education Technology]] · [[concepts/engineering-education|Engineering Education]]
+**Topic:** [[topics/educational-robotics|Educational Robotics]]
+**Concepts:** [[concepts/mujoco-simulation|MuJoCo Simulation]] · [[concepts/segway-robot|Segway Robot]] · [[concepts/gait-transitions|Gait Transitions]] · [[concepts/course-materials|Course Materials]] · [[concepts/educational-kits|Educational Kits]]
 
 ---
 

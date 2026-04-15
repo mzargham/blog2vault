@@ -4,23 +4,10 @@ subtitle: "Talk at OSU CoRIS seminar"
 date: 2024-12-23
 slug: power-efficient-safe-robots
 canonical_url: "https://www.avikde.me/p/power-efficient-safe-robots"
-tags:
-  - robotics
-  - research
-  - robotics-control
-  - biomimetic-systems
-  - modular-design
-  - power-management
+topic: "Power Efficient Mobile Robotics"
 concepts:
-  - "Robotics"
-  - "Control Theory"
   - "Dynamic Legged Locomotion"
   - "Control Decomposition"
-  - "Modularity"
-  - "Juggling Robots"
-  - "Bottom-Up Composition"
-  - "Power-Efficient Robotics"
-  - "Biomechanics"
 source: Substack
 author: Avik De
 ---
@@ -33,8 +20,8 @@ author: Avik De
 
 > Originally published: [2024-12-23](https://www.avikde.me/p/power-efficient-safe-robots)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/research|Research]] · [[topics/robotics-control|Robotics Control]] · [[topics/biomimetic-systems|Biomimetic Systems]] · [[topics/modular-design|Modular Design]] · [[topics/power-management|Power Management]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-theory|Control Theory]] · [[concepts/dynamic-legged-locomotion|Dynamic Legged Locomotion]] · [[concepts/control-decomposition|Control Decomposition]] · [[concepts/modularity|Modularity]] · [[concepts/juggling-robots|Juggling Robots]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/power-efficient-robotics|Power-Efficient Robotics]] · [[concepts/biomechanics|Biomechanics]]
+**Topic:** [[topics/power-efficient-mobile-robotics|Power Efficient Mobile Robotics]]
+**Concepts:** [[concepts/dynamic-legged-locomotion|Dynamic Legged Locomotion]] · [[concepts/control-decomposition|Control Decomposition]]
 **Citations:** [[citations/engineering-oregonstate-edu|engineering.oregonstate.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/mitpress-mit-edu|mitpress.mit.edu]] · [[citations/directory-seas-upenn-edu|directory.seas.upenn.edu]] · [[citations/deepblue-lib-umich-edu|deepblue.lib.umich.edu]] · [[citations/pmc-ncbi-nlm-nih-gov|pmc.ncbi.nlm.nih.gov]] · [[citations/sciencedirect-com|sciencedirect.com]] · [[citations/science-org|science.org]] · [[citations/waymo-com|waymo.com]] · [[citations/ieeexplore-ieee-org|ieeexplore.ieee.org]] · [[citations/worldscientific-com|worldscientific.com]] · [[citations/nature-com|nature.com]] · [[citations/technologyreview-com|technologyreview.com]] · [[citations/dl-acm-org|dl.acm.org]] · [[citations/thenextweb-com|thenextweb.com]] · [[citations/direct-mit-edu|direct.mit.edu]] · [[citations/compositionalintelligence-github-io|compositionalintelligence.github.io]]
 
 ---

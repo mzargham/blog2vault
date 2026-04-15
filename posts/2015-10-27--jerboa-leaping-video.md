@@ -4,21 +4,13 @@ subtitle: "Paper in IROS 2015 using combinatorial generative control"
 date: 2015-10-27
 slug: jerboa-leaping-video
 canonical_url: "https://www.avikde.me/p/jerboa-leaping-video"
-tags:
-  - research
-  - bio-inspired-robotics
-  - legged-locomotion
-  - dynamic-control
+topic: "Jerboa Robot Leaping Locomotion"
 concepts:
-  - "Robotics"
-  - "Control Systems"
-  - "Biomechanics"
-  - "Jerboa Robot"
-  - "Transitional Behaviors"
   - "Combinatorial Generative Control"
-  - "RHex Robot"
-  - "Acrobatic Locomotion"
-  - "3D Motion"
+  - "Transitional Behaviors"
+  - "RHex Platform"
+  - "3D Locomotion"
+  - "Acrobatic Maneuvering"
 source: Substack
 author: Avik De
 ---
@@ -31,8 +23,8 @@ author: Avik De
 
 > Originally published: [2015-10-27](https://www.avikde.me/p/jerboa-leaping-video)
 
-**Topics:** [[topics/research|Research]] · [[topics/bio-inspired-robotics|Bio Inspired Robotics]] · [[topics/legged-locomotion|Legged Locomotion]] · [[topics/dynamic-control|Dynamic Control]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems|Control Systems]] · [[concepts/biomechanics|Biomechanics]] · [[concepts/jerboa-robot|Jerboa Robot]] · [[concepts/transitional-behaviors|Transitional Behaviors]] · [[concepts/combinatorial-generative-control|Combinatorial Generative Control]] · [[concepts/rhex-robot|RHex Robot]] · [[concepts/acrobatic-locomotion|Acrobatic Locomotion]] · [[concepts/3d-motion|3D Motion]]
+**Topic:** [[topics/jerboa-robot-leaping-locomotion|Jerboa Robot Leaping Locomotion]]
+**Concepts:** [[concepts/combinatorial-generative-control|Combinatorial Generative Control]] · [[concepts/transitional-behaviors|Transitional Behaviors]] · [[concepts/rhex-platform|RHex Platform]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/acrobatic-maneuvering|Acrobatic Maneuvering]]
 **Citations:** [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]]
 
 ---

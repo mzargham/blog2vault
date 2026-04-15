@@ -4,22 +4,14 @@ subtitle: "Paper on Hybrid averaging (IJRR 2018)"
 date: 2024-12-22
 slug: hybrid-averaging
 canonical_url: "https://www.avikde.me/p/hybrid-averaging"
-tags:
-  - research
-  - control-theory
-  - formal-verification
-  - systems-analysis
-  - safety-critical-systems
+topic: "Hybrid Dynamical Averaging For Cyclic Systems"
 concepts:
-  - "Robotics"
-  - "Control Systems"
-  - "Hybrid Dynamical Averaging"
-  - "Control In Three Parts"
+  - "Energy Transfer"
   - "Decoupled Control"
-  - "Parallel Composition"
   - "Reduced-Order Models"
-  - "Cyclic Dynamics"
-  - "Dynamical Systems"
+  - "Parallel Composition"
+  - "Articulated Mechanical Systems"
+  - "Symmetries in Locomotion"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +24,8 @@ author: Avik De
 
 > Originally published: [2024-12-22](https://www.avikde.me/p/hybrid-averaging)
 
-**Topics:** [[topics/research|Research]] · [[topics/control-theory|Control Theory]] · [[topics/formal-verification|Formal Verification]] · [[topics/systems-analysis|Systems Analysis]] · [[topics/safety-critical-systems|Safety Critical Systems]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems|Control Systems]] · [[concepts/hybrid-dynamical-averaging|Hybrid Dynamical Averaging]] · [[concepts/control-in-three-parts|Control In Three Parts]] · [[concepts/decoupled-control|Decoupled Control]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/reduced-order-models|Reduced-Order Models]] · [[concepts/cyclic-dynamics|Cyclic Dynamics]] · [[concepts/dynamical-systems|Dynamical Systems]]
+**Topic:** [[topics/hybrid-dynamical-averaging-for-cyclic-systems|Hybrid Dynamical Averaging For Cyclic Systems]]
+**Concepts:** [[concepts/energy-transfer|Energy Transfer]] · [[concepts/decoupled-control|Decoupled Control]] · [[concepts/reduced-order-models|Reduced-Order Models]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/articulated-mechanical-systems|Articulated Mechanical Systems]] · [[concepts/symmetries-in-locomotion|Symmetries in Locomotion]]
 **Citations:** [[citations/mitpress-mit-edu|mitpress.mit.edu]] · [[citations/math-mit-edu|math.mit.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/journals-sagepub-com|journals.sagepub.com]] · [[citations/link-springer-com|link.springer.com]] · [[citations/mathworld-wolfram-com|mathworld.wolfram.com]] · [[citations/arxiv-org|arxiv.org]]
 
 ---

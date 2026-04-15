@@ -53,16 +53,26 @@ def mock_graph():
             "engineering": ["control-theory-basics", "systems-dynamics"],
             "control-theory": ["control-theory-basics"],
         },
+        "topics": {
+            "control-theory-fundamentals": ["control-theory-basics"],
+            "systems-dynamics-modeling": ["systems-dynamics"],
+            "token-economy-design": ["token-engineering"],
+        },
+        "post_topic": {
+            "control-theory-basics": "control-theory-fundamentals",
+            "systems-dynamics": "systems-dynamics-modeling",
+            "token-engineering": "token-economy-design",
+        },
         "concepts": {
             "feedback-loops": ["control-theory-basics", "systems-dynamics"],
             "lyapunov-stability": ["control-theory-basics"],
         },
         "concept_names": {
+            "control-theory-fundamentals": "Control Theory Fundamentals",
+            "systems-dynamics-modeling": "Systems Dynamics Modeling",
+            "token-economy-design": "Token Economy Design",
             "feedback-loops": "Feedback Loops",
             "lyapunov-stability": "Lyapunov Stability",
-        },
-        "themes": {
-            "systems-thinking": ["control-theory-basics", "token-engineering"],
         },
         "citations": {
             "https://arxiv.org/abs/2301.00001": {

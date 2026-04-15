@@ -4,22 +4,11 @@ subtitle: "Simple controllers produce exciting quadrupedal behaviors - paper in 
 date: 2024-12-22
 slug: vertical-hopper-compositions
 canonical_url: "https://www.avikde.me/p/vertical-hopper-compositions"
-tags:
-  - research
-  - control-theory
-  - quadrupedal-locomotion
-  - gait-analysis
-  - biomimetic-robotics
+topic: "Virtual Bipedal Control For Quadrupedal Gaits"
 concepts:
-  - "Robotics"
-  - "Control Systems"
-  - "Biomechanics"
-  - "Virtual Bipeds"
-  - "Vertical Hopper Compositions"
+  - "Bounding"
   - "Hybrid Averaging Framework"
-  - "Monopedal Hopping Primitives"
-  - "Decentralized Controllers"
-  - "Limit Cycles"
+  - "Template-Based Design"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +21,8 @@ author: Avik De
 
 > Originally published: [2024-12-22](https://www.avikde.me/p/vertical-hopper-compositions)
 
-**Topics:** [[topics/research|Research]] · [[topics/control-theory|Control Theory]] · [[topics/quadrupedal-locomotion|Quadrupedal Locomotion]] · [[topics/gait-analysis|Gait Analysis]] · [[topics/biomimetic-robotics|Biomimetic Robotics]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems|Control Systems]] · [[concepts/biomechanics|Biomechanics]] · [[concepts/virtual-bipeds|Virtual Bipeds]] · [[concepts/vertical-hopper-compositions|Vertical Hopper Compositions]] · [[concepts/hybrid-averaging-framework|Hybrid Averaging Framework]] · [[concepts/monopedal-hopping-primitives|Monopedal Hopping Primitives]] · [[concepts/decentralized-controllers|Decentralized Controllers]] · [[concepts/limit-cycles|Limit Cycles]]
+**Topic:** [[topics/virtual-bipedal-control-for-quadrupedal-gaits|Virtual Bipedal Control For Quadrupedal Gaits]]
+**Concepts:** [[concepts/bounding|Bounding]] · [[concepts/hybrid-averaging-framework|Hybrid Averaging Framework]] · [[concepts/template-based-design|Template-Based Design]]
 **Citations:** [[citations/mitpress-mit-edu|mitpress.mit.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/sciencedirect-com|sciencedirect.com]]
 
 ---

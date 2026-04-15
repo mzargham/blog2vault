@@ -1,659 +1,338 @@
 {
   "building-a-reasoning-hierarchical::2026-04-08T00:32:39.586Z": {
-    "key_concepts": [
+    "topic": "Hybrid Vision-Language-Action Robotics Pipeline",
+    "concepts": [
       "Vision-Language-Action Models",
-      "Hierarchical Robotics Pipeline",
-      "Gemini ER Vision-Language-Model",
-      "Classical Camera Calibration",
-      "Kinematics",
-      "Motion Controllers"
-    ],
-    "themes": [
+      "Modular System Architecture",
+      "Camera Calibration",
+      "Inverse Kinematics",
+      "Motion Controllers",
+      "Task Programming",
       "End-to-End Learning",
-      "Modular System Design",
-      "Perception-Action Integration",
-      "Robotics Control"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Computer Vision",
-      "Machine Learning"
+      "Classical Control Methods"
     ]
   },
   "a-coding-agent-equivalent-for-robotics::2026-04-13T13:38:37.685Z": {
-    "key_concepts": [
+    "topic": "End-to-End Robotics Pipelines",
+    "concepts": [
       "Vision-Language-Action Models",
-      "End-to-End Robotics Pipelines",
-      "Online Motor Adaptation",
-      "Spatial Visual Language Models",
+      "Spatial VLM Agents",
+      "MuJoCo Simulation",
+      "Motor Adaptation",
+      "Robotic Manipulation",
       "Action Loop Closure",
-      "MuJoCo Simulation"
-    ],
-    "themes": [
-      "Robotics Architecture",
-      "Machine Learning Deployment",
-      "Control Systems",
-      "Human-Robot Interaction"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Computer Vision",
-      "Machine Learning"
+      "Failure Mode Analysis"
     ]
   },
   "lessons-from-avs-on-safety-in-end::2026-03-20T18:48:28.261Z": {
-    "key_concepts": [
-      "Performance Deterioration Detection",
+    "topic": "Safety in End-to-End Robotics Pipelines",
+    "concepts": [
       "Distribution Shift",
-      "End-to-End Pipeline Safety",
-      "Full Self-Driving (FSD)",
-      "Vision-Language-Action (VLA)",
-      "Safety Feature Integration"
-    ],
-    "themes": [
-      "Robotic Safety",
-      "System Reliability",
-      "Autonomous Systems",
-      "Performance Monitoring"
-    ],
-    "cited_works": [
-      "The Verge Article",
-      "Rui Xu Post-Mortem",
-      "NHTSA Filing"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Autonomous Vehicle Engineering",
-      "Safety Engineering"
+      "Performance Deterioration Detection",
+      "Vision-Language-Action Models",
+      "Autonomous Vehicles",
+      "Self-Monitoring Systems",
+      "End-to-End Learning",
+      "Safety Validation"
     ]
   },
   "systolic-arrays-for-general-robotics::2026-03-15T12:53:41.517Z": {
-    "key_concepts": [
-      "Systolic Arrays",
-      "Matrix Multiplication Units",
-      "Tensor Processing Unit",
+    "topic": "Systolic Arrays",
+    "concepts": [
+      "Matrix Multiplication",
       "Hardware Acceleration",
+      "Tensor Processing Units",
+      "Neural Network Accelerators",
       "Systolic Networks",
-      "Processing Nodes"
-    ],
-    "themes": [
-      "Hardware Architecture",
-      "Parallel Computing",
-      "Historical Computing"
-    ],
-    "cited_works": [
-      "HT Kung"
-    ],
-    "related_fields": [
-      "Computer Architecture",
-      "Machine Learning",
-      "Signal Processing"
+      "Signal Processing",
+      "Parallel Computing Architectures"
     ]
   },
   "debugging-as-architecture-insight::2026-04-13T13:39:54.306Z": {
-    "key_concepts": [
+    "topic": "Vision-Language-Action Model Debugging",
+    "concepts": [
       "Vision-Language-Action Models",
       "End-to-End Robotics Pipelines",
       "Generalist Policies",
       "Model-Based Methods",
-      "RL Controllers"
-    ],
-    "themes": [
-      "Robotics Architecture",
-      "End-to-End Learning",
-      "Model Debugging",
-      "System Verifiability"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Computer Vision",
-      "Natural Language Processing"
+      "Reinforcement Learning Controllers",
+      "Large Language Models",
+      "Vision-Language Models",
+      "Architecture Analysis"
     ]
   },
   "what-wiener-knew-about-artificial::2026-02-21T16:03:36.447Z": {
-    "key_concepts": [
-      "Cybernetics",
-      "Feedback Control",
-      "Information Flow",
-      "Message-Passing Systems",
-      "Control And Communication",
-      "Animal-Machine Analogies"
-    ],
-    "themes": [
-      "Systems Theory",
+    "topic": "Cybernetics",
+    "concepts": [
+      "Feedback Loops",
       "Information Theory",
-      "Cross-Disciplinary Integration",
-      "Historical Context Of AI"
-    ],
-    "cited_works": [
-      "Wiener Cybernetics",
-      "Shannon A Mathematical Theory",
-      "Conway Siegelman Dark Hero Of The Information Age"
-    ],
-    "related_fields": [
-      "Cybernetics",
-      "Information Theory",
-      "Mathematics"
+      "Control Systems",
+      "Communication Theory",
+      "Biological-Machine Analogies",
+      "Message Passing"
     ]
   },
   "cache-effects-in-object-oriented::2026-02-10T15:31:43.476Z": {
-    "key_concepts": [
-      "Array-of-Structures vs Structure-of-Arrays",
-      "Cache Effects",
+    "topic": "Cache Effects in Object-Oriented Programming",
+    "concepts": [
+      "Array-of-Structures",
+      "Structure-of-Arrays",
       "Memory Hierarchy",
-      "Real-Time Control Loops",
-      "Object-Oriented Programming",
-      "Data Layout Optimization"
-    ],
-    "themes": [
-      "Performance Optimization",
-      "Hardware-Software Interface",
-      "Systems Programming",
-      "Computer Architecture"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Computer Architecture",
-      "Robotics",
-      "Software Engineering"
+      "Cache Line Effects",
+      "Real-Time Control Systems",
+      "Object-Oriented Design",
+      "Data Layout Optimization",
+      "Hardware-Software Abstraction"
     ]
   },
   "is-it-learning-online-motor-adaptation::2026-04-13T13:39:23.630Z": {
-    "key_concepts": [
-      "End-To-End Robotics Pipelines",
-      "Online Motor Adaptation",
-      "Cascade Control Architecture",
-      "High-Level Low-Level Controller",
-      "Foundation Model Robotics",
-      "Hive Brain Learning"
-    ],
-    "themes": [
-      "Motor Learning",
-      "Real-Time Adaptation",
-      "Control System Architecture",
-      "Robot Autonomy"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Control Theory",
-      "Machine Learning"
+    "topic": "Online Motor Adaptation In End-To-End Robotics",
+    "concepts": [
+      "End-to-End Robotics Pipelines",
+      "Hierarchical Control",
+      "High-Level Low-Level Controller Cascade",
+      "Foundation Models",
+      "Online Learning",
+      "Motor Adaptation",
+      "Legged Locomotion"
     ]
   },
   "the-architecture-behind-end-to-end::2026-04-13T13:39:54.485Z": {
-    "key_concepts": [
-      "End-to-End Robotics Pipelines",
+    "topic": "End-to-End Robotics Pipelines",
+    "concepts": [
       "Pixels to Actions",
       "Generalist Capabilities",
+      "Perception-Planning-Control Modules",
       "Learning Stack",
       "Control Stack",
-      "Hand-Designed Modules"
-    ],
-    "themes": [
-      "Systems Architecture",
-      "Automation and Control",
-      "Machine Learning Integration",
-      "Generalist AI"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Control Systems",
-      "Machine Learning"
+      "Hardware-Algorithm Mapping"
     ]
   },
   "what-von-neumann-understood-about::2026-01-19T19:26:12.185Z": {
-    "key_concepts": [
+    "topic": "Von Neumann's Theory of Computational Intelligence",
+    "concepts": [
       "Von Neumann Architecture",
-      "Neural Computation",
-      "Biological Computing Models",
-      "Deep Learning Limitations",
-      "Computational Intelligence Theory",
-      "Brain-Computer Analogies"
-    ],
-    "themes": [
-      "Computational Theory",
-      "Artificial Intelligence History",
+      "Deep Learning",
       "Biological Computing",
-      "Systems Architecture"
-    ],
-    "cited_works": [
-      "Von Neumann The Computer and the Brain",
-      "Silliman Lectures"
-    ],
-    "related_fields": [
-      "Computer Science",
-      "Neuroscience",
-      "Cognitive Science"
+      "Neural Networks",
+      "Computational Theory",
+      "Artificial Intelligence",
+      "Brain-Computer Analogies"
     ]
   },
   "the-ai-world-models-debate-and-its::2026-01-14T08:19:50.536Z": {
-    "key_concepts": [
-      "World Models",
-      "LLM Scaling",
-      "Physical AI",
+    "topic": "AI World Models Scaling Versus Structure Debate",
+    "concepts": [
+      "Large Language Models",
+      "Scaling Laws",
       "General Intelligence",
-      "Architectural Advances",
-      "Structured Models"
-    ],
-    "themes": [
-      "AI Scaling Debate",
-      "Robotics Paradigms",
-      "Intelligence Architecture",
-      "Physical-Digital AI Analogy"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Artificial Intelligence",
-      "Robotics",
-      "Machine Learning"
+      "Physical AI",
+      "World Models",
+      "Model Architecture",
+      "Transfer Learning"
     ]
   },
   "model-predictive-control-of-robobee::2025-12-24T16:13:44.631Z": {
-    "key_concepts": [
-      "Model-Predictive Control",
-      "RoboBee Flapping Flight",
-      "Hierarchical Control Architecture",
-      "Split Dual-Actuator Design",
+    "topic": "Model-Predictive Control of RoboBee Flapping Flight",
+    "concepts": [
+      "Model Predictive Control",
+      "Hierarchical Control",
       "Data-Driven Control",
-      "Low-Power Computational Implementation"
-    ],
-    "themes": [
-      "Energy-Efficient Robotics",
-      "Bio-Inspired Flight Control",
-      "Real-Time Control Systems",
-      "Robustness And Generalizability"
-    ],
-    "cited_works": [
-      "McGill 2022",
-      "IJRR Publication"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Control Systems Engineering",
-      "Biomimetic Engineering"
+      "Flapping Wing Robotics",
+      "Low-Power Computing",
+      "Path Following",
+      "Robustness to Manufacturing Variability"
     ]
   },
   "power-efficient-safe-robots::2025-12-21T14:37:12.091Z": {
-    "key_concepts": [
+    "topic": "Power-Efficient Mobile Robotics",
+    "concepts": [
       "Dynamic Legged Locomotion",
       "Control Decomposition",
-      "Modularity",
+      "Raibert Hopping Controller",
       "Juggling Robots",
       "Bottom-Up Composition",
-      "Power-Efficient Robotics"
-    ],
-    "themes": [
-      "Robotics Control",
-      "Biomimetic Systems",
-      "Modular Design",
-      "Power Management"
-    ],
-    "cited_works": [
-      "Raibert",
-      "Control of Running Decomposed into Three Parts",
-      "MIT Leg Lab"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Control Theory",
-      "Biomechanics"
+      "Modularity"
     ]
   },
   "hybrid-averaging::2025-12-21T14:41:12.418Z": {
-    "key_concepts": [
-      "Hybrid Dynamical Averaging",
-      "Control In Three Parts",
-      "Decoupled Control",
-      "Parallel Composition",
+    "topic": "Hybrid Dynamical Averaging for Cyclic Systems",
+    "concepts": [
+      "Raibert Three-Part Control",
       "Reduced-Order Models",
-      "Cyclic Dynamics"
-    ],
-    "themes": [
-      "Control Theory",
-      "Formal Verification",
-      "Systems Analysis",
-      "Safety-Critical Systems"
-    ],
-    "cited_works": [
-      "Raibert",
-      "IJRR 2018"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Control Systems",
-      "Dynamical Systems"
+      "Parallel Composition",
+      "Decoupled Control",
+      "Articulated Mechanical Systems",
+      "Energy Transfer",
+      "Symmetries in Locomotion"
     ]
   },
   "template-based-design-robobee::2025-12-21T14:42:57.364Z": {
-    "key_concepts": [
-      "Template-Based Design",
+    "topic": "Template-Based Robot Design Optimization",
+    "concepts": [
+      "Reduced-Order Models",
       "Blade Element Model",
       "Non-Dimensionalization",
       "Affine Dynamics",
-      "Reduced-Order Models",
-      "Design Optimization"
-    ],
-    "themes": [
-      "Model-Based Design",
-      "Bio-Inspired Robotics",
-      "Control Theory",
-      "Optimization"
-    ],
-    "cited_works": [
-      "IROS 2020"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Mechanical Engineering",
-      "Control Systems"
+      "Flapping Wing Aerodynamics",
+      "Design Optimization",
+      "Parameterized Templates"
     ]
   },
   "vertical-hopper-compositions::2025-12-21T14:40:09.062Z": {
-    "key_concepts": [
+    "topic": "Virtual Bipedal Control for Quadrupedal Gaits",
+    "concepts": [
       "Virtual Bipeds",
-      "Vertical Hopper Compositions",
       "Hybrid Averaging Framework",
-      "Monopedal Hopping Primitives",
-      "Decentralized Controllers",
-      "Limit Cycles"
-    ],
-    "themes": [
-      "Quadrupedal Locomotion",
-      "Gait Analysis",
-      "Control Theory",
-      "Biomimetic Robotics"
-    ],
-    "cited_works": [
-      "IJRR 2018"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Control Systems",
-      "Biomechanics"
+      "Vertical Hopper Compositions",
+      "Template-Based Design",
+      "Limit Cycles",
+      "Decentralized Control",
+      "Pronking",
+      "Bounding"
     ]
   },
   "what-are-robot-dogs::2025-12-21T13:59:57.393Z": {
-    "key_concepts": [
+    "topic": "Quadrupedal Robots",
+    "concepts": [
       "Bio-Inspired Robotics",
-      "Quadrupedal Robots",
       "Biomimetics",
       "Bioinspiration",
-      "Robot Dog Design",
-      "Cross-Disciplinary Collaboration"
-    ],
-    "themes": [
-      "Biological Systems Engineering",
-      "Robotics Design Philosophy",
-      "Interdisciplinary Research"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
       "Biomechanics",
-      "Biology"
+      "Form Versus Function"
     ]
   },
   "variable-ema-legs::2025-12-21T20:33:48.458Z": {
-    "key_concepts": [
+    "topic": "Nanotaur Microrobot Hopping Leg",
+    "concepts": [
       "Variable Effective Mechanical Advantage",
       "Five-Bar Linkage",
       "Piezoelectric Actuation",
-      "Hopping Locomotion",
-      "RoboBee Architecture",
-      "Symmetric Joint Actuation"
-    ],
-    "themes": [
-      "Microrobotics",
-      "Bio-Inspired Locomotion",
-      "Mechanical Transmission Design",
-      "Multi-Modal Locomotion"
-    ],
-    "cited_works": [
-      "Minitaur",
-      "RoboBee"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Mechanical Engineering",
-      "Biomechanics"
+      "Laminate Architecture",
+      "Symmetric Joint Configuration",
+      "Transmission Design",
+      "Phase Control"
     ]
   },
   "actuator-design-paper::2025-12-21T15:32:36.069Z": {
-    "key_concepts": [
-      "Task-Based Motor Control",
+    "topic": "Task-Based Motor Control Algorithm Design",
+    "concepts": [
       "Field-Oriented Control",
-      "BLDC Actuator Control",
-      "Co-Design Methodology",
+      "BLDC Actuators",
+      "Co-Design Optimization",
       "D-Axis Control",
-      "Current Amplifier Design"
-    ],
-    "themes": [
-      "Robot Design Optimization",
-      "Control System Integration",
-      "Task-Specific Algorithm Design"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Control Systems",
-      "Motor Control Engineering"
+      "Quadrature Current Tracking",
+      "Current Amplification",
+      "High-Speed Motion Control"
     ]
   },
   "jerboa-robot-reorienting-planar-hopping::2025-12-22T20:00:27.395Z": {
-    "key_concepts": [
-      "Direct-Drive Robots",
-      "Jerboa Robot",
-      "Minitaur",
+    "topic": "Jerboa Robot Development",
+    "concepts": [
+      "Direct-Drive Motors",
       "Tailed Reorientation",
-      "Morphological Design"
-    ],
-    "themes": [
-      "Robotics Architecture",
-      "Locomotion Control",
-      "Bio-Inspired Design"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Biomechanics",
-      "Control Systems"
+      "Morphological Design",
+      "Planar Hopping",
+      "Legged Locomotion",
+      "Falling Cat Problem"
     ]
   },
   "postdoc-fellowship::2025-12-21T15:37:10.996Z": {
-    "key_concepts": [
-      "JSMF Postdoc Fellowship",
-      "Santa Fe Institute Fellowship",
-      "Interdisciplinary Research Applications",
-      "Academic Fellowship Materials"
-    ],
-    "themes": [
-      "Academic Career Development",
+    "topic": "Postdoctoral Fellowship Applications",
+    "concepts": [
+      "James S. McDonnell Foundation",
+      "Santa Fe Institute",
       "Interdisciplinary Research",
-      "Fellowship Applications"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Complex Systems",
-      "Interdisciplinary Studies"
+      "Academic Application Materials",
+      "Fellowship Writing",
+      "Research Proposal Development"
     ]
   },
   "phd-defense::2025-12-22T20:39:40.461Z": {
-    "key_concepts": [
-      "Modular Robotics",
-      "Parallel Composition",
+    "topic": "Modular Robotics Control Architecture",
+    "concepts": [
+      "Raibert Hopping Controller",
       "Actuator Allocation",
-      "Control Objectives",
-      "Low-dimensional Controllers",
-      "Raibert Control"
-    ],
-    "themes": [
-      "Control Theory",
-      "Robotics Design",
-      "Systems Architecture"
-    ],
-    "cited_works": [
-      "Raibert Control Of Hopping In Three Parts"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Control Systems Engineering"
+      "Parallel Composition",
+      "Control Decomposition",
+      "Low-Dimensional Controllers",
+      "Optimal Control",
+      "Legged Locomotion"
     ]
   },
   "educational-robotics::2025-12-21T20:28:36.936Z": {
-    "key_concepts": [
-      "Educational Robotics",
+    "topic": "Educational Robotics",
+    "concepts": [
       "Segway Robot",
       "Gait Transitions",
       "Simulation Animation",
-      "Course Materials"
-    ],
-    "themes": [
-      "Educational Technology",
-      "Robotics Pedagogy",
-      "Interactive Learning"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Education Technology",
-      "Engineering Education"
+      "Course Materials",
+      "Educational Kits"
     ]
   },
   "ghost-robotics-minitaur::2026-02-06T14:13:35.337Z": {
-    "key_concepts": [
+    "topic": "Quadrupedal Robot Development",
+    "concepts": [
       "Transparent Actuators",
-      "Force Sensing Motors",
-      "Direct-Drive Design",
-      "Minitaur Robot",
-      "Perturbation Reaction"
-    ],
-    "themes": [
-      "Robotics Commercialization",
-      "Haptic Feedback",
-      "Research Translation"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Robotics",
-      "Mechanical Engineering",
-      "Control Systems"
+      "Direct Drive Design",
+      "Force Feedback",
+      "Impedance Control",
+      "Quadrupedal Locomotion",
+      "Research Commercialization"
     ]
   },
   "jerboa-leaping-video::2025-12-21T20:21:38.088Z": {
-    "key_concepts": [
-      "Jerboa Robot",
-      "Transitional Behaviors",
+    "topic": "Jerboa Robot Leaping Locomotion",
+    "concepts": [
       "Combinatorial Generative Control",
-      "RHex Robot",
-      "Acrobatic Locomotion",
-      "3D Motion"
-    ],
-    "themes": [
-      "Legged Locomotion",
-      "Bio-Inspired Robotics",
-      "Dynamic Control"
-    ],
-    "cited_works": [
-      "IROS 2015"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Control Systems",
-      "Biomechanics"
+      "Transitional Behaviors",
+      "RHex Platform",
+      "3D Locomotion",
+      "Acrobatic Maneuvering"
     ]
   },
   "amam-2015-talk::2025-12-21T20:17:42.958Z": {
-    "key_concepts": [
-      "Template Compositions",
-      "Robotic Hopping",
+    "topic": "Template Compositions for Robotic Hopping",
+    "concepts": [
+      "Template-Based Design",
       "Anchor Synthesis",
-      "Template-Based Control",
-      "Locomotion Templates",
+      "Legged Locomotion",
+      "Control Templates",
       "Biomimetic Robotics"
-    ],
-    "themes": [
-      "Robotic Locomotion",
-      "Control Theory",
-      "Bio-Inspired Engineering",
-      "Template-Based Design"
-    ],
-    "cited_works": [
-      "Bob Full"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Biomechanics",
-      "Control Systems Engineering"
     ]
   },
   "jerboa-demo-swe-gears-day::2025-12-21T20:13:33.185Z": {
-    "key_concepts": [
-      "Buehler Clock Leg Trajectory",
+    "topic": "Robotics Public Outreach and Demonstration",
+    "concepts": [
+      "Buehler Clock",
       "Feedforward Control",
-      "Phase Offset Control",
-      "Sagittal Plane Locomotion",
-      "Jerboa Robot",
-      "Boom-based Testing"
-    ],
-    "themes": [
-      "Robotics Outreach",
-      "Control Theory",
-      "Legged Locomotion"
-    ],
-    "cited_works": [
-      "Buehler"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Control Systems Engineering"
+      "Sagittal Plane Motion",
+      "Leg Phase Coordination",
+      "Trajectory Planning",
+      "Boom Testing",
+      "Jerboa Robot"
     ]
   },
   "jerboa-hopping-video::2025-12-21T20:23:23.403Z": {
-    "key_concepts": [
-      "Tail-Energized Hopping",
-      "Bioinspired Robotics",
-      "RHex Robot Platform",
-      "Parallel Composition",
+    "topic": "Bioinspired Hopping Robotics",
+    "concepts": [
+      "RHex Robot Design",
+      "Tail-Assisted Locomotion",
       "Inertial Reorientation",
+      "Parallel Composition",
+      "Biomimetic Control",
       "Legged Locomotion"
-    ],
-    "themes": [
-      "Biomimetic Design",
-      "Robot Locomotion",
-      "Control Systems"
-    ],
-    "cited_works": [
-      "ICRA 2015"
-    ],
-    "related_fields": [
-      "Robotics",
-      "Biomechanics",
-      "Control Engineering"
     ]
   },
   "saving-flash-eeprom-data-when-bootloading::2025-12-21T20:08:21.363Z": {
-    "key_concepts": [
+    "topic": "EEPROM Data Preservation During STM32 Bootloading",
+    "concepts": [
       "EEPROM Emulation",
-      "Flash Memory Unlocking",
-      "STM32 Bootloading",
-      "Non-Volatile Memory Management",
-      "Parameter Persistence",
-      "Stm32loader.py Modification"
-    ],
-    "themes": [
-      "Embedded Systems Programming",
-      "Memory Management",
-      "Microcontroller Programming"
-    ],
-    "cited_works": [],
-    "related_fields": [
-      "Embedded Systems",
-      "Computer Engineering",
-      "Firmware Development"
+      "Flash Memory Management",
+      "STM32 Bootloaders",
+      "Non-Volatile Storage",
+      "Microcontroller Programming",
+      "Parameter Persistence"
     ]
   }
 }

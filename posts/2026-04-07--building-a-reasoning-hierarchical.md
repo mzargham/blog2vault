@@ -4,22 +4,15 @@ subtitle: "Part 5: A demo combining the best features of end-to-end and classica
 date: 2026-04-07
 slug: building-a-reasoning-hierarchical
 canonical_url: "https://www.avikde.me/p/building-a-reasoning-hierarchical"
-tags:
-  - robotics
-  - end-to-end-learning
-  - modular-system-design
-  - perception-action-integration
-  - robotics-control
+topic: "Hybrid Vision Language Action Robotics Pipeline"
 concepts:
   - "Vision-Language-Action Models"
-  - "Hierarchical Robotics Pipeline"
-  - "Gemini ER Vision-Language-Model"
-  - "Classical Camera Calibration"
-  - "Kinematics"
+  - "Modular System Architecture"
+  - "Camera Calibration"
+  - "Inverse Kinematics"
   - "Motion Controllers"
-  - "Robotics"
-  - "Computer Vision"
-  - "Machine Learning"
+  - "End-to-End Learning"
+  - "Classical Control Methods"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +25,8 @@ author: Avik De
 
 > Originally published: [2026-04-07](https://www.avikde.me/p/building-a-reasoning-hierarchical)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/end-to-end-learning|End To End Learning]] · [[topics/modular-system-design|Modular System Design]] · [[topics/perception-action-integration|Perception Action Integration]] · [[topics/robotics-control|Robotics Control]]
-**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/hierarchical-robotics-pipeline|Hierarchical Robotics Pipeline]] · [[concepts/gemini-er-vision-language-model|Gemini ER Vision-Language-Model]] · [[concepts/classical-camera-calibration|Classical Camera Calibration]] · [[concepts/kinematics|Kinematics]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/robotics|Robotics]] · [[concepts/computer-vision|Computer Vision]] · [[concepts/machine-learning|Machine Learning]]
+**Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
+**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/camera-calibration|Camera Calibration]] · [[concepts/inverse-kinematics|Inverse Kinematics]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/classical-control-methods|Classical Control Methods]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/avikde-github-io|avikde.github.io]] · [[citations/ai-google-dev|ai.google.dev]] · [[citations/arxiv-org|arxiv.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/incompleteideas-net|incompleteideas.net]]
 
 ---

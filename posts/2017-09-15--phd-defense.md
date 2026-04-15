@@ -4,20 +4,14 @@ subtitle: "Defense completed"
 date: 2017-09-15
 slug: phd-defense
 canonical_url: "https://www.avikde.me/p/phd-defense"
-tags:
-  - research
-  - systems-architecture
-  - control-theory
-  - robotics-design
+topic: "Modular Robotics Control Architecture"
 concepts:
-  - "Robotics"
-  - "Control Systems Engineering"
+  - "Legged Locomotion"
+  - "Control Decomposition"
   - "Parallel Composition"
-  - "Modular Robotics"
   - "Actuator Allocation"
-  - "Control Objectives"
-  - "Low-dimensional Controllers"
-  - "Raibert Control"
+  - "Low-Dimensional Controllers"
+  - "Optimal Control"
 source: Substack
 author: Avik De
 ---
@@ -30,8 +24,8 @@ author: Avik De
 
 > Originally published: [2017-09-15](https://www.avikde.me/p/phd-defense)
 
-**Topics:** [[topics/research|Research]] · [[topics/systems-architecture|Systems Architecture]] · [[topics/control-theory|Control Theory]] · [[topics/robotics-design|Robotics Design]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems-engineering|Control Systems Engineering]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/modular-robotics|Modular Robotics]] · [[concepts/actuator-allocation|Actuator Allocation]] · [[concepts/control-objectives|Control Objectives]] · [[concepts/low-dimensional-controllers|Low-dimensional Controllers]] · [[concepts/raibert-control|Raibert Control]]
+**Topic:** [[topics/modular-robotics-control-architecture|Modular Robotics Control Architecture]]
+**Concepts:** [[concepts/legged-locomotion|Legged Locomotion]] · [[concepts/control-decomposition|Control Decomposition]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/actuator-allocation|Actuator Allocation]] · [[concepts/low-dimensional-controllers|Low-Dimensional Controllers]] · [[concepts/optimal-control|Optimal Control]]
 **Citations:** [[citations/ai-mit-edu|ai.mit.edu]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]] · [[citations/repository-upenn-edu|repository.upenn.edu]] · [[citations/cogneurosociety-org|cogneurosociety.org]]
 
 ---

@@ -4,21 +4,12 @@ subtitle: "Paper in RAL 2019 about applying task-specifics to BLDC control"
 date: 2019-01-23
 slug: actuator-design-paper
 canonical_url: "https://www.avikde.me/p/actuator-design-paper"
-tags:
-  - research
-  - robot-design-optimization
-  - control-system-integration
-  - task-specific-algorithm-design
+topic: "Task Based Motor Control Algorithm Design"
 concepts:
-  - "Robotics"
-  - "Control Systems"
-  - "Task-Based Motor Control"
-  - "Field-Oriented Control"
-  - "BLDC Actuator Control"
-  - "Co-Design Methodology"
+  - "Co-Design Optimization"
   - "D-Axis Control"
-  - "Current Amplifier Design"
-  - "Motor Control Engineering"
+  - "BLDC Actuators"
+  - "Current Amplification"
 source: Substack
 author: Avik De
 ---
@@ -31,8 +22,8 @@ author: Avik De
 
 > Originally published: [2019-01-23](https://www.avikde.me/p/actuator-design-paper)
 
-**Topics:** [[topics/research|Research]] · [[topics/robot-design-optimization|Robot Design Optimization]] · [[topics/control-system-integration|Control System Integration]] · [[topics/task-specific-algorithm-design|Task Specific Algorithm Design]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems|Control Systems]] · [[concepts/task-based-motor-control|Task-Based Motor Control]] · [[concepts/field-oriented-control|Field-Oriented Control]] · [[concepts/bldc-actuator-control|BLDC Actuator Control]] · [[concepts/co-design-methodology|Co-Design Methodology]] · [[concepts/d-axis-control|D-Axis Control]] · [[concepts/current-amplifier-design|Current Amplifier Design]] · [[concepts/motor-control-engineering|Motor Control Engineering]]
+**Topic:** [[topics/task-based-motor-control-algorithm-design|Task Based Motor Control Algorithm Design]]
+**Concepts:** [[concepts/co-design-optimization|Co-Design Optimization]] · [[concepts/d-axis-control|D-Axis Control]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/current-amplification|Current Amplification]]
 **Citations:** [[citations/pmdcorp-com|pmdcorp.com]] · [[citations/speakerdeck-com|speakerdeck.com]]
 
 ---

@@ -118,6 +118,7 @@ class TestBuildPostNote:
         assert 'title: "Control Theory Basics for Engineers"' in result
         assert "date: 2024-03-15" in result
         assert "slug: control-theory-basics" in result
+        assert 'topic: "Control Theory Fundamentals"' in result
 
     def test_has_wikilinks(self, sample_post, mock_graph):
         from vault import build_post_note
@@ -126,7 +127,7 @@ class TestBuildPostNote:
         result = build_post_note(
             sample_post, mock_graph, {"control-theory-basics"}, slug_to_filename
         )
-        assert "[[topics/" in result
+        assert "**Topic:** [[topics/control-theory-fundamentals" in result
         assert "[[concepts/" in result
 
     def test_body_converted_to_markdown(self, sample_post, mock_graph):
@@ -178,8 +179,11 @@ class TestBuildTopicNote:
         from vault import build_topic_note
 
         posts_by_slug = {"control-theory-basics": sample_post}
-        result = build_topic_note("engineering", ["control-theory-basics"], posts_by_slug)
-        assert "# Topic: Engineering" in result
+        result = build_topic_note(
+            "control-theory-fundamentals", ["control-theory-basics"],
+            posts_by_slug, "Control Theory Fundamentals",
+        )
+        assert "# Topic: Control Theory Fundamentals" in result
         assert "type: topic" in result
         assert "[[posts/" in result
 
@@ -187,7 +191,10 @@ class TestBuildTopicNote:
         from vault import build_topic_note
 
         posts_by_slug = {"control-theory-basics": sample_post}
-        result = build_topic_note("engineering", ["control-theory-basics"], posts_by_slug)
+        result = build_topic_note(
+            "control-theory-fundamentals", ["control-theory-basics"],
+            posts_by_slug, "Control Theory Fundamentals",
+        )
         assert "post_count: 1" in result
 
 

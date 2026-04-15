@@ -4,22 +4,13 @@ subtitle: "Part 1: Where the learning stack ends and the control stack begins"
 date: 2026-01-26
 slug: the-architecture-behind-end-to-end
 canonical_url: "https://www.avikde.me/p/the-architecture-behind-end-to-end"
-tags:
-  - robotics
-  - systems-architecture
-  - automation-and-control
-  - machine-learning-integration
-  - generalist-ai
+topic: "End To End Robotics Pipelines"
 concepts:
-  - "Robotics"
-  - "Machine Learning"
-  - "End-to-End Robotics Pipelines"
-  - "Pixels to Actions"
+  - "End-to-End Learning"
   - "Generalist Capabilities"
-  - "Learning Stack"
-  - "Control Stack"
-  - "Hand-Designed Modules"
-  - "Control Systems"
+  - "Pixels to Actions"
+  - "Perception-Planning-Control Modules"
+  - "Hardware-Algorithm Mapping"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +23,8 @@ author: Avik De
 
 > Originally published: [2026-01-26](https://www.avikde.me/p/the-architecture-behind-end-to-end)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/systems-architecture|Systems Architecture]] · [[topics/automation-and-control|Automation And Control]] · [[topics/machine-learning-integration|Machine Learning Integration]] · [[topics/generalist-ai|Generalist Ai]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/machine-learning|Machine Learning]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/pixels-to-actions|Pixels to Actions]] · [[concepts/generalist-capabilities|Generalist Capabilities]] · [[concepts/learning-stack|Learning Stack]] · [[concepts/control-stack|Control Stack]] · [[concepts/hand-designed-modules|Hand-Designed Modules]] · [[concepts/control-systems|Control Systems]]
+**Topic:** [[topics/end-to-end-robotics-pipelines|End To End Robotics Pipelines]]
+**Concepts:** [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/generalist-capabilities|Generalist Capabilities]] · [[concepts/pixels-to-actions|Pixels to Actions]] · [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]] · [[concepts/hardware-algorithm-mapping|Hardware-Algorithm Mapping]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/groups-csail-mit-edu|groups.csail.mit.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/figure-ai|figure.ai]] · [[citations/pi-website|pi.website]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/1x-tech|1x.tech]] · [[citations/courses-lumenlearning-com|courses.lumenlearning.com]] · [[citations/rodneybrooks-com|rodneybrooks.com]] · [[citations/umi-ft-github-io|umi.ft.github.io]]
 
 ---

@@ -4,21 +4,13 @@ subtitle: "A brief what and why of quadrupedal robots, originally drafted for a 
 date: 2024-12-21
 slug: what-are-robot-dogs
 canonical_url: "https://www.avikde.me/p/what-are-robot-dogs"
-tags:
-  - robotics
-  - biological-systems-engineering
-  - robotics-design-philosophy
-  - interdisciplinary-research
+topic: "Quadrupedal Robots"
 concepts:
-  - "Robotics"
-  - "Biomechanics"
   - "Bio-Inspired Robotics"
-  - "Quadrupedal Robots"
   - "Biomimetics"
   - "Bioinspiration"
-  - "Robot Dog Design"
-  - "Cross-Disciplinary Collaboration"
-  - "Biology"
+  - "Biomechanics"
+  - "Form Versus Function"
 source: Substack
 author: Avik De
 ---
@@ -29,8 +21,8 @@ author: Avik De
 
 > Originally published: [2024-12-21](https://www.avikde.me/p/what-are-robot-dogs)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/biological-systems-engineering|Biological Systems Engineering]] · [[topics/robotics-design-philosophy|Robotics Design Philosophy]] · [[topics/interdisciplinary-research|Interdisciplinary Research]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/biomechanics|Biomechanics]] · [[concepts/bio-inspired-robotics|Bio-Inspired Robotics]] · [[concepts/quadrupedal-robots|Quadrupedal Robots]] · [[concepts/biomimetics|Biomimetics]] · [[concepts/bioinspiration|Bioinspiration]] · [[concepts/robot-dog-design|Robot Dog Design]] · [[concepts/cross-disciplinary-collaboration|Cross-Disciplinary Collaboration]] · [[concepts/biology|Biology]]
+**Topic:** [[topics/quadrupedal-robots|Quadrupedal Robots]]
+**Concepts:** [[concepts/bio-inspired-robotics|Bio-Inspired Robotics]] · [[concepts/biomimetics|Biomimetics]] · [[concepts/bioinspiration|Bioinspiration]] · [[concepts/biomechanics|Biomechanics]] · [[concepts/form-versus-function|Form Versus Function]]
 **Citations:** [[citations/nature-com|nature.com]] · [[citations/tyndall-af-mil|tyndall.af.mil]] · [[citations/youtu-be|youtu.be]] · [[citations/overtdefense-com|overtdefense.com]] · [[citations/cincinnati-com|cincinnati.com]]
 
 ---

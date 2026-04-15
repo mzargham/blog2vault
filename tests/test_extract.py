@@ -299,10 +299,10 @@ class TestExtractConceptsAi:
         monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
         from extract import extract_concepts_ai
 
-        concepts, display, themes = extract_concepts_ai([{"slug": "test"}])
+        concepts, display, post_topic = extract_concepts_ai([{"slug": "test"}])
         assert concepts == {}
         assert display == {}
-        assert themes == {}
+        assert post_topic == {}
 
     def test_mocked_extraction(self, monkeypatch, patch_config_paths):
         import extract
@@ -317,10 +317,8 @@ class TestExtractConceptsAi:
             MagicMock(
                 text=json.dumps(
                     {
-                        "key_concepts": ["Feedback Loops", "PID Control"],
-                        "themes": ["Systems Thinking"],
-                        "cited_works": [],
-                        "related_fields": ["Control Engineering"],
+                        "topic": "Feedback Control Systems",
+                        "concepts": ["Feedback Loops", "PID Control", "Stability Analysis"],
                     }
                 )
             )
@@ -333,7 +331,7 @@ class TestExtractConceptsAi:
         mock_anthropic.Anthropic.return_value = mock_client
 
         with patch.dict("sys.modules", {"anthropic": mock_anthropic}):
-            concepts, display, themes = extract.extract_concepts_ai(
+            concepts, display, post_topic = extract.extract_concepts_ai(
                 [
                     {
                         "slug": "test-post",
@@ -347,9 +345,10 @@ class TestExtractConceptsAi:
 
         assert "feedback-loops" in concepts
         assert "pid-control" in concepts
-        assert "control-engineering" in concepts
-        assert "systems-thinking" in themes
+        assert "stability-analysis" in concepts
+        assert post_topic["test-post"] == "feedback-control-systems"
         assert display["feedback-loops"] == "Feedback Loops"
+        assert display["feedback-control-systems"] == "Feedback Control Systems"
 
 
 # ---------------------------------------------------------------------------
@@ -364,8 +363,9 @@ class TestRunExtraction:
 
         graph = run_extraction(public_posts)
         assert "tags" in graph
+        assert "topics" in graph
+        assert "post_topic" in graph
         assert "concepts" in graph
         assert "concept_names" in graph
-        assert "themes" in graph
         assert "citations" in graph
         assert "crosslinks" in graph

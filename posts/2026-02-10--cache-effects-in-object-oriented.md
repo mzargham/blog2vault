@@ -4,22 +4,10 @@ subtitle: "A simple demonstration revealed five layers of computer science & eng
 date: 2026-02-10
 slug: cache-effects-in-object-oriented
 canonical_url: "https://www.avikde.me/p/cache-effects-in-object-oriented"
-tags:
-  - computing
-  - performance-optimization
-  - hardware-software-interface
-  - systems-programming
-  - computer-architecture
+topic: "Cache Effects In Object Oriented Programming"
 concepts:
-  - "Robotics"
-  - "Computer Architecture"
-  - "Array-of-Structures vs Structure-of-Arrays"
-  - "Cache Effects"
-  - "Memory Hierarchy"
-  - "Real-Time Control Loops"
-  - "Object-Oriented Programming"
-  - "Data Layout Optimization"
-  - "Software Engineering"
+  - "Control Systems"
+  - "Array-of-Structures"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +20,8 @@ author: Avik De
 
 > Originally published: [2026-02-10](https://www.avikde.me/p/cache-effects-in-object-oriented)
 
-**Topics:** [[topics/computing|Computing]] · [[topics/performance-optimization|Performance Optimization]] · [[topics/hardware-software-interface|Hardware Software Interface]] · [[topics/systems-programming|Systems Programming]] · [[topics/computer-architecture|Computer Architecture]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/computer-architecture|Computer Architecture]] · [[concepts/array-of-structures-vs-structure-of-arrays|Array-of-Structures vs Structure-of-Arrays]] · [[concepts/cache-effects|Cache Effects]] · [[concepts/memory-hierarchy|Memory Hierarchy]] · [[concepts/real-time-control-loops|Real-Time Control Loops]] · [[concepts/object-oriented-programming|Object-Oriented Programming]] · [[concepts/data-layout-optimization|Data Layout Optimization]] · [[concepts/software-engineering|Software Engineering]]
+**Topic:** [[topics/cache-effects-in-object-oriented-programming|Cache Effects In Object Oriented Programming]]
+**Concepts:** [[concepts/control-systems|Control Systems]] · [[concepts/array-of-structures|Array-of-Structures]]
 **Citations:** [[citations/youtube-com|youtube.com]] · [[citations/wccftech-com|wccftech.com]] · [[citations/pointclouds-org|pointclouds.org]] · [[citations/docs-unity3d-com|docs.unity3d.com]] · [[citations/cowboyprogramming-com|cowboyprogramming.com]] · [[citations/github-com|github.com]] · [[citations/godbolt-org|godbolt.org]] · [[citations/mlsysbook-ai|mlsysbook.ai]] · [[citations/unity-com|unity.com]] · [[citations/dev-epicgames-com|dev.epicgames.com]] · [[citations/youtu-be|youtu.be]] · [[citations/abseil-io|abseil.io]] · [[citations/en-wikipedia-org|en.wikipedia.org]]
 
 ---

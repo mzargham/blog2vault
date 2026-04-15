@@ -4,22 +4,14 @@ subtitle: "Recent developments in autonomous vehicles on recognizing and handlin
 date: 2026-03-20
 slug: lessons-from-avs-on-safety-in-end
 canonical_url: "https://www.avikde.me/p/lessons-from-avs-on-safety-in-end"
-tags:
-  - robotics
-  - robotic-safety
-  - system-reliability
-  - autonomous-systems
-  - performance-monitoring
+topic: "Safety In End To End Robotics Pipelines"
 concepts:
-  - "Robotics"
-  - "Performance Deterioration Detection"
+  - "Vision-Language-Action Models"
+  - "End-to-End Learning"
   - "Distribution Shift"
-  - "End-to-End Pipeline Safety"
-  - "Full Self-Driving (FSD)"
-  - "Vision-Language-Action (VLA)"
-  - "Safety Feature Integration"
-  - "Autonomous Vehicle Engineering"
-  - "Safety Engineering"
+  - "Performance Deterioration Detection"
+  - "Autonomous Vehicles"
+  - "Self-Monitoring Systems"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +24,8 @@ author: Avik De
 
 > Originally published: [2026-03-20](https://www.avikde.me/p/lessons-from-avs-on-safety-in-end)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/robotic-safety|Robotic Safety]] · [[topics/system-reliability|System Reliability]] · [[topics/autonomous-systems|Autonomous Systems]] · [[topics/performance-monitoring|Performance Monitoring]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/performance-deterioration-detection|Performance Deterioration Detection]] · [[concepts/distribution-shift|Distribution Shift]] · [[concepts/end-to-end-pipeline-safety|End-to-End Pipeline Safety]] · [[concepts/full-self-driving-fsd|Full Self-Driving (FSD)]] · [[concepts/vision-language-action-vla|Vision-Language-Action (VLA)]] · [[concepts/safety-feature-integration|Safety Feature Integration]] · [[concepts/autonomous-vehicle-engineering|Autonomous Vehicle Engineering]] · [[concepts/safety-engineering|Safety Engineering]]
+**Topic:** [[topics/safety-in-end-to-end-robotics-pipelines|Safety In End To End Robotics Pipelines]]
+**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/distribution-shift|Distribution Shift]] · [[concepts/performance-deterioration-detection|Performance Deterioration Detection]] · [[concepts/autonomous-vehicles|Autonomous Vehicles]] · [[concepts/self-monitoring-systems|Self-Monitoring Systems]]
 **Citations:** [[citations/theverge-com|theverge.com]] · [[citations/electrek-co|electrek.co]] · [[citations/ruixu-us|ruixu.us]] · [[citations/arxiv-org|arxiv.org]] · [[citations/counterpointresearch-com|counterpointresearch.com]]
 
 ---

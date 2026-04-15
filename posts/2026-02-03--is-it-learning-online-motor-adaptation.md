@@ -4,22 +4,12 @@ subtitle: "Part 2: Where the low-level controller responds to the unexpected"
 date: 2026-02-03
 slug: is-it-learning-online-motor-adaptation
 canonical_url: "https://www.avikde.me/p/is-it-learning-online-motor-adaptation"
-tags:
-  - robotics
-  - motor-learning
-  - real-time-adaptation
-  - control-system-architecture
-  - robot-autonomy
+topic: "Online Motor Adaptation In End To End Robotics"
 concepts:
-  - "Robotics"
-  - "Machine Learning"
-  - "End-to-End Robotics Pipelines"
-  - "Online Motor Adaptation"
-  - "Cascade Control Architecture"
-  - "High-Level Low-Level Controller"
-  - "Foundation Model Robotics"
-  - "Hive Brain Learning"
-  - "Control Theory"
+  - "End-to-End Learning"
+  - "Hierarchical Control"
+  - "High-Level Low-Level Controller Cascade"
+  - "Legged Locomotion"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +22,8 @@ author: Avik De
 
 > Originally published: [2026-02-03](https://www.avikde.me/p/is-it-learning-online-motor-adaptation)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/motor-learning|Motor Learning]] · [[topics/real-time-adaptation|Real Time Adaptation]] · [[topics/control-system-architecture|Control System Architecture]] · [[topics/robot-autonomy|Robot Autonomy]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/machine-learning|Machine Learning]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/online-motor-adaptation|Online Motor Adaptation]] · [[concepts/cascade-control-architecture|Cascade Control Architecture]] · [[concepts/high-level-low-level-controller|High-Level Low-Level Controller]] · [[concepts/foundation-model-robotics|Foundation Model Robotics]] · [[concepts/hive-brain-learning|Hive Brain Learning]] · [[concepts/control-theory|Control Theory]]
+**Topic:** [[topics/online-motor-adaptation-in-end-to-end-robotics|Online Motor Adaptation In End To End Robotics]]
+**Concepts:** [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/hierarchical-control|Hierarchical Control]] · [[concepts/high-level-low-level-controller-cascade|High-Level Low-Level Controller Cascade]] · [[concepts/legged-locomotion|Legged Locomotion]]
 **Citations:** [[citations/figure-ai|figure.ai]] · [[citations/arxiv-org|arxiv.org]] · [[citations/pubmed-ncbi-nlm-nih-gov|pubmed.ncbi.nlm.nih.gov]] · [[citations/pmc-ncbi-nlm-nih-gov|pmc.ncbi.nlm.nih.gov]] · [[citations/dwarkesh-com|dwarkesh.com]] · [[citations/universal-robots-com|universal.robots.com]] · [[citations/spectrum-ieee-org|spectrum.ieee.org]] · [[citations/ashish-kmr-github-io|ashish.kmr.github.io]] · [[citations/skild-ai|skild.ai]] · [[citations/science-org|science.org]] · [[citations/covariant-ai|covariant.ai]]
 
 ---

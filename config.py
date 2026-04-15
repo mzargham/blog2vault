@@ -41,9 +41,10 @@ HTTP_TIMEOUT_S: int = 15
 # Number of top TF-IDF terms to extract per post as concept candidates
 TFIDF_TOP_N: int = 8
 
-# Minimum document frequency for a concept to get its own note
-# (appears in at least this many posts)
-CONCEPT_MIN_DF: int = 2
+# Minimum document frequency for a concept to get its own note.
+# Concepts below this threshold are still included but logged as warnings
+# (they may simply be new or niche).
+CONCEPT_MIN_DF: int = 3
 
 # Maximum number of concepts total in the vault (to avoid noise)
 CONCEPT_MAX_TOTAL: int = 40

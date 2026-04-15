@@ -157,10 +157,14 @@ def extract_concepts_tfidf(posts: list[dict]) -> tuple[dict[str, list[str]], dic
         log.info("Fewer than 2 posts; skipping TF-IDF")
         return {}, {}
 
+    # Adapt min_df/max_df for small corpora to avoid sklearn ValueError
+    effective_min_df = min(CONCEPT_MIN_DF, len(corpus) - 1)
+    effective_max_df = max(0.70, (effective_min_df + 1) / len(corpus))
+
     vec = TfidfVectorizer(
         ngram_range=(1, 3),
-        min_df=CONCEPT_MIN_DF,
-        max_df=0.70,
+        min_df=effective_min_df,
+        max_df=effective_max_df,
         stop_words="english",
         token_pattern=r"(?u)\b[a-zA-Z][a-zA-Z\-]{3,}\b",  # ≥4 chars, letters only
         max_features=500,
@@ -217,24 +221,34 @@ def extract_concepts_tfidf(posts: list[dict]) -> tuple[dict[str, list[str]], dic
 # AI concept extraction (Anthropic API)
 # ---------------------------------------------------------------------------
 
-_EXTRACTION_SYSTEM = """You are an expert research assistant helping build a knowledge graph
-from an academic blog. For each blog post excerpt, extract structured information.
+_EXTRACTION_SYSTEM = """You are an expert research assistant building a knowledge graph
+from an academic/engineering blog. For each post, extract a TOPIC and CONCEPTS.
+
+Ontology:
+- TOPIC: what this post is fundamentally ABOUT. Each post has exactly ONE topic.
+  Topics are the subject matter — the thing being discussed, explained, or argued.
+  Examples: "End-to-End Robotics Pipelines", "Legged Locomotion", "Systolic Arrays",
+  "Cybernetics", "Vision-Language-Action Models"
+- CONCEPTS: specific ideas, techniques, frameworks, or methods INVOKED while
+  discussing the topic. A post uses concepts as building blocks, references, or tools.
+  Concepts recur across posts — the same concept appears in different topical contexts.
+  Examples: "Model Predictive Control", "Feedback Loops", "Template-Based Design",
+  "Von Neumann Architecture", "Transfer Learning"
+
+A concept CAN be a topic when the post is specifically about that concept.
+But usually the topic is broader and the concepts are the pieces used to discuss it.
 
 Respond ONLY with a valid JSON object — no markdown fences, no preamble. Schema:
 {
-  "key_concepts": ["concept1", "concept2"],
-  "themes": ["theme1", "theme2"],
-  "cited_works": ["Author Year", "Paper Title"],
-  "related_fields": ["field1", "field2"]
+  "topic": "The Single Topic Of This Post",
+  "concepts": ["Concept 1", "Concept 2", "Concept 3"]
 }
 
 Rules:
-- key_concepts: 3–6 named ideas, techniques, or frameworks central to the post
-- themes: 2–4 broad cross-cutting topics (e.g., "systems thinking", "control theory")
-- cited_works: explicit academic works or authors mentioned in the text
-- related_fields: 1–3 academic disciplines relevant to this post
-- Use title case for all entries
-- Be specific, not generic ("Lyapunov Stability" not "Math")
+- topic: exactly 1 string — the subject of this post (title case, specific not generic)
+- concepts: 3–8 named ideas, techniques, or frameworks invoked in the post (title case)
+- Be specific: "Raibert Hopping Controller" not "Control", "Cache Line Effects" not "Performance"
+- Prefer established terms from the field over invented phrases
 """
 
 
@@ -251,9 +265,13 @@ def _save_concepts_cache(cache: dict) -> None:
         json.dump(cache, f, indent=2, ensure_ascii=False)
 
 
-def extract_concepts_ai(posts: list[dict]) -> tuple[dict[str, list[str]], dict[str, str], dict[str, list[str]]]:
+def extract_concepts_ai(posts: list[dict]) -> tuple[dict[str, list[str]], dict[str, str], dict[str, str]]:
     """
-    AI-powered concept extraction using the Anthropic API.
+    AI-powered extraction using the Anthropic API.
+
+    Ontology:
+      - TOPIC: what the post is about (exactly 1 per post).
+      - CONCEPTS: ideas/techniques invoked while discussing the topic (many per post).
 
     For each post sends: title + subtitle + first ~1200 chars of body text.
     Results cached by (slug, updated_at) to avoid redundant API calls.
@@ -261,7 +279,7 @@ def extract_concepts_ai(posts: list[dict]) -> tuple[dict[str, list[str]], dict[s
     Returns:
         concept_slug → [post_slug, ...]
         concept_slug → display_name
-        theme_slug → [post_slug, ...]    (merged into tags for topic notes)
+        post_slug → topic_slug              (1:1 mapping, each post has one topic)
 
     CONSTRAINT GRACEFUL_DEGRADE: returns empty dicts on API failure.
     """
@@ -280,7 +298,7 @@ def extract_concepts_ai(posts: list[dict]) -> tuple[dict[str, list[str]], dict[s
     cache = _load_concepts_cache()
     concept_to_posts: dict[str, list[str]] = defaultdict(list)
     concept_display: dict[str, str] = {}
-    theme_to_posts: dict[str, list[str]] = defaultdict(list)
+    post_topic: dict[str, str] = {}  # post_slug → topic_slug
 
     for post in posts:
         slug = post.get("slug", "")
@@ -307,38 +325,33 @@ def extract_concepts_ai(posts: list[dict]) -> tuple[dict[str, list[str]], dict[s
                 raw = msg.content[0].text.strip()
                 extracted = json.loads(raw)
                 cache[cache_key] = extracted
-                log.info("AI extracted concepts for: %s", slug)
+                log.info("AI extracted for: %s → topic=%s", slug, extracted.get("topic", "?"))
             except Exception as exc:
                 log.warning("AI extraction failed for %s: %s", slug, exc)
                 extracted = {}
 
+        # Assign topic (1 per post)
+        topic = extracted.get("topic", "")
+        if topic:
+            tslug = slugify(topic)
+            post_topic[slug] = tslug
+            concept_display[tslug] = topic  # topics also get display names
+
         # Accumulate concepts
-        for concept in extracted.get("key_concepts", []):
+        for concept in extracted.get("concepts", []):
             cslug = slugify(concept)
             concept_to_posts[cslug].append(slug)
             concept_display[cslug] = concept
-
-        for concept in extracted.get("related_fields", []):
-            cslug = slugify(concept)
-            concept_to_posts[cslug].append(slug)
-            concept_display[cslug] = concept
-
-        # Accumulate themes (go into topic notes)
-        for theme in extracted.get("themes", []):
-            tslug = slugify(theme)
-            theme_to_posts[tslug].append(slug)
-            # Also add to concept display for theme notes
-            concept_display[tslug] = theme
 
     _save_concepts_cache(cache)
 
     log.info(
-        "AI extraction: %d concepts, %d themes across %d posts",
+        "AI extraction: %d topics, %d concepts across %d posts",
+        len(set(post_topic.values())),
         len(concept_to_posts),
-        len(theme_to_posts),
         len(posts),
     )
-    return dict(concept_to_posts), concept_display, dict(theme_to_posts)
+    return dict(concept_to_posts), concept_display, post_topic
 
 
 # ---------------------------------------------------------------------------
@@ -455,6 +468,109 @@ def infer_post_crosslinks(posts: list[dict]) -> dict[str, list[str]]:
 
 
 # ---------------------------------------------------------------------------
+# Concept clustering (reduce semantic near-duplicates)
+# ---------------------------------------------------------------------------
+
+def cluster_concepts(
+    concepts: dict[str, list[str]],
+    concept_names: dict[str, str],
+    posts: list[dict],
+    distance_threshold: float = 0.75,
+) -> tuple[dict[str, list[str]], dict[str, str]]:
+    """
+    Cluster semantically similar concepts using TF-IDF on concept names
+    plus the titles of posts they appear in.
+
+    Agglomerative clustering merges concepts whose textual descriptions
+    are within `distance_threshold` cosine distance of each other.
+
+    For each cluster, the concept closest to the cluster centroid is chosen
+    as the canonical label — this is the most semantically central member.
+    All post lists are merged under the canonical concept.
+
+    Returns:
+        merged_concepts: concept_slug → [post_slug, ...]
+        merged_names:    concept_slug → display_name
+    """
+    if len(concepts) < 2:
+        return concepts, concept_names
+
+    try:
+        from sklearn.feature_extraction.text import TfidfVectorizer
+        from sklearn.cluster import AgglomerativeClustering
+        from sklearn.metrics.pairwise import cosine_distances
+        import numpy as np
+    except ImportError:
+        log.warning("scikit-learn not available; skipping concept clustering")
+        return concepts, concept_names
+
+    # Build a text document per concept: display name (triple-weighted) + post titles
+    post_titles = {p.get("slug", ""): p.get("title", "") for p in posts}
+    concept_slugs = list(concepts.keys())
+    documents = []
+    for cslug in concept_slugs:
+        display = concept_names.get(cslug, cslug.replace("-", " "))
+        titles = " ".join(post_titles.get(ps, "") for ps in concepts[cslug])
+        documents.append(f"{display} {display} {display} {titles}")
+
+    vec = TfidfVectorizer(stop_words="english", token_pattern=r"(?u)\b\w{3,}\b")
+    tfidf_matrix = vec.fit_transform(documents)
+    dist_matrix = cosine_distances(tfidf_matrix)
+
+    clustering = AgglomerativeClustering(
+        n_clusters=None,
+        distance_threshold=distance_threshold,
+        metric="precomputed",
+        linkage="average",
+    )
+    labels = clustering.fit_predict(dist_matrix)
+    n_clusters = len(set(labels))
+
+    # Group concepts by cluster label
+    cluster_groups: dict[int, list[str]] = defaultdict(list)
+    for slug, label in zip(concept_slugs, labels):
+        cluster_groups[label].append(slug)
+
+    merged_concepts: dict[str, list[str]] = {}
+    merged_names: dict[str, str] = {}
+
+    for cluster_id, members in cluster_groups.items():
+        # Find the member closest to the cluster centroid (most semantically central)
+        member_indices = [concept_slugs.index(m) for m in members]
+        member_vectors = tfidf_matrix[member_indices]
+        centroid = member_vectors.mean(axis=0)
+        centroid_dists = cosine_distances(centroid, member_vectors).flatten()
+        canonical_idx = member_indices[int(np.argmin(centroid_dists))]
+        canonical = concept_slugs[canonical_idx]
+
+        # Merge all post lists, deduplicated
+        all_posts = []
+        seen = set()
+        for m in members:
+            for p in concepts[m]:
+                if p not in seen:
+                    all_posts.append(p)
+                    seen.add(p)
+
+        merged_concepts[canonical] = all_posts
+        merged_names[canonical] = concept_names.get(canonical, canonical.replace("-", " ").title())
+
+        if len(members) > 1:
+            absorbed = [concept_names.get(m, m) for m in members if m != canonical]
+            log.debug(
+                "Cluster: %s ← %s",
+                concept_names.get(canonical, canonical),
+                ", ".join(absorbed),
+            )
+
+    log.info(
+        "Concept clustering: %d → %d (merged %d duplicates, threshold=%.2f)",
+        len(concepts), n_clusters, len(concepts) - n_clusters, distance_threshold,
+    )
+    return merged_concepts, merged_names
+
+
+# ---------------------------------------------------------------------------
 # Main extraction orchestrator
 # ---------------------------------------------------------------------------
 
@@ -463,34 +579,60 @@ def run_extraction(posts: list[dict]) -> dict:
     Full extraction pipeline. Returns a graph dict consumed by vault.py:
 
     {
-        "tags":          { tag_slug → [post_slug] },
-        "concepts":      { concept_slug → [post_slug] },
-        "concept_names": { concept_slug → display_name },
-        "themes":        { theme_slug → [post_slug] },
+        "tags":          { tag_slug → [post_slug] },       (Substack metadata)
+        "topics":        { topic_slug → [post_slug] },     (1 topic per post, AI-assigned)
+        "post_topic":    { post_slug → topic_slug },       (reverse lookup)
+        "concepts":      { concept_slug → [post_slug] },   (many per post, expected to repeat)
+        "concept_names": { concept_slug → display_name },  (display names for topics + concepts)
         "citations":     { url → citation_dict },
         "crosslinks":    { post_slug → [post_slug] },
     }
+
+    Ontology:
+      - Topics are what posts are ABOUT (1 per post, many posts can share a topic).
+      - Concepts are ideas/techniques INVOKED when discussing a topic (many per post).
+      - Concepts below CONCEPT_MIN_DF are kept but logged as warnings (may be new).
     """
     log.info("Starting extraction for %d posts", len(posts))
 
     tags = extract_tags(posts)
-    log.info("Tags: %d", len(tags))
+    log.info("Substack tags: %d", len(tags))
 
     citations = extract_citations(posts)
     crosslinks = infer_post_crosslinks(posts)
 
     if USE_AI_EXTRACTION and os.getenv("ANTHROPIC_API_KEY"):
-        concepts, concept_names, themes = extract_concepts_ai(posts)
+        concepts, concept_names, post_topic = extract_concepts_ai(posts)
     else:
         log.info("Using TF-IDF extraction (AI disabled or key absent)")
         concepts, concept_names = extract_concepts_tfidf(posts)
-        themes = {}
+        post_topic = {}
+
+    # Cluster semantically similar concepts to reduce near-duplicates
+    concepts, concept_names = cluster_concepts(concepts, concept_names, posts)
+
+    # Build topic → [post_slugs] from post_topic reverse lookup
+    topics: dict[str, list[str]] = defaultdict(list)
+    for post_slug, topic_slug in post_topic.items():
+        topics[topic_slug].append(post_slug)
+    topics = dict(topics)
+
+    # Log concepts below min_df as warnings (they may be new or niche)
+    low_df = {c: slugs for c, slugs in concepts.items() if len(slugs) < CONCEPT_MIN_DF}
+    if low_df:
+        log.warning(
+            "%d concepts appear in fewer than %d posts (may be new): %s",
+            len(low_df),
+            CONCEPT_MIN_DF,
+            ", ".join(sorted(low_df.keys())[:10]) + ("..." if len(low_df) > 10 else ""),
+        )
 
     return {
         "tags": tags,
+        "topics": topics,
+        "post_topic": post_topic,
         "concepts": concepts,
         "concept_names": concept_names,
-        "themes": themes,
         "citations": citations,
         "crosslinks": crosslinks,
     }

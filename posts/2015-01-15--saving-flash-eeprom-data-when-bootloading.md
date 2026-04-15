@@ -4,21 +4,12 @@ subtitle: ""
 date: 2015-01-15
 slug: saving-flash-eeprom-data-when-bootloading
 canonical_url: "https://www.avikde.me/p/saving-flash-eeprom-data-when-bootloading"
-tags:
-  - computing
-  - embedded-systems-programming
-  - memory-management
-  - microcontroller-programming
+topic: "Eeprom Data Preservation During Stm32 Bootloading"
 concepts:
   - "EEPROM Emulation"
-  - "Flash Memory Unlocking"
-  - "STM32 Bootloading"
-  - "Non-Volatile Memory Management"
+  - "Flash Memory Management"
+  - "Non-Volatile Storage"
   - "Parameter Persistence"
-  - "Stm32loader.py Modification"
-  - "Embedded Systems"
-  - "Computer Engineering"
-  - "Firmware Development"
 source: Substack
 author: Avik De
 ---
@@ -29,8 +20,8 @@ author: Avik De
 
 > Originally published: [2015-01-15](https://www.avikde.me/p/saving-flash-eeprom-data-when-bootloading)
 
-**Topics:** [[topics/computing|Computing]] · [[topics/embedded-systems-programming|Embedded Systems Programming]] · [[topics/memory-management|Memory Management]] · [[topics/microcontroller-programming|Microcontroller Programming]]
-**Concepts:** [[concepts/eeprom-emulation|EEPROM Emulation]] · [[concepts/flash-memory-unlocking|Flash Memory Unlocking]] · [[concepts/stm32-bootloading|STM32 Bootloading]] · [[concepts/non-volatile-memory-management|Non-Volatile Memory Management]] · [[concepts/parameter-persistence|Parameter Persistence]] · [[concepts/stm32loader-py-modification|Stm32loader.py Modification]] · [[concepts/embedded-systems|Embedded Systems]] · [[concepts/computer-engineering|Computer Engineering]] · [[concepts/firmware-development|Firmware Development]]
+**Topic:** [[topics/eeprom-data-preservation-during-stm32-bootloading|Eeprom Data Preservation During Stm32 Bootloading]]
+**Concepts:** [[concepts/eeprom-emulation|EEPROM Emulation]] · [[concepts/flash-memory-management|Flash Memory Management]] · [[concepts/non-volatile-storage|Non-Volatile Storage]] · [[concepts/parameter-persistence|Parameter Persistence]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/st-com|st.com]] · [[citations/arduino-cc|arduino.cc]] · [[citations/asciitable-com|asciitable.com]]
 
 ---

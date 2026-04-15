@@ -4,20 +4,14 @@ subtitle: "Research to startup"
 date: 2016-03-02
 slug: ghost-robotics-minitaur
 canonical_url: "https://www.avikde.me/p/ghost-robotics-minitaur"
-tags:
-  - robotics
-  - robotics-commercialization
-  - haptic-feedback
-  - research-translation
+topic: "Quadrupedal Robot Development"
 concepts:
-  - "Robotics"
-  - "Control Systems"
-  - "Mechanical Engineering"
-  - "Transparent Actuators"
-  - "Force Sensing Motors"
-  - "Direct-Drive Design"
-  - "Minitaur Robot"
-  - "Perturbation Reaction"
+  - "Feedback Loops"
+  - "BLDC Actuators"
+  - "Direct Drive Design"
+  - "Impedance Control"
+  - "Quadrupedal Locomotion"
+  - "Research Commercialization"
 source: Substack
 author: Avik De
 ---
@@ -30,8 +24,8 @@ author: Avik De
 
 > Originally published: [2016-03-02](https://www.avikde.me/p/ghost-robotics-minitaur)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/robotics-commercialization|Robotics Commercialization]] · [[topics/haptic-feedback|Haptic Feedback]] · [[topics/research-translation|Research Translation]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems|Control Systems]] · [[concepts/mechanical-engineering|Mechanical Engineering]] · [[concepts/transparent-actuators|Transparent Actuators]] · [[concepts/force-sensing-motors|Force Sensing Motors]] · [[concepts/direct-drive-design|Direct-Drive Design]] · [[concepts/minitaur-robot|Minitaur Robot]] · [[concepts/perturbation-reaction|Perturbation Reaction]]
+**Topic:** [[topics/quadrupedal-robot-development|Quadrupedal Robot Development]]
+**Concepts:** [[concepts/feedback-loops|Feedback Loops]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/direct-drive-design|Direct Drive Design]] · [[concepts/impedance-control|Impedance Control]] · [[concepts/quadrupedal-locomotion|Quadrupedal Locomotion]] · [[concepts/research-commercialization|Research Commercialization]]
 **Citations:** [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/ieeexplore-ieee-org|ieeexplore.ieee.org]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]]
 
 ---

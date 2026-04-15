@@ -13,7 +13,7 @@ def test_defaults():
     assert config.API_RATE_LIMIT_S == 0.5
     assert config.HTTP_TIMEOUT_S == 15
     assert config.TFIDF_TOP_N == 8
-    assert config.CONCEPT_MIN_DF == 2
+    assert config.CONCEPT_MIN_DF == 3
     assert config.CONCEPT_MAX_TOTAL == 40
 
 

@@ -4,22 +4,15 @@ subtitle: "Paper in IROS 2020 about using templates and optimization for robot d
 date: 2024-12-22
 slug: template-based-design-robobee
 canonical_url: "https://www.avikde.me/p/template-based-design-robobee"
-tags:
-  - research
-  - control-theory
-  - model-based-design
-  - bio-inspired-robotics
-  - optimization
+topic: "Template Based Robot Design Optimization"
 concepts:
-  - "Robotics"
-  - "Control Systems"
+  - "Flapping Wing Aerodynamics"
   - "Reduced-Order Models"
-  - "Template-Based Design"
   - "Blade Element Model"
   - "Non-Dimensionalization"
   - "Affine Dynamics"
-  - "Design Optimization"
-  - "Mechanical Engineering"
+  - "Co-Design Optimization"
+  - "Parameterized Templates"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +25,8 @@ author: Avik De
 
 > Originally published: [2024-12-22](https://www.avikde.me/p/template-based-design-robobee)
 
-**Topics:** [[topics/research|Research]] · [[topics/control-theory|Control Theory]] · [[topics/model-based-design|Model Based Design]] · [[topics/bio-inspired-robotics|Bio Inspired Robotics]] · [[topics/optimization|Optimization]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems|Control Systems]] · [[concepts/reduced-order-models|Reduced-Order Models]] · [[concepts/template-based-design|Template-Based Design]] · [[concepts/blade-element-model|Blade Element Model]] · [[concepts/non-dimensionalization|Non-Dimensionalization]] · [[concepts/affine-dynamics|Affine Dynamics]] · [[concepts/design-optimization|Design Optimization]] · [[concepts/mechanical-engineering|Mechanical Engineering]]
+**Topic:** [[topics/template-based-robot-design-optimization|Template Based Robot Design Optimization]]
+**Concepts:** [[concepts/flapping-wing-aerodynamics|Flapping Wing Aerodynamics]] · [[concepts/reduced-order-models|Reduced-Order Models]] · [[concepts/blade-element-model|Blade Element Model]] · [[concepts/non-dimensionalization|Non-Dimensionalization]] · [[concepts/affine-dynamics|Affine Dynamics]] · [[concepts/co-design-optimization|Co-Design Optimization]] · [[concepts/parameterized-templates|Parameterized Templates]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]]
 
 ---

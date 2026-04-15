@@ -4,22 +4,12 @@ subtitle: "Hierarchical model-predictive and data-driven control method publishe
 date: 2025-12-24
 slug: model-predictive-control-of-robobee
 canonical_url: "https://www.avikde.me/p/model-predictive-control-of-robobee"
-tags:
-  - research
-  - energy-efficient-robotics
-  - bio-inspired-flight-control
-  - real-time-control-systems
-  - robustness-and-generalizability
+topic: "Model Predictive Control Of Robobee Flapping Flight"
 concepts:
-  - "Robotics"
-  - "Model-Predictive Control"
-  - "RoboBee Flapping Flight"
-  - "Hierarchical Control Architecture"
-  - "Split Dual-Actuator Design"
-  - "Data-Driven Control"
-  - "Low-Power Computational Implementation"
-  - "Control Systems Engineering"
-  - "Biomimetic Engineering"
+  - "Hierarchical Control"
+  - "Flapping Wing Aerodynamics"
+  - "Path Following"
+  - "Robustness to Manufacturing Variability"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +22,8 @@ author: Avik De
 
 > Originally published: [2025-12-24](https://www.avikde.me/p/model-predictive-control-of-robobee)
 
-**Topics:** [[topics/research|Research]] · [[topics/energy-efficient-robotics|Energy Efficient Robotics]] · [[topics/bio-inspired-flight-control|Bio Inspired Flight Control]] · [[topics/real-time-control-systems|Real Time Control Systems]] · [[topics/robustness-and-generalizability|Robustness And Generalizability]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/model-predictive-control|Model-Predictive Control]] · [[concepts/robobee-flapping-flight|RoboBee Flapping Flight]] · [[concepts/hierarchical-control-architecture|Hierarchical Control Architecture]] · [[concepts/split-dual-actuator-design|Split Dual-Actuator Design]] · [[concepts/data-driven-control|Data-Driven Control]] · [[concepts/low-power-computational-implementation|Low-Power Computational Implementation]] · [[concepts/control-systems-engineering|Control Systems Engineering]] · [[concepts/biomimetic-engineering|Biomimetic Engineering]]
+**Topic:** [[topics/model-predictive-control-of-robobee-flapping-flight|Model Predictive Control Of Robobee Flapping Flight]]
+**Concepts:** [[concepts/hierarchical-control|Hierarchical Control]] · [[concepts/flapping-wing-aerodynamics|Flapping Wing Aerodynamics]] · [[concepts/path-following|Path Following]] · [[concepts/robustness-to-manufacturing-variability|Robustness to Manufacturing Variability]]
 **Citations:** [[citations/youtube-com|youtube.com]] · [[citations/wyss-harvard-edu|wyss.harvard.edu]] · [[citations/researchgate-net|researchgate.net]] · [[citations/seas-harvard-edu|seas.harvard.edu]] · [[citations/www1-villanova-edu|www1.villanova.edu]] · [[citations/harvardmagazine-com|harvardmagazine.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/commons-wikimedia-org|commons.wikimedia.org]] · [[citations/creativecommons-org|creativecommons.org]] · [[citations/underactuated-mit-edu|underactuated.mit.edu]] · [[citations/science-org|science.org]] · [[citations/mathworks-com|mathworks.com]] · [[citations/osqp-org|osqp.org]] · [[citations/github-com|github.com]] · [[citations/journals-sagepub-com|journals.sagepub.com]]
 
 ---

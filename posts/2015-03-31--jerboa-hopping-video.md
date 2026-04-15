@@ -4,21 +4,14 @@ subtitle: "Jerboa parallel composition paper in ICRA 2015"
 date: 2015-03-31
 slug: jerboa-hopping-video
 canonical_url: "https://www.avikde.me/p/jerboa-hopping-video"
-tags:
-  - research
-  - control-systems
-  - biomimetic-design
-  - robot-locomotion
+topic: "Bioinspired Hopping Robotics"
 concepts:
-  - "Robotics"
-  - "Biomechanics"
-  - "Parallel Composition"
-  - "Tail-Energized Hopping"
-  - "Bioinspired Robotics"
-  - "RHex Robot Platform"
-  - "Inertial Reorientation"
   - "Legged Locomotion"
-  - "Control Engineering"
+  - "Parallel Composition"
+  - "Inertial Reorientation"
+  - "RHex Platform"
+  - "3D Locomotion"
+  - "Biomimetic Control"
 source: Substack
 author: Avik De
 ---
@@ -31,8 +24,8 @@ author: Avik De
 
 > Originally published: [2015-03-31](https://www.avikde.me/p/jerboa-hopping-video)
 
-**Topics:** [[topics/research|Research]] · [[topics/control-systems|Control Systems]] · [[topics/biomimetic-design|Biomimetic Design]] · [[topics/robot-locomotion|Robot Locomotion]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/biomechanics|Biomechanics]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/tail-energized-hopping|Tail-Energized Hopping]] · [[concepts/bioinspired-robotics|Bioinspired Robotics]] · [[concepts/rhex-robot-platform|RHex Robot Platform]] · [[concepts/inertial-reorientation|Inertial Reorientation]] · [[concepts/legged-locomotion|Legged Locomotion]] · [[concepts/control-engineering|Control Engineering]]
+**Topic:** [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]]
+**Concepts:** [[concepts/legged-locomotion|Legged Locomotion]] · [[concepts/parallel-composition|Parallel Composition]] · [[concepts/inertial-reorientation|Inertial Reorientation]] · [[concepts/rhex-platform|RHex Platform]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/biomimetic-control|Biomimetic Control]]
 **Citations:** [[citations/youtube-com|youtube.com]] · [[citations/kodlab-seas-upenn-edu|kodlab.seas.upenn.edu]] · [[citations/youtu-be|youtu.be]] · [[citations/academia-edu|academia.edu]] · [[citations/dl-acm-org|dl.acm.org]]
 
 ---

@@ -114,7 +114,7 @@ class TestRun:
         mock_vault_state.return_value = {}  # Post not yet in vault
         mock_extract.return_value = {
             "tags": {}, "concepts": {}, "concept_names": {},
-            "themes": {}, "citations": {}, "crosslinks": {},
+            "topics": {}, "post_topic": {}, "citations": {}, "crosslinks": {},
         }
         mock_write.return_value = {}
 
@@ -145,7 +145,7 @@ class TestRun:
         mock_vault_state.return_value = {"post-1": "2024-01-01--post-1.md"}
         mock_extract.return_value = {
             "tags": {}, "concepts": {}, "concept_names": {},
-            "themes": {}, "citations": {}, "crosslinks": {},
+            "topics": {}, "post_topic": {}, "citations": {}, "crosslinks": {},
         }
         mock_write.return_value = {}
 
@@ -177,7 +177,7 @@ class TestRun:
         mock_vault_state.return_value = {}
         mock_extract.return_value = {
             "tags": {}, "concepts": {}, "concept_names": {},
-            "themes": {}, "citations": {}, "crosslinks": {},
+            "topics": {}, "post_topic": {}, "citations": {}, "crosslinks": {},
         }
 
         from sync import run

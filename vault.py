@@ -130,14 +130,9 @@ def build_post_note(
     cover = post.get("cover_image") or ""
 
     # ---- Collect wikilink targets ----
-    # Topics (from tags)
-    post_topics = [
-        ts for ts, posts in graph["tags"].items() if slug in posts
-    ]
-    # Themes (AI-extracted, merged with topics conceptually)
-    post_themes = [
-        ts for ts, posts in graph.get("themes", {}).items() if slug in posts
-    ]
+    # Topic (1 per post, from AI extraction)
+    topic_slug = graph.get("post_topic", {}).get(slug, "")
+    topic_display = graph["concept_names"].get(topic_slug, topic_slug.replace("-", " ").title()) if topic_slug else ""
     # Concepts
     post_concepts = [
         cs for cs, posts in graph["concepts"].items() if slug in posts
@@ -152,8 +147,7 @@ def build_post_note(
     ]
 
     # ---- YAML Frontmatter ----
-    all_tags = list(dict.fromkeys(post_topics + post_themes))  # deduplicated
-    frontmatter_tags = "\n".join(f"  - {t}" for t in all_tags) if all_tags else "  []"
+    frontmatter_topic = topic_display if topic_display else "Uncategorized"
     frontmatter_concepts = (
         "\n".join(f'  - "{graph["concept_names"].get(c, c)}"' for c in post_concepts)
         if post_concepts
@@ -165,8 +159,7 @@ subtitle: "{subtitle.replace('"', "'")}"
 date: {date_str}
 slug: {slug}
 canonical_url: "{canonical}"
-tags:
-{frontmatter_tags}
+topic: "{frontmatter_topic}"
 concepts:
 {frontmatter_concepts}
 source: Substack
@@ -184,12 +177,9 @@ author: Avik De
     # ---- Wikilink block ----
     wikilink_parts = []
 
-    if post_topics or post_themes:
-        topic_links = [
-            _wikilink(TOPICS_FOLDER, t, t.replace("-", " ").title())
-            for t in post_topics + post_themes
-        ]
-        wikilink_parts.append("**Topics:** " + " · ".join(topic_links))
+    if topic_slug:
+        topic_link = _wikilink(TOPICS_FOLDER, topic_slug, topic_display)
+        wikilink_parts.append(f"**Topic:** {topic_link}")
 
     if post_concepts:
         concept_links = [
@@ -240,18 +230,19 @@ def build_topic_note(
     tag_slug: str,
     post_slugs: list[str],
     all_posts_by_slug: dict[str, dict],
+    display: Optional[str] = None,
 ) -> str:
-    display = tag_slug.replace("-", " ").title()
+    display = display or tag_slug.replace("-", " ").title()
     lines = [
         f"---",
         f"type: topic",
-        f"tag_slug: {tag_slug}",
+        f"topic_slug: {tag_slug}",
         f"post_count: {len(post_slugs)}",
         f"---",
         f"",
         f"# Topic: {display}",
         f"",
-        f"Posts tagged with **{display}**:",
+        f"Posts about **{display}**:",
         f"",
     ]
     for slug in sorted(post_slugs):
@@ -353,7 +344,7 @@ def build_moc(
     slug_to_filename: dict[str, str],
 ) -> str:
     post_count = len(posts)
-    topic_count = len(graph["tags"]) + len(graph.get("themes", {}))
+    topic_count = len(graph.get("topics", {}))
     concept_count = len(graph["concepts"])
     citation_count = len(set(
         cdata["domain_slug"] for cdata in graph["citations"].values()
@@ -427,11 +418,10 @@ def build_moc(
         "## 🏷 Topics",
         "",
     ]
-    all_topics = {**graph["tags"], **graph.get("themes", {})}
-    for tag_slug, tag_posts in sorted(all_topics.items(), key=lambda x: -len(x[1])):
-        display = tag_slug.replace("-", " ").title()
+    for topic_slug, topic_posts in sorted(graph.get("topics", {}).items(), key=lambda x: -len(x[1])):
+        display = graph["concept_names"].get(topic_slug, topic_slug.replace("-", " ").title())
         lines.append(
-            f"- {_wikilink(TOPICS_FOLDER, tag_slug, display)} ({len(tag_posts)} posts)"
+            f"- {_wikilink(TOPICS_FOLDER, topic_slug, display)} ({len(topic_posts)} posts)"
         )
 
     lines += [
@@ -576,11 +566,12 @@ def write_vault(posts: list[dict], graph: dict) -> dict:
         log.debug("Wrote post: %s", rel_path)
 
     # ---- Topic notes ----
-    all_topics = {**graph["tags"], **graph.get("themes", {})}
+    all_topics = graph.get("topics", {})
     log.info("Writing %d topic notes…", len(all_topics))
-    for tag_slug, tag_posts in all_topics.items():
-        rel_path = f"{TOPICS_FOLDER}/{tag_slug}.md"
-        content = build_topic_note(tag_slug, tag_posts, all_posts_by_slug)
+    for topic_slug, topic_posts in all_topics.items():
+        display = graph["concept_names"].get(topic_slug, topic_slug.replace("-", " ").title())
+        rel_path = f"{TOPICS_FOLDER}/{topic_slug}.md"
+        content = build_topic_note(topic_slug, topic_posts, all_posts_by_slug, display)
         _atomic_write(vault_dir / rel_path, content)
         written_files.add(rel_path)
 

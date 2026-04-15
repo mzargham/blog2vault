@@ -4,22 +4,10 @@ subtitle: "The Computer and the Brain anticipated both the successes and shortco
 date: 2026-01-19
 slug: what-von-neumann-understood-about
 canonical_url: "https://www.avikde.me/p/what-von-neumann-understood-about"
-tags:
-  - computing
-  - systems-architecture
-  - computational-theory
-  - artificial-intelligence-history
-  - biological-computing
+topic: "Von Neumann S Theory Of Computational Intelligence"
 concepts:
-  - "Von Neumann Architecture"
-  - "Neural Computation"
-  - "Biological Computing Models"
-  - "Deep Learning Limitations"
-  - "Computational Intelligence Theory"
+  - "Artificial Intelligence"
   - "Brain-Computer Analogies"
-  - "Computer Science"
-  - "Neuroscience"
-  - "Cognitive Science"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +20,8 @@ author: Avik De
 
 > Originally published: [2026-01-19](https://www.avikde.me/p/what-von-neumann-understood-about)
 
-**Topics:** [[topics/computing|Computing]] · [[topics/systems-architecture|Systems Architecture]] · [[topics/computational-theory|Computational Theory]] · [[topics/artificial-intelligence-history|Artificial Intelligence History]] · [[topics/biological-computing|Biological Computing]]
-**Concepts:** [[concepts/von-neumann-architecture|Von Neumann Architecture]] · [[concepts/neural-computation|Neural Computation]] · [[concepts/biological-computing-models|Biological Computing Models]] · [[concepts/deep-learning-limitations|Deep Learning Limitations]] · [[concepts/computational-intelligence-theory|Computational Intelligence Theory]] · [[concepts/brain-computer-analogies|Brain-Computer Analogies]] · [[concepts/computer-science|Computer Science]] · [[concepts/neuroscience|Neuroscience]] · [[concepts/cognitive-science|Cognitive Science]]
+**Topic:** [[topics/von-neumann-s-theory-of-computational-intelligence|Von Neumann S Theory Of Computational Intelligence]]
+**Concepts:** [[concepts/artificial-intelligence|Artificial Intelligence]] · [[concepts/brain-computer-analogies|Brain-Computer Analogies]]
 **Citations:** [[citations/mathshistory-st-andrews-ac-uk|mathshistory.st.andrews.ac.uk]] · [[citations/ieeexplore-ieee-org|ieeexplore.ieee.org]] · [[citations/developer-nvidia-com|developer.nvidia.com]] · [[citations/towardsdatascience-com|towardsdatascience.com]] · [[citations/groq-com|groq.com]] · [[citations/tomshardware-com|tomshardware.com]]
 
 ---

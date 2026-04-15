@@ -4,20 +4,14 @@ subtitle: "Robotics research meets outreach"
 date: 2015-04-11
 slug: jerboa-demo-swe-gears-day
 canonical_url: "https://www.avikde.me/p/jerboa-demo-swe-gears-day"
-tags:
-  - research
-  - control-theory
-  - legged-locomotion
-  - robotics-outreach
+topic: "Robotics Public Outreach And Demonstration"
 concepts:
-  - "Robotics"
-  - "Control Systems Engineering"
-  - "Jerboa Robot"
-  - "Buehler Clock Leg Trajectory"
+  - "Leg Phase Coordination"
+  - "Buehler Clock"
   - "Feedforward Control"
-  - "Phase Offset Control"
-  - "Sagittal Plane Locomotion"
-  - "Boom-based Testing"
+  - "Sagittal Plane Motion"
+  - "Trajectory Planning"
+  - "Boom Testing"
 source: Substack
 author: Avik De
 ---
@@ -30,8 +24,8 @@ author: Avik De
 
 > Originally published: [2015-04-11](https://www.avikde.me/p/jerboa-demo-swe-gears-day)
 
-**Topics:** [[topics/research|Research]] · [[topics/control-theory|Control Theory]] · [[topics/legged-locomotion|Legged Locomotion]] · [[topics/robotics-outreach|Robotics Outreach]]
-**Concepts:** [[concepts/robotics|Robotics]] · [[concepts/control-systems-engineering|Control Systems Engineering]] · [[concepts/jerboa-robot|Jerboa Robot]] · [[concepts/buehler-clock-leg-trajectory|Buehler Clock Leg Trajectory]] · [[concepts/feedforward-control|Feedforward Control]] · [[concepts/phase-offset-control|Phase Offset Control]] · [[concepts/sagittal-plane-locomotion|Sagittal Plane Locomotion]] · [[concepts/boom-based-testing|Boom-based Testing]]
+**Topic:** [[topics/robotics-public-outreach-and-demonstration|Robotics Public Outreach And Demonstration]]
+**Concepts:** [[concepts/leg-phase-coordination|Leg Phase Coordination]] · [[concepts/buehler-clock|Buehler Clock]] · [[concepts/feedforward-control|Feedforward Control]] · [[concepts/sagittal-plane-motion|Sagittal Plane Motion]] · [[concepts/trajectory-planning|Trajectory Planning]] · [[concepts/boom-testing|Boom Testing]]
 **Citations:** [[citations/fling-seas-upenn-edu|fling.seas.upenn.edu]]
 
 ---

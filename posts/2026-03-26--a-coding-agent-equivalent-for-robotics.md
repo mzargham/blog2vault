@@ -4,22 +4,15 @@ subtitle: "Part 4: Closing the action loop with a VLA vs. a spatial VLM 'agent'"
 date: 2026-03-26
 slug: a-coding-agent-equivalent-for-robotics
 canonical_url: "https://www.avikde.me/p/a-coding-agent-equivalent-for-robotics"
-tags:
-  - robotics
-  - robotics-architecture
-  - machine-learning-deployment
-  - control-systems
-  - human-robot-interaction
+topic: "End To End Robotics Pipelines"
 concepts:
   - "Vision-Language-Action Models"
-  - "Robotics"
-  - "Computer Vision"
-  - "Machine Learning"
-  - "End-to-End Robotics Pipelines"
-  - "Online Motor Adaptation"
-  - "Spatial Visual Language Models"
-  - "Action Loop Closure"
+  - "End-to-End Learning"
+  - "Spatial VLM Agents"
   - "MuJoCo Simulation"
+  - "Robotic Manipulation"
+  - "Action Loop Closure"
+  - "Failure Mode Analysis"
 source: Substack
 author: Avik De
 ---
@@ -32,8 +25,8 @@ author: Avik De
 
 > Originally published: [2026-03-26](https://www.avikde.me/p/a-coding-agent-equivalent-for-robotics)
 
-**Topics:** [[topics/robotics|Robotics]] · [[topics/robotics-architecture|Robotics Architecture]] · [[topics/machine-learning-deployment|Machine Learning Deployment]] · [[topics/control-systems|Control Systems]] · [[topics/human-robot-interaction|Human Robot Interaction]]
-**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/robotics|Robotics]] · [[concepts/computer-vision|Computer Vision]] · [[concepts/machine-learning|Machine Learning]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/online-motor-adaptation|Online Motor Adaptation]] · [[concepts/spatial-visual-language-models|Spatial Visual Language Models]] · [[concepts/action-loop-closure|Action Loop Closure]] · [[concepts/mujoco-simulation|MuJoCo Simulation]]
+**Topic:** [[topics/end-to-end-robotics-pipelines|End To End Robotics Pipelines]]
+**Concepts:** [[concepts/vision-language-action-models|Vision-Language-Action Models]] · [[concepts/end-to-end-learning|End-to-End Learning]] · [[concepts/spatial-vlm-agents|Spatial VLM Agents]] · [[concepts/mujoco-simulation|MuJoCo Simulation]] · [[concepts/robotic-manipulation|Robotic Manipulation]] · [[concepts/action-loop-closure|Action Loop Closure]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/ai-google-dev|ai.google.dev]] · [[citations/quantamagazine-org|quantamagazine.org]] · [[citations/huggingface-co|huggingface.co]] · [[citations/arxiv-org|arxiv.org]] · [[citations/youtu-be|youtu.be]] · [[citations/sunday-ai|sunday.ai]]
 
