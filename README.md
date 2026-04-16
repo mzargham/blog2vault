@@ -1,6 +1,6 @@
-# avikde-vault
+# blog2vault
 
-An Obsidian knowledge vault of [Avik De's blog](https://www.avikde.me), auto-synced weekly from Substack. You can change it to a different substack but i've not tested it on other blogs.
+This repository is a template for Obsidian knowledge vault of a substack blog. I applied it to [Avik De's blog](https://www.avikde.me), auto-synced weekly from Substack. You can change it to a different substack but i've not tested it on other blogs. Feel free to clone and calibrate it to vaultify a substack blog of your choosing.
 
 Built by [mzargham](https://github.com/mzargham) for the author -- who gets a searchable, wikilinked, local-first archive of everything he's written.
 
