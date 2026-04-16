@@ -1,6 +1,6 @@
 # avikde-vault
 
-An Obsidian knowledge vault of [Avik De's blog](https://www.avikde.me), auto-synced weekly from Substack.
+An Obsidian knowledge vault of [Avik De's blog](https://www.avikde.me), auto-synced weekly from Substack. You can change it to a different substack but i've not tested it on other blogs.
 
 Built by [mzargham](https://github.com/mzargham) for the author -- who gets a searchable, wikilinked, local-first archive of everything he's written.
 
@@ -17,7 +17,7 @@ Built by [mzargham](https://github.com/mzargham) for the author -- who gets a se
    ```
 
 2. Open Obsidian and select **Open folder as vault**.
-3. Point it at the cloned `avikde-vault` directory (the repo root).
+3. Point it at the cloned `blog2vault` directory (the repo root).
 4. The **Map of Content** (`MOC.md`) opens as the landing page.
 
 The `.obsidian/` config is committed to the repo, so file filters are pre-configured -- you'll only see vault content (posts, topics, concepts, citations, meta notes) in the file explorer, not Python scripts or config files.
@@ -45,7 +45,7 @@ Both are extracted by the Anthropic API and then clustered using TF-IDF + agglom
 ### Staying up to date
 
 ```bash
-cd avikde-vault
+cd blog2vault
 git pull
 ```
 
@@ -89,8 +89,8 @@ Each post note contains:
 ### Install
 
 ```bash
-git clone https://github.com/mzargham/avikde-vault.git
-cd avikde-vault
+git clone https://github.com/mzargham/blog2vault.git
+cd blog2vault
 uv venv --python 3.12
 uv sync --all-extras
 ```
