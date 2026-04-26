@@ -175,4 +175,4 @@ In the deep neural network boom, the MAC array is so dominant in workload (>95% 
 
 Related posts:
 
-[![](https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png)Chip InsightsMapping algorithms to custom silicon - Part 1Read more2 months ago · 22 likes · Bharath Suresh and Avik De](<https://chipinsights.net/p/mapping-algorithms-to-custom-silicon?utm_source=substack&utm_campaign=post_embed&utm_medium=web>)
+[![](https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png)Chip InsightsMapping algorithms to custom silicon - Part 1Read more3 months ago · 22 likes · Bharath Suresh and Avik De](<https://chipinsights.net/p/mapping-algorithms-to-custom-silicon?utm_source=substack&utm_campaign=post_embed&utm_medium=web>)

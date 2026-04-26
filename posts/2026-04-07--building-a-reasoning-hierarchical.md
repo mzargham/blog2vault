@@ -11,7 +11,7 @@ concepts:
   - "Motion Controllers"
   - "Microcontroller Programming"
   - "End-to-End Robotics Pipelines"
-  - "Classical Control Methods"
+  - "Model-Based Methods"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2026-04-07](https://www.avikde.me/p/building-a-reasoning-hierarchical)
 
 **Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
-**Concepts:** [[concepts/world-models|World Models]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/classical-control-methods|Classical Control Methods]]
+**Concepts:** [[concepts/world-models|World Models]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/model-based-methods|Model-Based Methods]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/github-io|github.io]] · [[citations/google-com|google.com]] · [[citations/arxiv-org|arxiv.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/incompleteideas-net|incompleteideas.net]]
 
 ---

@@ -4,7 +4,7 @@ subtitle: "Paper in IROS 2020 about using templates and optimization for robot d
 date: 2024-12-22
 slug: template-based-design-robobee
 canonical_url: "https://www.avikde.me/p/template-based-design-robobee"
-topic: "Template Based Robot Design Optimization"
+topic: "Task Based Motor Control Algorithm Design"
 concepts:
   - "Design Optimization"
   - "Model Predictive Control"
@@ -23,7 +23,7 @@ author: Avik De
 
 > Originally published: [2024-12-22](https://www.avikde.me/p/template-based-design-robobee)
 
-**Topic:** [[topics/template-based-robot-design-optimization|Template Based Robot Design Optimization]]
+**Topic:** [[topics/task-based-motor-control-algorithm-design|Task Based Motor Control Algorithm Design]]
 **Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/model-predictive-control|Model Predictive Control]] · [[concepts/reduced-order-models|Reduced-Order Models]] · [[concepts/non-dimensionalization|Non-Dimensionalization]] · [[concepts/control-templates|Control Templates]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]]
 

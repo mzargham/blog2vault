@@ -53,3 +53,4 @@ All posts in chronological order.
 - `2026-03-20` [[posts/2026-03-20--lessons-from-avs-on-safety-in-end|Lessons from AVs on safety in end-to-end pipelines]]
 - `2026-03-26` [[posts/2026-03-26--a-coding-agent-equivalent-for-robotics|A coding agent equivalent for robotics pipelines]]
 - `2026-04-07` [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]]
+- `2026-04-22` [[posts/2026-04-22--honors-humanoid-ran-the-fastest-half|Honor's humanoid ran the fastest half-marathon: how did they do it?]]

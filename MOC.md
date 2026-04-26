@@ -1,13 +1,13 @@
 ---
 type: moc
-updated: 2026-04-15
-post_count: 29
+updated: 2026-04-26
+post_count: 30
 ---
 
 # Map of Content — Avik De's Blog
 
-> Obsidian vault for [avikde.me](https://www.avikde.me) · **29 posts** · **18 topics** · **46 concepts** · **99 cited domains**  
-> Last synced: 2026-04-15
+> Obsidian vault for [avikde.me](https://www.avikde.me) · **30 posts** · **19 topics** · **46 concepts** · **105 cited domains**  
+> Last synced: 2026-04-26
 
 ---
 
@@ -17,9 +17,9 @@ post_count: 29
 |---------|-------|
 | [[_meta/Timeline\|📅 Timeline]] | All posts in chronological order |
 | [[_meta/Authors\|👤 Authors]] | About Avik De |
-| topics/ | 18 topic pages |
+| topics/ | 19 topic pages |
 | concepts/ | 46 concept pages |
-| citations/ | 99 cited domains |
+| citations/ | 105 cited domains |
 
 ---
 
@@ -27,6 +27,7 @@ post_count: 29
 
 ### 2026
 
+- [[posts/2026-04-22--honors-humanoid-ran-the-fastest-half|Honor's humanoid ran the fastest half-marathon: how did they do it?]] — *Engineering isn't magic, it's a matter of tradeoffs* `2026-04-22`
 - [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]] — *Part 5: A demo combining the best features of end-to-end and classical approaches* `2026-04-07`
 - [[posts/2026-03-26--a-coding-agent-equivalent-for-robotics|A coding agent equivalent for robotics pipelines]] — *Part 4: Closing the action loop with a VLA vs. a spatial VLM "agent"* `2026-03-26`
 - [[posts/2026-03-20--lessons-from-avs-on-safety-in-end|Lessons from AVs on safety in end-to-end pipelines]] — *Recent developments in autonomous vehicles on recognizing and handling distribution shift* `2026-03-20`
@@ -81,9 +82,10 @@ post_count: 29
 - [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]] (3 posts)
 - [[topics/jerboa-robot-development|Jerboa Robot Development]] (3 posts)
 - [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]] (2 posts)
-- [[topics/template-based-robot-design-optimization|Template Based Robot Design Optimization]] (2 posts)
+- [[topics/task-based-motor-control-algorithm-design|Task Based Motor Control Algorithm Design]] (2 posts)
 - [[topics/quadrupedal-robots|Quadrupedal Robots]] (2 posts)
-- [[topics/modular-robotics-control-architecture|Modular Robotics Control Architecture]] (2 posts)
+- [[topics/educational-robotics|Educational Robotics]] (2 posts)
+- [[topics/humanoid-robot-marathon-performance|Humanoid Robot Marathon Performance]] (1 posts)
 - [[topics/systolic-arrays|Systolic Arrays]] (1 posts)
 - [[topics/cybernetics|Cybernetics]] (1 posts)
 - [[topics/cache-effects-in-object-oriented-programming|Cache Effects In Object Oriented Programming]] (1 posts)
@@ -100,32 +102,33 @@ post_count: 29
 
 ## 💡 Concepts
 
-- [[concepts/3d-locomotion|3D Locomotion]] (9 posts)
-- [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] (6 posts)
+- [[concepts/3d-locomotion|3D Locomotion]] (12 posts)
+- [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] (7 posts)
 - [[concepts/design-optimization|Design Optimization]] (6 posts)
 - [[concepts/raibert-three-part-control|Raibert Three-Part Control]] (6 posts)
 - [[concepts/world-models|World Models]] (5 posts)
 - [[concepts/control-systems|Control Systems]] (4 posts)
 - [[concepts/bottom-up-composition|Bottom-Up Composition]] (4 posts)
+- [[concepts/biomimetic-control|Biomimetic Control]] (3 posts)
 - [[concepts/motion-controllers|Motion Controllers]] (3 posts)
 - [[concepts/systolic-networks|Systolic Networks]] (3 posts)
 - [[concepts/hardware-acceleration|Hardware Acceleration]] (3 posts)
 - [[concepts/model-predictive-control|Model Predictive Control]] (3 posts)
-- [[concepts/control-templates|Control Templates]] (3 posts)
 - [[concepts/interdisciplinary-research|Interdisciplinary Research]] (3 posts)
+- [[concepts/robotic-athletics|Robotic Athletics]] (2 posts)
+- [[concepts/human-machine-performance-comparison|Human-Machine Performance Comparison]] (2 posts)
 - [[concepts/microcontroller-programming|Microcontroller Programming]] (2 posts)
-- [[concepts/classical-control-methods|Classical Control Methods]] (2 posts)
-- [[concepts/mujoco-simulation|MuJoCo Simulation]] (2 posts)
+- [[concepts/model-based-methods|Model-Based Methods]] (2 posts)
+- [[concepts/simulation-animation|Simulation Animation]] (2 posts)
 - [[concepts/failure-mode-analysis|Failure Mode Analysis]] (2 posts)
-- [[concepts/generalist-policies|Generalist Policies]] (2 posts)
 - [[concepts/feedback-loops|Feedback Loops]] (2 posts)
 - [[concepts/artificial-intelligence|Artificial Intelligence]] (2 posts)
 - [[concepts/object-oriented-design|Object-Oriented Design]] (2 posts)
-- [[concepts/foundation-models|Foundation Models]] (2 posts)
 - [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]] (2 posts)
-- [[concepts/transfer-learning|Transfer Learning]] (2 posts)
+- [[concepts/energy-transfer|Energy Transfer]] (2 posts)
 - [[concepts/reduced-order-models|Reduced-Order Models]] (2 posts)
 - [[concepts/non-dimensionalization|Non-Dimensionalization]] (2 posts)
+- [[concepts/control-templates|Control Templates]] (2 posts)
 - [[concepts/vertical-hopper-compositions|Vertical Hopper Compositions]] (2 posts)
 - [[concepts/phase-control|Phase Control]] (2 posts)
 - [[concepts/bldc-actuators|BLDC Actuators]] (2 posts)
@@ -133,7 +136,6 @@ post_count: 29
 - [[concepts/tailed-reorientation|Tailed Reorientation]] (2 posts)
 - [[concepts/modular-system-architecture|Modular System Architecture]] (1 posts)
 - [[concepts/spatial-vlm-agents|Spatial VLM Agents]] (1 posts)
-- [[concepts/robotic-manipulation|Robotic Manipulation]] (1 posts)
 - [[concepts/action-loop-closure|Action Loop Closure]] (1 posts)
 - [[concepts/message-passing|Message Passing]] (1 posts)
 - [[concepts/high-level-low-level-controller-cascade|High-Level Low-Level Controller Cascade]] (1 posts)

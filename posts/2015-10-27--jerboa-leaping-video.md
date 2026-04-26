@@ -6,8 +6,8 @@ slug: jerboa-leaping-video
 canonical_url: "https://www.avikde.me/p/jerboa-leaping-video"
 topic: "Jerboa Robot Development"
 concepts:
-  - "Design Optimization"
   - "3D Locomotion"
+  - "Design Optimization"
   - "Raibert Three-Part Control"
   - "Transitional Behaviors"
 source: Substack
@@ -23,7 +23,7 @@ author: Avik De
 > Originally published: [2015-10-27](https://www.avikde.me/p/jerboa-leaping-video)
 
 **Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
-**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/transitional-behaviors|Transitional Behaviors]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/design-optimization|Design Optimization]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/transitional-behaviors|Transitional Behaviors]]
 **Citations:** [[citations/upenn-edu|upenn.edu]]
 
 ---

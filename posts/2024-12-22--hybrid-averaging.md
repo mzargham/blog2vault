@@ -6,9 +6,9 @@ slug: hybrid-averaging
 canonical_url: "https://www.avikde.me/p/hybrid-averaging"
 topic: "Hybrid Dynamical Averaging For Cyclic Systems"
 concepts:
-  - "Control Systems"
   - "3D Locomotion"
-  - "Transfer Learning"
+  - "Control Systems"
+  - "Energy Transfer"
   - "Bottom-Up Composition"
   - "Raibert Three-Part Control"
   - "Reduced-Order Models"
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2024-12-22](https://www.avikde.me/p/hybrid-averaging)
 
 **Topic:** [[topics/hybrid-dynamical-averaging-for-cyclic-systems|Hybrid Dynamical Averaging For Cyclic Systems]]
-**Concepts:** [[concepts/control-systems|Control Systems]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/transfer-learning|Transfer Learning]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/reduced-order-models|Reduced-Order Models]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/control-systems|Control Systems]] · [[concepts/energy-transfer|Energy Transfer]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/reduced-order-models|Reduced-Order Models]]
 **Citations:** [[citations/mit-edu|mit.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/journals-sagepub-com|journals.sagepub.com]] · [[citations/link-springer-com|link.springer.com]] · [[citations/mathworld-wolfram-com|mathworld.wolfram.com]] · [[citations/arxiv-org|arxiv.org]]
 
 ---

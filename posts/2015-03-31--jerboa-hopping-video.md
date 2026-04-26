@@ -6,10 +6,10 @@ slug: jerboa-hopping-video
 canonical_url: "https://www.avikde.me/p/jerboa-hopping-video"
 topic: "Bioinspired Hopping Robotics"
 concepts:
-  - "Design Optimization"
   - "3D Locomotion"
+  - "Biomimetic Control"
+  - "Design Optimization"
   - "Bottom-Up Composition"
-  - "Control Templates"
   - "Tailed Reorientation"
 source: Substack
 author: Avik De
@@ -24,7 +24,7 @@ author: Avik De
 > Originally published: [2015-03-31](https://www.avikde.me/p/jerboa-hopping-video)
 
 **Topic:** [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]]
-**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/control-templates|Control Templates]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/biomimetic-control|Biomimetic Control]] · [[concepts/design-optimization|Design Optimization]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
 **Citations:** [[citations/youtube-com|youtube.com]] · [[citations/upenn-edu|upenn.edu]] · [[citations/academia-edu|academia.edu]] · [[citations/acm-org|acm.org]]
 
 ---
