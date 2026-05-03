@@ -4,7 +4,7 @@ subtitle: "Simple controllers produce exciting quadrupedal behaviors - paper in 
 date: 2024-12-22
 slug: vertical-hopper-compositions
 canonical_url: "https://www.avikde.me/p/vertical-hopper-compositions"
-topic: "Quadrupedal Robots"
+topic: "Virtual Bipedal Control For Quadrupedal Gaits"
 concepts:
   - "Vertical Hopper Compositions"
 source: Substack
@@ -19,7 +19,7 @@ author: Avik De
 
 > Originally published: [2024-12-22](https://www.avikde.me/p/vertical-hopper-compositions)
 
-**Topic:** [[topics/quadrupedal-robots|Quadrupedal Robots]]
+**Topic:** [[topics/virtual-bipedal-control-for-quadrupedal-gaits|Virtual Bipedal Control For Quadrupedal Gaits]]
 **Concepts:** [[concepts/vertical-hopper-compositions|Vertical Hopper Compositions]]
 **Citations:** [[citations/mit-edu|mit.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/sciencedirect-com|sciencedirect.com]]
 

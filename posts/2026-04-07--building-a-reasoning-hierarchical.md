@@ -6,12 +6,12 @@ slug: building-a-reasoning-hierarchical
 canonical_url: "https://www.avikde.me/p/building-a-reasoning-hierarchical"
 topic: "Hybrid Vision Language Action Robotics Pipeline"
 concepts:
+  - "End-to-End Robotics Pipelines"
   - "World Models"
   - "Modular System Architecture"
   - "Motion Controllers"
   - "Microcontroller Programming"
-  - "End-to-End Robotics Pipelines"
-  - "Model-Based Methods"
+  - "Classical Control Methods"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2026-04-07](https://www.avikde.me/p/building-a-reasoning-hierarchical)
 
 **Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
-**Concepts:** [[concepts/world-models|World Models]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/model-based-methods|Model-Based Methods]]
+**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/world-models|World Models]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/classical-control-methods|Classical Control Methods]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/github-io|github.io]] · [[citations/google-com|google.com]] · [[citations/arxiv-org|arxiv.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/incompleteideas-net|incompleteideas.net]]
 
 ---

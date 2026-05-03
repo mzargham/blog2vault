@@ -2,7 +2,7 @@
 type: citation
 domain: github.com
 domain_slug: github-com
-citation_count: 23
+citation_count: 25
 ---
 
 # Citations: github.com
@@ -49,4 +49,8 @@ External references from [github.com](https://github.com) appearing across posts
 ### [[posts/2026-03-12--systolic-arrays-for-general-robotics|Systolic arrays for general robotics, AI, and scientific computing]]
 - [https://github.com/realsenseai/librealsense/discussions/11586](https://github.com/realsenseai/librealsense/discussions/11586) "Intel RealSense camera ASICs"
 - [https://github.com/avikde/tiny-xpu](https://github.com/avikde/tiny-xpu) "TinyXPU project"
+
+### [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
+- [https://github.com/avikde/robo-research-trends](https://github.com/avikde/robo-research-trends) "were generated from arXiv data"
+- [https://github.com/chipsalliance/chisel](https://github.com/chipsalliance/chisel) "Chisel"
 

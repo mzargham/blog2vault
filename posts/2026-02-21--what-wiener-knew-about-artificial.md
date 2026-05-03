@@ -7,7 +7,7 @@ canonical_url: "https://www.avikde.me/p/what-wiener-knew-about-artificial"
 topic: "Cybernetics"
 concepts:
   - "Control Systems"
-  - "Feedback Loops"
+  - "Force Feedback"
   - "Artificial Intelligence"
   - "Message Passing"
 source: Substack
@@ -23,7 +23,7 @@ author: Avik De
 > Originally published: [2026-02-21](https://www.avikde.me/p/what-wiener-knew-about-artificial)
 
 **Topic:** [[topics/cybernetics|Cybernetics]]
-**Concepts:** [[concepts/control-systems|Control Systems]] · [[concepts/feedback-loops|Feedback Loops]] · [[concepts/artificial-intelligence|Artificial Intelligence]] · [[concepts/message-passing|Message Passing]]
+**Concepts:** [[concepts/control-systems|Control Systems]] · [[concepts/force-feedback|Force Feedback]] · [[concepts/artificial-intelligence|Artificial Intelligence]] · [[concepts/message-passing|Message Passing]]
 **Citations:** [[citations/loff-it|loff.it]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/jstor-org|jstor.org]] · [[citations/msys-mv-blogspot-com|msys.mv.blogspot.com]] · [[citations/englishverse-com|englishverse.com]] · [[citations/reddit-com|reddit.com]] · [[citations/brooklinebooksmith-com|brooklinebooksmith.com]]
 
 ---

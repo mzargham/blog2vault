@@ -7,11 +7,11 @@ canonical_url: "https://www.avikde.me/p/ghost-robotics-minitaur"
 topic: "Jerboa Robot Development"
 concepts:
   - "3D Locomotion"
-  - "Feedback Loops"
+  - "Force Feedback"
   - "Raibert Three-Part Control"
-  - "BLDC Actuators"
+  - "Transparent Actuators"
   - "Direct-Drive Motors"
-  - "Interdisciplinary Research"
+  - "Research Commercialization"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2016-03-02](https://www.avikde.me/p/ghost-robotics-minitaur)
 
 **Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
-**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/feedback-loops|Feedback Loops]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/direct-drive-motors|Direct-Drive Motors]] · [[concepts/interdisciplinary-research|Interdisciplinary Research]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/force-feedback|Force Feedback]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/transparent-actuators|Transparent Actuators]] · [[concepts/direct-drive-motors|Direct-Drive Motors]] · [[concepts/research-commercialization|Research Commercialization]]
 **Citations:** [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/ieee-org|ieee.org]] · [[citations/upenn-edu|upenn.edu]]
 
 ---

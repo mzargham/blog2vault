@@ -12,8 +12,8 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 ## References
 
 ### [[posts/2026-03-26--a-coding-agent-equivalent-for-robotics|A coding agent equivalent for robotics pipelines]]
+- [https://arxiv.org/abs/2304.13705](https://arxiv.org/abs/2304.13705) "ALOHA paper / ACT paper"
 - [https://arxiv.org/abs/2401.12168](https://arxiv.org/abs/2401.12168) "SpatialVLM"
-- [https://arxiv.org/abs/2304.13705](https://arxiv.org/abs/2304.13705) "ACT paper"
 
 ### [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]]
 - [https://arxiv.org/abs/2511.10647](https://arxiv.org/abs/2511.10647) "DepthAnything"
@@ -49,4 +49,7 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 - [https://arxiv.org/pdf/1804.10332](https://arxiv.org/pdf/1804.10332) "2018 paper from Google"
 - [https://arxiv.org/pdf/1901.08652](https://arxiv.org/pdf/1901.08652) "highly-cited Hwangbo et al (2019) paper"
 - [https://arxiv.org/pdf/1611.01055](https://arxiv.org/pdf/1611.01055) "Peng et al (2017)"
+
+### [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
+- [https://arxiv.org/abs/2304.13705](https://arxiv.org/abs/2304.13705) "ALOHA paper / ACT paper"
 

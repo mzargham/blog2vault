@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 30
+citation_count: 32
 ---
 
 # Citations: en.wikipedia.org
@@ -59,6 +59,10 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/Shakey_the_robot](https://en.wikipedia.org/wiki/Shakey_the_robot) "Shakey the robot"
 - [https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver](https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver) "symbolic AI systems"
 - [https://en.wikipedia.org/wiki/Vanishing_gradient_problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) "vanishing/exploding gradients"
+
+### [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
+- [https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions](https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions) "Thomas Kuhn wrote"
+- [https://en.wikipedia.org/wiki/VLSI_Project](https://en.wikipedia.org/wiki/VLSI_Project) "DARPA’s VLSI Project"
 
 ### [[posts/2024-12-22--vertical-hopper-compositions|Minitaur bounding, pronking using vertical hopper compositions]]
 - [https://en.wikipedia.org/wiki/Center_of_percussion](https://en.wikipedia.org/wiki/Center_of_percussion) "center of percussion"
