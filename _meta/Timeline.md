@@ -55,3 +55,4 @@ All posts in chronological order.
 - `2026-04-07` [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]]
 - `2026-04-22` [[posts/2026-04-22--honors-humanoid-ran-the-fastest-half|Honor's humanoid ran the fastest half-marathon: how did they do it?]]
 - `2026-04-29` [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
+- `2026-05-05` [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]

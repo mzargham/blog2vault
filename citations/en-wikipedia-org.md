@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 32
+citation_count: 35
 ---
 
 # Citations: en.wikipedia.org
@@ -16,6 +16,11 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 
 ### [[posts/2026-04-22--honors-humanoid-ran-the-fastest-half|Honor's humanoid ran the fastest half-marathon: how did they do it?]]
 - [https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov](https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov) "Deep Blue’s 1997 defeat of Garry Kasparov in chess"
+
+### [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]
+- [https://en.wikipedia.org/wiki/Universal_approximation_theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem) "universal approximation theorem"
+- [https://en.wikipedia.org/wiki/Turing_machine](https://en.wikipedia.org/wiki/Turing_machine) "Turing machine"
+- [https://en.wikipedia.org/wiki/Integer_factorization](https://en.wikipedia.org/wiki/Integer_factorization) "very easily write"
 
 ### [[posts/2024-12-22--hybrid-averaging|Approximating cyclic dynamics utilizing symmetry]]
 - [https://en.wikipedia.org/wiki/Double_pendulum](https://en.wikipedia.org/wiki/Double_pendulum) "difficult to analyze"

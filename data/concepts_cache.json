@@ -357,5 +357,16 @@
       "Scaling Laws",
       "The Bitter Lesson"
     ]
+  },
+  "how-an-llm-changes-its-mind::2026-05-05T12:21:42.038Z": {
+    "topic": "Universal Approximation in Neural Networks",
+    "concepts": [
+      "Universal Approximation Theorem",
+      "Feed-Forward Neural Networks",
+      "Transformers",
+      "Continuous Function Approximation",
+      "Turing Machines",
+      "Computational Complexity"
+    ]
   }
 }

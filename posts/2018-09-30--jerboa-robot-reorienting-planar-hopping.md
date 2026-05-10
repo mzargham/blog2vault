@@ -7,7 +7,7 @@ canonical_url: "https://www.avikde.me/p/jerboa-robot-reorienting-planar-hopping"
 topic: "Jerboa Robot Development"
 concepts:
   - "3D Locomotion"
-  - "Direct-Drive Motors"
+  - "Direct Drive Design"
   - "Tailed Reorientation"
 source: Substack
 author: Avik De
@@ -22,7 +22,7 @@ author: Avik De
 > Originally published: [2018-09-30](https://www.avikde.me/p/jerboa-robot-reorienting-planar-hopping)
 
 **Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
-**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/direct-drive-motors|Direct-Drive Motors]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/direct-drive-design|Direct Drive Design]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/mit-edu|mit.edu]]
 
 ---

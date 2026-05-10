@@ -6,7 +6,8 @@ slug: systolic-arrays-for-general-robotics
 canonical_url: "https://www.avikde.me/p/systolic-arrays-for-general-robotics"
 topic: "Systolic Arrays"
 concepts:
-  - "Systolic Networks"
+  - "Neural Networks"
+  - "Signal Processing"
   - "Hardware Acceleration"
 source: Substack
 author: Avik De
@@ -21,7 +22,7 @@ author: Avik De
 > Originally published: [2026-03-12](https://www.avikde.me/p/systolic-arrays-for-general-robotics)
 
 **Topic:** [[topics/systolic-arrays|Systolic Arrays]]
-**Concepts:** [[concepts/systolic-networks|Systolic Networks]] · [[concepts/hardware-acceleration|Hardware Acceleration]]
+**Concepts:** [[concepts/neural-networks|Neural Networks]] · [[concepts/signal-processing|Signal Processing]] · [[concepts/hardware-acceleration|Hardware Acceleration]]
 **Citations:** [[citations/harvard-edu|harvard.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ieee-org|ieee.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/github-com|github.com]] · [[citations/kwokanthony-medium-com|kwokanthony.medium.com]] · [[citations/swh-princeton-edu|swh.princeton.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/chipinsights-net|chipinsights.net]]
 
 ---

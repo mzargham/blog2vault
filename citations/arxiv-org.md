@@ -2,7 +2,7 @@
 type: citation
 domain: arxiv.org
 domain_slug: arxiv-org
-citation_count: 23
+citation_count: 24
 ---
 
 # Citations: arxiv.org
@@ -17,6 +17,9 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 
 ### [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]]
 - [https://arxiv.org/abs/2511.10647](https://arxiv.org/abs/2511.10647) "DepthAnything"
+
+### [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]
+- [https://arxiv.org/pdf/2602.11175](https://arxiv.org/pdf/2602.11175) "2026 paper from Oracle AI / Barriers to Discrete Reasoning with Transformers"
 
 ### [[posts/2024-12-22--hybrid-averaging|Approximating cyclic dynamics utilizing symmetry]]
 - [https://arxiv.org/abs/2306.06862](https://arxiv.org/abs/2306.06862) "saltation matrix"

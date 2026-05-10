@@ -2,7 +2,7 @@
 type: citation
 domain: github.io
 domain_slug: github-io
-citation_count: 10
+citation_count: 11
 ---
 
 # Citations: github.io
@@ -19,6 +19,9 @@ External references from [github.io](https://github.io) appearing across posts.
 - [https://thu-air-dream.github.io/X-VLA](https://thu-air-dream.github.io/X-VLA) "X-VLA"
 - [https://robot-learning-collective.github.io/vla-0-smol](https://robot-learning-collective.github.io/vla-0-smol) "VLA-0-Smol"
 - [https://rail-berkeley.github.io/bridgedata](https://rail-berkeley.github.io/bridgedata) "BridgeData"
+
+### [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]
+- [https://avikde.github.io/tiny-xpu](https://avikde.github.io/tiny-xpu) "this page"
 
 ### [[posts/2026-02-03--is-it-learning-online-motor-adaptation|"Is it learning?" Online motor adaptation in end-to-end robotics]]
 - [https://ashish-kmr.github.io/rma-legged-robots](https://ashish-kmr.github.io/rma-legged-robots) "RMA: Rapid Motor Adaptation (2021)"

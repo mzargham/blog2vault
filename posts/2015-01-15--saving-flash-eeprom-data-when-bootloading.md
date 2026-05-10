@@ -8,7 +8,7 @@ topic: "Eeprom Data Preservation During Stm32 Bootloading"
 concepts:
   - "Microcontroller Programming"
   - "Object-Oriented Design"
-  - "Non-Dimensionalization"
+  - "Non-Volatile Storage"
 source: Substack
 author: Avik De
 ---
@@ -20,7 +20,7 @@ author: Avik De
 > Originally published: [2015-01-15](https://www.avikde.me/p/saving-flash-eeprom-data-when-bootloading)
 
 **Topic:** [[topics/eeprom-data-preservation-during-stm32-bootloading|Eeprom Data Preservation During Stm32 Bootloading]]
-**Concepts:** [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/object-oriented-design|Object-Oriented Design]] · [[concepts/non-dimensionalization|Non-Dimensionalization]]
+**Concepts:** [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/object-oriented-design|Object-Oriented Design]] · [[concepts/non-volatile-storage|Non-Volatile Storage]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/st-com|st.com]] · [[citations/arduino-cc|arduino.cc]] · [[citations/asciitable-com|asciitable.com]]
 
 ---

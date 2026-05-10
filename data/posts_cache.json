@@ -5771,5 +5771,215 @@
     ],
     "is_geoblocked": false,
     "hasCashtag": false
+  },
+  "how-an-llm-changes-its-mind": {
+    "audience": "everyone",
+    "audience_before_archived": null,
+    "canonical_url": "https://www.avikde.me/p/how-an-llm-changes-its-mind",
+    "default_comment_sort": null,
+    "editor_v2": false,
+    "exempt_from_archive_paywall": false,
+    "free_unlock_required": false,
+    "id": 196138155,
+    "podcast_art_url": null,
+    "podcast_duration": null,
+    "podcast_preview_upload_id": null,
+    "podcast_upload_id": null,
+    "podcast_url": null,
+    "post_date": "2026-05-05T12:14:39.484Z",
+    "updated_at": "2026-05-05T12:21:42.038Z",
+    "publication_id": 7287367,
+    "search_engine_description": null,
+    "search_engine_title": null,
+    "section_id": null,
+    "should_send_free_preview": false,
+    "show_guest_bios": true,
+    "slug": "how-an-llm-changes-its-mind",
+    "social_title": null,
+    "subtitle": "Safety and efficiency with universal approximators and Turing machines",
+    "teaser_post_eligible": true,
+    "title": "How an LLM Changes its Mind",
+    "type": "newsletter",
+    "video_upload_id": null,
+    "write_comment_permissions": "everyone",
+    "meter_type": "none",
+    "live_stream_id": null,
+    "is_published": true,
+    "restacks": 2,
+    "reactions": {
+      "❤": 5
+    },
+    "top_exclusions": [],
+    "pins": [],
+    "section_pins": [],
+    "has_shareable_clips": false,
+    "previous_post_slug": "the-first-paradigm-in-robotics-and",
+    "next_post_slug": null,
+    "cover_image": "https://substackcdn.com/image/fetch/$s_!ghz-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png",
+    "cover_image_is_square": false,
+    "cover_image_is_explicit": false,
+    "videoUpload": null,
+    "podcastFields": {
+      "post_id": 196138155,
+      "podcast_episode_number": null,
+      "podcast_season_number": null,
+      "podcast_episode_type": null,
+      "should_syndicate_to_other_feed": null,
+      "syndicate_to_section_id": null,
+      "hide_from_feed": false,
+      "free_podcast_url": null,
+      "free_podcast_duration": null,
+      "preview_contains_ad": false
+    },
+    "podcastUpload": null,
+    "podcastPreviewUpload": null,
+    "voiceover_upload_id": null,
+    "voiceoverUpload": null,
+    "has_voiceover": false,
+    "description": "Safety and efficiency with universal approximators and Turing machines",
+    "body_html": "<p>Deep neural networks are unlocking solutions to new classes of problems seemingly on a monthly or weekly basis. The capabilities of LLMs, coding assistants, and agents are very impressive, but it’s also easy to get a bit carried away about what they are actually doing when they are provocatively referred to as artificial intelligence. They are still algorithms, and it’s good to take a step back to look at the type of algorithm they actually are.</p><p>Fortunately, we know a lot about what deep neural networks represent. As a starting point, the <strong><a href=\"https://en.wikipedia.org/wiki/Universal_approximation_theorem\">universal approximation theorem</a> (UAT)</strong> says that a <strong>feed-forward neural network</strong> with at least one hidden layer can <strong>approximate any continuous function over a compact domain</strong> to any desired degree of accuracy, provided it has enough neurons and a non-linear activation function.</p><p>This begs a number of follow-up questions:</p><ul><li><p>What kinds of tasks are (not) solved by approximating a continuous function?</p></li><li><p>For this purpose, are transformers equivalent to feedforward neural networks, or do they do something different?</p></li><li><p>How do these map to computational hardware, like CPUs, GPUs, or NPUs?</p></li></ul><p>Answering these questions requires a review of what “computation” means,  looking all the way back to the writings of Turing, Minsky, and Chomsky. In exchange we get some insights into the versatility as well as the energetic cost of current AI.</p><p>I’ll provide some answers to the first two questions in this post, and a detailed look at the last one in a follow-up.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><h2>Universal Approximation</h2><p>The prototypical “feedforward neural network” from the UAT is a multi-layer perceptron (MLP). This is typically composed of linear layers (which multiply its inputs by a weighting matrix) and a nonlinear activation function.</p><p>In the plots below<a class=\"footnote-anchor\" data-component-name=\"FootnoteAnchorToDOM\" id=\"footnote-anchor-1\" href=\"#footnote-1\" target=\"_self\">1</a>, we’re approximating a quasi-sinusoidal curve on the left and a square wave on the right using an MLP.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ghz-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ghz-!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png 424w, https://substackcdn.com/image/fetch/$s_!ghz-!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png 848w, https://substackcdn.com/image/fetch/$s_!ghz-!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png 1272w, https://substackcdn.com/image/fetch/$s_!ghz-!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ghz-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png\" width=\"516\" height=\"276.0524781341108\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/70167b78-b951-4a03-8815-19710a04b7d0_686x367.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:367,&quot;width&quot;:686,&quot;resizeWidth&quot;:516,&quot;bytes&quot;:61200,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/196138155?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ghz-!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png 424w, https://substackcdn.com/image/fetch/$s_!ghz-!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png 848w, https://substackcdn.com/image/fetch/$s_!ghz-!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png 1272w, https://substackcdn.com/image/fetch/$s_!ghz-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg role=\"img\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>With larger model width and depth:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!RSJR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!RSJR!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png 424w, https://substackcdn.com/image/fetch/$s_!RSJR!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png 848w, https://substackcdn.com/image/fetch/$s_!RSJR!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png 1272w, https://substackcdn.com/image/fetch/$s_!RSJR!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!RSJR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png\" width=\"519\" height=\"276.3021582733813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:370,&quot;width&quot;:695,&quot;resizeWidth&quot;:519,&quot;bytes&quot;:55233,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/196138155?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!RSJR!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png 424w, https://substackcdn.com/image/fetch/$s_!RSJR!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png 848w, https://substackcdn.com/image/fetch/$s_!RSJR!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png 1272w, https://substackcdn.com/image/fetch/$s_!RSJR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4edc05-ec4c-4a42-ad48-e297d7e64573_695x370.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg role=\"img\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>You’ll notice that the square wave is much more difficult to approximate than the sinusoidal one. Why is that? If you recall from above, the UAT promised that the MLP would be good at approximating <strong>continuous functions</strong>, and the square wave has periodic discontinuities.</p><p>Before you think that this is some pedantic example that would never occur in practice, let me offer two more practical ones that are equivalent.</p><p>Suppose you have a drone flying through a forest of tall trees:</p><div id=\"youtube2-m89bNn6RFoQ\" class=\"youtube-wrap\" data-attrs=\"{&quot;videoId&quot;:&quot;m89bNn6RFoQ&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}\" data-component-name=\"Youtube2ToDOM\"><div class=\"youtube-inner\"><iframe src=\"https://www.youtube-nocookie.com/embed/m89bNn6RFoQ?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0\" frameborder=\"0\" loading=\"lazy\" gesture=\"media\" allow=\"autoplay; fullscreen\" allowautoplay=\"true\" allowfullscreen=\"true\" width=\"728\" height=\"409\"></iframe></div></div><p>The task is obstacle avoidance: the input is the front camera view, and the output we’d like is a path that won’t collide with a tree. In such a view, if the view changes <em>continuously</em> in such a way that a path becomes too narrow to pass through, the safe path must jump to a different one <em>discontinuously</em>.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!B9iV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!B9iV!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png 424w, https://substackcdn.com/image/fetch/$s_!B9iV!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png 848w, https://substackcdn.com/image/fetch/$s_!B9iV!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png 1272w, https://substackcdn.com/image/fetch/$s_!B9iV!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!B9iV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png\" width=\"491\" height=\"201\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:201,&quot;width&quot;:491,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:18687,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/196138155?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!B9iV!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png 424w, https://substackcdn.com/image/fetch/$s_!B9iV!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png 848w, https://substackcdn.com/image/fetch/$s_!B9iV!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png 1272w, https://substackcdn.com/image/fetch/$s_!B9iV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b947c1d-8cc0-43f5-88f6-d5c99dffd074_491x201.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>An MLP would need to sample the input space very densely to quickly interpolate between the left path and the right one (as in the square wave example above). This has a high model size penalty, and additionally needs to interpolate through an unsafe part of the output space.</p><p>Another practical example is related to the title of the article. Assuming an LLM’s output is a token view of an internal reasoning state, “changing its mind” on a yes / no question requires a similar jump in its state. However, the internal computing machinery of a modern LLM, the transformer, is more complex than an MLP. We’ll look into the two categories separately below.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><p></p><h2>Lookup Tables to Turing Machines</h2><p>The computation power guaranteed by the UAT is equivalent to a lookup table. A lookup table effectively pairs inputs and outputs so that it can “look up” the appropriate output when queried with an input. In continuous spaces, this can include some interpolation or extrapolation. The curve approximation figure above is a good visualization of this: the table would contain {x, y} entries. The compact domain condition of the UAT effectively ensures that the number of entries in the lookup table is finite.</p><p>On the other end of complexity, we have a <a href=\"https://en.wikipedia.org/wiki/Turing_machine\">Turing machine</a>: an automaton that has access to unbounded memory, and is able to make discrete decisions based on what is in its memory. While this may sound foreign, it is actually a very familiar concept. A CPU paired with almost any programming language is a Turing machine (putting aside the implementation detail of potentially running out of memory). You can control a program’s flow using <code>if</code>, <code>while</code>, etc. and call subroutines, and with these building blocks, you can build any software that has ever been written.</p><p>It should be clear that a Turing machine can do fundamentally more than a lookup table:</p><ol><li><p>It can process an input that is arbitrarily large, which a lookup table cannot do. For example, you can <a href=\"https://en.wikipedia.org/wiki/Integer_factorization\">very easily write</a> a CPU program that factorizes an integer, but we could never fit such an algorithm on a lookup table, since you could always input a larger integer. A more current example is a pre-transformer language model, which could not handle sequences of arbitrary length, and thus could not exhibit the level of capability we got with a GPT.</p></li><li><p>It can exhibit irregular flow control, like branching and jumping. In the “flying through forest” example above, it can do something like</p></li></ol><div class=\"highlighted_code_block\" data-attrs=\"{&quot;language&quot;:&quot;python&quot;,&quot;nodeId&quot;:null}\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre class=\"shiki\"><code class=\"language-python\">if left_path_too_narrow:\n    take_right_path()\nelse:\n    take_left_path()</code></pre></div><p>While this looks benign, it is deeply connected to the continuity clause of the UAT. An MLP cannot represent an algorithm that needs this kind of branching to have a discontinuous or symbolic jump.</p><p>In the example above, a square wave was still able to be approximated by an MLP, but at the expense of a large number of parameters. As a contrast, here’s an almost trivial program that could accomplish the requisite classification with very few parameters:</p><div class=\"highlighted_code_block\" data-attrs=\"{&quot;language&quot;:&quot;python&quot;,&quot;nodeId&quot;:&quot;f5665b4d-538b-4906-806e-4237d44f3842&quot;}\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre class=\"shiki\"><code class=\"language-python\">if x mod 2 &lt; 1: # if the remainder of x/2 is &lt; 1\n    return 1\nelse:\n    return -1</code></pre></div><p>This shows the expressive power of a Turing machine compared to a lookup table. Adding a little structural or organizational complexity drastically reduced the number of required parameters.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><h2>The Transformer Attention Mechanism</h2><p>We discussed earlier how the UAT only addresses a finite set of inputs. This is true in practice for MLPs as well: it will typically be used to process a fixed image size, or in an transformer feedforward network, a fixed layer width.<a class=\"footnote-anchor\" data-component-name=\"FootnoteAnchorToDOM\" id=\"footnote-anchor-2\" href=\"#footnote-2\" target=\"_self\">2</a></p><p>The attention mechanism of transformers is different. In an LLM, when a sequence of tokens is fed in, each token can attend to each other token, enabling a computation paradigm that can handle sequences of arbitrary length. This makes it different from a lookup table, because the input <em>dimension itself is unbounded.</em> You don’t need to retrain for longer sequences since the attention mechanism adapts the algorithm.</p><p>In practical terms, a transformer’s sequence length has to be limited to a maximum context length to manage the mapping to computational hardware. By the same token, CPUs also needed unbounded memory to be true Turing machines.</p><p>So, are implementable transformers, like general purpose CPU programs, Turing machines in all but the most pedantic terms?</p><p>Not quite — there’s still a fundamental gap that cannot be closed. Transformers are still continuous function approximators and cannot efficiently exhibit irregular flow control. A <a href=\"https://arxiv.org/pdf/2602.11175\">2026 paper from Oracle AI</a> looks at discrete reasoning with transformers, and I’ll let it speak for itself:</p><blockquote><p>Through this synthesis, we provide readers with a cohesive understanding of why transformers succeed in interpolation tasks (e.g. summarization) but fall short in reliably executing symbolic algorithms.</p></blockquote><p>Symbolic algorithms are characterized by discontinuous outputs that present a challenge to transformers. Like in the square wave example above, you can try to circumvent the issue by increasing model width or dataset size, but this comes at the cost of greatly increased model size and inefficiency. Moreover, as the paper points out, as you compose symbolic tasks (task A → task B → …) the number of switching boundaries grows combinatorially.</p><p>For an LLM to change its mind on a yes / no answer, architecturally it needs to continuously interpolate through reasoning trajectories, traversed by generating (lots of) reasoning tokens.</p><h2>Closing Thoughts</h2><p>Deep neural networks can solve a huge variety of problems, founded on their universal function approximation ability. Transformers’ ability to process arbitrary sequences advances them into a new computational category beyond lookup tables.</p><p>However, they are still not well suited to problems with symbolic or discontinuous outputs. This is common in problems to do with safety or symbolic reasoning. In current successes of deep learning, solutions to these kinds of problems are attained in a similar fashion as the square wave approximation above — it works, but is extremely inefficient.</p><p>These problems could potentially be solved with much smaller models if they had Turing machine-style universal computation capabilities. <span class=\"mention-wrap\" data-attrs=\"{&quot;name&quot;:&quot;Devansh&quot;,&quot;id&quot;:8101724,&quot;type&quot;:&quot;user&quot;,&quot;url&quot;:null,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/48081c70-8afa-41e3-a44e-b0f917bc7577_1200x1600.jpeg&quot;,&quot;uuid&quot;:&quot;d12070ea-e64f-4be9-9406-3b5a437c91d8&quot;}\" data-component-name=\"MentionToDOM\"></span>’s article linked below advocates for the same thing, approaching it from the computational hardware perspective for some classes of problems. In a follow up post, I’ll tie together the first-principles analysis in this post to current computational hardware, to discuss how different algorithm classes effectively map.</p><p>Thanks for reading!</p><p><em>If you enjoyed this post, please like (❤️) and restack — it helps others find my writing. Subscribe to receive new posts. All of this is greatly appreciated.</em></p><div data-component-name=\"FragmentNodeToDOM\"><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/p/how-an-llm-changes-its-mind/comments&quot;,&quot;text&quot;:&quot;Leave a comment&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/p/how-an-llm-changes-its-mind/comments\"><span>Leave a comment</span></a></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p></div><h2>References and Further Reading</h2><p><a href=\"https://lifeiscomputation.com/transformers-are-not-turing-complete/\">Are Transformers Turing-complete?</a> — Hessam Akhlaghpour (2024)</p><p><a href=\"https://arxiv.org/pdf/2602.11175\">Barriers to Discrete Reasoning with Transformers</a> — Oracle AI (2026)</p><div class=\"embedded-post-wrap\" data-attrs=\"{&quot;id&quot;:166288637,&quot;url&quot;:&quot;https://www.artificialintelligencemadesimple.com/p/the-great-compute-re-architecture&quot;,&quot;publication_id&quot;:1315074,&quot;publication_name&quot;:&quot;Artificial Intelligence Made Simple&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Pfon!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77504fa0-0f08-4a38-bbde-becb151d2db8_643x644.png&quot;,&quot;title&quot;:&quot;The Great Compute Re-Architecture: Why Branching &amp; Sparsity Will Define the Next Decade of Silicon [Breakdowns]&quot;,&quot;truncated_body_text&quot;:&quot;It takes time to create work that’s clear, independent, and genuinely useful. If you’ve found value in this newsletter, consider becoming a paid subscriber. It helps me dive deeper into research, reach more people, stay free from ads/hidden agendas, and supports my crippling chocolate milk addiction.&quot;,&quot;date&quot;:&quot;2025-06-19T01:36:32.021Z&quot;,&quot;like_count&quot;:57,&quot;comment_count&quot;:17,&quot;bylines&quot;:[{&quot;id&quot;:8101724,&quot;name&quot;:&quot;Devansh&quot;,&quot;handle&quot;:&quot;chocolatemilkcultleader&quot;,&quot;previous_name&quot;:null,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/48081c70-8afa-41e3-a44e-b0f917bc7577_1200x1600.jpeg&quot;,&quot;bio&quot;:&quot;The best meme-maker in Tech. Writer on AI, Software, and the Tech Industry. Currently in NYC Come say hi, I want more friends. &quot;,&quot;profile_set_up_at&quot;:&quot;2021-08-21T20:28:53.612Z&quot;,&quot;reader_installed_at&quot;:&quot;2024-03-11T12:27:10.271Z&quot;,&quot;publicationUsers&quot;:[{&quot;id&quot;:1274217,&quot;user_id&quot;:8101724,&quot;publication_id&quot;:1315074,&quot;role&quot;:&quot;admin&quot;,&quot;public&quot;:true,&quot;is_primary&quot;:true,&quot;publication&quot;:{&quot;id&quot;:1315074,&quot;name&quot;:&quot;Artificial Intelligence Made Simple&quot;,&quot;subdomain&quot;:&quot;artificialintelligencemadesimple&quot;,&quot;custom_domain&quot;:&quot;www.artificialintelligencemadesimple.com&quot;,&quot;custom_domain_optional&quot;:false,&quot;hero_text&quot;:&quot;Covering the important ideas in AI from all angles- technical, social, and economic. Read in over 200 countries.  Useful to everyone who wants to learn AI. Critical to anyone trying to see what happens next. Sister Publication to Tech Made Simple.&quot;,&quot;logo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/77504fa0-0f08-4a38-bbde-becb151d2db8_643x644.png&quot;,&quot;author_id&quot;:8101724,&quot;primary_user_id&quot;:8101724,&quot;theme_var_background_pop&quot;:&quot;#009B50&quot;,&quot;created_at&quot;:&quot;2023-01-14T23:37:24.692Z&quot;,&quot;email_from_name&quot;:null,&quot;copyright&quot;:&quot;Devansh&quot;,&quot;founding_plan_name&quot;:&quot;Founding Member&quot;,&quot;community_enabled&quot;:true,&quot;invite_only&quot;:false,&quot;payments_state&quot;:&quot;enabled&quot;,&quot;language&quot;:null,&quot;explicit&quot;:false,&quot;homepage_type&quot;:&quot;magaziney&quot;,&quot;is_personal_mode&quot;:false,&quot;logo_url_wide&quot;:null}},{&quot;id&quot;:109622,&quot;user_id&quot;:8101724,&quot;publication_id&quot;:108704,&quot;role&quot;:&quot;admin&quot;,&quot;public&quot;:true,&quot;is_primary&quot;:false,&quot;publication&quot;:{&quot;id&quot;:108704,&quot;name&quot;:&quot;Technology Made Simple&quot;,&quot;subdomain&quot;:&quot;codinginterviewsmadesimple&quot;,&quot;custom_domain&quot;:null,&quot;custom_domain_optional&quot;:false,&quot;hero_text&quot;:&quot;Deep yet digestible insights about Computer Science, Programming Interviews, Software Engineering Careers, Machine Learning, and the Tech Industry for Tech Leaders. Amazing For Coders and Managers. Beneficial to anyone trying to make money in Tech. &quot;,&quot;logo_url&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8546dc69-af46-4d5d-9a80-b66cb76c833b_644x644.png&quot;,&quot;author_id&quot;:8101724,&quot;primary_user_id&quot;:null,&quot;theme_var_background_pop&quot;:&quot;#45D800&quot;,&quot;created_at&quot;:&quot;2020-10-07T10:47:41.199Z&quot;,&quot;email_from_name&quot;:&quot;Devansh from Tech Made Simple&quot;,&quot;copyright&quot;:&quot;Devansh&quot;,&quot;founding_plan_name&quot;:&quot;Founding Member&quot;,&quot;community_enabled&quot;:true,&quot;invite_only&quot;:false,&quot;payments_state&quot;:&quot;disabled&quot;,&quot;language&quot;:null,&quot;explicit&quot;:false,&quot;homepage_type&quot;:&quot;magaziney&quot;,&quot;is_personal_mode&quot;:false,&quot;logo_url_wide&quot;:null}},{&quot;id&quot;:5366623,&quot;user_id&quot;:8101724,&quot;publication_id&quot;:5261101,&quot;role&quot;:&quot;admin&quot;,&quot;public&quot;:true,&quot;is_primary&quot;:false,&quot;publication&quot;:{&quot;id&quot;:5261101,&quot;name&quot;:&quot;What's Happening In Tech&quot;,&quot;subdomain&quot;:&quot;whatishappeningintechnology&quot;,&quot;custom_domain&quot;:null,&quot;custom_domain_optional&quot;:false,&quot;hero_text&quot;:&quot;A Newsletter meant to Help People Keep Up With What's Happening in Tech&quot;,&quot;logo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/ff955b89-d08e-4cb7-8add-709e6dc14d8e_1080x1080.jpeg&quot;,&quot;author_id&quot;:8101724,&quot;primary_user_id&quot;:null,&quot;theme_var_background_pop&quot;:&quot;#FF6719&quot;,&quot;created_at&quot;:&quot;2025-06-07T04:30:33.908Z&quot;,&quot;email_from_name&quot;:null,&quot;copyright&quot;:&quot;Devansh&quot;,&quot;founding_plan_name&quot;:null,&quot;community_enabled&quot;:true,&quot;invite_only&quot;:false,&quot;payments_state&quot;:&quot;disabled&quot;,&quot;language&quot;:null,&quot;explicit&quot;:false,&quot;homepage_type&quot;:&quot;newspaper&quot;,&quot;is_personal_mode&quot;:false,&quot;logo_url_wide&quot;:null}}],&quot;twitter_screen_name&quot;:&quot;Machine01776819&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:1000,&quot;status&quot;:{&quot;bestsellerTier&quot;:1000,&quot;subscriberTier&quot;:1,&quot;leaderboard&quot;:null,&quot;vip&quot;:false,&quot;badge&quot;:{&quot;type&quot;:&quot;bestseller&quot;,&quot;tier&quot;:1000},&quot;paidPublicationIds&quot;:[618139,1238074,1442076],&quot;subscriber&quot;:null}}],&quot;utm_campaign&quot;:null,&quot;belowTheFold&quot;:true,&quot;type&quot;:&quot;newsletter&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"EmbeddedPostToDOM\"><a class=\"embedded-post\" native=\"true\" href=\"https://www.artificialintelligencemadesimple.com/p/the-great-compute-re-architecture?utm_source=substack&amp;utm_campaign=post_embed&amp;utm_medium=web\"><div class=\"embedded-post-header\"><img class=\"embedded-post-publication-logo\" src=\"https://substackcdn.com/image/fetch/$s_!Pfon!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77504fa0-0f08-4a38-bbde-becb151d2db8_643x644.png\" loading=\"lazy\"><span class=\"embedded-post-publication-name\">Artificial Intelligence Made Simple</span></div><div class=\"embedded-post-title-wrapper\"><div class=\"embedded-post-title\">The Great Compute Re-Architecture: Why Branching &amp; Sparsity Will Define the Next Decade of Silicon [Breakdowns]</div></div><div class=\"embedded-post-body\">It takes time to create work that’s clear, independent, and genuinely useful. If you’ve found value in this newsletter, consider becoming a paid subscriber. It helps me dive deeper into research, reach more people, stay free from ads/hidden agendas, and supports my crippling chocolate milk addiction…</div><div class=\"embedded-post-cta-wrapper\"><span class=\"embedded-post-cta\">Read more</span></div><div class=\"embedded-post-meta\">a year ago · 57 likes · 17 comments · Devansh</div></a></div><div class=\"footnote\" data-component-name=\"FootnoteToDOM\"><a id=\"footnote-1\" href=\"#footnote-anchor-1\" class=\"footnote-number\" contenteditable=\"false\" target=\"_self\">1</a><div class=\"footnote-content\"><p>The plots are generated from <a href=\"https://avikde.github.io/tiny-xpu/\">this page</a> from the TinyXPU project, which you can read more about <a href=\"https://chipinsights.net/p/the-art-of-architectural-analysis\">here</a>.</p></div></div><div class=\"footnote\" data-component-name=\"FootnoteToDOM\"><a id=\"footnote-2\" href=\"#footnote-anchor-2\" class=\"footnote-number\" contenteditable=\"false\" target=\"_self\">2</a><div class=\"footnote-content\"><p>For a gentle introduction to transformers with a computer architecture framing, I’d recommend <a href=\"https://www.viksnewsletter.com/p/a-primer-on-transformer-architecture\">Vik’s article</a>.</p></div></div>",
+    "truncated_body_text": null,
+    "wordcount": 1544,
+    "postTags": [
+      {
+        "id": "2d60b60f-0079-4c3b-95a2-5a3bfc6c13df",
+        "publication_id": 7287367,
+        "name": "Computing",
+        "slug": "computing",
+        "hidden": false
+      }
+    ],
+    "postCountryBlocks": [],
+    "headlineTest": null,
+    "coverImagePalette": {
+      "Vibrant": {
+        "rgb": [
+          76,
+          140,
+          228
+        ],
+        "population": 1
+      },
+      "DarkVibrant": {
+        "rgb": [
+          17.37961165048543,
+          58.5757281553398,
+          115.22038834951458
+        ],
+        "population": 0
+      },
+      "LightVibrant": {
+        "rgb": [
+          140,
+          188,
+          236
+        ],
+        "population": 4
+      },
+      "Muted": {
+        "rgb": [
+          112,
+          137,
+          168
+        ],
+        "population": 13
+      },
+      "DarkMuted": {
+        "rgb": [
+          92,
+          92,
+          92
+        ],
+        "population": 2
+      },
+      "LightMuted": {
+        "rgb": [
+          176,
+          186,
+          197
+        ],
+        "population": 16
+      }
+    },
+    "publishedBylines": [
+      {
+        "id": 356074997,
+        "name": "Avik De",
+        "handle": "avikde",
+        "previous_name": "Avik De, PhD",
+        "photo_url": "https://substackcdn.com/image/fetch/$s_!E5et!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30589b07-e0a0-4de5-8997-78db1ed3f65b_1290x1290.png",
+        "bio": "Safe, efficient robotics & AI -- Robotics Ph.D. and founder",
+        "profile_set_up_at": "2025-09-01T11:05:25.762Z",
+        "reader_installed_at": "2025-12-14T02:43:43.888Z",
+        "publicationUsers": [
+          {
+            "id": 7436599,
+            "user_id": 356074997,
+            "publication_id": 7287367,
+            "role": "admin",
+            "public": true,
+            "is_primary": true,
+            "publication": {
+              "id": 7287367,
+              "name": "min{power}",
+              "subdomain": "minpower",
+              "custom_domain": "www.avikde.me",
+              "custom_domain_optional": false,
+              "hero_text": "Explorations in computing and robotics focused on power-efficiency and safety -- personal posts by Avik De, robotics Ph.D. and founder",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea21ccc-90aa-4750-861d-eb48a6144608_176x176.png",
+              "author_id": 356074997,
+              "primary_user_id": 356074997,
+              "theme_var_background_pop": "#FF6719",
+              "created_at": "2025-12-16T12:24:04.343Z",
+              "email_from_name": "Avik De from min{power}",
+              "copyright": "Avik De",
+              "founding_plan_name": "Founding Member",
+              "community_enabled": true,
+              "invite_only": false,
+              "payments_state": "disabled",
+              "language": null,
+              "explicit": false,
+              "homepage_type": "newspaper",
+              "is_personal_mode": false,
+              "logo_url_wide": null
+            }
+          }
+        ],
+        "is_guest": false,
+        "bestseller_tier": null,
+        "status": {
+          "bestsellerTier": null,
+          "subscriberTier": 1,
+          "leaderboard": null,
+          "vip": false,
+          "badge": {
+            "type": "subscriber",
+            "tier": 1,
+            "accent_colors": null
+          },
+          "paidPublicationIds": [
+            1063960,
+            1868273
+          ],
+          "subscriber": null
+        }
+      }
+    ],
+    "reaction": null,
+    "reaction_count": 5,
+    "comment_count": 2,
+    "child_comment_count": 1,
+    "audio_items": [
+      {
+        "post_id": 196138155,
+        "voice_id": "en-US-OnyxTurboMultilingualNeural",
+        "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/196138155/tts/aaa62bef-4824-43fd-96d3-dc9e4501cb12/en-US-OnyxTurboMultilingualNeural.mp3",
+        "type": "tts",
+        "status": "completed"
+      }
+    ],
+    "language": "en",
+    "is_geoblocked": false,
+    "hasCashtag": false
   }
 }

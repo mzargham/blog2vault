@@ -6,8 +6,9 @@ slug: what-von-neumann-understood-about
 canonical_url: "https://www.avikde.me/p/what-von-neumann-understood-about"
 topic: "Von Neumann S Theory Of Computational Intelligence"
 concepts:
-  - "Systolic Networks"
-  - "Artificial Intelligence"
+  - "Neural Networks"
+  - "Computational Theory"
+  - "Von Neumann Architecture"
 source: Substack
 author: Avik De
 ---
@@ -21,7 +22,7 @@ author: Avik De
 > Originally published: [2026-01-19](https://www.avikde.me/p/what-von-neumann-understood-about)
 
 **Topic:** [[topics/von-neumann-s-theory-of-computational-intelligence|Von Neumann S Theory Of Computational Intelligence]]
-**Concepts:** [[concepts/systolic-networks|Systolic Networks]] · [[concepts/artificial-intelligence|Artificial Intelligence]]
+**Concepts:** [[concepts/neural-networks|Neural Networks]] · [[concepts/computational-theory|Computational Theory]] · [[concepts/von-neumann-architecture|Von Neumann Architecture]]
 **Citations:** [[citations/mathshistory-st-andrews-ac-uk|mathshistory.st.andrews.ac.uk]] · [[citations/ieee-org|ieee.org]] · [[citations/nvidia-com|nvidia.com]] · [[citations/towardsdatascience-com|towardsdatascience.com]] · [[citations/groq-com|groq.com]] · [[citations/tomshardware-com|tomshardware.com]]
 
 ---
