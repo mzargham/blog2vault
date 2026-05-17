@@ -2,7 +2,7 @@
 type: citation
 domain: mit.edu
 domain_slug: mit-edu
-citation_count: 7
+citation_count: 8
 ---
 
 # Citations: mit.edu
@@ -10,6 +10,9 @@ citation_count: 7
 External references from [mit.edu](https://mit.edu) appearing across posts.
 
 ## References
+
+### [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]]
+- [https://underactuated.mit.edu/trajopt.html](https://underactuated.mit.edu/trajopt.html) "trajectory optimization"
 
 ### [[posts/2024-12-22--hybrid-averaging|Approximating cyclic dynamics utilizing symmetry]]
 - [https://mitpress.mit.edu/9780262681193/legged-robots-that-balance](https://mitpress.mit.edu/9780262681193/legged-robots-that-balance) "book / Raibert’s intriguing concept / Legged Robots That Balance"

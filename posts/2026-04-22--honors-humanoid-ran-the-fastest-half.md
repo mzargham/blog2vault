@@ -7,7 +7,7 @@ canonical_url: "https://www.avikde.me/p/honors-humanoid-ran-the-fastest-half"
 topic: "Humanoid Robot Marathon Performance"
 concepts:
   - "Robotic Athletics"
-  - "Performance Deterioration Detection"
+  - "Human-Machine Performance Comparison"
   - "3D Locomotion"
   - "Biomimetic Control"
 source: Substack
@@ -23,7 +23,7 @@ author: Avik De
 > Originally published: [2026-04-22](https://www.avikde.me/p/honors-humanoid-ran-the-fastest-half)
 
 **Topic:** [[topics/humanoid-robot-marathon-performance|Humanoid Robot Marathon Performance]]
-**Concepts:** [[concepts/robotic-athletics|Robotic Athletics]] · [[concepts/performance-deterioration-detection|Performance Deterioration Detection]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/biomimetic-control|Biomimetic Control]]
+**Concepts:** [[concepts/robotic-athletics|Robotic Athletics]] · [[concepts/human-machine-performance-comparison|Human-Machine Performance Comparison]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/biomimetic-control|Biomimetic Control]]
 **Citations:** [[citations/cnn-com|cnn.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/upenn-edu|upenn.edu]] · [[citations/robot-daycare-com|robot.daycare.com]] · [[citations/eu-36kr-com|eu.36kr.com]] · [[citations/apptronik-com|apptronik.com]] · [[citations/forbes-com|forbes.com]] · [[citations/gist-github-com|gist.github.com]]
 
 ---

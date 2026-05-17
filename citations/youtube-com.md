@@ -2,7 +2,7 @@
 type: citation
 domain: youtube.com
 domain_slug: youtube-com
-citation_count: 6
+citation_count: 7
 ---
 
 # Citations: youtube.com
@@ -13,6 +13,9 @@ External references from [youtube.com](https://youtube.com) appearing across pos
 
 ### [[posts/2026-03-26--a-coding-agent-equivalent-for-robotics|A coding agent equivalent for robotics pipelines]]
 - [https://youtu.be/UX1YXcRnFbs](https://youtu.be/UX1YXcRnFbs) "Simchowitz RI seminar"
+
+### [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]]
+- [https://youtu.be/n-pLDaZDO9k](https://youtu.be/n-pLDaZDO9k) "excerpt of Sergey Levine’s explanation"
 
 ### [[posts/2026-02-10--cache-effects-in-object-oriented|Cache effects in object-oriented code: computer architecture meets programming]]
 - [https://www.youtube.com/watch](https://www.youtube.com/watch) "dancing / data transformation / Source: NatGeoWild"

@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 35
+citation_count: 36
 ---
 
 # Citations: en.wikipedia.org
@@ -10,6 +10,9 @@ citation_count: 35
 External references from [en.wikipedia.org](https://en.wikipedia.org) appearing across posts.
 
 ## References
+
+### [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]]
+- [https://en.wikipedia.org/wiki/Fat_binary](https://en.wikipedia.org/wiki/Fat_binary) "fat binary"
 
 ### [[posts/2026-02-10--cache-effects-in-object-oriented|Cache effects in object-oriented code: computer architecture meets programming]]
 - [https://en.wikipedia.org/wiki/Cache_control_instruction](https://en.wikipedia.org/wiki/Cache_control_instruction) "software prefetching"

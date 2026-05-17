@@ -11,7 +11,7 @@ concepts:
   - "Transfer Learning"
   - "Bottom-Up Composition"
   - "Raibert Three-Part Control"
-  - "Affine Dynamics"
+  - "Reduced-Order Models"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2024-12-22](https://www.avikde.me/p/hybrid-averaging)
 
 **Topic:** [[topics/hybrid-dynamical-averaging-for-cyclic-systems|Hybrid Dynamical Averaging For Cyclic Systems]]
-**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/control-systems|Control Systems]] · [[concepts/transfer-learning|Transfer Learning]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/affine-dynamics|Affine Dynamics]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/control-systems|Control Systems]] · [[concepts/transfer-learning|Transfer Learning]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/reduced-order-models|Reduced-Order Models]]
 **Citations:** [[citations/mit-edu|mit.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/journals-sagepub-com|journals.sagepub.com]] · [[citations/link-springer-com|link.springer.com]] · [[citations/mathworld-wolfram-com|mathworld.wolfram.com]] · [[citations/arxiv-org|arxiv.org]]
 
 ---

@@ -5981,5 +5981,216 @@
     "language": "en",
     "is_geoblocked": false,
     "hasCashtag": false
+  },
+  "a-multi-robot-brain-is-not-like-a": {
+    "audience": "everyone",
+    "audience_before_archived": null,
+    "canonical_url": "https://www.avikde.me/p/a-multi-robot-brain-is-not-like-a",
+    "default_comment_sort": null,
+    "editor_v2": false,
+    "exempt_from_archive_paywall": false,
+    "free_unlock_required": false,
+    "id": 197402306,
+    "podcast_art_url": null,
+    "podcast_duration": null,
+    "podcast_preview_upload_id": null,
+    "podcast_upload_id": null,
+    "podcast_url": null,
+    "post_date": "2026-05-15T16:42:00.865Z",
+    "updated_at": "2026-05-15T16:42:57.555Z",
+    "publication_id": 7287367,
+    "search_engine_description": null,
+    "search_engine_title": null,
+    "section_id": null,
+    "should_send_free_preview": false,
+    "show_guest_bios": true,
+    "slug": "a-multi-robot-brain-is-not-like-a",
+    "social_title": null,
+    "subtitle": "\"Cross-embodiment\" trained policies generalize well, but is that the best solution?",
+    "teaser_post_eligible": true,
+    "title": "A Multi-Robot Brain is not like a Multi-Chip ISA",
+    "type": "newsletter",
+    "video_upload_id": null,
+    "write_comment_permissions": "everyone",
+    "meter_type": "none",
+    "live_stream_id": null,
+    "is_published": true,
+    "restacks": 1,
+    "reactions": {
+      "❤": 6
+    },
+    "top_exclusions": [],
+    "pins": [],
+    "section_pins": [],
+    "has_shareable_clips": false,
+    "previous_post_slug": "how-an-llm-changes-its-mind",
+    "next_post_slug": null,
+    "cover_image": "https://substackcdn.com/image/fetch/$s_!sjJB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png",
+    "cover_image_is_square": false,
+    "cover_image_is_explicit": false,
+    "videoUpload": null,
+    "podcastFields": {
+      "post_id": 197402306,
+      "podcast_episode_number": null,
+      "podcast_season_number": null,
+      "podcast_episode_type": null,
+      "should_syndicate_to_other_feed": null,
+      "syndicate_to_section_id": null,
+      "hide_from_feed": false,
+      "free_podcast_url": null,
+      "free_podcast_duration": null,
+      "preview_contains_ad": false
+    },
+    "podcastUpload": null,
+    "podcastPreviewUpload": null,
+    "voiceover_upload_id": null,
+    "voiceoverUpload": null,
+    "has_voiceover": false,
+    "description": "\"Cross-embodiment\" trained policies generalize well, but is that the best solution?",
+    "body_html": "<p>We have recently seen the emergence of a number of “multi-robot brains,” or AI models that are meant to output motor commands for a variety of robot bodies. Some examples are Skild AI’s omni-bodied brain, which they <a href=\"https://www.skild.ai/blogs/omni-bodied\">argue for here</a>, and Physical Intelligence’s <a href=\"https://www.pi.website/blog/pi0\">pi0 and later models</a>. The capabilities of these policies are impressive, showing signs of generalization and fault tolerance that have not been demonstrated before.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!sjJB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!sjJB!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png 424w, https://substackcdn.com/image/fetch/$s_!sjJB!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png 848w, https://substackcdn.com/image/fetch/$s_!sjJB!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png 1272w, https://substackcdn.com/image/fetch/$s_!sjJB!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!sjJB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png\" width=\"1670\" height=\"874\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:874,&quot;width&quot;:1670,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:560476,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/197402306?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9401f11d-548d-401f-9b6b-fbee5da5dc3b_1670x891.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!sjJB!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png 424w, https://substackcdn.com/image/fetch/$s_!sjJB!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png 848w, https://substackcdn.com/image/fetch/$s_!sjJB!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png 1272w, https://substackcdn.com/image/fetch/$s_!sjJB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2aeaa-1e51-4278-befe-ae49196ae1a2_1670x874.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg role=\"img\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p></p><p>It feels natural to try and compare this kind of brain-body interface to a software-hardware interface in computers. An Instruction Set Architecture (ISA) helps abstract software programming from processor hardware implementation. The first ever ISA, in the <a href=\"https://www.ibm.com/history/system-360\">IBM System/360 (1964)</a>, had the explicit goal of making software compatible across different hardware generations, and this goal has remained the most important driving force behind their existence.</p><p>In this article, I wanted to see how this analogy could help us think about multi-robot brains.</p><p></p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading min{power}! Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email…\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p><p></p><h2>The ISA Analogy</h2><p>The benefits of an ISA become clear when examining a typical “stack” for a computer:</p><div id=\"datawrapper-iframe\" class=\"datawrapper-wrap outer\" data-attrs=\"{&quot;url&quot;:&quot;https://datawrapper.dwcdn.net/EEDVp/2/&quot;,&quot;thumbnail_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d8cce941-a7ae-4ebb-800f-67e7f15b3918_1220x468.png&quot;,&quot;thumbnail_url_full&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/6d91cb3a-a910-4da4-a775-6cb1ed426195_1220x538.png&quot;,&quot;height&quot;:259,&quot;title&quot;:&quot;Computer stack&quot;,&quot;description&quot;:&quot;Create interactive, responsive &amp; beautiful charts — no code required.&quot;}\" data-component-name=\"DatawrapperToDOM\"><iframe id=\"iframe-datawrapper\" class=\"datawrapper-iframe\" src=\"https://datawrapper.dwcdn.net/EEDVp/2/\" width=\"730\" height=\"259\" frameborder=\"0\" scrolling=\"no\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(e){if(void 0!==e.data[\"datawrapper-height\"]){var t=document.querySelectorAll(\"iframe\");for(var a in e.data[\"datawrapper-height\"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data[\"datawrapper-height\"][a]+\"px\"}}}))}();</script></div><p>The columns of this chart are different “verticals”. If a company owns every item in the column, that would be “vertical integration”. The iPhone, and most of Apple’s products, are famously vertically integrated up to the application layer. The PC ecosystem does not exhibit the same kind of vertical integration.</p><p>Conversely, “horizontal integration” is when a particular product or vendor is appears in many columns across a row of the stack. For example, the Android OS is used in 70% of smartphones sold worldwide.</p><p>The ISA allows the stack to grow horizontally without recreating every piece of the stack. The marginal effort required to introduce new software, or a new chip, is reduced as long as it can bridge itself to the ISA.</p><p>Let’s compare to a robot stack<a class=\"footnote-anchor\" data-component-name=\"FootnoteAnchorToDOM\" id=\"footnote-anchor-1\" href=\"#footnote-1\" target=\"_self\">1</a> for a couple of hypothetical robots:</p><div id=\"datawrapper-iframe\" class=\"datawrapper-wrap outer\" data-attrs=\"{&quot;url&quot;:&quot;https://datawrapper.dwcdn.net/2xoDV/1/&quot;,&quot;thumbnail_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/ec5a30bd-42d3-46d5-a300-f351a81d7426_1220x620.png&quot;,&quot;thumbnail_url_full&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/2fa747db-4e3b-4d55-b959-ca3ca81e33fe_1220x620.png&quot;,&quot;height&quot;:298,&quot;title&quot;:&quot;[ Insert title here ]&quot;,&quot;description&quot;:&quot;Create interactive, responsive &amp; beautiful charts — no code required.&quot;}\" data-component-name=\"DatawrapperToDOM\"><iframe id=\"iframe-datawrapper\" class=\"datawrapper-iframe\" src=\"https://datawrapper.dwcdn.net/2xoDV/1/\" width=\"730\" height=\"298\" frameborder=\"0\" scrolling=\"no\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(e){if(void 0!==e.data[\"datawrapper-height\"]){var t=document.querySelectorAll(\"iframe\");for(var a in e.data[\"datawrapper-height\"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data[\"datawrapper-height\"][a]+\"px\"}}}))}();</script></div><p>Vertical integration is <a href=\"https://www.robonaissance.com/p/inside-chinas-machine-unitree\">exemplified by Unitree</a>, and it could be argued that NVIDIA is positioning itself very well to be horizontally integrated as the computing device of choice.</p><p>The multi-robot brain (a) vertically bridges hardware and software, and (b) horizontally bridges different robots. In contrast, while the ISA bridges vertically, it does <em>not</em> bridge horizontally — the iPhone and the Android phone need not share any software or hardware components. This is an important distinction, because the horizontal bridging <em>hinders vertical integration</em>.</p><h2>Vertical Integration</h2><p>An ISA promotes vertical bridging, but simply gets out of the way after that, allowing for vertical integration. This allows for products that are really optimized to work well in a way that isn’t possible with horizontally integrated components. An easy example of this is how well sleep and wake work on a MacBook due to the tight vertical integration, and how poor it still is in Windows laptops.</p><p>The Arm AGI CPU was introduced recently because when performance is critical, companies were still building bespoke software to take advantage of vertically-integrated optimizations. Arm saw this need and it was large enough to get them to break out of a <a href=\"https://thechipletter.substack.com/p/arm-makes-chips\">decades-old strategic choice and build their own chip</a> (emphasis mine):</p><blockquote><p>“Delivering AI experiences at global scale demands a robust and adaptable portfolio of custom silicon solutions, <strong>purpose-built to accelerate AI workloads and optimize performance</strong> across Meta’s platforms,” said Santosh Janardhan, head of infrastructure, Meta.</p></blockquote><p>For critical datacenter functionality, the last mile of performance optimization needed vertical integration. Everyone else, like Amazon, Google, was already doing it by customizing their stacks, and Arm decided to try and save its customers from having to do this work by doing it themselves.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><p></p><h2>The Missing Analogue of Compilation</h2><p>In computer-land, the ISA is paired with a compiler that builds a binary tailored to the target system. The compiler can optimize and produce a binary that runs well on a particular chip using vector instructions, reordering, and other optimizations within the constraints of program correctness.</p><p>There isn’t an equivalent of compilation in a multi-robot deep neural network brain (though maybe there are <a href=\"https://www.avikde.me/p/how-an-llm-changes-its-mind\">Turing-complete architectural alternatives</a> that could emerge in the future). This results in a few cracks in the ISA analogy:</p><h3>1) Memory / Performance</h3><p>The current multi-robot brain is more like a <a href=\"https://en.wikipedia.org/wiki/Fat_binary\">fat binary</a> in some ways. While the exact implementation varies, there will usually be a vector of latent variables that explicitly or implicitly encodes the details of the embodiment. So, while a Mac universal binary could use a single bit to pick x86 or Arm machine code, the robot embodiment is represented by an <em>n</em>-dimensional vector of latent state that can further weight or guide the network.</p><p>In the Skild AI blog post referenced above, this “fat binary” aspect is used to demonstrate recovery from limb loss, or other aspects of hardware failure. The tradeoff is the added network size, manifesting as increased memory and compute burden.</p><h3>2) Hardware-Specific Optimization</h3><p>A multi-robot brain needs to adapt for factors such as location and dimensions of limbs, cameras, as well as higher-level locomotion and task strategy. For the kinematics and sensor transforms, optimized code is akin to platform-specific subroutines, an analogy I made in my <a href=\"https://www.avikde.me/p/a-coding-agent-equivalent-for-robotics\">article series on VLAs</a>.</p><p>A robotic behavior “compilation” step could likewise tailor task execution strategy to a particular body. For example, <a href=\"https://underactuated.mit.edu/trajopt.html\">trajectory optimization</a> or reinforcement learning (RL) can be used to optimize a behavior for a robot body, and like compilation, is typically done offline.</p><p>However, in a <em>neural network </em>multi-robot brain (which does not have this notion of compilation) designed to solve a task with <em>B</em> bodies, either the behavior is not optimized for each body type, or <em>B</em> different strategies need to be stored (bringing back the memory issue from the prior point). In reality, the multi-robot brain does store some number of distinct-looking strategies (see the Skild AI blog post for demonstrations).</p><p>However, by the nature of deep neural networks, a discontinuous divergence in strategies is <a href=\"https://www.avikde.me/p/how-an-llm-changes-its-mind\">not very efficiently representable</a>. As an example of strategy discontinuity, consider that my cat needs to run or jump up human-sized stairs, whereas a larger animal could simply walk up them. The multi-robot brain needs to do a lot of work to represent effective locomotion strategies for these variations.</p><h2>Common Sense Generalization</h2><p>One of the main arguments in favor of cross-embodiment training is that people are finding that it really helps with generalization. For example, see this <a href=\"https://youtu.be/n-pLDaZDO9k?si=_BNGkK72CyQF6KMG&amp;t=1343\">excerpt of Sergey Levine’s explanation</a> on the Automated podcast two days ago, and Skild’s case in <a href=\"https://www.skild.ai/blogs/omni-bodied\">their blog post</a>:</p><blockquote><p>One way to do this is to train the AI to control not just one robot, but a whole multiverse of robots with different bodies. It cannot memorize the solution for one body, it must find a strategy that works across all of them. When faced with unpredictable scenarios, the AI can now use the strategies it learnt during training and keep going.</p></blockquote><p>There is still ongoing research and development on this finding, but one implicit logical leap is that the strategy is being evaluated (in all these cases) with end-to-end networks. This means that the cross-embodiment training is for a deep neural network that is learning not just the particulars of one robot body, but also the functional form of the necessary mathematical transformations to control it.</p><p>As an analogy, consider training a network to perform the sine calculation,</p><p><em>y = f(x) := sin(x)</em></p><p>We don’t know what the “<em>sin()</em>” operation does, but we are learning it from inputs and outputs <em>{x, y}</em>. To train this network, we have the option of using data from one embodiment, which has <em>x</em> values in the range <em>[0, 1]</em>, or data from multiple embodiments with ranges covering the range <em>[-10, 10]</em>. The extra data from the other embodiments are helpful to just understand how the sine function works.</p><h2>Closing Thoughts</h2><p>Cross-embodiment robot training creates an interesting software stack bridging software to hardware vertically, as well as horizontally across different tasks and robot bodies. The former aspect is evocative of the ISA abstraction layer in computing, but the latter aspect is more of a distinction.</p><p>I wonder if a “compilation” analogue could exist, allowing for optimization of a multi-robot policy to a slimmed-down robot-specific policy. It’s possible to use RL to post-train or to fine-tune a model such as the ones discussed in this article, but that interferes with the fault tolerance feature, and does not help reduce the model’s size.</p><p>Lastly, the size of these multi-robot policies is going to necessarily be large. Taking it to the scaling extreme, only the largest corporations may have the funding to train these models, <a href=\"https://www.avikde.me/p/the-first-paradigm-in-robotics-and\">resulting in potentially unwanted ecosystem consolidation</a>.</p><p>To sum up, multi-robot brains have been showing impressive generalization ability, and I expect we will continue to see cutting-edge results from them. However, their generalization success is partially wrapped up with the end-to-end deep neural network architecture, and that there might be opportunities for significant optimization with architectural innovation.</p><p>Thanks for reading, and let me know your thoughts on this parallel!</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/p/a-multi-robot-brain-is-not-like-a/comments&quot;,&quot;text&quot;:&quot;Leave a comment&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/p/a-multi-robot-brain-is-not-like-a/comments\"><span>Leave a comment</span></a></p><p></p><p><em>If you enjoyed this post, please like (❤️) and restack — it helps others find my writing. Subscribe to receive new posts. All of this is greatly appreciated.</em></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><p></p><div class=\"footnote\" data-component-name=\"FootnoteToDOM\"><a id=\"footnote-1\" href=\"#footnote-anchor-1\" class=\"footnote-number\" contenteditable=\"false\" target=\"_self\">1</a><div class=\"footnote-content\"><p>The stack could have been written differently to include sensors etc., but those details don’t affect the point of this article.</p><p></p></div></div>",
+    "truncated_body_text": null,
+    "wordcount": 1522,
+    "post_preview_limit": 0,
+    "language": "en",
+    "postTags": [
+      {
+        "id": "b1eb3aad-2315-42c6-a1db-c800e876f4f7",
+        "publication_id": 7287367,
+        "name": "Robotics",
+        "slug": "robotics",
+        "hidden": false
+      }
+    ],
+    "postCountryBlocks": [],
+    "headlineTest": null,
+    "coverImagePalette": {
+      "Vibrant": {
+        "rgb": [
+          133,
+          202,
+          221
+        ],
+        "population": 5
+      },
+      "DarkVibrant": {
+        "rgb": [
+          28.899999999999988,
+          87.54999999999998,
+          103.70000000000002
+        ],
+        "population": 0
+      },
+      "LightVibrant": {
+        "rgb": [
+          244,
+          244,
+          252
+        ],
+        "population": 3
+      },
+      "Muted": {
+        "rgb": [
+          84,
+          116,
+          132
+        ],
+        "population": 1
+      },
+      "DarkMuted": {
+        "rgb": [
+          56,
+          55,
+          56
+        ],
+        "population": 170
+      },
+      "LightMuted": {
+        "rgb": [
+          140,
+          180,
+          188
+        ],
+        "population": 1
+      }
+    },
+    "publishedBylines": [
+      {
+        "id": 356074997,
+        "name": "Avik De",
+        "handle": "avikde",
+        "previous_name": "Avik De, PhD",
+        "photo_url": "https://substackcdn.com/image/fetch/$s_!E5et!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30589b07-e0a0-4de5-8997-78db1ed3f65b_1290x1290.png",
+        "bio": "Safe, efficient robotics & AI -- Robotics Ph.D. and founder",
+        "profile_set_up_at": "2025-09-01T11:05:25.762Z",
+        "reader_installed_at": "2025-12-14T02:43:43.888Z",
+        "publicationUsers": [
+          {
+            "id": 7436599,
+            "user_id": 356074997,
+            "publication_id": 7287367,
+            "role": "admin",
+            "public": true,
+            "is_primary": true,
+            "publication": {
+              "id": 7287367,
+              "name": "min{power}",
+              "subdomain": "minpower",
+              "custom_domain": "www.avikde.me",
+              "custom_domain_optional": false,
+              "hero_text": "Explorations in computing and robotics focused on power-efficiency and safety -- personal posts by Avik De, robotics Ph.D. and founder",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea21ccc-90aa-4750-861d-eb48a6144608_176x176.png",
+              "author_id": 356074997,
+              "primary_user_id": 356074997,
+              "theme_var_background_pop": "#FF6719",
+              "created_at": "2025-12-16T12:24:04.343Z",
+              "email_from_name": "Avik De from min{power}",
+              "copyright": "Avik De",
+              "founding_plan_name": "Founding Member",
+              "community_enabled": true,
+              "invite_only": false,
+              "payments_state": "disabled",
+              "language": null,
+              "explicit": false,
+              "homepage_type": "newspaper",
+              "is_personal_mode": false,
+              "logo_url_wide": null
+            }
+          }
+        ],
+        "is_guest": false,
+        "bestseller_tier": null,
+        "status": {
+          "bestsellerTier": null,
+          "subscriberTier": 1,
+          "leaderboard": null,
+          "vip": false,
+          "badge": {
+            "type": "subscriber",
+            "tier": 1,
+            "accent_colors": null
+          },
+          "paidPublicationIds": [
+            1063960,
+            1868273
+          ],
+          "subscriber": null
+        }
+      }
+    ],
+    "reaction": null,
+    "reaction_count": 6,
+    "comment_count": 0,
+    "child_comment_count": 0,
+    "audio_items": [
+      {
+        "post_id": 197402306,
+        "voice_id": "en-US-OnyxTurboMultilingualNeural",
+        "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/197402306/tts/409fec23-5090-4c1c-86e3-9260bfbf0d0e/en-US-OnyxTurboMultilingualNeural.mp3",
+        "type": "tts",
+        "status": "completed"
+      }
+    ],
+    "is_geoblocked": false,
+    "hasCashtag": false
   }
 }

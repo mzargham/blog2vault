@@ -10,7 +10,7 @@ concepts:
   - "World Models"
   - "Robotic Athletics"
   - "Spatial VLM Agents"
-  - "MuJoCo Simulation"
+  - "Simulation Animation"
   - "Action Loop Closure"
   - "Failure Mode Analysis"
 source: Substack
@@ -26,7 +26,7 @@ author: Avik De
 > Originally published: [2026-03-26](https://www.avikde.me/p/a-coding-agent-equivalent-for-robotics)
 
 **Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
-**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/world-models|World Models]] · [[concepts/robotic-athletics|Robotic Athletics]] · [[concepts/spatial-vlm-agents|Spatial VLM Agents]] · [[concepts/mujoco-simulation|MuJoCo Simulation]] · [[concepts/action-loop-closure|Action Loop Closure]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]]
+**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/world-models|World Models]] · [[concepts/robotic-athletics|Robotic Athletics]] · [[concepts/spatial-vlm-agents|Spatial VLM Agents]] · [[concepts/simulation-animation|Simulation Animation]] · [[concepts/action-loop-closure|Action Loop Closure]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
 **Citations:** [[citations/arxiv-org|arxiv.org]] · [[citations/github-com|github.com]] · [[citations/google-com|google.com]] · [[citations/quantamagazine-org|quantamagazine.org]] · [[citations/huggingface-co|huggingface.co]] · [[citations/youtube-com|youtube.com]] · [[citations/sunday-ai|sunday.ai]]
 
