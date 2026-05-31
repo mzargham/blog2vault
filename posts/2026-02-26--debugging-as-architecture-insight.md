@@ -6,8 +6,8 @@ slug: debugging-as-architecture-insight
 canonical_url: "https://www.avikde.me/p/debugging-as-architecture-insight"
 topic: "Hybrid Vision Language Action Robotics Pipeline"
 concepts:
-  - "End-to-End Robotics Pipelines"
   - "World Models"
+  - "End-to-End Robotics Pipelines"
   - "3D Locomotion"
   - "Motion Controllers"
   - "Classical Control Methods"
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2026-02-26](https://www.avikde.me/p/debugging-as-architecture-insight)
 
 **Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
-**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/world-models|World Models]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/classical-control-methods|Classical Control Methods]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]]
+**Concepts:** [[concepts/world-models|World Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/classical-control-methods|Classical Control Methods]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/github-io|github.io]] · [[citations/huggingface-co|huggingface.co]] · [[citations/google-com|google.com]] · [[citations/emergentmind-com|emergentmind.com]]
 

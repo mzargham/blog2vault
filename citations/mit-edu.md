@@ -2,7 +2,7 @@
 type: citation
 domain: mit.edu
 domain_slug: mit-edu
-citation_count: 8
+citation_count: 9
 ---
 
 # Citations: mit.edu
@@ -34,6 +34,9 @@ External references from [mit.edu](https://mit.edu) appearing across posts.
 
 ### [[posts/2026-01-26--the-architecture-behind-end-to-end|The architecture behind “end-to-end” robotics pipelines]]
 - [https://groups.csail.mit.edu/robotics-center/public_papers/Kuindersma14.pdf](https://groups.csail.mit.edu/robotics-center/public_papers/Kuindersma14.pdf) "2014 MIT Atlas team’s report"
+
+### [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]]
+- [https://people.csail.mit.edu/brooks/papers/representation.pdf](https://people.csail.mit.edu/brooks/papers/representation.pdf) "Intelligence Without Representation"
 
 ### [[posts/2024-12-22--vertical-hopper-compositions|Minitaur bounding, pronking using vertical hopper compositions]]
 - [https://mitpress.mit.edu/9780262681193/legged-robots-that-balance](https://mitpress.mit.edu/9780262681193/legged-robots-that-balance) "book / Raibert’s intriguing concept / Legged Robots That Balance"

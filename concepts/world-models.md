@@ -1,7 +1,7 @@
 ---
 type: concept
 concept_slug: world-models
-post_count: 6
+post_count: 7
 ---
 
 # Concept: World Models
@@ -14,3 +14,4 @@ Posts referencing **World Models**:
 - [[posts/2026-03-20--lessons-from-avs-on-safety-in-end|Lessons from AVs on safety in end-to-end pipelines]] (2026-03-20)
 - [[posts/2026-01-14--the-ai-world-models-debate-and-its|The AI world models debate and its foreshadowing on robotics]] (2026-01-14)
 - [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]] (2026-04-29)
+- [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]] (2026-05-27)

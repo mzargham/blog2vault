@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 36
+citation_count: 37
 ---
 
 # Citations: en.wikipedia.org
@@ -72,10 +72,14 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions](https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions) "Thomas Kuhn wrote"
 - [https://en.wikipedia.org/wiki/VLSI_Project](https://en.wikipedia.org/wiki/VLSI_Project) "DARPA’s VLSI Project"
 
+### [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]]
+- [https://en.wikipedia.org/wiki/Preflexes](https://en.wikipedia.org/wiki/Preflexes) "preflexes"
+- [https://en.wikipedia.org/wiki/Rhex](https://en.wikipedia.org/wiki/Rhex) "first outdoor running robot, RHex"
+
 ### [[posts/2024-12-22--vertical-hopper-compositions|Minitaur bounding, pronking using vertical hopper compositions]]
+- [https://en.wikipedia.org/wiki/Preflexes](https://en.wikipedia.org/wiki/Preflexes) "preflexes"
 - [https://en.wikipedia.org/wiki/Center_of_percussion](https://en.wikipedia.org/wiki/Center_of_percussion) "center of percussion"
 - [https://en.wikipedia.org/wiki/Distributed_control_system](https://en.wikipedia.org/wiki/Distributed_control_system) "distributed control"
-- [https://en.wikipedia.org/wiki/Preflexes](https://en.wikipedia.org/wiki/Preflexes) "preflexes"
 
 ### [[posts/2026-02-21--what-wiener-knew-about-artificial|What Wiener knew about (artificial) intelligence in 1948]]
 - [https://en.wikipedia.org/wiki/Centrifugal_governor](https://en.wikipedia.org/wiki/Centrifugal_governor) "image source"

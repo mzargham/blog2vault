@@ -2,7 +2,7 @@
 type: citation
 domain: arxiv.org
 domain_slug: arxiv-org
-citation_count: 24
+citation_count: 25
 ---
 
 # Citations: arxiv.org
@@ -55,4 +55,7 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 
 ### [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
 - [https://arxiv.org/abs/2304.13705](https://arxiv.org/abs/2304.13705) "ALOHA paper / ACT paper"
+
+### [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]]
+- [https://arxiv.org/pdf/2110.03239](https://arxiv.org/pdf/2110.03239) "this ICLR 2022 paper"
 

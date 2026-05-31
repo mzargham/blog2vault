@@ -9,7 +9,7 @@ concepts:
   - "Design Optimization"
   - "Model Predictive Control"
   - "Reduced-Order Models"
-  - "Non-Volatile Storage"
+  - "Non-Dimensionalization"
   - "Control Templates"
 source: Substack
 author: Avik De
@@ -24,7 +24,7 @@ author: Avik De
 > Originally published: [2024-12-22](https://www.avikde.me/p/template-based-design-robobee)
 
 **Topic:** [[topics/template-based-robot-design-optimization|Template Based Robot Design Optimization]]
-**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/model-predictive-control|Model Predictive Control]] · [[concepts/reduced-order-models|Reduced-Order Models]] · [[concepts/non-volatile-storage|Non-Volatile Storage]] · [[concepts/control-templates|Control Templates]]
+**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/model-predictive-control|Model Predictive Control]] · [[concepts/reduced-order-models|Reduced-Order Models]] · [[concepts/non-dimensionalization|Non-Dimensionalization]] · [[concepts/control-templates|Control Templates]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]]
 
 ---

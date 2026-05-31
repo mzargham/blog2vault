@@ -6,7 +6,7 @@ slug: postdoc-fellowship
 canonical_url: "https://www.avikde.me/p/postdoc-fellowship"
 topic: "Postdoctoral Fellowship Applications"
 concepts:
-  - "End-to-End Robotics Pipelines"
+  - "Foundation Models"
   - "Academic Application Materials"
 source: Substack
 author: Avik De
@@ -19,7 +19,7 @@ author: Avik De
 > Originally published: [2018-07-01](https://www.avikde.me/p/postdoc-fellowship)
 
 **Topic:** [[topics/postdoctoral-fellowship-applications|Postdoctoral Fellowship Applications]]
-**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/academic-application-materials|Academic Application Materials]]
+**Concepts:** [[concepts/foundation-models|Foundation Models]] · [[concepts/academic-application-materials|Academic Application Materials]]
 **Citations:** [[citations/santafe-edu|santafe.edu]]
 
 ---

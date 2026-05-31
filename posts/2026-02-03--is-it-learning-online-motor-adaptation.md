@@ -6,6 +6,7 @@ slug: is-it-learning-online-motor-adaptation
 canonical_url: "https://www.avikde.me/p/is-it-learning-online-motor-adaptation"
 topic: "End-to-End Robotics Pipelines"
 concepts:
+  - "Foundation Models"
   - "End-to-End Robotics Pipelines"
   - "3D Locomotion"
   - "Model Predictive Control"
@@ -23,7 +24,7 @@ author: Avik De
 > Originally published: [2026-02-03](https://www.avikde.me/p/is-it-learning-online-motor-adaptation)
 
 **Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
-**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/model-predictive-control|Model Predictive Control]] · [[concepts/high-level-low-level-controller-cascade|High-Level Low-Level Controller Cascade]]
+**Concepts:** [[concepts/foundation-models|Foundation Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/model-predictive-control|Model Predictive Control]] · [[concepts/high-level-low-level-controller-cascade|High-Level Low-Level Controller Cascade]]
 **Citations:** [[citations/figure-ai|figure.ai]] · [[citations/arxiv-org|arxiv.org]] · [[citations/nih-gov|nih.gov]] · [[citations/dwarkesh-com|dwarkesh.com]] · [[citations/universal-robots-com|universal.robots.com]] · [[citations/ieee-org|ieee.org]] · [[citations/github-io|github.io]] · [[citations/skild-ai|skild.ai]] · [[citations/science-org|science.org]] · [[citations/covariant-ai|covariant.ai]]
 
 ---

@@ -6,8 +6,8 @@ slug: lessons-from-avs-on-safety-in-end
 canonical_url: "https://www.avikde.me/p/lessons-from-avs-on-safety-in-end"
 topic: "End-to-End Robotics Pipelines"
 concepts:
-  - "End-to-End Robotics Pipelines"
   - "World Models"
+  - "End-to-End Robotics Pipelines"
   - "Human-Machine Performance Comparison"
   - "Control Systems"
 source: Substack
@@ -23,7 +23,7 @@ author: Avik De
 > Originally published: [2026-03-20](https://www.avikde.me/p/lessons-from-avs-on-safety-in-end)
 
 **Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
-**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/world-models|World Models]] · [[concepts/human-machine-performance-comparison|Human-Machine Performance Comparison]] · [[concepts/control-systems|Control Systems]]
+**Concepts:** [[concepts/world-models|World Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/human-machine-performance-comparison|Human-Machine Performance Comparison]] · [[concepts/control-systems|Control Systems]]
 **Citations:** [[citations/theverge-com|theverge.com]] · [[citations/electrek-co|electrek.co]] · [[citations/ruixu-us|ruixu.us]] · [[citations/arxiv-org|arxiv.org]] · [[citations/counterpointresearch-com|counterpointresearch.com]]
 
 ---

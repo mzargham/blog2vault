@@ -2,7 +2,7 @@
 type: citation
 domain: pi.website
 domain_slug: pi-website
-citation_count: 4
+citation_count: 5
 ---
 
 # Citations: pi.website
@@ -21,4 +21,7 @@ External references from [pi.website](https://pi.website) appearing across posts
 
 ### [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
 - [https://www.pi.website/research/human_to_robot](https://www.pi.website/research/human_to_robot) "Physical Intelligence"
+
+### [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]]
+- [https://www.pi.website](https://www.pi.website) "Physical Intelligence"
 

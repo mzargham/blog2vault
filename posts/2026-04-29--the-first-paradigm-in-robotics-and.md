@@ -6,9 +6,9 @@ slug: the-first-paradigm-in-robotics-and
 canonical_url: "https://www.avikde.me/p/the-first-paradigm-in-robotics-and"
 topic: "Paradigm Shifts In Robotics And Ai Research"
 concepts:
+  - "World Models"
   - "Commoditization"
   - "End-to-End Robotics Pipelines"
-  - "World Models"
 source: Substack
 author: Avik De
 ---
@@ -22,8 +22,8 @@ author: Avik De
 > Originally published: [2026-04-29](https://www.avikde.me/p/the-first-paradigm-in-robotics-and)
 
 **Topic:** [[topics/paradigm-shifts-in-robotics-and-ai-research|Paradigm Shifts In Robotics And Ai Research]]
-**Concepts:** [[concepts/commoditization|Commoditization]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/world-models|World Models]]
-**Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/businessinsider-com|businessinsider.com]] · [[citations/youtube-com|youtube.com]] · [[citations/kr-asia-com|kr.asia.com]] · [[citations/rpg-ifi-uzh-ch|rpg.ifi.uzh.ch]] · [[citations/rsl-ethz-ch|rsl.ethz.ch]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/arxiv-org|arxiv.org]] · [[citations/yourownrobot-ai|yourownrobot.ai]] · [[citations/github-com|github.com]] · [[citations/pi-website|pi.website]] · [[citations/berkeley-edu|berkeley.edu]] · [[citations/acm-org|acm.org]] · [[citations/thwink-org|thwink.org]] · [[citations/sciencedirect-com|sciencedirect.com]]
+**Concepts:** [[concepts/world-models|World Models]] · [[concepts/commoditization|Commoditization]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
+**Citations:** [[citations/youtube-com|youtube.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/businessinsider-com|businessinsider.com]] · [[citations/kr-asia-com|kr.asia.com]] · [[citations/rpg-ifi-uzh-ch|rpg.ifi.uzh.ch]] · [[citations/rsl-ethz-ch|rsl.ethz.ch]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/arxiv-org|arxiv.org]] · [[citations/yourownrobot-ai|yourownrobot.ai]] · [[citations/github-com|github.com]] · [[citations/pi-website|pi.website]] · [[citations/berkeley-edu|berkeley.edu]] · [[citations/acm-org|acm.org]] · [[citations/thwink-org|thwink.org]] · [[citations/sciencedirect-com|sciencedirect.com]]
 
 ---
 

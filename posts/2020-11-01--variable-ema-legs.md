@@ -6,6 +6,7 @@ slug: variable-ema-legs
 canonical_url: "https://www.avikde.me/p/variable-ema-legs"
 topic: "Bioinspired Hopping Robotics"
 concepts:
+  - "Sensing and Actuation"
   - "Design Optimization"
   - "Variable Effective Mechanical Advantage"
   - "Phase Control"
@@ -23,7 +24,7 @@ author: Avik De
 > Originally published: [2020-11-01](https://www.avikde.me/p/variable-ema-legs)
 
 **Topic:** [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]]
-**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/variable-effective-mechanical-advantage|Variable Effective Mechanical Advantage]] · [[concepts/phase-control|Phase Control]] · [[concepts/symmetric-joint-configuration|Symmetric Joint Configuration]]
+**Concepts:** [[concepts/sensing-and-actuation|Sensing and Actuation]] · [[concepts/design-optimization|Design Optimization]] · [[concepts/variable-effective-mechanical-advantage|Variable Effective Mechanical Advantage]] · [[concepts/phase-control|Phase Control]] · [[concepts/symmetric-joint-configuration|Symmetric Joint Configuration]]
 
 ---
 

@@ -8,10 +8,10 @@ topic: "Jerboa Robot Development"
 concepts:
   - "Commoditization"
   - "3D Locomotion"
-  - "Force Feedback"
+  - "Feedback Loops"
   - "Raibert Three-Part Control"
   - "BLDC Actuators"
-  - "Direct Drive Design"
+  - "Direct-Drive Motors"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2016-03-02](https://www.avikde.me/p/ghost-robotics-minitaur)
 
 **Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
-**Concepts:** [[concepts/commoditization|Commoditization]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/force-feedback|Force Feedback]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/direct-drive-design|Direct Drive Design]]
+**Concepts:** [[concepts/commoditization|Commoditization]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/feedback-loops|Feedback Loops]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/direct-drive-motors|Direct-Drive Motors]]
 **Citations:** [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/ieee-org|ieee.org]] · [[citations/upenn-edu|upenn.edu]]
 
 ---

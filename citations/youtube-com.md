@@ -18,19 +18,22 @@ External references from [youtube.com](https://youtube.com) appearing across pos
 - [https://youtu.be/n-pLDaZDO9k](https://youtu.be/n-pLDaZDO9k) "excerpt of Sergey Levine’s explanation"
 
 ### [[posts/2026-02-10--cache-effects-in-object-oriented|Cache effects in object-oriented code: computer architecture meets programming]]
-- [https://www.youtube.com/watch](https://www.youtube.com/watch) "dancing / data transformation / Source: NatGeoWild"
+- [https://www.youtube.com/watch](https://www.youtube.com/watch) "Tad McGeer’s completely unpowered walkers / IHMC OutRunner running robot (~2014) / ATRIAS robot (~2015)"
 - [https://youtu.be/fHNmRkzxHWs](https://youtu.be/fHNmRkzxHWs) "add up to large losses that are difficult to eliminate / Efficiency with Algorithms, Performance with Data Structures"
 - [https://youtu.be/rX0ItVEVjHc](https://youtu.be/rX0ItVEVjHc) "Data-Oriented Design and C++"
 
 ### [[posts/2015-03-31--jerboa-hopping-video|Jerboa the hopping robot]]
-- [https://www.youtube.com/watch](https://www.youtube.com/watch) "dancing / data transformation / Source: NatGeoWild"
+- [https://www.youtube.com/watch](https://www.youtube.com/watch) "Tad McGeer’s completely unpowered walkers / IHMC OutRunner running robot (~2014) / ATRIAS robot (~2015)"
 - [https://youtu.be/ftgY63SlmKY](https://youtu.be/ftgY63SlmKY) "like a kangaroo"
 
 ### [[posts/2025-12-24--model-predictive-control-of-robobee|Model-predictive control of RoboBee flapping flight]]
-- [https://www.youtube.com/watch](https://www.youtube.com/watch) "dancing / data transformation / Source: NatGeoWild"
+- [https://www.youtube.com/watch](https://www.youtube.com/watch) "Tad McGeer’s completely unpowered walkers / IHMC OutRunner running robot (~2014) / ATRIAS robot (~2015)"
 
 ### [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
-- [https://www.youtube.com/watch](https://www.youtube.com/watch) "dancing / data transformation / Source: NatGeoWild"
+- [https://www.youtube.com/watch](https://www.youtube.com/watch) "Tad McGeer’s completely unpowered walkers / IHMC OutRunner running robot (~2014) / ATRIAS robot (~2015)"
+
+### [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]]
+- [https://www.youtube.com/watch](https://www.youtube.com/watch) "Tad McGeer’s completely unpowered walkers / IHMC OutRunner running robot (~2014) / ATRIAS robot (~2015)"
 
 ### [[posts/2024-12-21--what-are-robot-dogs|What are robot dogs, and what are they good for?]]
 - [https://youtu.be/vpVlX1z4sFs](https://youtu.be/vpVlX1z4sFs) "mapping"

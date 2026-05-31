@@ -57,3 +57,4 @@ All posts in chronological order.
 - `2026-04-29` [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
 - `2026-05-05` [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]
 - `2026-05-15` [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]]
+- `2026-05-27` [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]]
