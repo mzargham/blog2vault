@@ -4,14 +4,14 @@ subtitle: "Part 3: Hands-on debugging of a vision-language-action model as a len
 date: 2026-02-26
 slug: debugging-as-architecture-insight
 canonical_url: "https://www.avikde.me/p/debugging-as-architecture-insight"
-topic: "Hybrid Vision Language Action Robotics Pipeline"
+topic: "Vision Language Action Model Debugging"
 concepts:
-  - "World Models"
+  - "Large Language Models"
   - "End-to-End Robotics Pipelines"
   - "3D Locomotion"
   - "Motion Controllers"
   - "Classical Control Methods"
-  - "Failure Mode Analysis"
+  - "Architecture Analysis"
 source: Substack
 author: Avik De
 ---
@@ -24,8 +24,8 @@ author: Avik De
 
 > Originally published: [2026-02-26](https://www.avikde.me/p/debugging-as-architecture-insight)
 
-**Topic:** [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]]
-**Concepts:** [[concepts/world-models|World Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/classical-control-methods|Classical Control Methods]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]]
+**Topic:** [[topics/vision-language-action-model-debugging|Vision Language Action Model Debugging]]
+**Concepts:** [[concepts/large-language-models|Large Language Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/classical-control-methods|Classical Control Methods]] · [[concepts/architecture-analysis|Architecture Analysis]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/github-io|github.io]] · [[citations/huggingface-co|huggingface.co]] · [[citations/google-com|google.com]] · [[citations/emergentmind-com|emergentmind.com]]
 

@@ -6,7 +6,7 @@ slug: postdoc-fellowship
 canonical_url: "https://www.avikde.me/p/postdoc-fellowship"
 topic: "Postdoctoral Fellowship Applications"
 concepts:
-  - "Foundation Models"
+  - "James S. McDonnell Foundation"
   - "Academic Application Materials"
 source: Substack
 author: Avik De
@@ -19,7 +19,7 @@ author: Avik De
 > Originally published: [2018-07-01](https://www.avikde.me/p/postdoc-fellowship)
 
 **Topic:** [[topics/postdoctoral-fellowship-applications|Postdoctoral Fellowship Applications]]
-**Concepts:** [[concepts/foundation-models|Foundation Models]] · [[concepts/academic-application-materials|Academic Application Materials]]
+**Concepts:** [[concepts/james-s-mcdonnell-foundation|James S. McDonnell Foundation]] · [[concepts/academic-application-materials|Academic Application Materials]]
 **Citations:** [[citations/santafe-edu|santafe.edu]]
 
 ---

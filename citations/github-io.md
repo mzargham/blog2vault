@@ -11,8 +11,11 @@ External references from [github.io](https://github.io) appearing across posts.
 
 ## References
 
+### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
+- [https://avikde.github.io/vla-pipeline](https://avikde.github.io/vla-pipeline) "demo here / Link to demo / demo"
+
 ### [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]]
-- [https://avikde.github.io/vla-pipeline](https://avikde.github.io/vla-pipeline) "Link to demo / demo / try it yoursel"
+- [https://avikde.github.io/vla-pipeline](https://avikde.github.io/vla-pipeline) "demo here / Link to demo / demo"
 
 ### [[posts/2026-02-26--debugging-as-architecture-insight|Debugging as architecture insight: dissecting a VLA]]
 - [https://octo-models.github.io](https://octo-models.github.io) "Octo"

@@ -4,10 +4,10 @@ subtitle: "The Computer and the Brain anticipated both the successes and shortco
 date: 2026-01-19
 slug: what-von-neumann-understood-about
 canonical_url: "https://www.avikde.me/p/what-von-neumann-understood-about"
-topic: "Von Neumann S Theory Of Computational Intelligence"
+topic: "Embodied Intelligence"
 concepts:
-  - "Neural Networks"
   - "Computational Theory"
+  - "Neural Networks"
   - "Von Neumann Architecture"
 source: Substack
 author: Avik De
@@ -21,8 +21,8 @@ author: Avik De
 
 > Originally published: [2026-01-19](https://www.avikde.me/p/what-von-neumann-understood-about)
 
-**Topic:** [[topics/von-neumann-s-theory-of-computational-intelligence|Von Neumann S Theory Of Computational Intelligence]]
-**Concepts:** [[concepts/neural-networks|Neural Networks]] · [[concepts/computational-theory|Computational Theory]] · [[concepts/von-neumann-architecture|Von Neumann Architecture]]
+**Topic:** [[topics/embodied-intelligence|Embodied Intelligence]]
+**Concepts:** [[concepts/computational-theory|Computational Theory]] · [[concepts/neural-networks|Neural Networks]] · [[concepts/von-neumann-architecture|Von Neumann Architecture]]
 **Citations:** [[citations/mathshistory-st-andrews-ac-uk|mathshistory.st.andrews.ac.uk]] · [[citations/ieee-org|ieee.org]] · [[citations/nvidia-com|nvidia.com]] · [[citations/towardsdatascience-com|towardsdatascience.com]] · [[citations/groq-com|groq.com]] · [[citations/tomshardware-com|tomshardware.com]]
 
 ---

@@ -1,13 +1,13 @@
 ---
 type: moc
-updated: 2026-05-31
-post_count: 34
+updated: 2026-06-07
+post_count: 35
 ---
 
 # Map of Content — Avik De's Blog
 
-> Obsidian vault for [avikde.me](https://www.avikde.me) · **34 posts** · **22 topics** · **54 concepts** · **123 cited domains**  
-> Last synced: 2026-05-31
+> Obsidian vault for [avikde.me](https://www.avikde.me) · **35 posts** · **22 topics** · **54 concepts** · **124 cited domains**  
+> Last synced: 2026-06-07
 
 ---
 
@@ -19,7 +19,7 @@ post_count: 34
 | [[_meta/Authors\|👤 Authors]] | About Avik De |
 | topics/ | 22 topic pages |
 | concepts/ | 54 concept pages |
-| citations/ | 123 cited domains |
+| citations/ | 124 cited domains |
 
 ---
 
@@ -27,6 +27,7 @@ post_count: 34
 
 ### 2026
 
+- [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]] — *Why the LLM tokenization debate matters for physical AI, and what biology tells us* `2026-06-03`
 - [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]] — *Can we get embodied intelligence by connecting cameras and motors to an AI brain?* `2026-05-27`
 - [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]] — *"Cross-embodiment" trained policies generalize well, but is that the best solution?* `2026-05-15`
 - [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]] — *Safety and efficiency with universal approximators and Turing machines* `2026-05-05`
@@ -83,13 +84,13 @@ post_count: 34
 ## 🏷 Topics
 
 - [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] (4 posts)
+- [[topics/vision-language-action-model-debugging|Vision Language Action Model Debugging]] (3 posts)
 - [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]] (3 posts)
 - [[topics/jerboa-robot-development|Jerboa Robot Development]] (3 posts)
-- [[topics/von-neumann-s-theory-of-computational-intelligence|Von Neumann S Theory Of Computational Intelligence]] (2 posts)
-- [[topics/hybrid-vision-language-action-robotics-pipeline|Hybrid Vision Language Action Robotics Pipeline]] (2 posts)
+- [[topics/embodied-intelligence|Embodied Intelligence]] (2 posts)
 - [[topics/template-based-robot-design-optimization|Template Based Robot Design Optimization]] (2 posts)
-- [[topics/quadrupedal-robots|Quadrupedal Robots]] (2 posts)
-- [[topics/educational-robotics|Educational Robotics]] (2 posts)
+- [[topics/virtual-bipedal-control-for-quadrupedal-gaits|Virtual Bipedal Control For Quadrupedal Gaits]] (2 posts)
+- [[topics/modular-robotics-control-architecture|Modular Robotics Control Architecture]] (2 posts)
 - [[topics/multi-robot-brain-architectures|Multi Robot Brain Architectures]] (1 posts)
 - [[topics/universal-approximation-in-neural-networks|Universal Approximation In Neural Networks]] (1 posts)
 - [[topics/paradigm-shifts-in-robotics-and-ai-research|Paradigm Shifts In Robotics And Ai Research]] (1 posts)
@@ -110,22 +111,23 @@ post_count: 34
 ## 💡 Concepts
 
 - [[concepts/3d-locomotion|3D Locomotion]] (12 posts)
-- [[concepts/world-models|World Models]] (7 posts)
+- [[concepts/large-language-models|Large Language Models]] (9 posts)
 - [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] (7 posts)
 - [[concepts/design-optimization|Design Optimization]] (6 posts)
 - [[concepts/raibert-three-part-control|Raibert Three-Part Control]] (6 posts)
+- [[concepts/computational-theory|Computational Theory]] (4 posts)
 - [[concepts/hardware-acceleration|Hardware Acceleration]] (4 posts)
 - [[concepts/control-systems|Control Systems]] (4 posts)
 - [[concepts/bottom-up-composition|Bottom-Up Composition]] (4 posts)
-- [[concepts/foundation-models|Foundation Models]] (3 posts)
+- [[concepts/behavioral-primitives|Behavioral Primitives]] (3 posts)
+- [[concepts/james-s-mcdonnell-foundation|James S. McDonnell Foundation]] (3 posts)
 - [[concepts/academic-application-materials|Academic Application Materials]] (3 posts)
 - [[concepts/neural-networks|Neural Networks]] (3 posts)
-- [[concepts/computational-theory|Computational Theory]] (3 posts)
 - [[concepts/biomimetic-control|Biomimetic Control]] (3 posts)
 - [[concepts/motion-controllers|Motion Controllers]] (3 posts)
 - [[concepts/model-predictive-control|Model Predictive Control]] (3 posts)
 - [[concepts/engineering-tradeoffs|Engineering Tradeoffs]] (2 posts)
-- [[concepts/sensing-and-actuation|Sensing and Actuation]] (2 posts)
+- [[concepts/piezoelectric-actuation|Piezoelectric Actuation]] (2 posts)
 - [[concepts/continuous-function-approximation|Continuous Function Approximation]] (2 posts)
 - [[concepts/commoditization|Commoditization]] (2 posts)
 - [[concepts/human-machine-performance-comparison|Human-Machine Performance Comparison]] (2 posts)
@@ -133,19 +135,18 @@ post_count: 34
 - [[concepts/microcontroller-programming|Microcontroller Programming]] (2 posts)
 - [[concepts/classical-control-methods|Classical Control Methods]] (2 posts)
 - [[concepts/mujoco-simulation|MuJoCo Simulation]] (2 posts)
-- [[concepts/failure-mode-analysis|Failure Mode Analysis]] (2 posts)
+- [[concepts/architecture-analysis|Architecture Analysis]] (2 posts)
 - [[concepts/signal-processing|Signal Processing]] (2 posts)
-- [[concepts/feedback-loops|Feedback Loops]] (2 posts)
+- [[concepts/force-feedback|Force Feedback]] (2 posts)
 - [[concepts/von-neumann-architecture|Von Neumann Architecture]] (2 posts)
 - [[concepts/object-oriented-design|Object-Oriented Design]] (2 posts)
 - [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]] (2 posts)
 - [[concepts/transfer-learning|Transfer Learning]] (2 posts)
-- [[concepts/reduced-order-models|Reduced-Order Models]] (2 posts)
 - [[concepts/non-dimensionalization|Non-Dimensionalization]] (2 posts)
 - [[concepts/control-templates|Control Templates]] (2 posts)
 - [[concepts/vertical-hopper-compositions|Vertical Hopper Compositions]] (2 posts)
 - [[concepts/phase-control|Phase Control]] (2 posts)
-- [[concepts/bldc-actuators|BLDC Actuators]] (2 posts)
+- [[concepts/transparent-actuators|Transparent Actuators]] (2 posts)
 - [[concepts/direct-drive-motors|Direct-Drive Motors]] (2 posts)
 - [[concepts/tailed-reorientation|Tailed Reorientation]] (2 posts)
 - [[concepts/generalization|Generalization]] (1 posts)

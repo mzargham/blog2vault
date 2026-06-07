@@ -6,10 +6,10 @@ slug: how-an-llm-changes-its-mind
 canonical_url: "https://www.avikde.me/p/how-an-llm-changes-its-mind"
 topic: "Universal Approximation In Neural Networks"
 concepts:
+  - "Computational Theory"
   - "Continuous Function Approximation"
   - "Neural Networks"
   - "Transformers"
-  - "Computational Theory"
 source: Substack
 author: Avik De
 ---
@@ -23,8 +23,8 @@ author: Avik De
 > Originally published: [2026-05-05](https://www.avikde.me/p/how-an-llm-changes-its-mind)
 
 **Topic:** [[topics/universal-approximation-in-neural-networks|Universal Approximation In Neural Networks]]
-**Concepts:** [[concepts/continuous-function-approximation|Continuous Function Approximation]] · [[concepts/neural-networks|Neural Networks]] · [[concepts/transformers|Transformers]] · [[concepts/computational-theory|Computational Theory]]
-**Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/arxiv-org|arxiv.org]] · [[citations/lifeiscomputation-com|lifeiscomputation.com]] · [[citations/artificialintelligencemadesimple-com|artificialintelligencemadesimple.com]] · [[citations/github-io|github.io]] · [[citations/chipinsights-net|chipinsights.net]] · [[citations/viksnewsletter-com|viksnewsletter.com]]
+**Concepts:** [[concepts/computational-theory|Computational Theory]] · [[concepts/continuous-function-approximation|Continuous Function Approximation]] · [[concepts/neural-networks|Neural Networks]] · [[concepts/transformers|Transformers]]
+**Citations:** [[citations/viksnewsletter-com|viksnewsletter.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/arxiv-org|arxiv.org]] · [[citations/lifeiscomputation-com|lifeiscomputation.com]] · [[citations/artificialintelligencemadesimple-com|artificialintelligencemadesimple.com]] · [[citations/github-io|github.io]] · [[citations/chipinsights-net|chipinsights.net]]
 
 ---
 

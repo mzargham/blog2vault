@@ -58,3 +58,4 @@ All posts in chronological order.
 - `2026-05-05` [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]
 - `2026-05-15` [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]]
 - `2026-05-27` [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]]
+- `2026-06-03` [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]

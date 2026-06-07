@@ -4,13 +4,14 @@ subtitle: "Can we get embodied intelligence by connecting cameras and motors to 
 date: 2026-05-27
 slug: the-loops-and-hierarchies-of-embodied
 canonical_url: "https://www.avikde.me/p/the-loops-and-hierarchies-of-embodied"
-topic: "Von Neumann S Theory Of Computational Intelligence"
+topic: "Embodied Intelligence"
 concepts:
-  - "Foundation Models"
-  - "World Models"
+  - "Behavioral Primitives"
+  - "James S. McDonnell Foundation"
+  - "Large Language Models"
   - "Engineering Tradeoffs"
   - "Academic Application Materials"
-  - "Sensing and Actuation"
+  - "Piezoelectric Actuation"
 source: Substack
 author: Avik De
 ---
@@ -23,8 +24,8 @@ author: Avik De
 
 > Originally published: [2026-05-27](https://www.avikde.me/p/the-loops-and-hierarchies-of-embodied)
 
-**Topic:** [[topics/von-neumann-s-theory-of-computational-intelligence|Von Neumann S Theory Of Computational Intelligence]]
-**Concepts:** [[concepts/foundation-models|Foundation Models]] · [[concepts/world-models|World Models]] · [[concepts/engineering-tradeoffs|Engineering Tradeoffs]] · [[concepts/academic-application-materials|Academic Application Materials]] · [[concepts/sensing-and-actuation|Sensing and Actuation]]
+**Topic:** [[topics/embodied-intelligence|Embodied Intelligence]]
+**Concepts:** [[concepts/behavioral-primitives|Behavioral Primitives]] · [[concepts/james-s-mcdonnell-foundation|James S. McDonnell Foundation]] · [[concepts/large-language-models|Large Language Models]] · [[concepts/engineering-tradeoffs|Engineering Tradeoffs]] · [[concepts/academic-application-materials|Academic Application Materials]] · [[concepts/piezoelectric-actuation|Piezoelectric Actuation]]
 **Citations:** [[citations/pi-website|pi.website]] · [[citations/merics-org|merics.org]] · [[citations/darpa-mil|darpa.mil]] · [[citations/nature-com|nature.com]] · [[citations/psycnet-apa-org|psycnet.apa.org]] · [[citations/taylorfrancis-com|taylorfrancis.com]] · [[citations/semanticscholar-org|semanticscholar.org]] · [[citations/mit-edu|mit.edu]] · [[citations/sciencedirect-com|sciencedirect.com]] · [[citations/ndpr-nd-edu|ndpr.nd.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/youtube-com|youtube.com]] · [[citations/fyfluiddynamics-com|fyfluiddynamics.com]] · [[citations/arxiv-org|arxiv.org]]
 
 ---

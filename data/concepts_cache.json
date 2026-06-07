@@ -390,5 +390,17 @@
       "Sensing and Actuation",
       "Physical AI"
     ]
+  },
+  "action-tokens-fine-grained-vs-behavioral::2026-06-03T16:08:43.721Z": {
+    "topic": "Action Tokens in Physical AI",
+    "concepts": [
+      "Tokenization",
+      "LLM Architecture",
+      "Physical AI",
+      "Behavioral Primitives",
+      "RISC vs CISC",
+      "Biological Motor Primitives",
+      "Computational Efficiency"
+    ]
   }
 }

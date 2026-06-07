@@ -8,7 +8,7 @@ topic: "Template Based Robot Design Optimization"
 concepts:
   - "Design Optimization"
   - "Raibert Three-Part Control"
-  - "BLDC Actuators"
+  - "Transparent Actuators"
   - "Quadrature Current Tracking"
 source: Substack
 author: Avik De
@@ -23,7 +23,7 @@ author: Avik De
 > Originally published: [2019-01-23](https://www.avikde.me/p/actuator-design-paper)
 
 **Topic:** [[topics/template-based-robot-design-optimization|Template Based Robot Design Optimization]]
-**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/bldc-actuators|BLDC Actuators]] · [[concepts/quadrature-current-tracking|Quadrature Current Tracking]]
+**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/transparent-actuators|Transparent Actuators]] · [[concepts/quadrature-current-tracking|Quadrature Current Tracking]]
 **Citations:** [[citations/pmdcorp-com|pmdcorp.com]] · [[citations/speakerdeck-com|speakerdeck.com]]
 
 ---

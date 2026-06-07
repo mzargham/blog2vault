@@ -2,7 +2,7 @@
 type: citation
 domain: ieee.org
 domain_slug: ieee-org
-citation_count: 7
+citation_count: 8
 ---
 
 # Citations: ieee.org
@@ -10,6 +10,9 @@ citation_count: 7
 External references from [ieee.org](https://ieee.org) appearing across posts.
 
 ## References
+
+### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
+- [https://ieeexplore.ieee.org/document/6630928](https://ieeexplore.ieee.org/document/6630928) "paper"
 
 ### [[posts/2016-03-02--ghost-robotics-minitaur|Ghost Robotics and Minitaur]]
 - [http://ieeexplore.ieee.org/stamp/stamp.jsp](http://ieeexplore.ieee.org/stamp/stamp.jsp) "the open-access preprint is now up"

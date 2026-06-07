@@ -2,7 +2,7 @@
 type: citation
 domain: science.org
 domain_slug: science-org
-citation_count: 3
+citation_count: 4
 ---
 
 # Citations: science.org
@@ -10,6 +10,9 @@ citation_count: 3
 External references from [science.org](https://science.org) appearing across posts.
 
 ## References
+
+### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
+- [https://www.science.org/doi/10.1126/scirobotics.ado9509](https://www.science.org/doi/10.1126/scirobotics.ado9509) "Link to paper"
 
 ### [[posts/2026-02-03--is-it-learning-online-motor-adaptation|"Is it learning?" Online motor adaptation in end-to-end robotics]]
 - [https://www.science.org/doi/10.1126/scirobotics.ade2256](https://www.science.org/doi/10.1126/scirobotics.ade2256) "reduced / Choi et al (2023)"

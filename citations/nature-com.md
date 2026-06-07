@@ -2,7 +2,7 @@
 type: citation
 domain: nature.com
 domain_slug: nature-com
-citation_count: 6
+citation_count: 7
 ---
 
 # Citations: nature.com
@@ -10,6 +10,9 @@ citation_count: 6
 External references from [nature.com](https://nature.com) appearing across posts.
 
 ## References
+
+### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
+- [https://www.nature.com/articles/s41598-024-82472-x](https://www.nature.com/articles/s41598-024-82472-x) "This paper"
 
 ### [[posts/2024-12-23--power-efficient-safe-robots|Power-efficient and safe mobile robots]]
 - [https://www.nature.com/articles/d41586-024-03408-z](https://www.nature.com/articles/d41586-024-03408-z) "continual / contend with this cost-benefit analysis"

@@ -2,7 +2,7 @@
 type: citation
 domain: arxiv.org
 domain_slug: arxiv-org
-citation_count: 25
+citation_count: 26
 ---
 
 # Citations: arxiv.org
@@ -14,6 +14,9 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 ### [[posts/2026-03-26--a-coding-agent-equivalent-for-robotics|A coding agent equivalent for robotics pipelines]]
 - [https://arxiv.org/abs/2304.13705](https://arxiv.org/abs/2304.13705) "ALOHA paper / ACT paper"
 - [https://arxiv.org/abs/2401.12168](https://arxiv.org/abs/2401.12168) "SpatialVLM"
+
+### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
+- [https://arxiv.org/html/2405.03864v1](https://arxiv.org/html/2405.03864v1) "paper"
 
 ### [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]]
 - [https://arxiv.org/abs/2511.10647](https://arxiv.org/abs/2511.10647) "DepthAnything"
