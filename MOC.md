@@ -1,13 +1,13 @@
 ---
 type: moc
-updated: 2026-06-07
-post_count: 35
+updated: 2026-06-28
+post_count: 36
 ---
 
 # Map of Content — Avik De's Blog
 
-> Obsidian vault for [avikde.me](https://www.avikde.me) · **35 posts** · **22 topics** · **54 concepts** · **124 cited domains**  
-> Last synced: 2026-06-07
+> Obsidian vault for [avikde.me](https://www.avikde.me) · **36 posts** · **22 topics** · **54 concepts** · **127 cited domains**  
+> Last synced: 2026-06-28
 
 ---
 
@@ -19,7 +19,7 @@ post_count: 35
 | [[_meta/Authors\|👤 Authors]] | About Avik De |
 | topics/ | 22 topic pages |
 | concepts/ | 54 concept pages |
-| citations/ | 124 cited domains |
+| citations/ | 127 cited domains |
 
 ---
 
@@ -27,6 +27,7 @@ post_count: 35
 
 ### 2026
 
+- [[posts/2026-06-18--what-an-alternate-history-of-the|What an Alternate History of the RISC vs. CISC Debate Teaches Us About Robotics]] — *Remove the compiler layer, and RISC's ecosystem advantages invert* `2026-06-18`
 - [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]] — *Why the LLM tokenization debate matters for physical AI, and what biology tells us* `2026-06-03`
 - [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]] — *Can we get embodied intelligence by connecting cameras and motors to an AI brain?* `2026-05-27`
 - [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]] — *"Cross-embodiment" trained policies generalize well, but is that the best solution?* `2026-05-15`

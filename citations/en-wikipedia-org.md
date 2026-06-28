@@ -64,8 +64,8 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) "similar approach was used to train post-train early LLMs"
 
 ### [[posts/2026-01-26--the-architecture-behind-end-to-end|The architecture behind “end-to-end” robotics pipelines]]
+- [https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver](https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver) "STRIPS / symbolic AI systems"
 - [https://en.wikipedia.org/wiki/Shakey_the_robot](https://en.wikipedia.org/wiki/Shakey_the_robot) "Shakey the robot"
-- [https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver](https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver) "symbolic AI systems"
 - [https://en.wikipedia.org/wiki/Vanishing_gradient_problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) "vanishing/exploding gradients"
 
 ### [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]]
@@ -80,6 +80,9 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/Preflexes](https://en.wikipedia.org/wiki/Preflexes) "preflexes"
 - [https://en.wikipedia.org/wiki/Center_of_percussion](https://en.wikipedia.org/wiki/Center_of_percussion) "center of percussion"
 - [https://en.wikipedia.org/wiki/Distributed_control_system](https://en.wikipedia.org/wiki/Distributed_control_system) "distributed control"
+
+### [[posts/2026-06-18--what-an-alternate-history-of-the|What an Alternate History of the RISC vs. CISC Debate Teaches Us About Robotics]]
+- [https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver](https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver) "STRIPS / symbolic AI systems"
 
 ### [[posts/2026-02-21--what-wiener-knew-about-artificial|What Wiener knew about (artificial) intelligence in 1948]]
 - [https://en.wikipedia.org/wiki/Centrifugal_governor](https://en.wikipedia.org/wiki/Centrifugal_governor) "image source"

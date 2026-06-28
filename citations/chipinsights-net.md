@@ -2,7 +2,7 @@
 type: citation
 domain: chipinsights.net
 domain_slug: chipinsights-net
-citation_count: 4
+citation_count: 5
 ---
 
 # Citations: chipinsights.net
@@ -18,8 +18,13 @@ External references from [chipinsights.net](https://chipinsights.net) appearing 
 - [https://chipinsights.net/p/the-art-of-architectural-analysis](https://chipinsights.net/p/the-art-of-architectural-analysis) "here"
 
 ### [[posts/2026-03-12--systolic-arrays-for-general-robotics|Systolic arrays for general robotics, AI, and scientific computing]]
-- [https://chipinsights.net/p/mapping-algorithms-to-custom-silicon](https://chipinsights.net/p/mapping-algorithms-to-custom-silicon) "Chip InsightsMapping algorithms to custom silicon - Part 1Read more4 months ago · 22 likes · Bharath Suresh and Avik De"
+- [https://chipinsights.net/p/mapping-algorithms-to-custom-silicon](https://chipinsights.net/p/mapping-algorithms-to-custom-silicon) "article series / Chip InsightsMapping algorithms to custom silicon - Part 1Read more5 months ago · 22 likes · Bharath Suresh and Avik De"
 
 ### [[posts/2026-01-14--the-ai-world-models-debate-and-its|The AI world models debate and its foreshadowing on robotics]]
 - [https://chipinsights.net/p/the-alphabet-soup-of-processors](https://chipinsights.net/p/the-alphabet-soup-of-processors) "adoption"
+
+### [[posts/2026-06-18--what-an-alternate-history-of-the|What an Alternate History of the RISC vs. CISC Debate Teaches Us About Robotics]]
+- [https://chipinsights.net/p/the-isa-debate](https://chipinsights.net/p/the-isa-debate) "RISC vs. CISC debate"
+- [https://chipinsights.net](https://chipinsights.net) "Chip InsightsSemiconductor Industry Deep DivesBy Bharath Suresh"
+- [https://chipinsights.net/p/mapping-algorithms-to-custom-silicon](https://chipinsights.net/p/mapping-algorithms-to-custom-silicon) "article series / Chip InsightsMapping algorithms to custom silicon - Part 1Read more5 months ago · 22 likes · Bharath Suresh and Avik De"
 

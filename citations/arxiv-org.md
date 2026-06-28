@@ -2,7 +2,7 @@
 type: citation
 domain: arxiv.org
 domain_slug: arxiv-org
-citation_count: 26
+citation_count: 27
 ---
 
 # Citations: arxiv.org
@@ -61,4 +61,7 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 
 ### [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]]
 - [https://arxiv.org/pdf/2110.03239](https://arxiv.org/pdf/2110.03239) "this ICLR 2022 paper"
+
+### [[posts/2026-06-18--what-an-alternate-history-of-the|What an Alternate History of the RISC vs. CISC Debate Teaches Us About Robotics]]
+- [https://arxiv.org/pdf/2512.12230](https://arxiv.org/pdf/2512.12230) "2024 study"
 
