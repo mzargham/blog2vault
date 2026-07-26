@@ -6,11 +6,10 @@ slug: building-a-reasoning-hierarchical
 canonical_url: "https://www.avikde.me/p/building-a-reasoning-hierarchical"
 topic: "Vision Language Action Model Debugging"
 concepts:
-  - "Large Language Models"
   - "End-to-End Robotics Pipelines"
-  - "Modular System Architecture"
+  - "Vision-Language Models"
+  - "Task Programming"
   - "Motion Controllers"
-  - "Microcontroller Programming"
   - "Classical Control Methods"
 source: Substack
 author: Avik De
@@ -25,7 +24,7 @@ author: Avik De
 > Originally published: [2026-04-07](https://www.avikde.me/p/building-a-reasoning-hierarchical)
 
 **Topic:** [[topics/vision-language-action-model-debugging|Vision Language Action Model Debugging]]
-**Concepts:** [[concepts/large-language-models|Large Language Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/modular-system-architecture|Modular System Architecture]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/microcontroller-programming|Microcontroller Programming]] · [[concepts/classical-control-methods|Classical Control Methods]]
+**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/vision-language-models|Vision-Language Models]] · [[concepts/task-programming|Task Programming]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/classical-control-methods|Classical Control Methods]]
 **Citations:** [[citations/github-io|github.io]] · [[citations/github-com|github.com]] · [[citations/google-com|google.com]] · [[citations/arxiv-org|arxiv.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/incompleteideas-net|incompleteideas.net]]
 
 ---

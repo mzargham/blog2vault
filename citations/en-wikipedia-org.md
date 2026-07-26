@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 37
+citation_count: 38
 ---
 
 # Citations: en.wikipedia.org
@@ -24,6 +24,9 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/Universal_approximation_theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem) "universal approximation theorem"
 - [https://en.wikipedia.org/wiki/Turing_machine](https://en.wikipedia.org/wiki/Turing_machine) "Turing machine"
 - [https://en.wikipedia.org/wiki/Integer_factorization](https://en.wikipedia.org/wiki/Integer_factorization) "very easily write"
+
+### [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]]
+- [https://en.wikipedia.org/wiki/Potting_(electronics)](https://en.wikipedia.org/wiki/Potting_(electronics)) "potted"
 
 ### [[posts/2024-12-22--hybrid-averaging|Approximating cyclic dynamics utilizing symmetry]]
 - [https://en.wikipedia.org/wiki/Double_pendulum](https://en.wikipedia.org/wiki/Double_pendulum) "difficult to analyze"

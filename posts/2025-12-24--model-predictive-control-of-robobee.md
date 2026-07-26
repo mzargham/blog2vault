@@ -4,10 +4,9 @@ subtitle: "Hierarchical model-predictive and data-driven control method publishe
 date: 2025-12-24
 slug: model-predictive-control-of-robobee
 canonical_url: "https://www.avikde.me/p/model-predictive-control-of-robobee"
-topic: "Model Predictive Control Of Robobee Flapping Flight"
+topic: "Uncategorized"
 concepts:
-  - "Signal Processing"
-  - "Model Predictive Control"
+  []
 source: Substack
 author: Avik De
 ---
@@ -20,8 +19,6 @@ author: Avik De
 
 > Originally published: [2025-12-24](https://www.avikde.me/p/model-predictive-control-of-robobee)
 
-**Topic:** [[topics/model-predictive-control-of-robobee-flapping-flight|Model Predictive Control Of Robobee Flapping Flight]]
-**Concepts:** [[concepts/signal-processing|Signal Processing]] · [[concepts/model-predictive-control|Model Predictive Control]]
 **Citations:** [[citations/youtube-com|youtube.com]] · [[citations/harvard-edu|harvard.edu]] · [[citations/researchgate-net|researchgate.net]] · [[citations/www1-villanova-edu|www1.villanova.edu]] · [[citations/harvardmagazine-com|harvardmagazine.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/commons-wikimedia-org|commons.wikimedia.org]] · [[citations/creativecommons-org|creativecommons.org]] · [[citations/mit-edu|mit.edu]] · [[citations/science-org|science.org]] · [[citations/mathworks-com|mathworks.com]] · [[citations/osqp-org|osqp.org]] · [[citations/github-com|github.com]] · [[citations/journals-sagepub-com|journals.sagepub.com]]
 
 ---

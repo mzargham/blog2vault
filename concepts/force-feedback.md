@@ -1,7 +1,7 @@
 ---
 type: concept
 concept_slug: force-feedback
-post_count: 2
+post_count: 1
 ---
 
 # Concept: Force Feedback
@@ -9,4 +9,3 @@ post_count: 2
 Posts referencing **Force Feedback**:
 
 - [[posts/2016-03-02--ghost-robotics-minitaur|Ghost Robotics and Minitaur]] (2016-03-02)
-- [[posts/2026-02-21--what-wiener-knew-about-artificial|What Wiener knew about (artificial) intelligence in 1948]] (2026-02-21)

@@ -12,5 +12,8 @@ External references from [eu.36kr.com](https://eu.36kr.com) appearing across pos
 ## References
 
 ### [[posts/2026-04-22--honors-humanoid-ran-the-fastest-half|Honor's humanoid ran the fastest half-marathon: how did they do it?]]
-- [https://eu.36kr.com/en/p/3775418378027520](https://eu.36kr.com/en/p/3775418378027520) "source"
+- [https://eu.36kr.com/en/p/3775418378027520](https://eu.36kr.com/en/p/3775418378027520) "what Honor did / source"
+
+### [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]]
+- [https://eu.36kr.com/en/p/3775418378027520](https://eu.36kr.com/en/p/3775418378027520) "what Honor did / source"
 

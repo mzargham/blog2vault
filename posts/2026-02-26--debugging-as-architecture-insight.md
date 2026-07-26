@@ -6,12 +6,12 @@ slug: debugging-as-architecture-insight
 canonical_url: "https://www.avikde.me/p/debugging-as-architecture-insight"
 topic: "Vision Language Action Model Debugging"
 concepts:
-  - "Large Language Models"
   - "End-to-End Robotics Pipelines"
-  - "3D Locomotion"
+  - "Vision-Language Models"
   - "Motion Controllers"
   - "Classical Control Methods"
-  - "Architecture Analysis"
+  - "Failure Mode Analysis"
+  - "Generalist Policies"
 source: Substack
 author: Avik De
 ---
@@ -25,7 +25,7 @@ author: Avik De
 > Originally published: [2026-02-26](https://www.avikde.me/p/debugging-as-architecture-insight)
 
 **Topic:** [[topics/vision-language-action-model-debugging|Vision Language Action Model Debugging]]
-**Concepts:** [[concepts/large-language-models|Large Language Models]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/classical-control-methods|Classical Control Methods]] · [[concepts/architecture-analysis|Architecture Analysis]]
+**Concepts:** [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/vision-language-models|Vision-Language Models]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/classical-control-methods|Classical Control Methods]] · [[concepts/failure-mode-analysis|Failure Mode Analysis]] · [[concepts/generalist-policies|Generalist Policies]]
 **See Also:** [[posts/2026-01-26--the-architecture-behind-end-to-end]]
 **Citations:** [[citations/github-com|github.com]] · [[citations/github-io|github.io]] · [[citations/huggingface-co|huggingface.co]] · [[citations/google-com|google.com]] · [[citations/emergentmind-com|emergentmind.com]]
 

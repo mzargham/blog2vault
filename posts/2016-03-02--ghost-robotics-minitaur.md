@@ -4,14 +4,14 @@ subtitle: "Research to startup"
 date: 2016-03-02
 slug: ghost-robotics-minitaur
 canonical_url: "https://www.avikde.me/p/ghost-robotics-minitaur"
-topic: "Jerboa Robot Development"
+topic: "Quadrupedal Robots"
 concepts:
-  - "Commoditization"
   - "3D Locomotion"
-  - "Force Feedback"
-  - "Raibert Three-Part Control"
+  - "D-Axis Control"
+  - "Co-Design Optimization"
   - "Transparent Actuators"
-  - "Direct-Drive Motors"
+  - "Force Feedback"
+  - "Research Commercialization"
 source: Substack
 author: Avik De
 ---
@@ -24,8 +24,8 @@ author: Avik De
 
 > Originally published: [2016-03-02](https://www.avikde.me/p/ghost-robotics-minitaur)
 
-**Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
-**Concepts:** [[concepts/commoditization|Commoditization]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/force-feedback|Force Feedback]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/transparent-actuators|Transparent Actuators]] · [[concepts/direct-drive-motors|Direct-Drive Motors]]
+**Topic:** [[topics/quadrupedal-robots|Quadrupedal Robots]]
+**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/d-axis-control|D-Axis Control]] · [[concepts/co-design-optimization|Co-Design Optimization]] · [[concepts/transparent-actuators|Transparent Actuators]] · [[concepts/force-feedback|Force Feedback]] · [[concepts/research-commercialization|Research Commercialization]]
 **Citations:** [[citations/ghostrobotics-io|ghostrobotics.io]] · [[citations/ieee-org|ieee.org]] · [[citations/upenn-edu|upenn.edu]]
 
 ---

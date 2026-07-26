@@ -4,13 +4,9 @@ subtitle: "Defense completed"
 date: 2017-09-15
 slug: phd-defense
 canonical_url: "https://www.avikde.me/p/phd-defense"
-topic: "Modular Robotics Control Architecture"
+topic: "Uncategorized"
 concepts:
-  - "3D Locomotion"
-  - "Motion Controllers"
-  - "Bottom-Up Composition"
-  - "Raibert Three-Part Control"
-  - "Actuator Allocation"
+  []
 source: Substack
 author: Avik De
 ---
@@ -23,8 +19,6 @@ author: Avik De
 
 > Originally published: [2017-09-15](https://www.avikde.me/p/phd-defense)
 
-**Topic:** [[topics/modular-robotics-control-architecture|Modular Robotics Control Architecture]]
-**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/motion-controllers|Motion Controllers]] · [[concepts/bottom-up-composition|Bottom-Up Composition]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/actuator-allocation|Actuator Allocation]]
 **Citations:** [[citations/upenn-edu|upenn.edu]] · [[citations/mit-edu|mit.edu]] · [[citations/cogneurosociety-org|cogneurosociety.org]]
 
 ---

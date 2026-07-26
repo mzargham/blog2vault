@@ -4,10 +4,9 @@ subtitle: "'Cross-embodiment' trained policies generalize well, but is that the 
 date: 2026-05-15
 slug: a-multi-robot-brain-is-not-like-a
 canonical_url: "https://www.avikde.me/p/a-multi-robot-brain-is-not-like-a"
-topic: "Multi Robot Brain Architectures"
+topic: "Uncategorized"
 concepts:
-  - "Generalization"
-  - "Hardware Acceleration"
+  []
 source: Substack
 author: Avik De
 ---
@@ -20,8 +19,6 @@ author: Avik De
 
 > Originally published: [2026-05-15](https://www.avikde.me/p/a-multi-robot-brain-is-not-like-a)
 
-**Topic:** [[topics/multi-robot-brain-architectures|Multi Robot Brain Architectures]]
-**Concepts:** [[concepts/generalization|Generalization]] · [[concepts/hardware-acceleration|Hardware Acceleration]]
 **Citations:** [[citations/skild-ai|skild.ai]] · [[citations/pi-website|pi.website]] · [[citations/ibm-com|ibm.com]] · [[citations/robonaissance-com|robonaissance.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/mit-edu|mit.edu]] · [[citations/youtube-com|youtube.com]]
 
 ---

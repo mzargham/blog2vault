@@ -4,11 +4,9 @@ subtitle: "Robotics research meets outreach"
 date: 2015-04-11
 slug: jerboa-demo-swe-gears-day
 canonical_url: "https://www.avikde.me/p/jerboa-demo-swe-gears-day"
-topic: "Robotics Public Outreach And Demonstration"
+topic: "Uncategorized"
 concepts:
-  - "Perception-Planning-Control Modules"
-  - "Phase Control"
-  - "Jerboa Robot"
+  []
 source: Substack
 author: Avik De
 ---
@@ -21,8 +19,6 @@ author: Avik De
 
 > Originally published: [2015-04-11](https://www.avikde.me/p/jerboa-demo-swe-gears-day)
 
-**Topic:** [[topics/robotics-public-outreach-and-demonstration|Robotics Public Outreach And Demonstration]]
-**Concepts:** [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]] · [[concepts/phase-control|Phase Control]] · [[concepts/jerboa-robot|Jerboa Robot]]
 **Citations:** [[citations/upenn-edu|upenn.edu]]
 
 ---

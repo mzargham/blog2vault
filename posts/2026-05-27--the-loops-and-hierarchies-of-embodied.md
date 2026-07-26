@@ -4,14 +4,12 @@ subtitle: "Can we get embodied intelligence by connecting cameras and motors to 
 date: 2026-05-27
 slug: the-loops-and-hierarchies-of-embodied
 canonical_url: "https://www.avikde.me/p/the-loops-and-hierarchies-of-embodied"
-topic: "Embodied Intelligence"
+topic: "Von Neumann S Theory Of Computational Intelligence"
 concepts:
   - "Behavioral Primitives"
-  - "James S. McDonnell Foundation"
-  - "Large Language Models"
-  - "Engineering Tradeoffs"
-  - "Academic Application Materials"
-  - "Piezoelectric Actuation"
+  - "End-to-End Robotics Pipelines"
+  - "Vision-Language Models"
+  - "Humanoid Robotics"
 source: Substack
 author: Avik De
 ---
@@ -24,8 +22,8 @@ author: Avik De
 
 > Originally published: [2026-05-27](https://www.avikde.me/p/the-loops-and-hierarchies-of-embodied)
 
-**Topic:** [[topics/embodied-intelligence|Embodied Intelligence]]
-**Concepts:** [[concepts/behavioral-primitives|Behavioral Primitives]] · [[concepts/james-s-mcdonnell-foundation|James S. McDonnell Foundation]] · [[concepts/large-language-models|Large Language Models]] · [[concepts/engineering-tradeoffs|Engineering Tradeoffs]] · [[concepts/academic-application-materials|Academic Application Materials]] · [[concepts/piezoelectric-actuation|Piezoelectric Actuation]]
+**Topic:** [[topics/von-neumann-s-theory-of-computational-intelligence|Von Neumann S Theory Of Computational Intelligence]]
+**Concepts:** [[concepts/behavioral-primitives|Behavioral Primitives]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/vision-language-models|Vision-Language Models]] · [[concepts/humanoid-robotics|Humanoid Robotics]]
 **Citations:** [[citations/pi-website|pi.website]] · [[citations/merics-org|merics.org]] · [[citations/darpa-mil|darpa.mil]] · [[citations/nature-com|nature.com]] · [[citations/psycnet-apa-org|psycnet.apa.org]] · [[citations/taylorfrancis-com|taylorfrancis.com]] · [[citations/semanticscholar-org|semanticscholar.org]] · [[citations/mit-edu|mit.edu]] · [[citations/sciencedirect-com|sciencedirect.com]] · [[citations/ndpr-nd-edu|ndpr.nd.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/youtube-com|youtube.com]] · [[citations/fyfluiddynamics-com|fyfluiddynamics.com]] · [[citations/arxiv-org|arxiv.org]]
 
 ---
@@ -210,7 +208,7 @@ In related past articles, I’ve written about the architecture of end-to-end ro
 
 For this article, I returned to these great Substack posts by other authors. Check them out too:
 
-[![](https://substackcdn.com/image/fetch/$s_!Yem8!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe6531b6c-86e3-4240-8372-b5a887412b64_608x608.png)WHERE MACHINES THINKThe Case For World Models, Part I: The Neuroscientific ReasonLOOK at the two images above. What do you see…Read more5 months ago · 55 likes · 9 comments · Anil Ananthaswamy](<https://wheremachinesthink.substack.com/p/the-case-for-world-models-part-i?utm_source=substack&utm_campaign=post_embed&utm_medium=web>)
+[![](https://substackcdn.com/image/fetch/$s_!Yem8!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe6531b6c-86e3-4240-8372-b5a887412b64_608x608.png)WHERE MACHINES THINKThe Case For World Models, Part I: The Neuroscientific ReasonLOOK at the two images above. What do you see…Read more6 months ago · 55 likes · 9 comments · Anil Ananthaswamy](<https://wheremachinesthink.substack.com/p/the-case-for-world-models-part-i?utm_source=substack&utm_campaign=post_embed&utm_medium=web>)
 
 [![](https://substackcdn.com/image/fetch/$s_!13Dp!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a886fd-347d-4694-b670-0253975d2ba9_659x547.png)It Can Think!How can we get enough data to train a robot GPT?It’s no secret that large language models are trained on massive amounts of data - many trillions of tokens. Even the largest robot datasets are quite far from this; in a year, Physical Intelligence collected about 10,000 hours worth of robot data to train their first foundation model, PI0. Professor Ken Goldberg of UC Berkeley gave a talk which Andra K…Read morea year ago · 58 likes · 5 comments · Chris Paxton](<https://itcanthink.substack.com/p/how-can-we-get-enough-data-to-train?utm_source=substack&utm_campaign=post_embed&utm_medium=web>)
 

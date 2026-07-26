@@ -7,7 +7,6 @@ canonical_url: "https://www.avikde.me/p/action-tokens-fine-grained-vs-behavioral
 topic: "Vision Language Action Model Debugging"
 concepts:
   - "Behavioral Primitives"
-  - "Computational Theory"
 source: Substack
 author: Avik De
 ---
@@ -21,7 +20,7 @@ author: Avik De
 > Originally published: [2026-06-03](https://www.avikde.me/p/action-tokens-fine-grained-vs-behavioral)
 
 **Topic:** [[topics/vision-language-action-model-debugging|Vision Language Action Model Debugging]]
-**Concepts:** [[concepts/behavioral-primitives|Behavioral Primitives]] · [[concepts/computational-theory|Computational Theory]]
+**Concepts:** [[concepts/behavioral-primitives|Behavioral Primitives]]
 **Citations:** [[citations/chipinsights-net|chipinsights.net]] · [[citations/reddit-com|reddit.com]] · [[citations/mlsysbook-ai|mlsysbook.ai]] · [[citations/viksnewsletter-com|viksnewsletter.com]] · [[citations/github-io|github.io]] · [[citations/ieee-org|ieee.org]] · [[citations/arxiv-org|arxiv.org]] · [[citations/nature-com|nature.com]] · [[citations/science-org|science.org]] · [[citations/jneurosci-org|jneurosci.org]]
 
 ---

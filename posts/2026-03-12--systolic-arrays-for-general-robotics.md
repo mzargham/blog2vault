@@ -4,11 +4,9 @@ subtitle: "MatMuls dominate today's accelerators, but the original vision was mu
 date: 2026-03-12
 slug: systolic-arrays-for-general-robotics
 canonical_url: "https://www.avikde.me/p/systolic-arrays-for-general-robotics"
-topic: "Systolic Arrays"
+topic: "Uncategorized"
 concepts:
-  - "Hardware Acceleration"
-  - "Neural Networks"
-  - "Signal Processing"
+  []
 source: Substack
 author: Avik De
 ---
@@ -21,8 +19,6 @@ author: Avik De
 
 > Originally published: [2026-03-12](https://www.avikde.me/p/systolic-arrays-for-general-robotics)
 
-**Topic:** [[topics/systolic-arrays|Systolic Arrays]]
-**Concepts:** [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/neural-networks|Neural Networks]] · [[concepts/signal-processing|Signal Processing]]
 **Citations:** [[citations/chipinsights-net|chipinsights.net]] · [[citations/harvard-edu|harvard.edu]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ieee-org|ieee.org]] · [[citations/modernrobotics-northwestern-edu|modernrobotics.northwestern.edu]] · [[citations/github-com|github.com]] · [[citations/kwokanthony-medium-com|kwokanthony.medium.com]] · [[citations/swh-princeton-edu|swh.princeton.edu]] · [[citations/arxiv-org|arxiv.org]]
 
 ---
@@ -176,4 +172,4 @@ In the deep neural network boom, the MAC array is so dominant in workload (>95% 
 
 Related posts:
 
-[![](https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png)Chip InsightsMapping algorithms to custom silicon - Part 1Read more5 months ago · 22 likes · Bharath Suresh and Avik De](<https://chipinsights.net/p/mapping-algorithms-to-custom-silicon?utm_source=substack&utm_campaign=post_embed&utm_medium=web>)
+[![](https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png)Chip InsightsMapping algorithms to custom silicon - Part 1Read more6 months ago · 22 likes · Bharath Suresh and Avik De](<https://chipinsights.net/p/mapping-algorithms-to-custom-silicon?utm_source=substack&utm_campaign=post_embed&utm_medium=web>)

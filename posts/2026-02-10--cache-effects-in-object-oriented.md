@@ -6,10 +6,9 @@ slug: cache-effects-in-object-oriented
 canonical_url: "https://www.avikde.me/p/cache-effects-in-object-oriented"
 topic: "Cache Effects In Object Oriented Programming"
 concepts:
-  - "Hardware Acceleration"
-  - "Control Systems"
+  - "Real-Time Control Systems"
   - "Object-Oriented Design"
-  - "Design Optimization"
+  - "Co-Design Optimization"
 source: Substack
 author: Avik De
 ---
@@ -23,7 +22,7 @@ author: Avik De
 > Originally published: [2026-02-10](https://www.avikde.me/p/cache-effects-in-object-oriented)
 
 **Topic:** [[topics/cache-effects-in-object-oriented-programming|Cache Effects In Object Oriented Programming]]
-**Concepts:** [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/control-systems|Control Systems]] · [[concepts/object-oriented-design|Object-Oriented Design]] · [[concepts/design-optimization|Design Optimization]]
+**Concepts:** [[concepts/real-time-control-systems|Real-Time Control Systems]] · [[concepts/object-oriented-design|Object-Oriented Design]] · [[concepts/co-design-optimization|Co-Design Optimization]]
 **Citations:** [[citations/youtube-com|youtube.com]] · [[citations/wccftech-com|wccftech.com]] · [[citations/pointclouds-org|pointclouds.org]] · [[citations/docs-unity3d-com|docs.unity3d.com]] · [[citations/cowboyprogramming-com|cowboyprogramming.com]] · [[citations/github-com|github.com]] · [[citations/godbolt-org|godbolt.org]] · [[citations/mlsysbook-ai|mlsysbook.ai]] · [[citations/unity-com|unity.com]] · [[citations/dev-epicgames-com|dev.epicgames.com]] · [[citations/abseil-io|abseil.io]] · [[citations/en-wikipedia-org|en.wikipedia.org]]
 
 ---

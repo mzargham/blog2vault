@@ -4,12 +4,11 @@ subtitle: "Paper in RAL 2019 about applying task-specifics to BLDC control"
 date: 2019-01-23
 slug: actuator-design-paper
 canonical_url: "https://www.avikde.me/p/actuator-design-paper"
-topic: "Template Based Robot Design Optimization"
+topic: "Task Based Motor Control Algorithm Design"
 concepts:
-  - "Design Optimization"
-  - "Raibert Three-Part Control"
+  - "D-Axis Control"
+  - "Co-Design Optimization"
   - "Transparent Actuators"
-  - "Quadrature Current Tracking"
 source: Substack
 author: Avik De
 ---
@@ -22,8 +21,8 @@ author: Avik De
 
 > Originally published: [2019-01-23](https://www.avikde.me/p/actuator-design-paper)
 
-**Topic:** [[topics/template-based-robot-design-optimization|Template Based Robot Design Optimization]]
-**Concepts:** [[concepts/design-optimization|Design Optimization]] · [[concepts/raibert-three-part-control|Raibert Three-Part Control]] · [[concepts/transparent-actuators|Transparent Actuators]] · [[concepts/quadrature-current-tracking|Quadrature Current Tracking]]
+**Topic:** [[topics/task-based-motor-control-algorithm-design|Task Based Motor Control Algorithm Design]]
+**Concepts:** [[concepts/d-axis-control|D-Axis Control]] · [[concepts/co-design-optimization|Co-Design Optimization]] · [[concepts/transparent-actuators|Transparent Actuators]]
 **Citations:** [[citations/pmdcorp-com|pmdcorp.com]] · [[citations/speakerdeck-com|speakerdeck.com]]
 
 ---

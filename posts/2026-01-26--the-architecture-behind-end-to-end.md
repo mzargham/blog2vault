@@ -4,12 +4,9 @@ subtitle: "Part 1: Where the learning stack ends and the control stack begins"
 date: 2026-01-26
 slug: the-architecture-behind-end-to-end
 canonical_url: "https://www.avikde.me/p/the-architecture-behind-end-to-end"
-topic: "End-to-End Robotics Pipelines"
+topic: "Uncategorized"
 concepts:
-  - "Hardware Acceleration"
-  - "End-to-End Robotics Pipelines"
-  - "3D Locomotion"
-  - "Perception-Planning-Control Modules"
+  []
 source: Substack
 author: Avik De
 ---
@@ -22,8 +19,6 @@ author: Avik De
 
 > Originally published: [2026-01-26](https://www.avikde.me/p/the-architecture-behind-end-to-end)
 
-**Topic:** [[topics/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]]
-**Concepts:** [[concepts/hardware-acceleration|Hardware Acceleration]] · [[concepts/end-to-end-robotics-pipelines|End-to-End Robotics Pipelines]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/perception-planning-control-modules|Perception-Planning-Control Modules]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/pi-website|pi.website]] · [[citations/ieee-org|ieee.org]] · [[citations/mit-edu|mit.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/figure-ai|figure.ai]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/1x-tech|1x.tech]] · [[citations/courses-lumenlearning-com|courses.lumenlearning.com]] · [[citations/rodneybrooks-com|rodneybrooks.com]] · [[citations/github-io|github.io]]
 
 ---

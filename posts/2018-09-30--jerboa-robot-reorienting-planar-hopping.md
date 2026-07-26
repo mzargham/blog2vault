@@ -4,11 +4,9 @@ subtitle: "Follow-on projects with the Penn Jerboa robot from 2016-2018"
 date: 2018-09-30
 slug: jerboa-robot-reorienting-planar-hopping
 canonical_url: "https://www.avikde.me/p/jerboa-robot-reorienting-planar-hopping"
-topic: "Jerboa Robot Development"
+topic: "Uncategorized"
 concepts:
-  - "3D Locomotion"
-  - "Direct-Drive Motors"
-  - "Tailed Reorientation"
+  []
 source: Substack
 author: Avik De
 ---
@@ -21,8 +19,6 @@ author: Avik De
 
 > Originally published: [2018-09-30](https://www.avikde.me/p/jerboa-robot-reorienting-planar-hopping)
 
-**Topic:** [[topics/jerboa-robot-development|Jerboa Robot Development]]
-**Concepts:** [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/direct-drive-motors|Direct-Drive Motors]] · [[concepts/tailed-reorientation|Tailed Reorientation]]
 **Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/mit-edu|mit.edu]]
 
 ---

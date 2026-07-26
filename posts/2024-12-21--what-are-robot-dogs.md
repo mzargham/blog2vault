@@ -4,10 +4,10 @@ subtitle: "A brief what and why of quadrupedal robots, originally drafted for a 
 date: 2024-12-21
 slug: what-are-robot-dogs
 canonical_url: "https://www.avikde.me/p/what-are-robot-dogs"
-topic: "Virtual Bipedal Control For Quadrupedal Gaits"
+topic: "Quadrupedal Robots"
 concepts:
-  - "Continuous Function Approximation"
   - "Biomimetics"
+  - "Form Versus Function"
 source: Substack
 author: Avik De
 ---
@@ -18,8 +18,8 @@ author: Avik De
 
 > Originally published: [2024-12-21](https://www.avikde.me/p/what-are-robot-dogs)
 
-**Topic:** [[topics/virtual-bipedal-control-for-quadrupedal-gaits|Virtual Bipedal Control For Quadrupedal Gaits]]
-**Concepts:** [[concepts/continuous-function-approximation|Continuous Function Approximation]] · [[concepts/biomimetics|Biomimetics]]
+**Topic:** [[topics/quadrupedal-robots|Quadrupedal Robots]]
+**Concepts:** [[concepts/biomimetics|Biomimetics]] · [[concepts/form-versus-function|Form Versus Function]]
 **Citations:** [[citations/nature-com|nature.com]] · [[citations/tyndall-af-mil|tyndall.af.mil]] · [[citations/youtube-com|youtube.com]] · [[citations/overtdefense-com|overtdefense.com]] · [[citations/cincinnati-com|cincinnati.com]]
 
 ---

@@ -2,7 +2,7 @@
 type: citation
 domain: ieee.org
 domain_slug: ieee-org
-citation_count: 8
+citation_count: 12
 ---
 
 # Citations: ieee.org
@@ -16,6 +16,12 @@ External references from [ieee.org](https://ieee.org) appearing across posts.
 
 ### [[posts/2016-03-02--ghost-robotics-minitaur|Ghost Robotics and Minitaur]]
 - [http://ieeexplore.ieee.org/stamp/stamp.jsp](http://ieeexplore.ieee.org/stamp/stamp.jsp) "the open-access preprint is now up"
+
+### [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]]
+- [https://ieeexplore.ieee.org/document/9346016](https://ieeexplore.ieee.org/document/9346016) "source"
+- [https://ieeexplore.ieee.org/document/4651110](https://ieeexplore.ieee.org/document/4651110) "Urata 2008 / water cooling jacket"
+- [https://ieeexplore.ieee.org/document/11145781](https://ieeexplore.ieee.org/document/11145781) "Sarma"
+- [https://spectrum.ieee.org/orbital-data-centers-heat](https://spectrum.ieee.org/orbital-data-centers-heat) "data centers in space"
 
 ### [[posts/2026-02-03--is-it-learning-online-motor-adaptation|"Is it learning?" Online motor adaptation in end-to-end robotics]]
 - [https://spectrum.ieee.org/atlas-robot](https://spectrum.ieee.org/atlas-robot) "has access to the mass properties"

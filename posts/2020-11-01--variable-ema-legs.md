@@ -4,13 +4,9 @@ subtitle: "Some unpublished results from the Harvard Microrobotics postdoc on a 
 date: 2020-11-01
 slug: variable-ema-legs
 canonical_url: "https://www.avikde.me/p/variable-ema-legs"
-topic: "Bioinspired Hopping Robotics"
+topic: "Uncategorized"
 concepts:
-  - "Piezoelectric Actuation"
-  - "Design Optimization"
-  - "Variable Effective Mechanical Advantage"
-  - "Phase Control"
-  - "Symmetric Joint Configuration"
+  []
 source: Substack
 author: Avik De
 ---
@@ -22,11 +18,6 @@ author: Avik De
 *Some unpublished results from the Harvard Microrobotics postdoc on a hopping robot leg with variable effective mechanical advantage*
 
 > Originally published: [2020-11-01](https://www.avikde.me/p/variable-ema-legs)
-
-**Topic:** [[topics/bioinspired-hopping-robotics|Bioinspired Hopping Robotics]]
-**Concepts:** [[concepts/piezoelectric-actuation|Piezoelectric Actuation]] · [[concepts/design-optimization|Design Optimization]] · [[concepts/variable-effective-mechanical-advantage|Variable Effective Mechanical Advantage]] · [[concepts/phase-control|Phase Control]] · [[concepts/symmetric-joint-configuration|Symmetric Joint Configuration]]
-
----
 
 During my post-doc, I got somehow close to merging the legged work on Minitaur during my Ph.D. with the piezoelectrically driven laminate RoboBee architecture of the Harvard Microrobotics lab.
 

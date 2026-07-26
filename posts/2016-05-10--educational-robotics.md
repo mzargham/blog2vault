@@ -4,11 +4,9 @@ subtitle: ""
 date: 2016-05-10
 slug: educational-robotics
 canonical_url: "https://www.avikde.me/p/educational-robotics"
-topic: "Modular Robotics Control Architecture"
+topic: "Uncategorized"
 concepts:
-  - "Academic Application Materials"
-  - "MuJoCo Simulation"
-  - "Educational Kits"
+  []
 source: Substack
 author: Avik De
 ---
@@ -18,11 +16,6 @@ author: Avik De
 ![](https://substackcdn.com/image/youtube/w_728,c_limit/jjIA4jzx-4w)
 
 > Originally published: [2016-05-10](https://www.avikde.me/p/educational-robotics)
-
-**Topic:** [[topics/modular-robotics-control-architecture|Modular Robotics Control Architecture]]
-**Concepts:** [[concepts/academic-application-materials|Academic Application Materials]] · [[concepts/mujoco-simulation|MuJoCo Simulation]] · [[concepts/educational-kits|Educational Kits]]
-
----
 
 Educational kit tests
 
