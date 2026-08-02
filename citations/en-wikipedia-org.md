@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 38
+citation_count: 41
 ---
 
 # Citations: en.wikipedia.org
@@ -14,6 +14,12 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 ### [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]]
 - [https://en.wikipedia.org/wiki/Fat_binary](https://en.wikipedia.org/wiki/Fat_binary) "fat binary"
 
+### [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]]
+- [https://en.wikipedia.org/wiki/Grokking_(machine_learning)](https://en.wikipedia.org/wiki/Grokking_(machine_learning)) "grokking"
+- [https://en.wikipedia.org/wiki/Bifurcation_diagram](https://en.wikipedia.org/wiki/Bifurcation_diagram) "Source"
+- [https://en.wikipedia.org/wiki/Turing_machine](https://en.wikipedia.org/wiki/Turing_machine) "Turing machine"
+- [https://en.wikipedia.org/wiki/Markov_decision_process](https://en.wikipedia.org/wiki/Markov_decision_process) "contains all the ncessary information"
+
 ### [[posts/2026-02-10--cache-effects-in-object-oriented|Cache effects in object-oriented code: computer architecture meets programming]]
 - [https://en.wikipedia.org/wiki/Cache_control_instruction](https://en.wikipedia.org/wiki/Cache_control_instruction) "software prefetching"
 
@@ -21,8 +27,8 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov](https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov) "Deep Blue’s 1997 defeat of Garry Kasparov in chess"
 
 ### [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]
-- [https://en.wikipedia.org/wiki/Universal_approximation_theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem) "universal approximation theorem"
 - [https://en.wikipedia.org/wiki/Turing_machine](https://en.wikipedia.org/wiki/Turing_machine) "Turing machine"
+- [https://en.wikipedia.org/wiki/Universal_approximation_theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem) "universal approximation theorem"
 - [https://en.wikipedia.org/wiki/Integer_factorization](https://en.wikipedia.org/wiki/Integer_factorization) "very easily write"
 
 ### [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]]

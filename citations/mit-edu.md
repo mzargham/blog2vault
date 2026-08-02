@@ -2,7 +2,7 @@
 type: citation
 domain: mit.edu
 domain_slug: mit-edu
-citation_count: 10
+citation_count: 11
 ---
 
 # Citations: mit.edu
@@ -13,6 +13,9 @@ External references from [mit.edu](https://mit.edu) appearing across posts.
 
 ### [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]]
 - [https://underactuated.mit.edu/trajopt.html](https://underactuated.mit.edu/trajopt.html) "trajectory optimization"
+
+### [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]]
+- [https://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf](https://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf) "Kaelbling et al 1998 paper"
 
 ### [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]]
 - [https://ahtt.mit.edu](https://ahtt.mit.edu) "Heat Transfer Textbook"

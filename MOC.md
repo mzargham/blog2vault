@@ -1,13 +1,13 @@
 ---
 type: moc
-updated: 2026-07-26
-post_count: 37
+updated: 2026-08-02
+post_count: 38
 ---
 
 # Map of Content — Avik De's Blog
 
-> Obsidian vault for [avikde.me](https://www.avikde.me) · **37 posts** · **10 topics** · **29 concepts** · **133 cited domains**  
-> Last synced: 2026-07-26
+> Obsidian vault for [avikde.me](https://www.avikde.me) · **38 posts** · **10 topics** · **29 concepts** · **135 cited domains**  
+> Last synced: 2026-08-02
 
 ---
 
@@ -19,7 +19,7 @@ post_count: 37
 | [[_meta/Authors\|👤 Authors]] | About Avik De |
 | topics/ | 10 topic pages |
 | concepts/ | 29 concept pages |
-| citations/ | 133 cited domains |
+| citations/ | 135 cited domains |
 
 ---
 
@@ -27,12 +27,13 @@ post_count: 37
 
 ### 2026
 
+- [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]] — *Practically yes, but there might be a solution* `2026-07-30`
 - [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]] — *Two general principles to understand and defeat overheating* `2026-07-23`
 - [[posts/2026-06-18--what-an-alternate-history-of-the|What an Alternate History of the RISC vs. CISC Debate Teaches Us About Robotics]] — *Remove the compiler layer, and RISC's ecosystem advantages invert* `2026-06-18`
 - [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]] — *Why the LLM tokenization debate matters for physical AI, and what biology tells us* `2026-06-03`
 - [[posts/2026-05-27--the-loops-and-hierarchies-of-embodied|The Loops and Hierarchies of Embodied Intelligence]] — *Can we get embodied intelligence by connecting cameras and motors to an AI brain?* `2026-05-27`
 - [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]] — *"Cross-embodiment" trained policies generalize well, but is that the best solution?* `2026-05-15`
-- [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]] — *Safety and efficiency with universal approximators and Turing machines* `2026-05-05`
+- [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]] — *Discontinuous changes force a parameter-count / latency tradeoff* `2026-05-05`
 - [[posts/2026-04-29--the-first-paradigm-in-robotics-and|The First Paradigm in Robotics & AI Research: Lessons from Computer Engineering]] — *Commoditization and end-to-end learning have consolidated robotics and AI. What's next for research labs?* `2026-04-29`
 - [[posts/2026-04-22--honors-humanoid-ran-the-fastest-half|Honor's humanoid ran the fastest half-marathon: how did they do it?]] — *Engineering isn't magic, it's a matter of tradeoffs* `2026-04-22`
 - [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]] — *Part 5: A demo combining the best features of end-to-end and classical approaches* `2026-04-07`

@@ -2,7 +2,7 @@
 type: citation
 domain: pi.website
 domain_slug: pi-website
-citation_count: 5
+citation_count: 6
 ---
 
 # Citations: pi.website
@@ -13,6 +13,9 @@ External references from [pi.website](https://pi.website) appearing across posts
 
 ### [[posts/2026-05-15--a-multi-robot-brain-is-not-like-a|A Multi-Robot Brain is not like a Multi-Chip ISA]]
 - [https://www.pi.website/blog/pi0](https://www.pi.website/blog/pi0) "pi0 and later models / cross-embodiment"
+
+### [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]]
+- [https://www.pi.website/blog/pi07](https://www.pi.website/blog/pi07) "pi0.7 model"
 
 ### [[posts/2026-01-26--the-architecture-behind-end-to-end|The architecture behind “end-to-end” robotics pipelines]]
 - [https://www.pi.website/blog/pi0](https://www.pi.website/blog/pi0) "pi0 and later models / cross-embodiment"

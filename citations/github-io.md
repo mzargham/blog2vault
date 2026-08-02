@@ -2,7 +2,7 @@
 type: citation
 domain: github.io
 domain_slug: github-io
-citation_count: 11
+citation_count: 13
 ---
 
 # Citations: github.io
@@ -13,6 +13,10 @@ External references from [github.io](https://github.io) appearing across posts.
 
 ### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
 - [https://avikde.github.io/vla-pipeline](https://avikde.github.io/vla-pipeline) "demo here / Link to demo / demo"
+
+### [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]]
+- [https://embodied-cot.github.io](https://embodied-cot.github.io) "Embodied Chain-of-Thought"
+- [https://lucid-robot.github.io](https://lucid-robot.github.io) "some"
 
 ### [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]]
 - [https://avikde.github.io/vla-pipeline](https://avikde.github.io/vla-pipeline) "demo here / Link to demo / demo"

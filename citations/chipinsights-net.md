@@ -18,7 +18,7 @@ External references from [chipinsights.net](https://chipinsights.net) appearing 
 - [https://chipinsights.net/p/the-art-of-architectural-analysis](https://chipinsights.net/p/the-art-of-architectural-analysis) "here"
 
 ### [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]]
-- [https://chipinsights.net/p/the-search-for-the-perfect-microarchitecture](https://chipinsights.net/p/the-search-for-the-perfect-microarchitecture) "Chip InsightsThe Search for the Perfect MicroarchitectureTinyXPU is back…Read more13 days ago · 15 likes · Bharath Suresh and Avik De"
+- [https://chipinsights.net/p/the-search-for-the-perfect-microarchitecture](https://chipinsights.net/p/the-search-for-the-perfect-microarchitecture) "Chip InsightsThe Search for the Perfect MicroarchitectureTinyXPU is back…Read more19 days ago · 15 likes · Bharath Suresh and Avik De"
 
 ### [[posts/2026-03-12--systolic-arrays-for-general-robotics|Systolic arrays for general robotics, AI, and scientific computing]]
 - [https://chipinsights.net/p/mapping-algorithms-to-custom-silicon](https://chipinsights.net/p/mapping-algorithms-to-custom-silicon) "article series / Chip InsightsMapping algorithms to custom silicon - Part 1Read more6 months ago · 22 likes · Bharath Suresh and Avik De"

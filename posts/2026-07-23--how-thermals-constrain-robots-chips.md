@@ -218,7 +218,7 @@ _Thanks for reading! If you enjoyed this post, please like (❤️) and restack 
 
 [Share](<https://www.avikde.me/p/how-thermals-constrain-robots-chips?utm_source=substack&utm_medium=email&utm_content=share&action=share>)
 
-[![](https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png)Chip InsightsThe Search for the Perfect MicroarchitectureTinyXPU is back…Read more13 days ago · 15 likes · Bharath Suresh and Avik De](<https://chipinsights.net/p/the-search-for-the-perfect-microarchitecture?utm_source=substack&utm_campaign=post_embed&utm_medium=web&embedding_publication_id=7287367>)
+[![](https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png)Chip InsightsThe Search for the Perfect MicroarchitectureTinyXPU is back…Read more19 days ago · 15 likes · Bharath Suresh and Avik De](<https://chipinsights.net/p/the-search-for-the-perfect-microarchitecture?utm_source=substack&utm_campaign=post_embed&utm_medium=web&embedding_publication_id=7287367>)
 
 1
 

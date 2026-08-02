@@ -1,6 +1,6 @@
 ---
 title: "How an LLM Changes its Mind"
-subtitle: "Safety and efficiency with universal approximators and Turing machines"
+subtitle: "Discontinuous changes force a parameter-count / latency tradeoff"
 date: 2026-05-05
 slug: how-an-llm-changes-its-mind
 canonical_url: "https://www.avikde.me/p/how-an-llm-changes-its-mind"
@@ -15,13 +15,21 @@ author: Avik De
 
 ![](https://substackcdn.com/image/fetch/$s_!ghz-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70167b78-b951-4a03-8815-19710a04b7d0_686x367.png)
 
-*Safety and efficiency with universal approximators and Turing machines*
+*Discontinuous changes force a parameter-count / latency tradeoff*
 
 > Originally published: [2026-05-05](https://www.avikde.me/p/how-an-llm-changes-its-mind)
 
-**Citations:** [[citations/viksnewsletter-com|viksnewsletter.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/arxiv-org|arxiv.org]] · [[citations/lifeiscomputation-com|lifeiscomputation.com]] · [[citations/artificialintelligencemadesimple-com|artificialintelligencemadesimple.com]] · [[citations/github-io|github.io]] · [[citations/chipinsights-net|chipinsights.net]]
+**Citations:** [[citations/arxiv-org|arxiv.org]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/viksnewsletter-com|viksnewsletter.com]] · [[citations/lifeiscomputation-com|lifeiscomputation.com]] · [[citations/artificialintelligencemadesimple-com|artificialintelligencemadesimple.com]] · [[citations/github-io|github.io]] · [[citations/chipinsights-net|chipinsights.net]]
 
 ---
+
+**Update (July 2026):** While most of this article is unchanged, I came to the realization that an _autoregressive LLM_ is a _dynamical system_. This has the potential to drastically change its input / output characteristics, as explained in this more recent post:
+
+Crucially, this depends on the ability to go through token trajectories, which adds undesired latency as discussed below.
+
+Original post (with some corrections) below:
+
+* * *
 
 Deep neural networks are unlocking solutions to new classes of problems seemingly on a monthly or weekly basis. The capabilities of LLMs, coding assistants, and agents are very impressive, but it’s also easy to get a bit carried away about what they are actually doing when they are provocatively referred to as artificial intelligence. They are still algorithms, and it’s good to take a step back to look at the type of algorithm they actually are.
 
@@ -107,29 +115,25 @@ This shows the expressive power of a Turing machine compared to a lookup table. 
 
 [Subscribe now](<https://www.avikde.me/subscribe?>)
 
-## The Transformer Attention Mechanism
+## Autoregressive LLMs vs. Latency
 
 We discussed earlier how the UAT only addresses a finite set of inputs. This is true in practice for MLPs as well: it will typically be used to process a fixed image size, or in an transformer feedforward network, a fixed layer width.2
 
-The attention mechanism of transformers is different. In an LLM, when a sequence of tokens is fed in, each token can attend to each other token, enabling a computation paradigm that can handle sequences of arbitrary length. This makes it different from a lookup table, because the input _dimension itself is unbounded._ You don’t need to retrain for longer sequences since the attention mechanism adapts the algorithm.
+An autoregressive LLM is different. It generates tokens that end up getting fed back into its context, making its output a _trajectory_ of a dynamical system. Even if the process by which a single token is generated satisfies the UAT, the output trajectory could exhibit significantly more complexity. However, this is contingent on long evaluation sequences that add latency, making this “escape hatch” unusable in applications such as robotics.
 
-In practical terms, a transformer’s sequence length has to be limited to a maximum context length to manage the mapping to computational hardware. By the same token, CPUs also needed unbounded memory to be true Turing machines.
-
-So, are implementable transformers, like general purpose CPU programs, Turing machines in all but the most pedantic terms?
-
-Not quite — there’s still a fundamental gap that cannot be closed. Transformers are still continuous function approximators and cannot efficiently exhibit irregular flow control. A [2026 paper from Oracle AI](<https://arxiv.org/pdf/2602.11175>) looks at discrete reasoning with transformers, and I’ll let it speak for itself:
+A [2026 paper from Oracle AI](<https://arxiv.org/pdf/2602.11175>) looks at discrete reasoning with transformers, and I’ll let it speak for itself:
 
 > Through this synthesis, we provide readers with a cohesive understanding of why transformers succeed in interpolation tasks (e.g. summarization) but fall short in reliably executing symbolic algorithms.
 
 Symbolic algorithms are characterized by discontinuous outputs that present a challenge to transformers. Like in the square wave example above, you can try to circumvent the issue by increasing model width or dataset size, but this comes at the cost of greatly increased model size and inefficiency. Moreover, as the paper points out, as you compose symbolic tasks (task A → task B → …) the number of switching boundaries grows combinatorially.
 
-For an LLM to change its mind on a yes / no answer, architecturally it needs to continuously interpolate through reasoning trajectories, traversed by generating (lots of) reasoning tokens.
+In 2024, [Merrill et al](<https://arxiv.org/abs/2310.07923>) show a relation between the number of transformer passes required and the classes of problems that can be solved.
 
 ## Closing Thoughts
 
-Deep neural networks can solve a huge variety of problems, founded on their universal function approximation ability. Transformers’ ability to process arbitrary sequences advances them into a new computational category beyond lookup tables.
+Deep neural networks can solve a huge variety of problems, founded on their universal function approximation ability. A single forward pass, however, is still not well suited to problems with symbolic or discontinuous outputs. You can force it, as in the square wave example above, but only by paying an extremely inefficient parameter-count cost.
 
-However, they are still not well suited to problems with symbolic or discontinuous outputs. This is common in problems to do with safety or symbolic reasoning. In current successes of deep learning, solutions to these kinds of problems are attained in a similar fashion as the square wave approximation above — it works, but is extremely inefficient.
+The way current LLMs approach these problems is with iteration: allowing the model multiple passes (chain-of-thought), which trades intelligence for sequential latency. However, that tradeoff is not as easily applicable for latency-constrained applications like real-time robotics control, where you may not be able to afford many passes before acting.
 
 These problems could potentially be solved with much smaller models if they had Turing machine-style universal computation capabilities. ’s article linked below advocates for the same thing, approaching it from the computational hardware perspective for some classes of problems. In a follow up post, I’ll tie together the first-principles analysis in this post to current computational hardware, to discuss how different algorithm classes effectively map.
 

@@ -2,7 +2,7 @@
 type: citation
 domain: arxiv.org
 domain_slug: arxiv-org
-citation_count: 27
+citation_count: 29
 ---
 
 # Citations: arxiv.org
@@ -18,10 +18,15 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 ### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
 - [https://arxiv.org/html/2405.03864v1](https://arxiv.org/html/2405.03864v1) "paper"
 
+### [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]]
+- [https://arxiv.org/abs/2301.02679](https://arxiv.org/abs/2301.02679) "Gromov showed"
+- [https://arxiv.org/abs/2310.07923](https://arxiv.org/abs/2310.07923) "Merrill et. al ICLR 2024 paper / Merrill et al"
+
 ### [[posts/2026-04-07--building-a-reasoning-hierarchical|Building a reasoning hierarchical robotics pipeline from scratch]]
 - [https://arxiv.org/abs/2511.10647](https://arxiv.org/abs/2511.10647) "DepthAnything"
 
 ### [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]
+- [https://arxiv.org/abs/2310.07923](https://arxiv.org/abs/2310.07923) "Merrill et. al ICLR 2024 paper / Merrill et al"
 - [https://arxiv.org/pdf/2602.11175](https://arxiv.org/pdf/2602.11175) "2026 paper from Oracle AI / Barriers to Discrete Reasoning with Transformers"
 
 ### [[posts/2024-12-22--hybrid-averaging|Approximating cyclic dynamics utilizing symmetry]]
