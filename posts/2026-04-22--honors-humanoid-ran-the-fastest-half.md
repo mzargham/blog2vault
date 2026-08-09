@@ -25,7 +25,7 @@ author: Avik De
 
 **Topic:** [[topics/humanoid-robot-marathon-performance|Humanoid Robot Marathon Performance]]
 **Concepts:** [[concepts/engineering-tradeoffs|Engineering Tradeoffs]] · [[concepts/3d-locomotion|3D Locomotion]] · [[concepts/d-axis-control|D-Axis Control]] · [[concepts/real-time-control-systems|Real-Time Control Systems]] · [[concepts/robotic-athletics|Robotic Athletics]]
-**Citations:** [[citations/eu-36kr-com|eu.36kr.com]] · [[citations/cnn-com|cnn.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/upenn-edu|upenn.edu]] · [[citations/robot-daycare-com|robot.daycare.com]] · [[citations/apptronik-com|apptronik.com]] · [[citations/forbes-com|forbes.com]] · [[citations/gist-github-com|gist.github.com]]
+**Citations:** [[citations/robot-daycare-com|robot.daycare.com]] · [[citations/eu-36kr-com|eu.36kr.com]] · [[citations/cnn-com|cnn.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/upenn-edu|upenn.edu]] · [[citations/apptronik-com|apptronik.com]] · [[citations/forbes-com|forbes.com]] · [[citations/gist-github-com|gist.github.com]]
 
 ---
 

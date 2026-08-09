@@ -1,13 +1,13 @@
 ---
 type: moc
-updated: 2026-08-02
-post_count: 38
+updated: 2026-08-09
+post_count: 39
 ---
 
 # Map of Content — Avik De's Blog
 
-> Obsidian vault for [avikde.me](https://www.avikde.me) · **38 posts** · **10 topics** · **29 concepts** · **135 cited domains**  
-> Last synced: 2026-08-02
+> Obsidian vault for [avikde.me](https://www.avikde.me) · **39 posts** · **10 topics** · **29 concepts** · **135 cited domains**  
+> Last synced: 2026-08-09
 
 ---
 
@@ -27,6 +27,7 @@ post_count: 38
 
 ### 2026
 
+- [[posts/2026-08-06--should-robots-run-like-humans-or|Should Robots Run Like Humans or Ostriches?]] — *Why different animals run differently, and what to take away for bio-inspired robotics* `2026-08-06`
 - [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]] — *Practically yes, but there might be a solution* `2026-07-30`
 - [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]] — *Two general principles to understand and defeat overheating* `2026-07-23`
 - [[posts/2026-06-18--what-an-alternate-history-of-the|What an Alternate History of the RISC vs. CISC Debate Teaches Us About Robotics]] — *Remove the compiler layer, and RISC's ecosystem advantages invert* `2026-06-18`

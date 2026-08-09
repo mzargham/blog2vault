@@ -62,3 +62,4 @@ All posts in chronological order.
 - `2026-06-18` [[posts/2026-06-18--what-an-alternate-history-of-the|What an Alternate History of the RISC vs. CISC Debate Teaches Us About Robotics]]
 - `2026-07-23` [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]]
 - `2026-07-30` [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]]
+- `2026-08-06` [[posts/2026-08-06--should-robots-run-like-humans-or|Should Robots Run Like Humans or Ostriches?]]

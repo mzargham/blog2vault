@@ -7209,5 +7209,216 @@
     ],
     "is_geoblocked": false,
     "hasCashtag": false
+  },
+  "should-robots-run-like-humans-or": {
+    "audience": "everyone",
+    "audience_before_archived": null,
+    "canonical_url": "https://www.avikde.me/p/should-robots-run-like-humans-or",
+    "default_comment_sort": null,
+    "editor_v2": false,
+    "exempt_from_archive_paywall": false,
+    "free_unlock_required": false,
+    "id": 210080316,
+    "podcast_art_url": null,
+    "podcast_duration": null,
+    "podcast_preview_upload_id": null,
+    "podcast_upload_id": null,
+    "podcast_url": null,
+    "post_date": "2026-08-06T17:15:53.698Z",
+    "updated_at": "2026-08-07T00:28:53.634Z",
+    "publication_id": 7287367,
+    "search_engine_description": null,
+    "search_engine_title": null,
+    "section_id": null,
+    "should_send_free_preview": false,
+    "show_guest_bios": true,
+    "slug": "should-robots-run-like-humans-or",
+    "social_title": null,
+    "subtitle": "Why different animals run differently, and what to take away for bio-inspired robotics",
+    "teaser_post_eligible": true,
+    "title": "Should Robots Run Like Humans or Ostriches?",
+    "type": "newsletter",
+    "video_upload_id": null,
+    "write_comment_permissions": "everyone",
+    "meter_type": "none",
+    "live_stream_id": null,
+    "is_published": true,
+    "restacks": 3,
+    "reactions": {
+      "❤": 7
+    },
+    "top_exclusions": [],
+    "pins": [],
+    "section_pins": [],
+    "has_shareable_clips": false,
+    "previous_post_slug": "are-robotics-policies-lookup-tables",
+    "next_post_slug": null,
+    "cover_image": "https://substackcdn.com/image/fetch/$s_!VuhR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png",
+    "cover_image_is_square": false,
+    "cover_image_is_explicit": false,
+    "videoUpload": null,
+    "podcastFields": {
+      "post_id": 210080316,
+      "podcast_episode_number": null,
+      "podcast_season_number": null,
+      "podcast_episode_type": null,
+      "should_syndicate_to_other_feed": null,
+      "syndicate_to_section_id": null,
+      "hide_from_feed": false,
+      "free_podcast_url": null,
+      "free_podcast_duration": null,
+      "preview_contains_ad": false,
+      "was_imported_self_serve_sync": false,
+      "draft_free_podcast_url": null,
+      "draft_free_podcast_duration": null
+    },
+    "podcastUpload": null,
+    "podcastPreviewUpload": null,
+    "voiceover_upload_id": null,
+    "voiceoverUpload": null,
+    "has_voiceover": false,
+    "description": "Why different animals run differently, and what to take away for bio-inspired robotics",
+    "body_html": "<p>Ostriches and humans are both capable terrestrial runners, and they both weigh about ~100kg in rough order of magnitude. However, they look quite different when they run. Take a look at these snapshots of a human running compared to an ostrich:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!VuhR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!VuhR!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png 424w, https://substackcdn.com/image/fetch/$s_!VuhR!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png 848w, https://substackcdn.com/image/fetch/$s_!VuhR!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png 1272w, https://substackcdn.com/image/fetch/$s_!VuhR!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!VuhR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png\" width=\"899\" height=\"405\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:405,&quot;width&quot;:899,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:292508,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/210080316?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!VuhR!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png 424w, https://substackcdn.com/image/fetch/$s_!VuhR!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png 848w, https://substackcdn.com/image/fetch/$s_!VuhR!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png 1272w, https://substackcdn.com/image/fetch/$s_!VuhR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Panels sourced from <a href=\"https://en.wikipedia.org/wiki/Eadweard_Muybridge\">Muybridge</a></figcaption></figure></div><p>My annotated lines show roughly where both legs are in the air (“aerial phase”). Why does a human have a much more prolonged aerial phase compared to an ostrich? What is different about these animals that could cause such a large difference in their preferred gait?</p><p>What does this tell us about how a robot should be designed and controlled to run?</p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading min{power}! Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email…\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><h2>Why animals run how they run</h2><p>Animals typically run to optimize energetic efficiency. When being hunted by a predator (or as the predator), the more efficient runner can keep running for longer, and evolutionary pressure will select for that optimization.</p><p>But what optimizes energetic efficiency?</p><p>In a <a href=\"https://www.avikde.me/p/honors-humanoid-ran-the-fastest-half\">previous article on a half-marathon-running robot</a>, I covered the basics of a very simplified model of running:</p><p>Given a stride period <em>T<sub>s</sub></em> (during which a leg goes through its stance and swing phases), and ground contact period <em>t<sub>c</sub></em>, the “duty factor” <em>β=t<sub>c</sub></em>/<em>T<sub>s</sub> </em>captures the difference between the ostrich (<em>β</em> close to 0.5) and human (lower <em>β</em>) running.</p><p>Lower <em>β</em> means that in the <strong>stance period</strong>, lasting <em>t<sub>c </sub></em>seconds, the leg has to produce more vertical force, as shown in the following representative depiction (adapted from Biewener’s <em>Animal Locomotion</em> book):</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!b781!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!b781!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png 424w, https://substackcdn.com/image/fetch/$s_!b781!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png 848w, https://substackcdn.com/image/fetch/$s_!b781!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png 1272w, https://substackcdn.com/image/fetch/$s_!b781!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!b781!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png\" width=\"1074\" height=\"462\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:462,&quot;width&quot;:1074,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:113866,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/210080316?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!b781!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png 424w, https://substackcdn.com/image/fetch/$s_!b781!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png 848w, https://substackcdn.com/image/fetch/$s_!b781!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png 1272w, https://substackcdn.com/image/fetch/$s_!b781!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c7aba77-20bf-4cb6-8225-066ddf75fdeb_1074x462.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Shortening <em>β</em> increases how hard the muscles have to work, and increases the peak loading seen by the structural components.</p><p>So, <em>stance energetics drive toward high β.</em></p><p>In the <strong>swing period</strong>, lasting (<em>T<sub>s </sub></em>- <em>t<sub>c</sub></em>) seconds, the leg needs to swing forward for the next foothold.</p><p>The hip muscles need to accelerate the inertia of the leg forward over this period. Remembering Newton’s second law, required force from the muscles scales with the inertia as well as acceleration.  The higher <em>β </em>is<em>, </em>the shorter the swing period, and the higher the required acceleration.</p><p>So, <em>swing energetics drive toward low β.</em></p><div><hr></div><p>Now, we have enough information to intuit why ostriches and humans run so differently. Ostriches have very skinny and light legs. Most of the leg is tucked in close to the body, and the distal foot is very long and almost entirely made of bone and tendon. All this results in <strong>low leg inertia</strong> compared the human, who has mass distributed along the upper and lower legs and a smaller foot.</p><p>So for the human, leg swing is energetically more expensive compared to the ostrich and it leans more toward lowering <em>β. </em>For the ostrich, leg swing isn’t so bad, and it moves <em>β </em>up to reduce the impact of stance energetic expense. This explains the smaller aerial phases chosen by the ostrich, and the longer ones chosen by the human.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><p></p><h2>What about robots?</h2><p>Many of the same principles apply to robots. Motors consume energy to produce force, and so you’d want to prolong stance as much as possible. Robot legs also have inertia, and you’d want to prolong swing as much as possible to reduce swing cost.</p><p>However, there is one factor that robot technology can leverage that can adjust the cost of force production: <em><strong>gearing</strong></em>. Let me explain.</p><div><hr></div><p>Parts of this article were inspired by this excellent <a href=\"https://www.science.org/doi/10.1126/scirobotics.adi9754\">recent review paper</a> on how robots seem to have better available technology that animals, but still cannot perform<a class=\"footnote-anchor\" data-component-name=\"FootnoteAnchorToDOM\" id=\"footnote-anchor-1\" href=\"#footnote-1\" target=\"_self\">1</a> as well:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!BWvA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!BWvA!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png 424w, https://substackcdn.com/image/fetch/$s_!BWvA!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png 848w, https://substackcdn.com/image/fetch/$s_!BWvA!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png 1272w, https://substackcdn.com/image/fetch/$s_!BWvA!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!BWvA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png\" width=\"1456\" height=\"410\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:410,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:156121,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/210080316?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!BWvA!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png 424w, https://substackcdn.com/image/fetch/$s_!BWvA!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png 848w, https://substackcdn.com/image/fetch/$s_!BWvA!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png 1272w, https://substackcdn.com/image/fetch/$s_!BWvA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c001d9-43a8-4b19-82a0-db8a75f4cbb5_1494x421.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Specifically, when normalized for weight, while motors have similar ability to produce force, they can produce way more power than muscles.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!zqxl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!zqxl!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png 424w, https://substackcdn.com/image/fetch/$s_!zqxl!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png 848w, https://substackcdn.com/image/fetch/$s_!zqxl!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png 1272w, https://substackcdn.com/image/fetch/$s_!zqxl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!zqxl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png\" width=\"1203\" height=\"224\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:224,&quot;width&quot;:1203,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:76419,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/210080316?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!zqxl!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png 424w, https://substackcdn.com/image/fetch/$s_!zqxl!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png 848w, https://substackcdn.com/image/fetch/$s_!zqxl!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png 1272w, https://substackcdn.com/image/fetch/$s_!zqxl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70e05d7-63c8-4dc3-900e-2768c19165bd_1203x224.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>Gearing allows robots to change how much force a joint produces without (ideally) affecting its power output.</p><p>How does that change the stance / swing balance?</p><p>At first, it isn’t obvious. Adding gearing increases the “reflected inertia” of the motor when it is swinging the leg forward. This makes it require more effort to swing the leg. On the other hand, it reduces how much torque the motor needs to produce in stance.</p><p>How do we analyze these competing effects? It <a href=\"https://www.avikde.me/p/honors-humanoid-ran-the-fastest-half\">turns out that</a> based on the physics of motor construction, the torque produced by a motor, its inertia, and the amount of energy it consumes are related. This relation is also independent of gearing, and predictably <a href=\"https://robot-daycare.com/posts/actuation_series_1/\">consistent across motors with orders of magnitude different size</a>. This allows us to reduce the entire (ideal) motor + gearbox robot drivetrain to a single independent parameter: the reflected motor inertia.</p><div><hr></div><p>Now, we can get back to how a robot should pick <em>β </em>— human- or ostrich-like?</p><p>Just like the animal, the robot wants <em>t<sub>c</sub></em> as long as possible (till the stance leg begins to have trouble reaching). Therefore, the total stride time <em>T<sub>s</sub></em> (including the swing period) is what is left to pick. I’ve plotted the average running power against the drivetrain inertia parameter and the stride time below:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!9pqI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!9pqI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png 424w, https://substackcdn.com/image/fetch/$s_!9pqI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png 848w, https://substackcdn.com/image/fetch/$s_!9pqI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png 1272w, https://substackcdn.com/image/fetch/$s_!9pqI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!9pqI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png\" width=\"550\" height=\"480.7865168539326\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:778,&quot;width&quot;:890,&quot;resizeWidth&quot;:550,&quot;bytes&quot;:110149,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://www.avikde.me/i/210080316?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!9pqI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png 424w, https://substackcdn.com/image/fetch/$s_!9pqI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png 848w, https://substackcdn.com/image/fetch/$s_!9pqI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png 1272w, https://substackcdn.com/image/fetch/$s_!9pqI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7428fd-bd9c-4d12-bfb2-95fe0ef5319d_890x778.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>The result is very intuitive!</p><ul><li><p>If the drivetrain has low inertia (like an ostrich leg), you should have a more grounded running gait with high <em>β</em></p></li><li><p>If the drivetrain has high inertia (like a human leg), you should have a more bouncy gait</p></li></ul><p>Crucially, <em><strong>robot gearing technology allows this to be pushed rightward arbitrarily</strong></em>. If you only care about energetics, a high-inertia (heavily geared) motor and a very bouncy gait would be more efficient.</p><p>To help visualize, this may look something like the “bounding” drill that track runners do (<a href=\"https://www.youtube.com/watch?v=b3124L0KK3Q\">source</a>):</p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;1a487c88-7a47-407c-a2c7-9139e2e34460&quot;,&quot;duration&quot;:null}\"></div><p>Then why <em>don’t</em> people design robots to run like this?</p><p>Firstly, the heavily-geared high-inertia drivetrain is more failure-prone at impacts (like when landing on the ground on each step). Series-elastic actuators (where the impact is absorbed by a spring) mitigate this particular drawback.</p><p>Secondly and more importantly, the robot needs to have ground contact to exert control. Long strides with slow cadence mean very low control bandwidth, and this kind of running is very difficult to control. If agility or maneuverability are needed to avoid obstacles or change direction, this kind of running is much more likely to cause a fall and failure.</p><p>These factors ultimately rein in the swing time for running robots. Nonetheless, the figure above clearly shows the coupled dependence between design (on the horizontal axis) and gait (on the vertical axis). Understanding that coupling helps answer the question of how a robot should run.</p><h2>Closing thoughts and further reading</h2><p>The process we followed in this article was to try to understand the <em>principles</em> that guide animals to run in a certain way. We then used these principles to take away lessons for robot design and control. This is process is called <em>bio-inspiration</em>.</p><p>What sometimes happens in robots (and what we shouldn’t do) is <em>biomimicry</em>. A contextual example of that would be copying the ostrich gait or copying the human gait directly. This article is a good example of where that can lead us astray.</p><p><em>Thanks for reading! If you enjoyed this post, please like (❤️) and restack — it helps others find my writing. Subscribe to receive new posts.</em></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/p/should-robots-run-like-humans-or?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Share&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/p/should-robots-run-like-humans-or?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Share</span></a></p><p></p><p>If you enjoyed the coupling between design and control in this article, I’d recommend this one next:</p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;d673f60c-014c-4f1c-ad64-1c13c590d3d2&quot;,&quot;caption&quot;:&quot;&quot;,&quot;cta&quot;:null,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;The Loops and Hierarchies of Embodied Intelligence&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:356074997,&quot;name&quot;:&quot;Avik De&quot;,&quot;bio&quot;:&quot;Adjunct Prof @ UPenn | Chief Science Officer @ Ghost Robotics.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/e0b85a25-ef27-433f-b83d-46a65f29535d_1909x1909.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2026-05-27T12:51:37.043Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/youtube/w_728,c_limit/WOPED7I5Lac&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://www.avikde.me/p/the-loops-and-hierarchies-of-embodied&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:199171451,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:10,&quot;comment_count&quot;:3,&quot;publication_id&quot;:7287367,&quot;publication_name&quot;:&quot;min{power}&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Z7FY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ea21ccc-90aa-4750-861d-eb48a6144608_176x176.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div class=\"footnote\" data-component-name=\"FootnoteToDOM\"><a id=\"footnote-1\" href=\"#footnote-anchor-1\" class=\"footnote-number\" contenteditable=\"false\" target=\"_self\">1</a><div class=\"footnote-content\"><p>The paper was submitted before <a href=\"https://www.avikde.me/p/honors-humanoid-ran-the-fastest-half\">a robot beat the human half-marathon record</a>.</p></div></div>",
+    "has_dynamic_content": false,
+    "truncated_body_text": null,
+    "wordcount": 1197,
+    "post_preview_limit": 0,
+    "language": "en",
+    "postTags": [
+      {
+        "id": "b1eb3aad-2315-42c6-a1db-c800e876f4f7",
+        "publication_id": 7287367,
+        "name": "Robotics",
+        "slug": "robotics",
+        "hidden": false
+      }
+    ],
+    "postCountryBlocks": [],
+    "headlineTest": null,
+    "coverImagePalette": {
+      "Vibrant": {
+        "rgb": [
+          156.76229508196724,
+          167.21311475409837,
+          87.78688524590163
+        ],
+        "population": 0
+      },
+      "DarkVibrant": {
+        "rgb": [
+          81.51639344262296,
+          86.95081967213116,
+          45.64918032786885
+        ],
+        "population": 0
+      },
+      "LightVibrant": {
+        "rgb": [
+          203.91639344262296,
+          209.35081967213114,
+          168.04918032786887
+        ],
+        "population": 0
+      },
+      "Muted": {
+        "rgb": [
+          140,
+          142,
+          84
+        ],
+        "population": 11
+      },
+      "DarkMuted": {
+        "rgb": [
+          76,
+          76,
+          76
+        ],
+        "population": 1092
+      },
+      "LightMuted": {
+        "rgb": [
+          208,
+          213,
+          175
+        ],
+        "population": 392
+      }
+    },
+    "publishedBylines": [
+      {
+        "id": 356074997,
+        "name": "Avik De",
+        "handle": "avikde",
+        "previous_name": "Avik De, PhD",
+        "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/e0b85a25-ef27-433f-b83d-46a65f29535d_1909x1909.jpeg",
+        "bio": "Adjunct Prof @ UPenn | Chief Science Officer @ Ghost Robotics.",
+        "profile_set_up_at": "2025-09-01T11:05:25.762Z",
+        "reader_installed_at": "2025-12-14T02:43:43.887Z",
+        "publicationUsers": [
+          {
+            "id": 7436599,
+            "user_id": 356074997,
+            "publication_id": 7287367,
+            "role": "admin",
+            "public": true,
+            "is_primary": true,
+            "publication": {
+              "id": 7287367,
+              "name": "min{power}",
+              "subdomain": "minpower",
+              "custom_domain": "www.avikde.me",
+              "custom_domain_optional": false,
+              "hero_text": "Explorations in computing and robotics focused on power-efficiency and safety -- personal posts by Avik De, robotics Ph.D. and founder",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea21ccc-90aa-4750-861d-eb48a6144608_176x176.png",
+              "author_id": 356074997,
+              "primary_user_id": 356074997,
+              "theme_var_background_pop": "#FF6719",
+              "created_at": "2025-12-16T12:24:04.343Z",
+              "email_from_name": "Avik De from min{power}",
+              "copyright": "Avik De",
+              "founding_plan_name": "Founding Member",
+              "community_enabled": true,
+              "invite_only": false,
+              "payments_state": "disabled",
+              "language": null,
+              "explicit": false,
+              "homepage_type": "newspaper",
+              "is_personal_mode": false,
+              "logo_url_wide": null
+            }
+          }
+        ],
+        "is_guest": false,
+        "bestseller_tier": null,
+        "status": {
+          "bestsellerTier": null,
+          "subscriberTier": 1,
+          "leaderboard": null,
+          "vip": false,
+          "badge": {
+            "type": "subscriber",
+            "tier": 1,
+            "accent_colors": null
+          },
+          "subscriber": null
+        }
+      }
+    ],
+    "reaction": null,
+    "reaction_count": 7,
+    "comment_count": 3,
+    "child_comment_count": 1,
+    "audio_items": [
+      {
+        "post_id": 210080316,
+        "voice_id": "en-US-OnyxTurboMultilingualNeural",
+        "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/210080316/tts/724497ff-62cc-4793-a6a9-710763b91622/en-US-OnyxTurboMultilingualNeural.mp3",
+        "type": "tts",
+        "status": "completed"
+      }
+    ],
+    "is_geoblocked": false,
+    "hasCashtag": false
   }
 }

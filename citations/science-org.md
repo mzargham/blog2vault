@@ -2,7 +2,7 @@
 type: citation
 domain: science.org
 domain_slug: science-org
-citation_count: 4
+citation_count: 5
 ---
 
 # Citations: science.org
@@ -22,4 +22,7 @@ External references from [science.org](https://science.org) appearing across pos
 
 ### [[posts/2024-12-23--power-efficient-safe-robots|Power-efficient and safe mobile robots]]
 - [https://www.science.org/doi/abs/10.1126/scirobotics.aag2048](https://www.science.org/doi/abs/10.1126/scirobotics.aag2048) "jumping"
+
+### [[posts/2026-08-06--should-robots-run-like-humans-or|Should Robots Run Like Humans or Ostriches?]]
+- [https://www.science.org/doi/10.1126/scirobotics.adi9754](https://www.science.org/doi/10.1126/scirobotics.adi9754) "recent review paper"
 

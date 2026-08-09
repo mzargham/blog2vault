@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 41
+citation_count: 42
 ---
 
 # Citations: en.wikipedia.org
@@ -57,6 +57,9 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/Deep_learning_speech_synthesis](https://en.wikipedia.org/wiki/Deep_learning_speech_synthesis) "deep learning speech synthesis"
 - [https://en.wikipedia.org/wiki/Landauer%27s_principle](https://en.wikipedia.org/wiki/Landauer%27s_principle) "Landauer’s principle"
 - [https://en.wikipedia.org/wiki/Attention_Is_All_You_Need](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need) "need more work than"
+
+### [[posts/2026-08-06--should-robots-run-like-humans-or|Should Robots Run Like Humans or Ostriches?]]
+- [https://en.wikipedia.org/wiki/Eadweard_Muybridge](https://en.wikipedia.org/wiki/Eadweard_Muybridge) "Muybridge"
 
 ### [[posts/2026-03-12--systolic-arrays-for-general-robotics|Systolic arrays for general robotics, AI, and scientific computing]]
 - [https://en.wikipedia.org/wiki/Odd%E2%80%93even_sort](https://en.wikipedia.org/wiki/Odd%E2%80%93even_sort) "odd-even sort"
