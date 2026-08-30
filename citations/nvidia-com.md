@@ -2,7 +2,7 @@
 type: citation
 domain: nvidia.com
 domain_slug: nvidia-com
-citation_count: 3
+citation_count: 4
 ---
 
 # Citations: nvidia.com
@@ -10,6 +10,9 @@ citation_count: 3
 External references from [nvidia.com](https://nvidia.com) appearing across posts.
 
 ## References
+
+### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- [https://blogs.nvidia.com/blog/jetson-thor-physical-ai-edge](https://blogs.nvidia.com/blog/jetson-thor-physical-ai-edge) "current humanoid robot brains"
 
 ### [[posts/2026-01-14--the-ai-world-models-debate-and-its|The AI world models debate and its foreshadowing on robotics]]
 - [https://blogs.nvidia.com/blog/what-is-a-transformer-model](https://blogs.nvidia.com/blog/what-is-a-transformer-model) "NVIDIA"

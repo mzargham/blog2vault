@@ -2,7 +2,7 @@
 type: citation
 domain: ieee.org
 domain_slug: ieee-org
-citation_count: 12
+citation_count: 15
 ---
 
 # Citations: ieee.org
@@ -25,6 +25,11 @@ External references from [ieee.org](https://ieee.org) appearing across posts.
 
 ### [[posts/2026-02-03--is-it-learning-online-motor-adaptation|"Is it learning?" Online motor adaptation in end-to-end robotics]]
 - [https://spectrum.ieee.org/atlas-robot](https://spectrum.ieee.org/atlas-robot) "has access to the mass properties"
+
+### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- [https://ieeexplore.ieee.org/document/8600375](https://ieeexplore.ieee.org/document/8600375) "2019 Navion JSSC paper"
+- [https://ieeexplore.ieee.org/document/7927257](https://ieeexplore.ieee.org/document/7927257) "present methods for low-power VO"
+- [https://ieeexplore.ieee.org/document/6757323](https://ieeexplore.ieee.org/document/6757323) "energetic cost of data transfer"
 
 ### [[posts/2024-12-23--power-efficient-safe-robots|Power-efficient and safe mobile robots]]
 - [https://ieeexplore.ieee.org/document/10778107](https://ieeexplore.ieee.org/document/10778107) "Cummings"

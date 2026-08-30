@@ -2,7 +2,7 @@
 type: citation
 domain: github.com
 domain_slug: github-com
-citation_count: 25
+citation_count: 26
 ---
 
 # Citations: github.com
@@ -39,6 +39,9 @@ External references from [github.com](https://github.com) appearing across posts
 - [https://github.com/avikde/robobee3d/blob/master/template/uprightmpc2.py](https://github.com/avikde/robobee3d/blob/master/template/uprightmpc2.py) "uprightmpc2.py"
 - [https://github.com/avikde/robobee3d/blob/master/template/robobee.py](https://github.com/avikde/robobee3d/blob/master/template/robobee.py) "robobee.py"
 - [https://github.com/avikde/robobee3d/tree/master/template/matlab](https://github.com/avikde/robobee3d/tree/master/template/matlab) "here"
+
+### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- [https://github.com/princeton-vl/DPVO](https://github.com/princeton-vl/DPVO) "DPVO"
 
 ### [[posts/2015-01-15--saving-flash-eeprom-data-when-bootloading|Saving EEPROM data when bootloading on STM32]]
 - [https://github.com/avikde/koduino/blob/master/stm32/system/stm32loader.py](https://github.com/avikde/koduino/blob/master/stm32/system/stm32loader.py) "modified version of stm32loader.py / stm32loader.py"

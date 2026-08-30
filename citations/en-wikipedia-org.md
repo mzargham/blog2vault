@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 42
+citation_count: 46
 ---
 
 # Citations: en.wikipedia.org
@@ -49,6 +49,12 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/Blade_element_theory](https://en.wikipedia.org/wiki/Blade_element_theory) "blade-element modeling / blade element model"
 - [https://en.wikipedia.org/wiki/en:Creative_Commons](https://en.wikipedia.org/wiki/en:Creative_Commons) "Creative Commons"
 - [https://en.wikipedia.org/wiki/Value_function](https://en.wikipedia.org/wiki/Value_function) "value function"
+
+### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- [https://en.wikipedia.org/wiki/Non-linear_least_squares](https://en.wikipedia.org/wiki/Non-linear_least_squares) "nonlinear least-squares"
+- [https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm) "Gauss-Newton algorithm"
+- [https://en.wikipedia.org/wiki/Cholesky_decomposition](https://en.wikipedia.org/wiki/Cholesky_decomposition) "Cholesky decomposition"
+- [https://en.wikipedia.org/wiki/Triangular_matrix](https://en.wikipedia.org/wiki/Triangular_matrix) "back-substitution"
 
 ### [[posts/2024-12-23--power-efficient-safe-robots|Power-efficient and safe mobile robots]]
 - [https://en.wikipedia.org/wiki/Pacific_Northwest](https://en.wikipedia.org/wiki/Pacific_Northwest) "PNW"

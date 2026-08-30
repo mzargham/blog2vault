@@ -2,7 +2,7 @@
 type: citation
 domain: arxiv.org
 domain_slug: arxiv-org
-citation_count: 29
+citation_count: 30
 ---
 
 # Citations: arxiv.org
@@ -46,6 +46,9 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 - [https://arxiv.org/html/2506.09930v1](https://arxiv.org/html/2506.09930v1) "Fang et al Jun 2025"
 - [https://arxiv.org/html/2512.16760v2](https://arxiv.org/html/2512.16760v2) "Hu et al Jan 2026"
 - [https://arxiv.org/pdf/2507.17383](https://arxiv.org/pdf/2507.17383) "Zollo et al (Dec 2025)"
+
+### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- [https://arxiv.org/abs/2511.12653](https://arxiv.org/abs/2511.12653) "DPVO-QAT++"
 
 ### [[posts/2026-03-12--systolic-arrays-for-general-robotics|Systolic arrays for general robotics, AI, and scientific computing]]
 - [https://arxiv.org/pdf/1704.04760](https://arxiv.org/pdf/1704.04760) "Google TPU v1 paper"

@@ -19,7 +19,7 @@ author: Avik De
 
 > Originally published: [2026-07-23](https://www.avikde.me/p/how-thermals-constrain-robots-chips)
 
-**Citations:** [[citations/tomshardware-com|tomshardware.com]] · [[citations/powerctc-com|powerctc.com]] · [[citations/ieee-org|ieee.org]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ntrs-nasa-gov|ntrs.nasa.gov]] · [[citations/eu-36kr-com|eu.36kr.com]] · [[citations/mdpi-com|mdpi.com]] · [[citations/humanoid-press|humanoid.press]] · [[citations/parkplacetechnologies-com|parkplacetechnologies.com]] · [[citations/semiwiki-com|semiwiki.com]] · [[citations/chipinsights-net|chipinsights.net]] · [[citations/mit-edu|mit.edu]]
+**Citations:** [[citations/chipinsights-net|chipinsights.net]] · [[citations/tomshardware-com|tomshardware.com]] · [[citations/powerctc-com|powerctc.com]] · [[citations/ieee-org|ieee.org]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/ntrs-nasa-gov|ntrs.nasa.gov]] · [[citations/eu-36kr-com|eu.36kr.com]] · [[citations/mdpi-com|mdpi.com]] · [[citations/humanoid-press|humanoid.press]] · [[citations/parkplacetechnologies-com|parkplacetechnologies.com]] · [[citations/semiwiki-com|semiwiki.com]] · [[citations/mit-edu|mit.edu]]
 
 ---
 
@@ -218,7 +218,7 @@ _Thanks for reading! If you enjoyed this post, please like (❤️) and restack 
 
 [Share](<https://www.avikde.me/p/how-thermals-constrain-robots-chips?utm_source=substack&utm_medium=email&utm_content=share&action=share>)
 
-[![](https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png)Chip InsightsThe Search for the Perfect MicroarchitectureTinyXPU is back…Read morea month ago · 15 likes · Bharath Suresh and Avik De](<https://chipinsights.net/p/the-search-for-the-perfect-microarchitecture?utm_source=substack&utm_campaign=post_embed&utm_medium=web&embedding_publication_id=7287367>)
+[![](https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png)Chip InsightsThe Search for the Perfect MicroarchitectureTinyXPU is back…Read more2 months ago · 15 likes · Bharath Suresh and Avik De](<https://chipinsights.net/p/the-search-for-the-perfect-microarchitecture?utm_source=substack&utm_campaign=post_embed&utm_medium=web&embedding_publication_id=7287367>)
 
 1
 

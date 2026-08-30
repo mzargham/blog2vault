@@ -1,13 +1,13 @@
 ---
 type: moc
-updated: 2026-08-09
-post_count: 39
+updated: 2026-08-30
+post_count: 40
 ---
 
 # Map of Content — Avik De's Blog
 
-> Obsidian vault for [avikde.me](https://www.avikde.me) · **39 posts** · **10 topics** · **29 concepts** · **135 cited domains**  
-> Last synced: 2026-08-09
+> Obsidian vault for [avikde.me](https://www.avikde.me) · **40 posts** · **10 topics** · **29 concepts** · **135 cited domains**  
+> Last synced: 2026-08-30
 
 ---
 
@@ -27,6 +27,7 @@ post_count: 39
 
 ### 2026
 
+- [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]] — *The Navion project shows that physics-informed design and numerical solvers can deliver enormous leaps in power-efficiency* `2026-08-26`
 - [[posts/2026-08-06--should-robots-run-like-humans-or|Should Robots Run Like Humans or Ostriches?]] — *Why different animals run differently, and what to take away for bio-inspired robotics* `2026-08-06`
 - [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]] — *Practically yes, but there might be a solution* `2026-07-30`
 - [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]] — *Two general principles to understand and defeat overheating* `2026-07-23`

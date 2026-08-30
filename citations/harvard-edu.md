@@ -2,7 +2,7 @@
 type: citation
 domain: harvard.edu
 domain_slug: harvard-edu
-citation_count: 4
+citation_count: 5
 ---
 
 # Citations: harvard.edu
@@ -14,6 +14,9 @@ External references from [harvard.edu](https://harvard.edu) appearing across pos
 ### [[posts/2025-12-24--model-predictive-control-of-robobee|Model-predictive control of RoboBee flapping flight]]
 - [https://wyss.harvard.edu/technology/robobees-autonomous-flying-microrobots](https://wyss.harvard.edu/technology/robobees-autonomous-flying-microrobots) "RoboBee"
 - [https://seas.harvard.edu/news/2013/05/robotic-insects-make-first-controlled-flight](https://seas.harvard.edu/news/2013/05/robotic-insects-make-first-controlled-flight) "hovering controller"
+
+### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- [https://seas.harvard.edu/news/2019/06/robobee-flies-solo](https://seas.harvard.edu/news/2019/06/robobee-flies-solo) "first untethered flight of the RoboBee in 2018 consumed 120 mW"
 
 ### [[posts/2026-03-12--systolic-arrays-for-general-robotics|Systolic arrays for general robotics, AI, and scientific computing]]
 - [https://seas.harvard.edu/person/ht-kung](https://seas.harvard.edu/person/ht-kung) "HT Kung"

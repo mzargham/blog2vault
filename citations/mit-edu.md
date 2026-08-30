@@ -2,7 +2,7 @@
 type: citation
 domain: mit.edu
 domain_slug: mit-edu
-citation_count: 11
+citation_count: 12
 ---
 
 # Citations: mit.edu
@@ -30,6 +30,9 @@ External references from [mit.edu](https://mit.edu) appearing across posts.
 
 ### [[posts/2025-12-24--model-predictive-control-of-robobee|Model-predictive control of RoboBee flapping flight]]
 - [https://underactuated.mit.edu/humanoids.html](https://underactuated.mit.edu/humanoids.html) "massless legs"
+
+### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- [https://navion.mit.edu](https://navion.mit.edu) "Navion IC / project website"
 
 ### [[posts/2017-09-15--phd-defense|Ph.D. thesis on modularity in robotics]]
 - [http://www.ai.mit.edu/projects/leglab/robots/3D_hopper/3D_hopper.html](http://www.ai.mit.edu/projects/leglab/robots/3D_hopper/3D_hopper.html) "control of hopping in three parts"
