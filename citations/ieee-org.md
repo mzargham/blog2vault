@@ -2,7 +2,7 @@
 type: citation
 domain: ieee.org
 domain_slug: ieee-org
-citation_count: 15
+citation_count: 16
 ---
 
 # Citations: ieee.org
@@ -13,6 +13,10 @@ External references from [ieee.org](https://ieee.org) appearing across posts.
 
 ### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
 - [https://ieeexplore.ieee.org/document/6630928](https://ieeexplore.ieee.org/document/6630928) "paper"
+
+### [[posts/2026-09-10--did-eniac-have-the-right-idea-all|Did ENIAC Have the Right Idea All Along?]]
+- [https://spectrum.ieee.org/the-women-behind-eniac](https://spectrum.ieee.org/the-women-behind-eniac) "story was widely popularized"
+- [https://ieeexplore.ieee.org/document/6757323](https://ieeexplore.ieee.org/document/6757323) "Computing’s energy problem / energetic cost of data transfer"
 
 ### [[posts/2016-03-02--ghost-robotics-minitaur|Ghost Robotics and Minitaur]]
 - [http://ieeexplore.ieee.org/stamp/stamp.jsp](http://ieeexplore.ieee.org/stamp/stamp.jsp) "the open-access preprint is now up"
@@ -27,9 +31,9 @@ External references from [ieee.org](https://ieee.org) appearing across posts.
 - [https://spectrum.ieee.org/atlas-robot](https://spectrum.ieee.org/atlas-robot) "has access to the mass properties"
 
 ### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- [https://ieeexplore.ieee.org/document/6757323](https://ieeexplore.ieee.org/document/6757323) "Computing’s energy problem / energetic cost of data transfer"
 - [https://ieeexplore.ieee.org/document/8600375](https://ieeexplore.ieee.org/document/8600375) "2019 Navion JSSC paper"
 - [https://ieeexplore.ieee.org/document/7927257](https://ieeexplore.ieee.org/document/7927257) "present methods for low-power VO"
-- [https://ieeexplore.ieee.org/document/6757323](https://ieeexplore.ieee.org/document/6757323) "energetic cost of data transfer"
 
 ### [[posts/2024-12-23--power-efficient-safe-robots|Power-efficient and safe mobile robots]]
 - [https://ieeexplore.ieee.org/document/10778107](https://ieeexplore.ieee.org/document/10778107) "Cummings"

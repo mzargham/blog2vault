@@ -64,3 +64,4 @@ All posts in chronological order.
 - `2026-07-30` [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]]
 - `2026-08-06` [[posts/2026-08-06--should-robots-run-like-humans-or|Should Robots Run Like Humans or Ostriches?]]
 - `2026-08-26` [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
+- `2026-09-10` [[posts/2026-09-10--did-eniac-have-the-right-idea-all|Did ENIAC Have the Right Idea All Along?]]

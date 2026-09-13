@@ -2,7 +2,7 @@
 type: citation
 domain: chipinsights.net
 domain_slug: chipinsights-net
-citation_count: 6
+citation_count: 7
 ---
 
 # Citations: chipinsights.net
@@ -13,6 +13,9 @@ External references from [chipinsights.net](https://chipinsights.net) appearing 
 
 ### [[posts/2026-06-03--action-tokens-fine-grained-vs-behavioral|Action Tokens: Fine-Grained vs. Behavioral Primitives]]
 - [https://chipinsights.net/p/the-isa-debate](https://chipinsights.net/p/the-isa-debate) "RISC vs. CISC debate"
+
+### [[posts/2026-09-10--did-eniac-have-the-right-idea-all|Did ENIAC Have the Right Idea All Along?]]
+- [https://chipinsights.net/p/eniac-and-the-workload-problem-part](https://chipinsights.net/p/eniac-and-the-workload-problem-part) "Chip InsightsENIAC and the Workload ProblemRead more6 months ago · 12 likes · 4 comments · Bharath Suresh"
 
 ### [[posts/2026-05-05--how-an-llm-changes-its-mind|How an LLM Changes its Mind]]
 - [https://chipinsights.net/p/the-art-of-architectural-analysis](https://chipinsights.net/p/the-art-of-architectural-analysis) "here"

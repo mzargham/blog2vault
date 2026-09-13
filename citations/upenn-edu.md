@@ -2,7 +2,7 @@
 type: citation
 domain: upenn.edu
 domain_slug: upenn-edu
-citation_count: 8
+citation_count: 10
 ---
 
 # Citations: upenn.edu
@@ -10,6 +10,10 @@ citation_count: 8
 External references from [upenn.edu](https://upenn.edu) appearing across posts.
 
 ## References
+
+### [[posts/2026-09-10--did-eniac-have-the-right-idea-all|Did ENIAC Have the Right Idea All Along?]]
+- [https://penntoday.upenn.edu/news/penns-eniac-worlds-first-electronic-computer-turns-80](https://penntoday.upenn.edu/news/penns-eniac-worlds-first-electronic-computer-turns-80) "80-year anniversary of ENIAC / Penn Today article"
+- [https://penntoday.upenn.edu/news/worlds-first-general-purpose-computer-turns-75](https://penntoday.upenn.edu/news/worlds-first-general-purpose-computer-turns-75) "work fell to six pioneering women"
 
 ### [[posts/2016-03-02--ghost-robotics-minitaur|Ghost Robotics and Minitaur]]
 - [https://kodlab.seas.upenn.edu](https://kodlab.seas.upenn.edu) "Kod*lab"

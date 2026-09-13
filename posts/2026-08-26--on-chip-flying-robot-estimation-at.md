@@ -19,7 +19,7 @@ author: Avik De
 
 > Originally published: [2026-08-26](https://www.avikde.me/p/on-chip-flying-robot-estimation-at)
 
-**Citations:** [[citations/nvidia-com|nvidia.com]] · [[citations/harvard-edu|harvard.edu]] · [[citations/mit-edu|mit.edu]] · [[citations/github-com|github.com]] · [[citations/arxiv-org|arxiv.org]] · [[citations/ieee-org|ieee.org]] · [[citations/viksnewsletter-com|viksnewsletter.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/chipinsights-net|chipinsights.net]]
+**Citations:** [[citations/ieee-org|ieee.org]] · [[citations/nvidia-com|nvidia.com]] · [[citations/harvard-edu|harvard.edu]] · [[citations/mit-edu|mit.edu]] · [[citations/github-com|github.com]] · [[citations/arxiv-org|arxiv.org]] · [[citations/viksnewsletter-com|viksnewsletter.com]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/chipinsights-net|chipinsights.net]]
 
 ---
 

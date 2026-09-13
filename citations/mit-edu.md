@@ -2,7 +2,7 @@
 type: citation
 domain: mit.edu
 domain_slug: mit-edu
-citation_count: 12
+citation_count: 13
 ---
 
 # Citations: mit.edu
@@ -16,6 +16,9 @@ External references from [mit.edu](https://mit.edu) appearing across posts.
 
 ### [[posts/2026-07-30--are-robotics-policies-lookup-tables|Are Robotics Policies Lookup Tables?]]
 - [https://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf](https://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf) "Kaelbling et al 1998 paper"
+
+### [[posts/2026-09-10--did-eniac-have-the-right-idea-all|Did ENIAC Have the Right Idea All Along?]]
+- [https://mitpress.mit.edu/9780262542906/a-new-history-of-modern-computing](https://mitpress.mit.edu/9780262542906/a-new-history-of-modern-computing) "New History of Modern Computing / A New History of Modern Computing"
 
 ### [[posts/2026-07-23--how-thermals-constrain-robots-chips|How Thermals Constrain Robots, Chips, and Space Datacenters]]
 - [https://ahtt.mit.edu](https://ahtt.mit.edu) "Heat Transfer Textbook"

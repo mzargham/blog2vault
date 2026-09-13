@@ -7631,5 +7631,224 @@
     ],
     "is_geoblocked": false,
     "hasCashtag": false
+  },
+  "did-eniac-have-the-right-idea-all": {
+    "audience": "everyone",
+    "audience_before_archived": null,
+    "canonical_url": "https://www.avikde.me/p/did-eniac-have-the-right-idea-all",
+    "default_comment_sort": null,
+    "editor_v2": false,
+    "exempt_from_archive_paywall": false,
+    "free_unlock_required": false,
+    "id": 215069958,
+    "podcast_art_url": null,
+    "podcast_duration": null,
+    "podcast_preview_upload_id": null,
+    "podcast_upload_id": null,
+    "podcast_url": null,
+    "post_date": "2026-09-10T18:15:58.125Z",
+    "updated_at": "2026-09-10T18:16:49.900Z",
+    "publication_id": 7287367,
+    "search_engine_description": null,
+    "search_engine_title": null,
+    "section_id": null,
+    "should_send_free_preview": false,
+    "show_guest_bios": true,
+    "slug": "did-eniac-have-the-right-idea-all",
+    "social_title": null,
+    "subtitle": "ENIAC’s plugboards lost to EDVAC’s stored programs, but are resurgent in the age of AI",
+    "teaser_post_eligible": true,
+    "title": "Did ENIAC Have the Right Idea All Along?",
+    "type": "newsletter",
+    "video_upload_id": null,
+    "write_comment_permissions": "everyone",
+    "meter_type": "none",
+    "live_stream_id": null,
+    "is_published": true,
+    "restacks": 4,
+    "reactions": {
+      "❤": 9
+    },
+    "top_exclusions": [],
+    "pins": [],
+    "section_pins": [],
+    "has_shareable_clips": false,
+    "previous_post_slug": "on-chip-flying-robot-estimation-at",
+    "next_post_slug": null,
+    "cover_image": "https://substackcdn.com/image/fetch/$s_!L8EV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png",
+    "cover_image_is_square": false,
+    "cover_image_is_explicit": false,
+    "videoUpload": null,
+    "podcastFields": null,
+    "podcastUpload": null,
+    "podcastPreviewUpload": null,
+    "voiceover_upload_id": null,
+    "voiceoverUpload": null,
+    "has_voiceover": false,
+    "description": "ENIAC’s plugboards lost to EDVAC’s stored programs, but are resurgent in the age of AI",
+    "body_html": "<p><span>At the Moore School of Electrical Engineering at the University of Pennsylvania, where I am now Adjunct Faculty, they have been celebrating the </span><a href=\"https://penntoday.upenn.edu/news/penns-eniac-worlds-first-electronic-computer-turns-80\"><span>80-year anniversary of ENIAC</span></a><span>. The Moore School is considered the birthplace of the computer industry, and ENIAC is regarded as the world’s first programmable, Turing-complete, electronic computer. The </span><a href=\"https://mitpress.mit.edu/9780262542906/a-new-history-of-modern-computing/\"><span>New History of Modern Computing</span></a><span> also argues that ENIAC, more than Babbage’s difference engine, or the work of Alan Turing, had the largest influence on today’s computing landscape.</span></p><p><span>But digging a bit deeper, the way ENIAC worked would be unrecognizable to a current student of computer engineering. In contrast, ENIAC’s much less known successor, EDVAC, would actually be remarkably familiar. ENIAC and EDVAC represent two very different ideas of what “programming” is, with implications that are becoming extremely relevant in today’s AI age.</span></p><p><span>In this article, we’ll take a look at how ENIAC and EDVAC were programmed, why in some ways it is more appropriate to think of EDVAC as being the ancestor of modern computing than ENIAC, and how we might be about to do a U-turn back toward the ENIAC paradigm today.</span></p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading! Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email…\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p><em>This post is co-written with <span class=\"mention-wrap\" data-attrs=\"{&quot;name&quot;:&quot;Bharath Suresh&quot;,&quot;id&quot;:178190448,&quot;type&quot;:&quot;user&quot;,&quot;url&quot;:null,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/23b7c14a-5bd1-4a78-9ac8-c5d6eda62bfc_2048x2048.jpeg&quot;,&quot;uuid&quot;:&quot;de09a306-eb2d-49b1-90f8-661766c64792&quot;}\" data-component-name=\"MentionToDOM\"></span>, who writes </em><span class=\"mention-wrap\" data-attrs=\"{&quot;name&quot;:&quot;Chip Insights&quot;,&quot;id&quot;:2850528,&quot;type&quot;:&quot;pub&quot;,&quot;url&quot;:null,&quot;photo_url&quot;:null,&quot;uuid&quot;:&quot;2f983ea8-bbd0-4ed4-aa35-da7d0c4bf193&quot;}\" data-component-name=\"MentionToDOM\"></span><em>. If you like this kind of post, make sure to subscribe for new ones!</em></p><h2><span>ENIAC’s programmers</span></h2><p><span>Other than the computer itself, ENIAC also gave us the first known “programmers,” whose </span><a href=\"https://spectrum.ieee.org/the-women-behind-eniac\"><span>story was widely popularized</span></a><span> only in the last 10 years. Quoting the </span><a href=\"https://penntoday.upenn.edu/news/penns-eniac-worlds-first-electronic-computer-turns-80\"><span>Penn Today article</span></a><span>:</span></p><blockquote><p><span>Programming this flexibility required what historians have described as a “physical hack” of the hardware, and the</span><a href=\"https://penntoday.upenn.edu/news/worlds-first-general-purpose-computer-turns-75\"><span> work fell to six pioneering women</span></a><span>: Frances Bilas Spence, Jean Jennings Bartik, Ruth Lichterman Teitelbaum, Betty Snyder Holberton, Kay McNulty Mauchly Antonelli, and Marlyn Wescoff Meltzer. As the first digital-age programmers, they translated logic into electronic signals for ENIAC to interpret.</span></p></blockquote><p>But what exactly did the programmers’ work (this “physical hacking”) look like?</p><p><span>ENIAC’s logic was distributed across 40 individual modular panels that acted as distinct arithmetic, control, and memory units. To solve a particular problem, the programmers drafted and followed “configuration diagrams” to reconfigure the wires and switches when changing between problems.</span></p><p><span>Columbia University’s Computing History archive has </span><a href=\"https://www.columbia.edu/cu/computinghistory/eniac.html\"><span>an example of one of these configuration diagrams</span></a><span>:</span></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!L8EV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!L8EV!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png 424w, https://substackcdn.com/image/fetch/$s_!L8EV!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png 848w, https://substackcdn.com/image/fetch/$s_!L8EV!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png 1272w, https://substackcdn.com/image/fetch/$s_!L8EV!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!L8EV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png\" width=\"1456\" height=\"477\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:477,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!L8EV!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png 424w, https://substackcdn.com/image/fetch/$s_!L8EV!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png 848w, https://substackcdn.com/image/fetch/$s_!L8EV!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png 1272w, https://substackcdn.com/image/fetch/$s_!L8EV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d23b44-07c5-4fa9-a5e9-5cf2c9a895f8_1595x523.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><span>The programmers’ task was not easy, as suggested by the diagram and this passage:</span></p><blockquote><p><span>One of the peculiarities that distinguished ENIAC from all later computers was the way in which instructions were set up on the machine. It was similar to the plugboards of small punched-card machines, but here we had about 40 plugboards, each several feet in size. A number of wires had to be plugged for each single instruction of a problem, thousands of them each time a problem was to begin a run; and this took several days to do and many more days to check out. When that was finally accomplished, we would run the problem as long as possible, i.e. as long as we had input data, before changing over to another problem. Typically, changeovers occurred only once every few weeks.</span></p></blockquote><p><span>Because of the expertise the programmers developed, they helped scientists and engineers formulate their problems as sequences of ENIAC operations and converted the sequences to diagrams.</span></p><p><span>This process, going from wiring diagrams → problem decomposition → physical rewiring, is ENIAC’s version of “programming.”</span></p><p><span>A modern C compiler would be no help in programming ENIAC!</span></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><p></p><p><span>In this paradigm, it would have made intuitive sense to minimize wiring, because it saves wire and reduces the possibility of misconfiguration. We’ll come back to this.</span></p><h2><span>EDVAC’s lasting legacy</span></h2><p><span>Even in the early years of ENIAC, its creators Eckert and Mauchly were working on a draft for a new machine called EDVAC. At the same, </span><a href=\"https://www.avikde.me/p/what-von-neumann-understood-about\"><span>a certain John von Neumann</span></a><span> took an interest in and joined this project. The written result of this collaboration, the </span><em><a href=\"https://archive.org/details/firstdraftofrepo00vonn\"><span>First Draft of a Report on the EDVAC</span></a></em><span> (1945) is, without exaggeration, a blueprint for modern computer organization and architecture. It was publicly circulated by Herman Goldstine before it could be patented by Eckert and Mauchly, and therefore slipped into public domain, to the benefit of the field of computer engineering as we know it today. In fact, this is the reason we call it the “von Neumann architecture” (the name on the </span><em><span>First Draft</span></em><span>) rather than the “Eckert-Mauchly architecture.”</span></p><p><span>The </span><em><span>First Draft</span></em><span> articulated three key concepts that underpinned several EDVAC-like machines.</span></p><p><span>The first was the existence of a large high-speed memory which enabled this paradigm. Fortunately for the EDVAC project, </span><a href=\"https://en.wikipedia.org/wiki/Williams_tube\"><span>Williams tubes</span></a><span> first demonstrated working random-access memory in 1946. ENIAC had no addressable memory at all — data just resided in the accumulators or function tables and had to be precisely clocked between them.</span></p><p><span>The second and most important was the “stored-program concept,” where instructions and data are stored in the same memory. “Programming” meant loading instructions onto this memory.</span></p><p><span>The third concept is to do with instruction codes (read from instruction memory) that could be used to direct the control circuitry on how to process data.</span></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!w5FN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!w5FN!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png 424w, https://substackcdn.com/image/fetch/$s_!w5FN!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png 848w, https://substackcdn.com/image/fetch/$s_!w5FN!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png 1272w, https://substackcdn.com/image/fetch/$s_!w5FN!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!w5FN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png\" width=\"564\" height=\"326.65\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:556,&quot;width&quot;:960,&quot;resizeWidth&quot;:564,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!w5FN!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png 424w, https://substackcdn.com/image/fetch/$s_!w5FN!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png 848w, https://substackcdn.com/image/fetch/$s_!w5FN!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png 1272w, https://substackcdn.com/image/fetch/$s_!w5FN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62e45222-1c68-4b81-b4c8-c2a3cc5715c6_960x556.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>The <em>First Draft</em>’s lasting legacy is that this architecture has been followed by CPUs from EDVAC all the way to now, and will be for the foreseeable future.</p><p><span>A modern C compiler could likely be made to generate an instruction sequence that could run on EDVAC!</span></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><p></p><h2><span>A resurgence of ENIAC’s concept?</span></h2><p><span>The physically demanding and highly specialized task of reconfiguring plugboards, as well as the increasing availability of memory, played a part in ushering in the stored-program era. It helped us create tools like high-level languages, compilers, and made programming accessible to a very broad audience.</span></p><p><span>However, it did have a cost.</span></p><p><span>ENIAC’s primary assignment was to speed up ballistic computations, not to be flexible. In a general purpose stored-program computer like EDVAC, the </span><em><span>physical movement of data</span></em><span> was abstracted away so that the same hardware could run different tasks. As a tradeoff for this programmability, executing a single instruction could take hundreds of fetches of data from registers, caches, or main memory.</span></p><p><span>ENIAC’s wiring diagrams, in contrast, bring the flow of data to the forefront. Defining a computation meant literally plugging in wires on a plugboard. Data could (and likely would) be made to take the most efficient path to reach the accumulators, multipliers and function tables used to perform the arithmetic operations</span></p><p><span>Fast forward to today, and with “</span><a href=\"https://ieeexplore.ieee.org/document/6757323\"><span>Computing’s energy problem</span></a><span>,” the inefficient movement of data is driving a lot of innovation in computer architecture. Even the picojoules required to move data to the adders and multipliers, when done trillions of times, slows down computations and can consume a lot of energy!</span></p><p><span>Taalas, the Toronto-based startup now being acquired by AMD, accelerates deep neural networks by etching model weights into the ROM of the chip and paying very close attention to each transistor and connection for the least expensive multiply-accumulate operations possible:</span></p><blockquote><p><em><span>We actually designed all this stuff from scratch internally. We didn’t use off the shelf anything, we did lots of transistor level design, hand layout – basically our whole effort ended up being a throwback to the 1970s.</span></em></p></blockquote><p><span>In </span><a href=\"https://www.nextplatform.com/compute/2026/02/19/taalas-etches-ai-models-onto-transistors-to-rocket-boost-inference/4092140\"><span>this article</span></a><span>, their VP of products, Paresh Kharya, specifically calls back to ENIAC while talking about Taalas’s technology.</span></p><p><span>A less exotic direction several other efforts are pointing toward is a </span><a href=\"https://en.wikipedia.org/wiki/Dataflow_architecture\"><span>dataflow architecture</span></a><span>. </span>I’ve previously mentioned the SambaNova RDU where data moves directly between functional units instead of through a central memory bottleneck:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!y6gs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!y6gs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png 424w, https://substackcdn.com/image/fetch/$s_!y6gs!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png 848w, https://substackcdn.com/image/fetch/$s_!y6gs!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png 1272w, https://substackcdn.com/image/fetch/$s_!y6gs!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!y6gs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png\" width=\"1456\" height=\"819\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:819,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!y6gs!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png 424w, https://substackcdn.com/image/fetch/$s_!y6gs!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png 848w, https://substackcdn.com/image/fetch/$s_!y6gs!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png 1272w, https://substackcdn.com/image/fetch/$s_!y6gs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcb9d42b-bf1a-4bd5-bb0e-586effbf01d7_2048x1152.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><span>Physically connecting the plugboards seems like a nice proxy reminder of the fact that the cost of memory movement can’t be ignored. With the most innovative breakthroughs of today, it seems like we are going back in time!</span></p><p><span>In dataflow architectures, the compiler needs to do a lot more to lay out the computation physically on to the chip. But when the task is predictable and energetic efficiency is paramount, that could easily be a worthwhile tradeoff. It just needs expert “programmers” — like ENIAC had.</span></p><p><em><span>Thanks for reading! If you enjoyed this post, please like (❤️) and restack — it helps others find my writing. Subscribe to receive new posts.</span></em></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/p/did-eniac-have-the-right-idea-all?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Share&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/p/did-eniac-have-the-right-idea-all?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Share</span></a></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.avikde.me/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.avikde.me/subscribe?\"><span>Subscribe now</span></a></p><p></p><h2><span>Further Reading</span></h2><ul><li><p><span>Thomas Haigh &amp; Paul Ceruzzi, </span><em><a href=\"https://mitpress.mit.edu/9780262542906/a-new-history-of-modern-computing/\"><span>A New History of Modern Computing</span></a></em><span> (MIT Press, 2021)</span></p></li><li><p><span>John von Neumann, </span><em><a href=\"https://archive.org/details/firstdraftofrepo00vonn\"><span>First Draft of a Report on the EDVAC</span></a></em><span> (1945)</span></p></li><li><p>In this post, we didn’t go into the rich story of ENIAC’s development, for which I’ll point you to some great writing on substack:</p></li></ul><div class=\"embedded-post-wrap\" data-attrs=\"{&quot;id&quot;:190356256,&quot;url&quot;:&quot;https://chipinsights.net/p/eniac-and-the-workload-problem-part&quot;,&quot;publication_id&quot;:2850528,&quot;embedding_publication_id&quot;:7287367,&quot;publication_name&quot;:&quot;Chip Insights&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Z-fT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png&quot;,&quot;title&quot;:&quot;ENIAC and the Workload Problem&quot;,&quot;truncated_body_text&quot;:null,&quot;date&quot;:&quot;2026-03-09T05:31:06.672Z&quot;,&quot;like_count&quot;:12,&quot;comment_count&quot;:4,&quot;bylines&quot;:[{&quot;id&quot;:178190448,&quot;name&quot;:&quot;Bharath Suresh&quot;,&quot;handle&quot;:&quot;bharathw&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/23b7c14a-5bd1-4a78-9ac8-c5d6eda62bfc_2048x2048.jpeg&quot;,&quot;bio&quot;:&quot;Engineer and Writer&quot;,&quot;profile_set_up_at&quot;:&quot;2024-08-04T01:39:48.025Z&quot;,&quot;reader_installed_at&quot;:&quot;2024-09-23T00:13:37.585Z&quot;,&quot;publicationUsers&quot;:[{&quot;id&quot;:2896802,&quot;user_id&quot;:178190448,&quot;publication_id&quot;:2850528,&quot;role&quot;:&quot;admin&quot;,&quot;public&quot;:true,&quot;is_primary&quot;:true,&quot;publication&quot;:{&quot;id&quot;:2850528,&quot;name&quot;:&quot;Chip Insights&quot;,&quot;subdomain&quot;:&quot;chipinsights&quot;,&quot;custom_domain&quot;:&quot;chipinsights.net&quot;,&quot;custom_domain_optional&quot;:false,&quot;hero_text&quot;:&quot;Semiconductor Industry Deep Dives&quot;,&quot;logo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png&quot;,&quot;author_id&quot;:178190448,&quot;primary_user_id&quot;:178190448,&quot;theme_var_background_pop&quot;:&quot;#9A6600&quot;,&quot;created_at&quot;:&quot;2024-08-04T01:42:57.273Z&quot;,&quot;email_from_name&quot;:&quot;Chip Insights&quot;,&quot;copyright&quot;:&quot;Bharath Suresh&quot;,&quot;founding_plan_name&quot;:null,&quot;community_enabled&quot;:true,&quot;invite_only&quot;:false,&quot;payments_state&quot;:&quot;disabled&quot;,&quot;language&quot;:null,&quot;explicit&quot;:false,&quot;homepage_type&quot;:&quot;newspaper&quot;,&quot;is_personal_mode&quot;:false,&quot;logo_url_wide&quot;:null}},{&quot;id&quot;:3076811,&quot;user_id&quot;:178190448,&quot;publication_id&quot;:3023929,&quot;role&quot;:&quot;admin&quot;,&quot;public&quot;:true,&quot;is_primary&quot;:false,&quot;publication&quot;:{&quot;id&quot;:3023929,&quot;name&quot;:&quot;Bharath’s Musings&quot;,&quot;subdomain&quot;:&quot;bharathw&quot;,&quot;custom_domain&quot;:null,&quot;custom_domain_optional&quot;:false,&quot;hero_text&quot;:&quot;A place for my thoughts&quot;,&quot;logo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/afa88b37-7ced-4dd5-bdcb-580f7442001d_608x608.png&quot;,&quot;author_id&quot;:178190448,&quot;primary_user_id&quot;:null,&quot;theme_var_background_pop&quot;:&quot;#FF6719&quot;,&quot;created_at&quot;:&quot;2024-09-16T02:30:59.183Z&quot;,&quot;email_from_name&quot;:null,&quot;copyright&quot;:&quot;Bharath Suresh&quot;,&quot;founding_plan_name&quot;:null,&quot;community_enabled&quot;:true,&quot;invite_only&quot;:false,&quot;payments_state&quot;:&quot;disabled&quot;,&quot;language&quot;:null,&quot;explicit&quot;:false,&quot;homepage_type&quot;:&quot;newspaper&quot;,&quot;is_personal_mode&quot;:false,&quot;logo_url_wide&quot;:null}}],&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null,&quot;status&quot;:{&quot;bestsellerTier&quot;:null,&quot;subscriberTier&quot;:null,&quot;leaderboard&quot;:null,&quot;vip&quot;:false,&quot;badge&quot;:null,&quot;subscriber&quot;:null}}],&quot;utm_campaign&quot;:null,&quot;belowTheFold&quot;:true,&quot;type&quot;:&quot;newsletter&quot;,&quot;language&quot;:&quot;en&quot;,&quot;source&quot;:null}\" data-component-name=\"EmbeddedPostToDOM\"><a class=\"embedded-post\" native=\"true\" href=\"https://chipinsights.net/p/eniac-and-the-workload-problem-part?utm_source=substack&amp;utm_campaign=post_embed&amp;utm_medium=web&amp;embedding_publication_id=7287367\"><div class=\"embedded-post-header\"><img class=\"embedded-post-publication-logo\" src=\"https://substackcdn.com/image/fetch/$s_!Z-fT!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74222e4c-9d04-46aa-82ba-7d82759b48b9_512x512.png\" loading=\"lazy\"><span class=\"embedded-post-publication-name\">Chip Insights</span></div><div class=\"embedded-post-title-wrapper\"><div class=\"embedded-post-title\">ENIAC and the Workload Problem</div></div><div class=\"embedded-post-cta-wrapper\"><span class=\"embedded-post-cta\">Read more</span></div><div class=\"embedded-post-meta\">6 months ago · 12 likes · 4 comments · Bharath Suresh</div></a></div><div class=\"embedded-post-wrap\" data-attrs=\"{&quot;id&quot;:134818997,&quot;url&quot;:&quot;https://thechipletter.substack.com/p/unveiling-the-modern-computer&quot;,&quot;publication_id&quot;:1063960,&quot;embedding_publication_id&quot;:7287367,&quot;publication_name&quot;:&quot;The Chip Letter&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!vwjY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fffe682d7-ab93-463b-b714-8f98c0c072d2_1280x1280.png&quot;,&quot;title&quot;:&quot;Herman Goldstine and the IAS Machine: Unveiling the Modern Computer&quot;,&quot;truncated_body_text&quot;:&quot;Sometimes even men from the future need a little help.&quot;,&quot;date&quot;:&quot;2023-07-30T17:00:18.441Z&quot;,&quot;like_count&quot;:13,&quot;comment_count&quot;:1,&quot;bylines&quot;:[{&quot;id&quot;:102722254,&quot;name&quot;:&quot;Babbage&quot;,&quot;handle&quot;:&quot;thechipletter&quot;,&quot;photo_url&quot;:&quot;https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F82525b9c-ee3c-4996-916c-54267a4d354b_416x416.png&quot;,&quot;bio&quot;:&quot;Computer history and architecture&quot;,&quot;profile_set_up_at&quot;:&quot;2022-08-28T13:07:25.701Z&quot;,&quot;reader_installed_at&quot;:&quot;2022-10-20T11:45:48.505Z&quot;,&quot;publicationUsers&quot;:[{&quot;id&quot;:1012118,&quot;user_id&quot;:102722254,&quot;publication_id&quot;:1063960,&quot;role&quot;:&quot;admin&quot;,&quot;public&quot;:true,&quot;is_primary&quot;:true,&quot;publication&quot;:{&quot;id&quot;:1063960,&quot;name&quot;:&quot;The Chip Letter&quot;,&quot;subdomain&quot;:&quot;thechipletter&quot;,&quot;custom_domain&quot;:null,&quot;custom_domain_optional&quot;:false,&quot;hero_text&quot;:&quot;Computer history and architecture&quot;,&quot;logo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/ffe682d7-ab93-463b-b714-8f98c0c072d2_1280x1280.png&quot;,&quot;author_id&quot;:102722254,&quot;primary_user_id&quot;:102722254,&quot;theme_var_background_pop&quot;:&quot;#FF6B00&quot;,&quot;created_at&quot;:&quot;2022-08-28T13:07:52.879Z&quot;,&quot;email_from_name&quot;:&quot;The Chip Letter&quot;,&quot;copyright&quot;:&quot;The Chip Letter&quot;,&quot;founding_plan_name&quot;:&quot;Founding Member&quot;,&quot;community_enabled&quot;:true,&quot;invite_only&quot;:false,&quot;payments_state&quot;:&quot;enabled&quot;,&quot;language&quot;:null,&quot;explicit&quot;:false,&quot;homepage_type&quot;:&quot;magaziney&quot;,&quot;is_personal_mode&quot;:false,&quot;logo_url_wide&quot;:null}}],&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:100,&quot;status&quot;:{&quot;bestsellerTier&quot;:100,&quot;subscriberTier&quot;:1,&quot;leaderboard&quot;:null,&quot;vip&quot;:false,&quot;badge&quot;:{&quot;type&quot;:&quot;bestseller&quot;,&quot;tier&quot;:100},&quot;subscriber&quot;:null}}],&quot;utm_campaign&quot;:null,&quot;belowTheFold&quot;:true,&quot;type&quot;:&quot;newsletter&quot;,&quot;language&quot;:&quot;en&quot;,&quot;source&quot;:null}\" data-component-name=\"EmbeddedPostToDOM\"><a class=\"embedded-post\" native=\"true\" href=\"https://thechipletter.substack.com/p/unveiling-the-modern-computer?utm_source=substack&amp;utm_campaign=post_embed&amp;utm_medium=web&amp;embedding_publication_id=7287367\"><div class=\"embedded-post-header\"><img class=\"embedded-post-publication-logo\" src=\"https://substackcdn.com/image/fetch/$s_!vwjY!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fffe682d7-ab93-463b-b714-8f98c0c072d2_1280x1280.png\" loading=\"lazy\"><span class=\"embedded-post-publication-name\">The Chip Letter</span></div><div class=\"embedded-post-title-wrapper\"><div class=\"embedded-post-title\">Herman Goldstine and the IAS Machine: Unveiling the Modern Computer</div></div><div class=\"embedded-post-body\">Sometimes even men from the future need a little help…</div><div class=\"embedded-post-cta-wrapper\"><span class=\"embedded-post-cta\">Read more</span></div><div class=\"embedded-post-meta\">3 years ago · 13 likes · 1 comment · Babbage</div></a></div>",
+    "has_dynamic_content": false,
+    "truncated_body_text": null,
+    "wordcount": 1409,
+    "post_preview_limit": 0,
+    "language": "en",
+    "postTags": [
+      {
+        "id": "2d60b60f-0079-4c3b-95a2-5a3bfc6c13df",
+        "publication_id": 7287367,
+        "name": "Computing",
+        "slug": "computing",
+        "hidden": false
+      }
+    ],
+    "postCountryBlocks": [],
+    "headlineTest": null,
+    "coverImagePalette": {
+      "Vibrant": {
+        "rgb": [
+          148,
+          172,
+          204
+        ],
+        "population": 684
+      },
+      "DarkVibrant": {
+        "rgb": [
+          42.801265822784806,
+          62.94303797468354,
+          89.7987341772152
+        ],
+        "population": 0
+      },
+      "LightVibrant": {
+        "rgb": [
+          155,
+          179,
+          212
+        ],
+        "population": 656
+      },
+      "Muted": {
+        "rgb": [
+          122,
+          146,
+          185
+        ],
+        "population": 57
+      },
+      "DarkMuted": {
+        "rgb": [
+          49.38607594936708,
+          72.62658227848101,
+          103.61392405063292
+        ],
+        "population": 0
+      },
+      "LightMuted": {
+        "rgb": [
+          163,
+          188,
+          211
+        ],
+        "population": 557
+      }
+    },
+    "publishedBylines": [
+      {
+        "id": 356074997,
+        "name": "Avik De",
+        "handle": "avikde",
+        "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/e0b85a25-ef27-433f-b83d-46a65f29535d_1909x1909.jpeg",
+        "bio": "Adjunct Prof @ UPenn | Chief Science Officer @ Ghost Robotics.",
+        "profile_set_up_at": "2025-09-01T11:05:25.762Z",
+        "reader_installed_at": "2025-12-14T02:43:43.887Z",
+        "publicationUsers": [
+          {
+            "id": 7436599,
+            "user_id": 356074997,
+            "publication_id": 7287367,
+            "role": "admin",
+            "public": true,
+            "is_primary": true,
+            "publication": {
+              "id": 7287367,
+              "name": "Avik De",
+              "subdomain": "minpower",
+              "custom_domain": "www.avikde.me",
+              "custom_domain_optional": false,
+              "hero_text": "Explorations in computing and robotics by a researcher, founder, and communicator.",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/71ca3483-d3ad-4acc-ae6b-b78b653f8e03_432x432.png",
+              "author_id": 356074997,
+              "primary_user_id": 356074997,
+              "theme_var_background_pop": "#FF6719",
+              "created_at": "2025-12-16T12:24:04.343Z",
+              "email_from_name": "Avik De from min{power}",
+              "copyright": "Avik De",
+              "founding_plan_name": "Founding Member",
+              "community_enabled": true,
+              "invite_only": false,
+              "payments_state": "disabled",
+              "language": null,
+              "explicit": false,
+              "homepage_type": "newspaper",
+              "is_personal_mode": false,
+              "logo_url_wide": null
+            }
+          }
+        ],
+        "is_guest": false,
+        "bestseller_tier": null,
+        "status": {
+          "bestsellerTier": null,
+          "subscriberTier": 1,
+          "leaderboard": null,
+          "vip": false,
+          "badge": {
+            "type": "subscriber",
+            "tier": 1,
+            "accent_colors": null
+          },
+          "subscriber": null
+        }
+      },
+      {
+        "id": 178190448,
+        "name": "Bharath Suresh",
+        "handle": "bharathw",
+        "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/23b7c14a-5bd1-4a78-9ac8-c5d6eda62bfc_2048x2048.jpeg",
+        "bio": "Engineer and Writer",
+        "profile_set_up_at": "2024-08-04T01:39:48.025Z",
+        "reader_installed_at": "2024-09-23T00:13:37.585Z",
+        "is_guest": true,
+        "bestseller_tier": null,
+        "status": {
+          "bestsellerTier": null,
+          "subscriberTier": null,
+          "leaderboard": null,
+          "vip": false,
+          "badge": null,
+          "subscriber": null
+        },
+        "primaryPublicationId": 2850528,
+        "primaryPublicationName": "Chip Insights",
+        "primaryPublicationUrl": "https://chipinsights.net",
+        "primaryPublicationSubscribeUrl": "https://chipinsights.net/subscribe?"
+      }
+    ],
+    "reaction": null,
+    "reaction_count": 9,
+    "comment_count": 2,
+    "child_comment_count": 1,
+    "audio_items": [
+      {
+        "post_id": 215069958,
+        "voice_id": "en-US-OnyxTurboMultilingualNeural",
+        "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/215069958/tts/dd667245-3472-4693-9d6b-527eac813475/en-US-OnyxTurboMultilingualNeural.mp3",
+        "type": "tts",
+        "status": "completed"
+      }
+    ],
+    "is_geoblocked": false,
+    "hasCashtag": false
   }
 }
