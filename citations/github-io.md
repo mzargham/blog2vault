@@ -2,7 +2,7 @@
 type: citation
 domain: github.io
 domain_slug: github-io
-citation_count: 13
+citation_count: 14
 ---
 
 # Citations: github.io
@@ -37,6 +37,9 @@ External references from [github.io](https://github.io) appearing across posts.
 ### [[posts/2024-12-23--power-efficient-safe-robots|Power-efficient and safe mobile robots]]
 - [https://compositionalintelligence.github.io/pdfs/Marcus.pdf](https://compositionalintelligence.github.io/pdfs/Marcus.pdf) "Marcus"
 - [https://compositionalintelligence.github.io](https://compositionalintelligence.github.io) "The Challenge of Compositionality for AI"
+
+### [[posts/2026-09-24--robots-that-lift-heavy-things-must|Robots That Lift Heavy Things Must Cover Their Faces]]
+- [https://xbpeng.github.io/projects/AMP/index.html](https://xbpeng.github.io/projects/AMP/index.html) "Adversarial Motion Priors (AMP)"
 
 ### [[posts/2026-01-26--the-architecture-behind-end-to-end|The architecture behind “end-to-end” robotics pipelines]]
 - [https://umi-ft.github.io](https://umi-ft.github.io) "recent research paper / research paper"

@@ -2,7 +2,7 @@
 type: citation
 domain: en.wikipedia.org
 domain_slug: en-wikipedia-org
-citation_count: 48
+citation_count: 49
 ---
 
 # Citations: en.wikipedia.org
@@ -67,6 +67,9 @@ External references from [en.wikipedia.org](https://en.wikipedia.org) appearing 
 - [https://en.wikipedia.org/wiki/Deep_learning_speech_synthesis](https://en.wikipedia.org/wiki/Deep_learning_speech_synthesis) "deep learning speech synthesis"
 - [https://en.wikipedia.org/wiki/Landauer%27s_principle](https://en.wikipedia.org/wiki/Landauer%27s_principle) "Landauer’s principle"
 - [https://en.wikipedia.org/wiki/Attention_Is_All_You_Need](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need) "need more work than"
+
+### [[posts/2026-09-24--robots-that-lift-heavy-things-must|Robots That Lift Heavy Things Must Cover Their Faces]]
+- [https://en.wikipedia.org/wiki/World_Humanoid_Robot_Games](https://en.wikipedia.org/wiki/World_Humanoid_Robot_Games) "World Humanoid Robot Games (WHRG)"
 
 ### [[posts/2026-08-06--should-robots-run-like-humans-or|Should Robots Run Like Humans or Ostriches?]]
 - [https://en.wikipedia.org/wiki/Eadweard_Muybridge](https://en.wikipedia.org/wiki/Eadweard_Muybridge) "Muybridge"

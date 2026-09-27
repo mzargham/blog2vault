@@ -19,7 +19,7 @@ author: Avik De
 
 > Originally published: [2026-01-26](https://www.avikde.me/p/the-architecture-behind-end-to-end)
 
-**Citations:** [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/pi-website|pi.website]] · [[citations/ieee-org|ieee.org]] · [[citations/mit-edu|mit.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/figure-ai|figure.ai]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/1x-tech|1x.tech]] · [[citations/courses-lumenlearning-com|courses.lumenlearning.com]] · [[citations/rodneybrooks-com|rodneybrooks.com]] · [[citations/github-io|github.io]]
+**Citations:** [[citations/figure-ai|figure.ai]] · [[citations/en-wikipedia-org|en.wikipedia.org]] · [[citations/pi-website|pi.website]] · [[citations/ieee-org|ieee.org]] · [[citations/mit-edu|mit.edu]] · [[citations/arxiv-org|arxiv.org]] · [[citations/bostondynamics-com|bostondynamics.com]] · [[citations/1x-tech|1x.tech]] · [[citations/courses-lumenlearning-com|courses.lumenlearning.com]] · [[citations/rodneybrooks-com|rodneybrooks.com]] · [[citations/github-io|github.io]]
 
 ---
 

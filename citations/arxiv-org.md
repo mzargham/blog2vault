@@ -2,7 +2,7 @@
 type: citation
 domain: arxiv.org
 domain_slug: arxiv-org
-citation_count: 30
+citation_count: 33
 ---
 
 # Citations: arxiv.org
@@ -49,6 +49,11 @@ External references from [arxiv.org](https://arxiv.org) appearing across posts.
 
 ### [[posts/2026-08-26--on-chip-flying-robot-estimation-at|On-Chip Flying Robot Estimation At 2 Milliwatts]]
 - [https://arxiv.org/abs/2511.12653](https://arxiv.org/abs/2511.12653) "DPVO-QAT++"
+
+### [[posts/2026-09-24--robots-that-lift-heavy-things-must|Robots That Lift Heavy Things Must Cover Their Faces]]
+- [https://arxiv.org/abs/1707.02286](https://arxiv.org/abs/1707.02286) "from DeepMind"
+- [https://arxiv.org/html/2104.02180v2](https://arxiv.org/html/2104.02180v2) "Adversarial Motion Priors"
+- [https://arxiv.org/abs/2604.19102](https://arxiv.org/abs/2604.19102) "published research"
 
 ### [[posts/2026-03-12--systolic-arrays-for-general-robotics|Systolic arrays for general robotics, AI, and scientific computing]]
 - [https://arxiv.org/pdf/1704.04760](https://arxiv.org/pdf/1704.04760) "Google TPU v1 paper"
